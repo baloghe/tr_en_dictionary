@@ -32,6 +32,13 @@ EXCEPTIONS = {
              'su': ['suyum','suyun','suyu','suyumuz','suyunuz']
         },
         'GENITIVE': {
+        },
+        'PROGRESSIVE': {
+			 'ye': 'yiyor'
+			,'de': 'diyor'
+			,'git': 'gidiyor'
+			,'et': 'ediyor'
+			,'tat': 'tadiyor'
         }
     }
 
@@ -46,3 +53,7 @@ rp_last_cons_hard = regex.compile(r'.*?[çfhkpsşt]$')
 rp_ends_alter_cons = regex.compile(r'.*?[ptkç]$')
 rp_ends_alter_cons_nk = regex.compile(r'.*?nk$')
 rp_ends_vow = regex.compile(r'.*?[aıoueiöü]$')
+rp_ends_cons = regex.compile(r'.*?[bcdgğjlmnrvyzfhsşpçtk]$')
+rp_ends_uuii = regex.compile(r'.*?[uüıi]$')
+rp_ends_aeoo = regex.compile(r'.*?[aeoö]$')
+

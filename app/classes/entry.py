@@ -41,4 +41,12 @@ class Entry:
                     self.inflections[i['infl']].append(i)
                 else:
                     self.inflections[i['infl']] = [i]
+        
+        if 'verb' in wt:
+            actinf = processVerb(self.orig)
+            for i in actinf:
+                if i['infl'] in self.inflections:
+                    self.inflections[i['infl']].append(i)
+                else:
+                    self.inflections[i['infl']] = [i]
             #print(f"self.inflections={self.inflections}")

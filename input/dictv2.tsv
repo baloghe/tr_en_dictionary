@@ -1017,7 +1017,6 @@ ciddi	serious [grave]	adj
 Ciddiye alma!	Take it easy!	phrase					
 çift	couple	noun					
 çift	double	adj					
-çift [aile]	couple [e.g. married couple]	noun					
 çift sürmek	to plough	verb					
 çiftlik	farm	noun					
 çığlık	scream	noun					
@@ -1025,9 +1024,8 @@ Ciddiye alma!	Take it easy!	phrase
 çiğnemek	to chew	verb					
 çıkarmak	to remove	verb					
 çıkarmak	to take off	verb					
-çıkarmak	to take off [to remove]	verb					
 çiklet	chewing gum	noun					
-çıkmak	to go out	verb					
+çıkmak	to go/come out	verb					
 çıkmak	to leave	verb					
 çikolata	chocolate	noun					
 çıkrıkçın [Spatula querquedula, syn.: Anas querquedula]	garganey	noun					
@@ -1400,12 +1398,12 @@ düşey asimptot	vertical asymptote	noun
 düşman	enemy	noun					
 düşmek	to fall	verb					
 düşük	low	adj					
-düşük	low	adj					
 düşünce	opinion	noun					
 düşünce	thought	noun					
 düşüncesiz	careless	adj					
 düşündürmek	to suggest	verb					
-düşünmek	to think	verb					
+düşünmek	to think	verb						
+düşürmek	to drop	verb					
 dut	mulberry	noun					
 duvar	wall	noun					
 duygu	feeling	noun					
@@ -1449,6 +1447,7 @@ eğer ... olmazsa	unless	conj
 eğilim göstermek	to tend to	verb					
 eğilimi olmak	to tend to	verb					
 eğilmek	to lean	verb					
+eğilmek	to bend over	verb
 eğitim	study	noun					
 eğlence	fun	noun					
 eğlence	entertainment	noun					
@@ -2511,6 +2510,8 @@ kanyak	brandy	noun
 kap	container	noun					
 kap	cover	noun	kaplı: covered				
 kap	case	noun					
+kapamak	to close sg	verb
+kapanmak	to being closed	verb
 kapatmak	to switch off	verb	kapatın şunu: turn it off				
 kapatmak	to close	verb					
 kapı	door	noun					
@@ -2523,29 +2524,29 @@ kapsam	scope	noun
 kapsamak	to contain	verb					
 kapuçino	cappuccino	noun					
 kar	snow	noun					
-kar baykuşu [Bubo scandiacus, syn.: Nyctea scandiaca]	snowy owl	noun					
+kar baykuşu	snowy owl	noun					
 kar payları	dividends {pl}	noun					
 kar tanesi	snowflake	noun					
 kara	shore	noun	karadan: by land				
 kara	dark	adj					
 kara	black	adj	Karadeniz: Black Sea				
 kara	dark	adj					
-kara ağaçkakan [Dryocopus martius]	black woodpecker	noun					
-kara alınlı örümcek kuşu [Lanius minor]	lesser gray shrike [Am.]	noun					
-kara başlı çinte [Emberiza melanocephala]	black-headed bunting	noun					
-kara başlı kiraz kuşu [Emberiza melanocephala]	black-headed bunting	noun					
-kara dalıcı martı [Cepphus grylle]	black guillemot	noun					
-kara gerdanlı dalgıç [Gavia arctica]	Arctic loon [Am.]	noun					
-kara kızılkuyruk [Phoenicurus ochruros]	black redstart	noun					
-kara leylek [Ciconia nigra]	black stork	noun					
-kara mamba [Dendroaspis polylepis]	black mamba	noun					
-kara sırtlı çakal [Canis mesomelas]	black-backed jackal	noun					
-karabaş çinte [Emberiza melanocephala]	black-headed bunting	noun					
-karabaş kiraz kuşu [Emberiza melanocephala]	black-headed bunting	noun					
-karabaş ötleğen [Sylvia atricapilla]	(Eurasian) blackcap	noun					
+kara ağaçkakan	black woodpecker	noun					
+kara alınlı örümcek kuşu	lesser gray shrike [Am.]	noun					
+kara başlı çinte	black-headed bunting	noun					
+kara başlı kiraz kuşu	black-headed bunting	noun					
+kara dalıcı martı	black guillemot	noun					
+kara gerdanlı dalgıç	Arctic loon [Am.]	noun					
+kara kızılkuyruk	black redstart	noun					
+kara leylek	black stork	noun					
+kara mamba	black mamba	noun					
+kara sırtlı çakal	black-backed jackal	noun					
+karabaş çinte	black-headed bunting	noun					
+karabaş kiraz kuşu	black-headed bunting	noun					
+karabaş ötleğen	(Eurasian) blackcap	noun					
 Karadeniz	Black Sea	noun					
-karakulak [Caracal caracal]	caracal	noun					
-karanfil [baharat]	cloves {pl}	noun					
+karakulak	caracal	noun					
+karanfil	cloves {pl}	noun					
 karanlık	dark	adj					
 karanlık enerji	dark energy [cosmology]	noun					
 karanlık madde	dark matter [cosmology]	noun					
@@ -2631,7 +2632,7 @@ kavramak	to grasp	verb
 kavramak	to understand	verb					
 kavun	melon	noun					
 kayısı	apricot	noun					
-kaya kiraz kuşu [Emberiza cia]	rock bunting	noun					
+kaya kiraz kuşu	rock bunting	noun					
 kayabaşı	folk song	noun					
 kaybetmek	to lose	verb					
 kaybı	loss	noun					
@@ -3534,6 +3535,8 @@ ortalama	average	noun
 ortalama çap [vida dişi]	pitch diameter	noun					
 ortanca	middle	noun					
 ortasından	through	adv					
+örtmek	to cover sg.	verb
+örtünmek	to cover himself	verb
 ortopedi doktoru	orthopaedist [Br.]	noun					
 örümcek	spider	noun					
 Osmanlı İmparatorluğu	Ottoman Empire	noun					
@@ -4650,6 +4653,8 @@ ufak lokanta	snack bar	noun
 üflemek	to blow	verb					
 uğramak	to undergo	verb					
 uğraşmak	to struggle	verb	bir şeyle uğraşmak: to bother with sg				
+uğraşmak	to be busy with	verb
+uğraştırmak	to preoccupy	verb
 uğursuz	evil	adj					
 ulan	damn	phrase					
 ulaşmak	to reach	verb					
@@ -4684,6 +4689,8 @@ unutmak	to forget	verb
 üretim	production	noun					
 üretmek	to produce	verb					
 ürkmek	to flinch	verb					
+ürkmek	to be afraid	verb
+ürkütmek	to scare	verb
 ürpermek	to shake	verb					
 ürün	product	noun					
 Ürün Bilgi Yönetimi	Product Data Management <PDM>	noun					
@@ -4709,6 +4716,7 @@ utanmak	to be ashamed	verb
 utanmaz	cheeky	adj					
 ütü yapmak	to iron	verb					
 ütülemek	to iron	verb					
+üvey	fostering	adj	üvey baba: stepfather
 üvey anne	stepmother	noun					
 üvey baba	stepfather	noun					
 üvey kardeş	stepbrother	noun					
@@ -5016,8 +5024,10 @@ yetişmek	to grow	verb
 yetkili	official	adj					
 yetmiş	seventy	noun					
 yıkamak	to wash	verb					
+yıkanmak	to being washed	verb
 yıkım	destruction	noun					
-yıkmak	to destroy	verb					
+yıkmak	to destroy	verb
+yıkılmak	to be destroyed	verb					
 yıl	year	noun	birkaç yıl önce: a few years ago				
 yılan	snake	noun					
 yılbaşı	New Year	noun					
