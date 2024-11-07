@@ -41,6 +41,15 @@ EXCEPTIONS = {
 			,'tat': 'tad'
         },
         'PROGRESSIVE': {
+        },
+        'FUTURE_STEM': {
+			 'ye': 'yi'
+			,'de': 'di'
+			,'git': 'gid'
+			,'et': 'ed'
+			,'tat': 'tad'
+        },
+        'FUTURE': {
         }
     }
 
