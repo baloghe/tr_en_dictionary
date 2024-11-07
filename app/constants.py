@@ -33,12 +33,14 @@ EXCEPTIONS = {
         },
         'GENITIVE': {
         },
+        'PROGRESSIVE_STEM': {
+			 'ye': 'yi'
+			,'de': 'di'
+			,'git': 'gid'
+			,'et': 'ed'
+			,'tat': 'tad'
+        },
         'PROGRESSIVE': {
-			 'ye': 'yiyor'
-			,'de': 'diyor'
-			,'git': 'gidiyor'
-			,'et': 'ediyor'
-			,'tat': 'tadiyor'
         }
     }
 
