@@ -34,7 +34,12 @@ def writeMeanings(orth, wt, wtMap):
     for tp in sorted(wt):
         ptype = etree.SubElement(orth,"p")
         itype = etree.SubElement(ptype,"i")
-        itype.text = wtMap[tp]
+        tperror = False
+        if (tp):
+            itype.text = wtMap[tp]
+        else:
+            tperror = True
+            
         etree.SubElement(ptype,"br")
         #print(f"{origtext} -> tp: {tp}")
         for m in wt[tp]:
@@ -52,6 +57,10 @@ def writeMeanings(orth, wt, wtMap):
             else:
                 span.text = str
             etree.SubElement(ptype,"br")
+            #print missing word type error on first meaning only
+            if tperror:
+                print(f"{m.getMeaning()} -> missing word type")
+                tperror = False
 
 def writeComplexMeanings(orth, wt, wtMap):
     for tp in sorted(wt):

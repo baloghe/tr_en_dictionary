@@ -12,3 +12,6 @@ class Meaning:
         
     def getExamples(self):
         return self.examples
+        
+    def toJSONObj(self):
+        return {'m': self.meaning, 'tp': self.wordtype, 'ex': self.examples}

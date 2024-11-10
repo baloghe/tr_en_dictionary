@@ -1,5 +1,6 @@
 from .meaning import Meaning
 from app.prcnoun import processNoun
+from app.prcverb import processVerb
 
 class Entry:
     def __init__(self, orig, meaning, wordtype, examples):
@@ -50,3 +51,12 @@ class Entry:
                 else:
                     self.inflections[i['infl']] = [i]
             #print(f"self.inflections={self.inflections}")
+        
+    def toJSONObj(self):
+        ms = []
+        for m in self.meanings:
+            ms.append(m.toJSONObj())
+        ii = []
+        for i in self.inflections.values():
+            ii.append(i)
+        return {'o': self.orig, 'm': ms, 'i': ii}

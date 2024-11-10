@@ -33,14 +33,14 @@ EXCEPTIONS = {
         },
         'GENITIVE': {
         },
-        'PROGRESSIVE_STEM': {
+        'CONTINUOUS_STEM': {
 			 'ye': 'yi'
 			,'de': 'di'
 			,'git': 'gid'
 			,'et': 'ed'
 			,'tat': 'tad'
         },
-        'PROGRESSIVE': {
+        'CONTINUOUS': {
         },
         'FUTURE_STEM': {
 			 'ye': 'yi'
@@ -50,6 +50,20 @@ EXCEPTIONS = {
 			,'tat': 'tad'
         },
         'FUTURE': {
+        },
+        'AORIST': {
+			 'al': 'alır'
+			,'bil': 'bilir'
+			,'bul': 'bulur'
+			,'dur': 'durur'
+			,'gel': 'gelir'
+			,'gör': 'görür'
+			,'kal': 'kalir'
+			,'ol': 'olur'
+			,'öl': 'ölür'
+			,'san': 'sanır'
+			,'var': 'varır'
+			,'vur': 'vurur'
         }
     }
 
@@ -67,4 +81,15 @@ rp_ends_vow = regex.compile(r'.*?[aıoueiöü]$')
 rp_ends_cons = regex.compile(r'.*?[bcdgğjlmnrvyzfhsşpçtk]$')
 rp_ends_uuii = regex.compile(r'.*?[uüıi]$')
 rp_ends_aeoo = regex.compile(r'.*?[aeoö]$')
+rp_all_vows = regex.compile(r'[aeoöuüıi]')
 
+
+
+def getMx(stem, rexArr):
+    ret = {}
+    for k in rexArr:
+        if regex.match(rexArr[k],stem):
+            ret[k]=True
+        else:
+            ret[k]=False
+    return ret

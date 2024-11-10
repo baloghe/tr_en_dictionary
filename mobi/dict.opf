@@ -25,7 +25,7 @@
 
 <!-- list of all the files needed to produce the .prc file -->
 <manifest>
- <item id="dictionary0" href="TR_EN_v2.html" media-type="text/x-oeb1-document"/>
+ <item id="dictionary0" href="TR_EN_prod.html" media-type="text/x-oeb1-document"/>
  <item id="my-cover-image" href="cover.jpg" media-type="image/jpeg" />
 </manifest>
 
