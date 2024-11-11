@@ -37,7 +37,7 @@ def getSrc(word, actSrc):
 
 def getPlural(word, mx):
     if word['infl'] in EXCEPTIONS['PLURAL']:
-        return {'infl': EXCEPTIONS['PLURAL'][word['infl']] , 'src': getSrc(word, 'PlEx')}
+        return {'infl': EXCEPTIONS['PLURAL'][word['infl']] , 'src': getSrc(word, 'Pl')}
         
     ret = word['infl']
     if mx['last_syl_low']:
@@ -49,7 +49,7 @@ def getPlural(word, mx):
         
 def getAccusative(word, mx):
     if word['infl'] in EXCEPTIONS['ACCUSATIVE']:
-        return {'infl': EXCEPTIONS['ACCUSATIVE'][word['infl']] , 'src': getSrc(word, 'AccEx')}
+        return {'infl': EXCEPTIONS['ACCUSATIVE'][word['infl']] , 'src': getSrc(word, 'Acc')}
         
     ret = word['infl']
     if mx['ends_vow']:
@@ -76,7 +76,7 @@ def getAccusative(word, mx):
 
 def getDative(word, mx):
     if word['infl'] in EXCEPTIONS['DATIVE']:
-        return {'infl': EXCEPTIONS['DATIVE'][word['infl']] , 'src': getSrc(word, 'AccEx')}
+        return {'infl': EXCEPTIONS['DATIVE'][word['infl']] , 'src': getSrc(word, 'Acc')}
         
     ret = word['infl']
     if mx['ends_vow']:
@@ -94,7 +94,7 @@ def getDative(word, mx):
 
 def getLocative(word, mx):
     if word['infl'] in EXCEPTIONS['LOCATIVE']:
-        return {'infl': EXCEPTIONS['LOCATIVE'][word['infl']] , 'src': getSrc(word, 'LocEx')}
+        return {'infl': EXCEPTIONS['LOCATIVE'][word['infl']] , 'src': getSrc(word, 'Loc')}
         
     ret = word['infl']
     if mx['last_syl_low'] and mx['last_cons_hard']:
@@ -110,9 +110,12 @@ def getLocative(word, mx):
 
 def getAblative(word, mx):
     if word['infl'] in EXCEPTIONS['ABLATIVE']:
-        return {'infl': EXCEPTIONS['ABLATIVE'][word['infl']] , 'src': getSrc(word, 'AblEx')}
+        return {'infl': EXCEPTIONS['ABLATIVE'][word['infl']] , 'src': getSrc(word, 'Abl')}
         
     ret = word['infl']
+    if mx['ends_vow'] and word['src'] and word['src'][len(word['src'])-4:]=='Poss':
+        ret = ret + 'n'
+        
     if mx['last_syl_low'] and mx['last_cons_hard']:
         ret = ret + 'tan'
     elif mx['last_cons_hard']:
@@ -190,7 +193,7 @@ def getPossessive(word, mx):
     
 def getGenitive(word, mx):
     if word['infl'] in EXCEPTIONS['GENITIVE']:
-        return {'infl': EXCEPTIONS['GENITIVE'][word['infl']] , 'src': getSrc(word, 'GenEx')}
+        return {'infl': EXCEPTIONS['GENITIVE'][word['infl']] , 'src': getSrc(word, 'Gen')}
     
     ret = ''
     if mx['ends_vow']:
@@ -400,6 +403,7 @@ def processNoun(w):
         infl.append(getGenitive(a,aout))
         infl.append(getWith(a,aout))
         infl.append(getPredicative(a,aout))
+        infl.append(getAblative(a,aout))
         ind = getIndirect(a,aout)        
         indout = getMx(ind['infl'], rps)
         infl.append(getPredicative(ind,indout))
@@ -415,6 +419,7 @@ def processNoun(w):
         infl.append(getGenitive(a,aout))
         infl.append(getWith(a,aout))
         infl.append(getPredicative(a,aout))
+        infl.append(getAblative(a,aout))
         ind = getIndirect(a,aout)
         indout = getMx(ind['infl'], rps)
         infl.append(getPredicative(ind,indout))
