@@ -153,8 +153,8 @@ dmypy.json
 cython_debug/
 
 # Large interim results
-/TR_EN_prod.html
-/TR_EN_prod.json
+interim_output/TR_EN_prod.html
+interim_output/TR_EN_prod.json
 
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
