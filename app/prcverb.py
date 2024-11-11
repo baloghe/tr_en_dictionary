@@ -184,7 +184,11 @@ def getPredicative(stem, mx):
         ret = ret + 'ür'
     
     return {'infl': ret, 'src': getSrc(stem, 'Pred')}
+
+def getImperative(stem, mx):
+    ret = stem['infl']
     
+    return {'infl': ret, 'src': getSrc(stem, 'Imp')}
 
 def getPersonMarker(word, paradigm):
     pm = {'cont-z-pr': ['um','sun','','uz','sunuz','lar']
@@ -271,6 +275,32 @@ def getPersonMarker(word, paradigm):
         stem = word['infl']
         for p in pm:
             ret.append({'infl': stem + p , 'src': word['src']})
+    elif paradigm == 'z-imp':
+        pm = []
+        if mx['last_syl_ai']:
+            pm = ['','sın','ın','ınız','sınlar']
+        elif mx['last_syl_ei']:
+            pm = ['','sin','in','iniz','sinler']
+        elif mx['last_syl_ou']:
+            pm = ['','sun','un','unuz','sunlar']
+        elif mx['last_syl_öü']:
+            pm = ['','sün','ün','ünüz','sünler']
+            
+        stem = word['infl']
+        
+        lastletter = stem[len(stem)-1:]
+        altstem = stem
+        if lastletter in ALTERNATING_CONSONANTS:
+            chg = ALTERNATING_CONSONANTS[lastletter]
+            altstem = stem[:len(stem)-1] + chg
+        elif mx['ends_vow']:
+            altstem = stem + 'y'
+                    
+        for p in pm:
+            if p and p[0] in ['ı','i','u','ü']:
+                ret.append({'infl': altstem + p , 'src': word['src']})
+            else:
+                ret.append({'infl': stem + p , 'src': word['src']})
         
     return ret
 
@@ -410,6 +440,16 @@ def processVerb(w):
     pmistirneg = getPredicative(pmistirnegstem, pmistirnegout)
     
     infl = infl + [pcont, pcontneg, pmakta, pmaktaneg, pmistir, pmistirneg]
+    
+    # Imperative
+    impstem = ptstem
+    imp = getImperative({'infl': impstem, 'src': None}, None)
+    impnegstem = negstem1
+    impneg = getImperative({'infl': impnegstem, 'src': None}, None)
+    imppm = getPersonMarker(imp, 'z-imp')
+    impnegpm = getPersonMarker(impneg, 'z-imp')
+    
+    infl = infl + imppm + impnegpm
     
     #wtype = noun in all cases
     for i in infl:
