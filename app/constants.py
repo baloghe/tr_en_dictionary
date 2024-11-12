@@ -16,22 +16,29 @@ EXCEPTIONS = {
             'saat':'saatler',
             'hal':'haller'
         },
-        'ALTERNATE': ['sap','at','kek','saç','saat','kat'],
+        'ALTERNATE': ['sap','at','kek','saç','saat','kat','adet'],
         'ALTERNATE_POSS': ['kek','saç'],
         'ACCUSATIVE': {
              'saat':'saati'
             ,'gol':'golü'
             ,'kontrol':'kontrolü'
+            ,'hal':'hali'
         },
         'DATIVE': {
              'saat':'saate'
         },
         'LOCATIVE': {
+             'hal':'halde'
         },
         'ABLATIVE': {
+             'hal':'halden'
         },
         'POSSESSIVE': {
-             'su': ['suyum','suyun','suyu','suyumuz','suyunuz']
+             'su': ['suyum','suyun','suyu','suyumuz','suyunuz'],
+             'akıl': ['aklım','aklın','aklı','aklımız','aklınız'],
+             'ömür': ['ömrüm','ömrün','ömrü','ömrümüz','ömrünüz'],
+             'vakit': ['vaktim','vaktin','vakti','vaktimiz','vaktiniz'],
+             'zihin': ['zihnim','zihnin','zihni','zihnimiz','zihniniz']
         },
         'GENITIVE': {
         },
