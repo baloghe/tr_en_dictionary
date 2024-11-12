@@ -103,8 +103,8 @@ ak yanaklı kaz	barnacle goose	noun
 akaryakıt	liquid fuel	noun	akaryakıt istasyonu: gas station				
 akciğer	lung [Pulmo]	noun					
 Akdeniz	Mediterranean Sea	noun					
-akıl	mind	noun					
 akıl	mind [intellect]	noun					
+akıllanmak	to become wise	verb					
 akıllı	bright	adj					
 akıllı	clever	adj					
 akıllı	intelligent	adj					
@@ -373,13 +373,14 @@ avize	chandelier	noun
 avlamak	to hunt	verb	gafil avlamak: to take by surprise				
 avlamak	to chase	verb					
 Avrupa	Europe	noun					
+avuç	handful	noun					
 avukat	attorney	noun					
 avukat	lawyer	noun					
 avukat	lawyer	noun					
 Avustralya	Australia <.au>	noun					
 Avustralyalı	Australian	noun					
 ay	moon	noun					
-ay	month <mo.>	noun					
+ay	month	noun					
 ayak	leg	noun	tek ayak üstünde: on one leg				
 ayak	foot	noun	ayakta durmak: to stand				
 ayak bileği	ankle	noun					
@@ -403,15 +404,14 @@ ayırmak	to separate	verb
 aylık	monthly	adv					
 ayna	mirror	noun					
 aynen	likewise	adv					
-aynı	same	adj					
+aynı	same	adj	aynı şekilde: likewise	aynı fikirde olmak: to agree		
 aynı	the same	pron					
-aynı fikirde olmak	to agree	verb					
 aynı şekilde	equally	adv					
 aynı şekilde	likewise	adv					
-aynştaynyum <Es>	einsteinium <Es>	noun					
+aynştaynyum	einsteinium <Es>	noun					
 ayrı	different	adj					
 ayrıca	besides	adv					
-ayrıca	by the way <BTW>	adv					
+ayrıca	by the way	adv					
 ayrıca	else	adv					
 ayrılmak	to leave	verb					
 ayrımlı	different	adj					
@@ -456,15 +456,15 @@ baharat	spice	noun
 baharat	spices	noun					
 bahçe	garden	noun					
 bahçe işleri	gardening	noun					
-bahçe tırmaşık kuşu [Certhia brachydactyla]	short-toed treecreeper	noun					
+bahçe tırmaşık kuşu	short-toed treecreeper	noun					
 bahis	bet	noun	bahse tutuşmak: to make a bet	bahsi açılmak: to open a discussion			
-bahri [Podiceps cristatus]	great crested grebe	noun					
+bahri	great crested grebe	noun					
 bahsedilen	said	adj					
 bahsetmek	to mention	verb					
 bahşiş	tip	noun					
 bahtiyar	happy	adj					
-Baird tapiri [Tapirus bairdii]	Baird's tapir	noun					
-bakır <CU>	copper <CU>	noun					
+Baird tapiri	Baird's tapir	noun					
+bakır	copper	noun					
 bakış	look	noun	boş bakışlarla: with a blank look				
 bakmak	to face	verb					
 bakmak	to look	verb					
@@ -474,7 +474,7 @@ baldır kemiği	shin bone	noun
 Bali Denizi	Bali Sea	noun					
 balık	fish	noun					
 balina	whale	noun					
-balina köpek balığı [Rhincodon typus]	whale shark	noun					
+balina köpek balığı	whale shark	noun					
 Balmer serileri	Balmer series	noun					
 balmumu	wax	noun					
 bambaşka	completely different	adj					
@@ -486,13 +486,13 @@ banliyö	suburb	noun
 banyo	bath	noun	banyo yapmak: to take a bath				
 banyo	bathroom	noun					
 banyo küveti	bathtub	noun					
-barbekü [yab.]	barbecue	noun					
+barbekü	barbecue	noun					
 bardak	glass	noun					
 bari	at least	adv					
 barış	peace	noun					
 barıştırmak	to reconcile	verb					
 baş	head	noun	en başta: at first				
-baş	head [Caput]	noun					
+baş	head	noun					
 baş yemek	main course	noun					
 basamak	step	noun					
 başarı	success	noun	başarıyla tamamlanmış: successfully completed				
@@ -520,9 +520,8 @@ bastırmak	to suppress	verb
 baston	walking stick	noun					
 başvurmak	to apply	verb					
 başvuru	application	noun	başvuru yapmak: to apply				
-bataklık kamışçını [Locustella luscinioides]	Savi's warbler	noun					
+bataklık kamışçını	Savi's warbler	noun					
 batı	west	noun	gün batımı: sunset				
-batı	west <W>	noun					
 batırmak	to sink	verb					
 batırmak	to ruin	verb					
 battaniye	blanket	noun					
@@ -768,9 +767,9 @@ boyun	neck	noun
 boyunbağı	tie	noun					
 boyut	size	noun					
 boz ayı [Ursus arctos]	brown bear	noun					
-boz çıvgın [Phylloscopus bonelli]	(western) Bonelli's warbler	noun					
-boz ötleğen [Sylvia borin]	garden warbler	noun					
-boz yunus [Grampus griseus]	Risso's dolphin	noun					
+boz çıvgın	(western) Bonelli's warbler	noun					
+boz ötleğen	garden warbler	noun					
+boz yunus	Risso's dolphin	noun					
 bozmak	to disturb	verb					
 bozmak	to ruin	verb					
 bozmak	to blemish [blight]	verb					
@@ -983,6 +982,7 @@ cesur	daring	adj
 cetvel	ruler	noun					
 cevap	answer	noun					
 cevap vermek	to answer	verb					
+çevirme	translation	noun					
 çevirmek	to turn	verb	içini dışına çevirmek: to turn inside out				
 çevirmek	to twist	verb					
 çevirmek	wind up	verb					
@@ -1323,7 +1323,6 @@ doldurmak	to fill	verb
 doldurmak	to stuff	verb					
 dolu	full	adj					
 domates	tomato	noun					
-domatesler {pl}	tomatoes	noun					
 domuz	pig	noun					
 domuz budu	ham	noun					
 domuz eti	pork	noun					
@@ -1469,13 +1468,14 @@ elbise kolu	sleeve	noun
 elde etmek	to get	verb					
 elde etmek	to receive	verb					
 eldiven	glove	noun					
-eldivenler {pl}	gloves	noun					
 ele verme	betrayal	noun					
 elektrik düğmesi	light switch	noun					
 elektrik fişi	plug	noun					
 elektrik traş makinası	electric razor	noun					
 elektrot	electrode	noun					
-elemanlar {pl}	labour [Br.]	noun					
+eleman	component	noun					
+eleman	element	noun					
+eleman	personnel	noun					
 eli açık	generous [liberal, lavish]	adj					
 elli	fifty	noun					
 elma	apple [Malus domestica]	noun					
@@ -1520,7 +1520,7 @@ ertelemek	to postpone	verb	[belirsiz bir tarihe / süresiz olarak] ertelemek: to
 ertesi	next	adj	ertesi sabah: next morning				
 eş	mate	noun					
 eş	spouse	noun					
-eş [kadın]	wife	noun					
+eş	wife	noun					
 eşek	donkey	noun					
 eser	piece	noun					
 eşevreli	coherent	adj					
@@ -1568,7 +1568,7 @@ evvelsi gün	the day before yesterday	adv
 eylem	action	noun					
 eylem	deed [act]	noun					
 eylem	verb	noun					
-eylül <Eyl., Ey., L>	September <Sep., Sept.>	noun					
+eylül	September <Sep., Sept.>	noun					
 eyvah	oops	phrase					
 ezmek	squish	verb					
 fısıldamak	to whisper	verb					
@@ -2287,9 +2287,8 @@ inşa etmek	to build	verb
 inşaat	construction	noun					
 insaflı	fair	adj					
 inşallah	hopefully	adv					
-insan	person	noun	insan onuru: human dignity				
+insan	person	noun	insan onuru: human dignity	insanlar: people		
 insan	human being	noun					
-insanlar {pl}	people {pl}	noun					
 insanlık	humanity	noun	insanlık dışı: inhuman				
 intibak	adaptation	noun					
 intikal	transition	noun	intikal etmek: to transfer to				
@@ -2548,8 +2547,7 @@ karavan	van	noun
 karavel	caravel	noun					
 karayel	northwester	noun					
 karbonhidrat	carbohydrate	noun					
-kardeş	brother <bro.>	noun					
-kardeşler {pl}	siblings {pl}	noun					
+kardeş	brother <bro.>	noun	kardeş: siblings			
 kardiyoloji	cardiology	noun					
 kare	square	noun					
 karı	wife	noun					
@@ -2871,6 +2869,7 @@ kovboy	cowboy	noun
 kovmak	to fire	verb					
 kovmak	to dismiss	verb					
 köy	village	noun					
+köylü	villager	noun					
 koymak	to put	verb					
 koymak	to place	verb					
 koymak	to put	verb					
@@ -3484,7 +3483,7 @@ onunki	hers	pron
 öpmek	to kiss	verb					
 opsiyonel	optional	adj					
 öpücük	kiss	noun					
-öpücük [kondurma]	peck	noun					
+öpücük	peck	noun					
 öpüşmek	to smooch	verb	öpüşüp koklaşmak: to smooch				
 orada	over there	adv					
 orada	there	adv					
@@ -3499,7 +3498,7 @@ orgazm	orgasm	noun
 örgütü	organization	noun					
 orkinos	tuna	noun					
 orman	forest	noun					
-orman çıvgını [Phylloscopus sibilatrix]	wood warbler	noun					
+orman çıvgını	wood warbler	noun					
 örneğin	for example <e.g.>	adv					
 örneğin	for instance <f.i.>	adv					
 örnek	example	noun	örnek olarak: for example				
@@ -3820,8 +3819,7 @@ saçmalık	nonsense	noun
 Saçmalık!	Rubbish! [esp. Br.]	phrase					
 sade	plain	adj					
 sadece	only	adv					
-saf	naive	adj					
-saf olmama	impurity	noun					
+saf	naive	adj	saf olmama: impurity			
 şafak	dawn	noun					
 sağ tarafta	on the right-hand side	adv					
 sağa	to the right	adv					
@@ -3846,7 +3844,7 @@ sahiden	actually	adv
 sahiden	to be honest	adv					
 sahil	coast	noun					
 sahil	shore	noun					
-Sahilde Kafka [Haruki Murakami]	Kafka on the Shore	phrase					
+Sahilde Kafka	Kafka on the Shore	phrase					
 sahip	owner	noun					
 sahip olmak	to have got	verb					
 sahip olmak	to have	verb					
@@ -3862,8 +3860,8 @@ sahne	stage	noun
 şakacı	playful	adj					
 sakal	beard	noun					
 sakat	disabled	adj					
+sakat	disabled (wo*man)	noun					
 sakatlamak	to injure	verb					
-sakatlar {pl}	disabled people {pl}	noun					
 sakin	calm	adj	sakin ol: calm down				
 sakin	quiet	adj					
 sakınmak	to avoid	verb					
@@ -3880,7 +3878,7 @@ salak	stupid	adj
 salata	salad	noun					
 saldırgan	aggressive	adj					
 saldırı	attack	noun					
-salı <sal., sa., s.>	Tuesday <Tue., Tu.>	noun					
+salı	Tuesday <Tue., Tu.>	noun					
 sallamak	to shake	verb					
 salmak	to release	verb					
 salmonelloz	salmonellosis	noun					
@@ -3914,10 +3912,10 @@ saray	palace	noun
 Sargasso Denizi	Sargasso Sea	noun					
 sarhoş	drunk	adj					
 sarı	yellow	adj					
-sarı centiyan [Gentiana lutea]	(great) yellow gentian	noun					
-sarı kiraz kuşu [Emberiza citrinella]	yellowhammer	noun					
+sarı centiyan	(great) yellow gentian	noun					
+sarı kiraz kuşu	yellowhammer	noun					
 sarılmak	to hug	verb					
-sarımsak	garlic [Allium sativum]	noun					
+sarımsak	garlic	noun					
 sarımsak presi	garlic press	noun					
 sarıp sarmalamak	wind up	verb					
 sarışın	blonde	adj					
@@ -3926,7 +3924,6 @@ sarışın	blonde	adj
 sarkoidoz	sarcoidosis	noun					
 sarmak	to wrap	verb					
 sarmak	wind up	verb					
-sarmısak	garlic [Allium sativum]	noun					
 sarsılmış	shocked	adj					
 şart	condition	noun	bir şartla: on one condition				
 şasi	chassis	noun					
@@ -3958,8 +3955,7 @@ sayılmak	to be counted	verb
 saymak	to count	verb					
 sebebiyle	because of	prep					
 sebep	reason	noun					
-sebze	vegetable	noun					
-sebzelerden yaşayan	vegetarian	adj					
+sebze	vegetable	noun	sebzelerden yaşayan: vegetarian			
 seçebilirmek	to be able to make out	verb					
 seçenek	option	noun					
 seçilebilir	selectable	adj					
@@ -4038,7 +4034,7 @@ seyahat	trip	noun
 sezgi	intuition	noun					
 sezmek	to feel	verb					
 sezmek	to guess	verb					
-Sibirya kazı [Branta ruficollis]	red-breasted goose	noun					
+Sibirya kazı	red-breasted goose	noun					
 sıcak	hot	adj					
 sıcak	warm	adj					
 sıcak çikolata	hot chocolate	noun					
@@ -4057,9 +4053,9 @@ sığ	shallow	adj
 sigara	cigarette	noun					
 sigara içmek	to smoke	verb					
 sigara kullanmak	to smoke	verb					
-siğilli kurbağa [Bufo bufo]	common toad	noun					
+siğilli kurbağa	common toad	noun					
 sığır	cattle	noun					
-sığır balıkçılı [Bubulcus ibis]	cattle egret	noun					
+sığır balıkçılı	cattle egret	noun					
 sığır eti	beef	noun					
 sigorta etmek	to insure	verb					
 sıhhiyeci	paramedic	noun					
@@ -4159,17 +4155,16 @@ sizlerle	with you	pron
 sızmak	to infiltrate	verb					
 şnorkelle yüzmek	to snorkel	verb					
 soba	stove	noun					
-sodyum borhidrür [NaBH4]	sodium borohydride	noun					
-sodyum bromür [NaBr]	sodium bromide	noun					
+sodyum borhidrür	sodium borohydride	noun					
+sodyum bromür	sodium bromide	noun					
 şoför	chauffeur	noun					
 şoför	driver	noun					
 sofra	table	noun					
 sofra takımı	cutlery	noun					
 soğan	onion	noun					
-soğanlar {pl}	onions	noun					
 soğuk	cold	adj					
 söğüt	willow	noun					
-söğütbülbülü [Phylloscopus trochilus]	willow warbler	noun					
+söğütbülbülü	willow warbler	noun					
 soğutmak	to cool down	verb					
 sohbet etmek	to chat	verb					
 sokmak	to tuck	verb					
@@ -4184,7 +4179,7 @@ solgunluk	pallor	noun	solgunluk veren: pallid
 solunum	breathing	noun					
 som balığı	salmon	noun					
 somun	nut	noun					
-somun [ekmek, odun]	loaf [bread, wood]	noun					
+somun	loaf [bread, wood]	noun					
 somurtmak	to sulk	verb					
 somutlaştırmak	to reify	verb					
 son	last	adj	sonra devam ediyoruz: then we continue	sonraki: next	sonsuz: forever		
@@ -4248,7 +4243,7 @@ su kılavuzu [Rallus aquaticus]	water rail	noun
 suale	to the question	phrase	suale karşı: to the question				
 suaygırı	hippopotamus	noun					
 subaşı	officer	noun					
-şubat <şub.>	February <Feb.>	noun					
+şubat	February <Feb.>	noun					
 sübvansiyon	subsidy	noun					
 suç	crime	noun					
 suç	fault	noun					
@@ -4450,7 +4445,7 @@ telkuyruk	long-tailed duck	noun
 telve	coffee grounds	noun	kahve telvesi: coffee grounds				
 tembel	lazy	adj					
 temel	basic	adj					
-temettüler	profit distribution	noun					
+temettü	dividend	noun					
 temiz	clean	adj	temiz hava: fresh air				
 temizlemek	to clean	verb					
 temmuz	July	noun					
@@ -4471,13 +4466,14 @@ tepeli pelikan	Dalmatian pelican	noun
 tepeli toygar	crested lark	noun					
 tepki	reaction	noun					
 tercih	preference	noun					
+ter	sweat	noun					
 tercüman	translator	noun					
+tercüme	translation	noun					
 tereddüt	hesitation	noun	tereddüt etmek: to hesitate				
 tereddüd	hesitation	noun					
 tereddütlü	hesitant	adj					
 tereyağı	butter	noun					
 terk etmek	to go [to leave]	verb					
-terk etmek	to leave	verb					
 terlemek	to sweat	verb					
 terliksi	paramecium	noun					
 terzi	tailor	noun					
@@ -4714,7 +4710,6 @@ uzman	expert	noun
 üzülmek	to be upset	verb					
 üzülmek	to worry	verb					
 üzüm	grape	noun					
-üzüm	grapes {pl}	noun					
 uzun	long	adj					
 uzunluk	length	noun					
 vadeli	temporary	adj					
@@ -4809,7 +4804,6 @@ yakma	incineration	noun
 yakmak	to turn on	verb					
 yalaka	sycophant	adj					
 yalan	lie	noun	yalan söylemek: to lie				
-yalan söylemek	to lie [deceive]	verb					
 yalancı	liar	noun					
 yalaz	flame	noun					
 yalın hal	nominative	noun					
@@ -4824,7 +4818,6 @@ yaltakçı	sycophant	noun
 yan	side	noun	yan yana: side by side	yan çizmek: to evade	bir yandan: on the one hand	öte yandan: on the other hand	
 yan	side	adj	yan etki: side effect				
 yanak	cheek	noun					
-yanaklar {pl}	cheeks {pl}	noun					
 yanaşmak	to edge	verb					
 yangın	fire	noun					
 yani	so to speak	adv					
@@ -4915,8 +4908,8 @@ yazmak	to write	verb
 yedek	replacement	noun					
 yedi	seven	noun					
 yedi yüz	seven hundred	noun					
-Yedinci Mühür [Ingmar Bergman]	The Seventh Seal	phrase					
-yeleli tembel hayvan [Bradypus torquatus]	maned sloth	noun					
+Yedinci Mühür	The Seventh Seal	phrase					
+yeleli tembel hayvan	maned sloth	noun					
 yelkenle gitmek	to sail	verb					
 yelkenliyle gitmek	to sail	verb					
 yem vermek	to feed	verb					
