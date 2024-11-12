@@ -10,6 +10,7 @@ rps = {'last_syl_low':rp_last_syl_low
     ,'last_syl_öü':rp_last_syl_oouu
     ,'last_cons_hard':rp_last_cons_hard
     ,'ends_alter':rp_ends_alter_cons
+    ,'ends_alter_poss':rp_ends_alter_cons_poss
     ,'ends_nk':rp_ends_alter_cons_nk
     ,'ends_vow':rp_ends_vow}
     
@@ -27,6 +28,16 @@ def getAlternate(word, mx):
         elif mx['ends_alter']:
             last = ret[len(ret)-1]
             ret = ret[:len(ret)-1] + ALTERNATING_CONSONANTS[last]
+    return ret
+	
+def getAlternatePoss(word, mx):
+    ret = word
+    if word not in EXCEPTIONS['ALTERNATE_POSS']:
+        if mx['ends_nk']:
+            ret = ret[:len(ret)-1] + 'g'
+        elif mx['ends_alter_poss']:
+            last = ret[len(ret)-1]
+            ret = ret[:len(ret)-1] + ALTERNATING_CONSONANTS_POSS[last]
     return ret
 
 def getSrc(word, actSrc):
@@ -169,7 +180,7 @@ def getPossessive(word, mx):
                 ret.append(word['infl']+p)
     else:
         # alternate when needed
-        base = getAlternate(word['infl'], mx)
+        base = getAlternatePoss(word['infl'], mx)
             
         # then apply possessive markers
         if mx['last_syl_ai']:
@@ -401,9 +412,13 @@ def processNoun(w):
         aout = getMx(a['infl'], rps)
         infl.append(getAccusative(a,aout))
         infl.append(getGenitive(a,aout))
+        infl.append(getKi(getGenitive(a,aout)))
         infl.append(getWith(a,aout))
         infl.append(getPredicative(a,aout))
         infl.append(getAblative(a,aout))
+        infl.append(getKi(getAblative(a,aout)))
+        infl.append(getLocative(a,aout))
+        infl.append(getKi(getLocative(a,aout)))
         ind = getIndirect(a,aout)        
         indout = getMx(ind['infl'], rps)
         infl.append(getPredicative(ind,indout))
@@ -417,9 +432,13 @@ def processNoun(w):
         aout = getMx(a['infl'], rps)
         infl.append(getAccusative(a,aout))
         infl.append(getGenitive(a,aout))
+        infl.append(getKi(getGenitive(a,aout)))
         infl.append(getWith(a,aout))
         infl.append(getPredicative(a,aout))
         infl.append(getAblative(a,aout))
+        infl.append(getKi(getAblative(a,aout)))
+        infl.append(getLocative(a,aout))
+        infl.append(getKi(getLocative(a,aout)))
         ind = getIndirect(a,aout)
         indout = getMx(ind['infl'], rps)
         infl.append(getPredicative(ind,indout))
