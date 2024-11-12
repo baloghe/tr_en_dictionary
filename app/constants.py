@@ -13,9 +13,11 @@ WORDTYPE_MAP = {'verb': 'verb'
 
 EXCEPTIONS = {
         'PLURAL':{
-            'saat':'saatler'
+            'saat':'saatler',
+            'hal':'haller'
         },
         'ALTERNATE': ['sap','at','kek','saç','saat','kat'],
+        'ALTERNATE_POSS': ['kek','saç'],
         'ACCUSATIVE': {
              'saat':'saati'
             ,'gol':'golü'
@@ -68,6 +70,7 @@ EXCEPTIONS = {
     }
 
 ALTERNATING_CONSONANTS = {'p':'b' , 't':'d' , 'k':'ğ' , 'ç':'c'}
+ALTERNATING_CONSONANTS_POSS = {'p':'b' , 'k':'ğ' , 'ç':'c'}
 
 rp_last_syl_low = regex.compile(r'.*?[aıou][\w--[aıoueiöü]]*$')
 rp_last_syl_ai = regex.compile(r'.*?[aı][\w--[aıoueiöü]]*$')
@@ -77,6 +80,7 @@ rp_last_syl_oouu = regex.compile(r'.*?[öü][\w--[aıoueiöü]]*$')
 rp_last_cons_hard = regex.compile(r'.*?[çfhkpsşt]$')
 rp_ends_alter_cons = regex.compile(r'.*?[ptkç]$')
 rp_ends_alter_cons_nk = regex.compile(r'.*?nk$')
+rp_ends_alter_cons_poss = regex.compile(r'.*?[pkç]$')
 rp_ends_vow = regex.compile(r'.*?[aıoueiöü]$')
 rp_ends_cons = regex.compile(r'.*?[bcdgğjlmnrvyzfhsşpçtk]$')
 rp_ends_uuii = regex.compile(r'.*?[uüıi]$')
