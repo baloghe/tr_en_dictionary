@@ -190,6 +190,25 @@ def getImperative(stem, mx):
     
     return {'infl': ret, 'src': getSrc(stem, 'Imp')}
 
+def getOptative(stem, mx):
+    ret = stem['infl']
+    
+    if ret in EXCEPTIONS['CONTINUOUS_STEM']:
+        ret = EXCEPTIONS['CONTINUOUS_STEM'][ret]
+    
+    if mx == None:
+        mx = getMx(ret, {'ends_vow': rp_ends_vow, 'last_syl_low': rp_last_syl_low})
+    
+    if mx['ends_vow']:
+        ret = ret + 'y'
+    
+    if mx['last_syl_low']:
+        ret = ret + 'a'
+    else:
+        ret = ret + 'e'
+        
+    return {'infl': ret, 'src': getSrc(stem, 'Opt')}
+
 def getPersonMarker(word, paradigm):
     pm = {'cont-z-pr': ['um','sun','','uz','sunuz','lar']
          ,'prog-k-pt': ['m','n','','k','nuz','lar']
@@ -301,6 +320,16 @@ def getPersonMarker(word, paradigm):
                 ret.append({'infl': altstem + p , 'src': word['src']})
             else:
                 ret.append({'infl': stem + p , 'src': word['src']})
+    elif paradigm == 'm-opt':
+        pm = []
+        if mx['last_syl_low']:
+            pm = ['yım','sın','','lım','sınız','lar']
+        elif mx['last_syl_ei']:
+            pm = ['yim','sin','','lim','siniz','ler']
+            
+        stem = word['infl']
+        for p in pm:
+            ret.append({'infl': stem + p , 'src': word['src']})
         
     return ret
 
@@ -441,7 +470,7 @@ def processVerb(w):
     
     infl = infl + [pcont, pcontneg, pmakta, pmaktaneg, pmistir, pmistirneg]
     
-    # Imperative
+    #Imperative
     impstem = ptstem
     imp = getImperative({'infl': impstem, 'src': None}, None)
     impnegstem = negstem1
@@ -450,6 +479,16 @@ def processVerb(w):
     impnegpm = getPersonMarker(impneg, 'z-imp')
     
     infl = infl + imppm + impnegpm
+    
+    #Optative
+    optstem = ptstem
+    opt = getOptative({'infl': optstem, 'src': None}, None)
+    optnegstem = negstem1
+    optneg = getOptative({'infl': optnegstem, 'src': None}, None)
+    optpm = getPersonMarker(opt, 'm-opt')
+    optnegpm = getPersonMarker(optneg, 'm-opt')
+    
+    infl = infl + optpm + optnegpm
     
     #wtype = noun in all cases
     for i in infl:
