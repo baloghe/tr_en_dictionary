@@ -208,6 +208,29 @@ def getOptative(stem, mx):
         ret = ret + 'e'
         
     return {'infl': ret, 'src': getSrc(stem, 'Opt')}
+    
+def getNecessitative(stem, mx):
+    ret = stem['infl']
+    
+    if mx['last_syl_low']:
+        ret = ret + 'malı'
+    else:
+        ret = ret + 'meli'
+        
+    return {'infl': ret, 'src': getSrc(stem, 'Nec')}
+
+def getObligation(stem):
+    ret = stem
+    negret = stem
+    
+    if stem[len(stem)-3:] == 'mak':
+        ret = stem[:len(stem)-3] + 'mağa'
+        negret = stem[:len(stem)-3] + 'mamağa'
+    else:
+        ret = stem[:len(stem)-3] + 'meğe'
+        negret = stem[:len(stem)-3] + 'memeğe'
+        
+    return [{'infl': ret, 'src': 'Obl'}, {'infl': negret, 'src': 'Obl'}]
 
 def getPersonMarker(word, paradigm):
     pm = {'cont-z-pr': ['um','sun','','uz','sunuz','lar']
@@ -327,6 +350,15 @@ def getPersonMarker(word, paradigm):
         elif mx['last_syl_ei']:
             pm = ['yim','sin','','lim','siniz','ler']
             
+        stem = word['infl']
+        for p in pm:
+            ret.append({'infl': stem + p , 'src': word['src']})
+    elif paradigm == 'z-nec':
+        pm = []
+        if mx['last_syl_low']:
+            pm = ['yım','sın','','yız','sınız','lar']
+        else:
+            pm = ['yim','sin','','yiz','siniz','iler']
         stem = word['infl']
         for p in pm:
             ret.append({'infl': stem + p , 'src': word['src']})
@@ -489,6 +521,21 @@ def processVerb(w):
     optnegpm = getPersonMarker(optneg, 'm-opt')
     
     infl = infl + optpm + optnegpm
+    
+    #Necessitative
+    necstem = ptstem
+    necstemout = ptstemout
+    nec = getNecessitative({'infl': necstem, 'src': None}, necstemout)
+    necnegstem = negstem1
+    necnegstemout = negstem1out
+    necneg = getNecessitative({'infl': necnegstem, 'src': None}, necnegstemout)
+    necpm = getPersonMarker(nec, 'z-nec')
+    necnegpm = getPersonMarker(necneg, 'z-nec')
+    
+    infl = infl + necpm + necnegpm
+    
+    #Obligation (with mecbur)
+    infl = infl + getObligation(w) #includes negative as well
     
     #wtype = noun in all cases
     for i in infl:
