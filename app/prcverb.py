@@ -145,6 +145,11 @@ def getAorist(stem, mx):
             ret = ret + 'er'
             
     return {'infl': ret, 'src': getSrc(stem, 'Aor')}
+
+def getAoristCant(stem, mx):
+    ret = stem['infl']
+            
+    return {'infl': ret, 'src': getSrc(stem, 'Aor')}
     
 def getKen(stem, mode='affirmative'):
     ret = stem['infl']
@@ -232,15 +237,28 @@ def getObligation(stem):
         
     return [{'infl': ret, 'src': 'Obl'}, {'infl': negret, 'src': 'Obl'}]
 
+def getCannotDictForm(stem, mx):
+    ret = stem['infl']
+    
+    if mx['ends_vow']:
+        ret = ret + 'y'
+    
+    if mx['last_syl_low']:
+        ret = ret + 'amamak'
+    else:
+        ret = ret + 'ememek'
+    
+    return {'infl': ret, 'src': getSrc(stem, 'Can.Neg')}
+    
 def getPersonMarker(word, paradigm):
     pm = {'cont-z-pr': ['um','sun','','uz','sunuz','lar']
-         ,'prog-k-pt': ['m','n','','k','nuz','lar']
+         ,'cont-k-pt': ['m','n','','k','nuz','lar']
         }
     
     mx = getMx(word['infl'],rp_stem)
         
     ret = []
-    if paradigm in ['cont-z-pr', 'prog-k-pt']:
+    if paradigm in ['cont-z-pr', 'cont-k-pt']:
         for p in pm[paradigm]:
             ret.append({'infl': word['infl']+p , 'src': word['src']})
     elif paradigm == 'z-fut':
@@ -536,6 +554,55 @@ def processVerb(w):
     
     #Obligation (with mecbur)
     infl = infl + getObligation(w) #includes negative as well
+            
+    #Cannot = Stem+(y)a/e+Neg+Tense+PersonMarker
+    cantstem = ptstem
+    cantstemout = ptstemout
+    cantdf = getCannotDictForm({'infl': cantstem, 'src': None}, cantstemout)
+    print(f"cantdf = {cantdf}")
+    cantcontstem = getContinuousStem(cantdf['infl'])
+    cantcontstemout = getMx(cantcontstem, rp_stem)
+    cantcont = getContinuous({'infl': cantcontstem, 'src': cantdf['src']},cantcontstemout)
+    cantcontpt = getPast(cantcont, None)
+    cantcont['src'] = getSrc(cantcont, 'Pr')
+    
+    cantcontpm = getPersonMarker(cantcont, 'cont-z-pr')
+    cantcontptpm = getPersonMarker(cantcontpt, 'cont-k-pt')
+    
+    infl = infl + cantcontpm + cantcontptpm
+    
+    cantfutstem = getFutureStem(cantdf['infl'])
+    cantfutstemout = getMx(cantfutstem, rp_stem)
+    cantfut = getFuture({'infl': cantfutstem, 'src': cantdf['src']},cantfutstemout)
+    cantfutpt = getPast(cantfut, None)
+    
+    cantfutpm = getPersonMarker(cantfut, 'z-fut')
+    cantfutptpm = getPersonMarker(cantfutpt, 'k-pt')
+    
+    infl = infl + cantfutpm + cantfutptpm
+    
+    cantindstem = getStem(cantdf['infl'])
+    cantindstemout = getMx(cantindstem, rp_stem)
+    cantind = getIndirect({'infl': cantindstem, 'src': cantdf['src']},cantindstemout)
+    cantindpm = getPersonMarker(cantind, 'z-ind')
+    cantindpt = getPast(cantind, None)
+    cantindptpm = getPersonMarker(cantindpt, 'k-ind-pt')
+    
+    infl = infl + cantindpm + cantindptpm
+    
+    cantptstem = cantindstem
+    cantptstemout = getMx(cantptstem, rp_stem)
+    cantpt = getPast({'infl': cantptstem, 'src': cantdf['src']},cantptstemout)
+    cantptpm = getPersonMarker(cantpt, 'k-pt')
+    
+    infl = infl + cantptpm
+    
+    cantaorstem = cantptstem
+    cantaorstemout = getMx(cantaorstem, rp_stem)
+    cantaor = getAoristCant({'infl': cantaorstem, 'src': cantdf['src']}, cantaorstemout)
+    cantaorpm = getPersonMarker(cantaor, 'z-aor-neg')
+    
+    infl = infl + cantaorpm
     
     #wtype = noun in all cases
     for i in infl:
@@ -546,4 +613,3 @@ def processVerb(w):
 #TEST
 #for w in ['yemek', 'gitmek', 'aramak']:
 #    print(f"{w} -> {processVerb(w)}")
-
