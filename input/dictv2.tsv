@@ -17,7 +17,6 @@ aç	hungry	adj
 acaba	I wonder	phrase	acaba boş yer var mı? do you have any vacancies?				
 acaba	perhaps	adv					
 acayip	strange	adj					
-acayıp	strange	adj					
 acele	rush	noun					
 acele	hurry	noun	acele edin: hurry up	acele etmek: to hurry			
 Acele et!	Hurry up!	phrase					
@@ -41,7 +40,7 @@ acımak	to ache	verb
 açlık	hunger	noun					
 açlıktan kıvranmak	to starve	verb					
 açmak	to open	verb					
-ad	name	noun	adınız ne? what is your name?	ad koymak: to call [name]			
+ad	name	noun	adınız ne? what is your name?	ad koymak: to call [name]	adı olmak: to be called	
 ad	noun	noun					
 adlı	named	adj					
 adlı	called	adj					
@@ -49,13 +48,13 @@ ada	island	noun
 ada devleşmesi	insular gigantism	phrase					
 ada devleşmesi	island gigantism	phrase					
 ada doğanı	Eleonora's falcon	phrase					
-adam	man	noun					
+adam	man	noun						
 adamak	to dedicate	verb					
 adaptasyon	adaptation	noun					
 adenozin	adenosine	noun					
 adet	custom	noun					
+adeta	so to speak	adv					
 adi	mean	adj					
-adı olmak	to be called	verb					
 adil	fair	adj					
 adım	step	noun	adım atmak: to take a step				
 adım	pace	noun					
@@ -146,6 +145,7 @@ algoloji	algology	noun
 alim	scholar	noun					
 alın	forehead	noun					
 alınmak	to be taken	verb					
+alıntı	quotation	noun					
 alışma	adaptation	noun					
 alışmak	to get used to	verb					
 alışveriş arabası	cart [Am.]	noun					
@@ -235,6 +235,7 @@ anlaşmak	to agree	verb
 anlaşmazlık	disagreement	noun					
 anlatım	expression	noun					
 anlatmak	to tell	verb					
+anmak	to commemorate	verb
 anne	mother	noun					
 anne	mum [Br.] [coll.]	noun					
 anne ve baba	parents	noun					
@@ -330,6 +331,8 @@ aşçı	cook	noun
 aşçılık	cooking	noun					
 asıl	main	adj	asıl şimdi: right now				
 asimptot	asymptote	noun					
+aşınmak	to be eroded	verb
+aşınmak	to wear out	verb
 aşırı	extreme	adj					
 aşırı	over the top	adj					
 asit	acid	noun					
@@ -365,9 +368,10 @@ ATM	automated teller machine <ATM>	noun
 atmak	to throw	verb					
 atmış	sixty	noun					
 atölye	workshop	noun					
-avanak [argo]	twit [sl.]	noun					
+avanak	twit [sl.]	noun					
 avantaj	advantage	noun					
 Avar	Avar	noun					
+avare	vagabond	noun
 avcı	hunter	noun					
 avize	chandelier	noun					
 avlamak	to hunt	verb	gafil avlamak: to take by surprise				
@@ -399,12 +403,13 @@ ayık	sober	adj
 ayıp	rude	adj					
 ayıp	shame	noun					
 ayıplamak	to blame	verb					
+ayırt	difference	phrase	ayirt etmek: to distinguish
 ayırmak	to reserve	verb					
 ayırmak	to separate	verb					
 aylık	monthly	adv					
 ayna	mirror	noun					
 aynen	likewise	adv					
-aynı	same	adj	aynı şekilde: likewise	aynı fikirde olmak: to agree	
+aynı	same	adj	aynı şekilde: likewise	aynı fikirde olmak: to agree		
 aynı	the same	pron					
 aynı şekilde	equally	adv					
 aynı şekilde	likewise	adv					
@@ -426,14 +431,12 @@ azalmak	to decrease	verb
 azaltmak	to minimise [Br.]	verb					
 azarlamak	to berate	verb					
 azarlamak	to scold	verb					
-azat	liberation	noun					
-azat etmek	to free	verb					
-için	in order to	phrase					
-yapmak için	in order to do sth.	phrase					
+azat	liberation	noun	azat etmek: to free				
+azıcık	little	adj
 baba	dad [coll.]	noun					
 baba	father	noun	ana baba: parents				
 bacak	leg	noun					
-bacaklar {pl}	legs	noun					
+bacaklar	legs	noun					
 bacı	sister	noun					
 badem	almond	noun					
 bagaj	baggage	noun					
@@ -473,6 +476,7 @@ bal	honey	noun
 baldır kemiği	shin bone	noun					
 Bali Denizi	Bali Sea	noun					
 balık	fish	noun					
+balıkçı	fisherman	noun
 balina	whale	noun					
 balina köpek balığı	whale shark	noun					
 Balmer serileri	Balmer series	noun					
@@ -511,6 +515,7 @@ başlamak	to begin	verb
 başlamak	to start	verb					
 başlangıç	beginning	noun					
 başlangıç	start	noun					
+baskı	edition	noun
 basmak	to push	verb					
 başörtülü	headscarf	noun					
 başparmak	thumb	noun					
