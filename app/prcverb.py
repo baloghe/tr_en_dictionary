@@ -559,7 +559,6 @@ def processVerb(w):
     cantstem = ptstem
     cantstemout = ptstemout
     cantdf = getCannotDictForm({'infl': cantstem, 'src': None}, cantstemout)
-    print(f"cantdf = {cantdf}")
     cantcontstem = getContinuousStem(cantdf['infl'])
     cantcontstemout = getMx(cantcontstem, rp_stem)
     cantcont = getContinuous({'infl': cantcontstem, 'src': cantdf['src']},cantcontstemout)
@@ -603,6 +602,18 @@ def processVerb(w):
     cantaorpm = getPersonMarker(cantaor, 'z-aor-neg')
     
     infl = infl + cantaorpm
+    
+    #Would (otherwise) == Aorist + Past
+    wouldstemout = getMx(aor['infl'], rp_stem)
+    would = getPast(aor,wouldstemout)
+    wouldpm = getPersonMarker(would, 'k-pt')
+    
+    wouldnegstem = aorneg['infl'] + 'z'
+    wouldnegstemout = getMx(wouldnegstem, rp_stem)
+    wouldneg = getPast({'infl': wouldnegstem, 'src': aorneg['src']},wouldnegstemout)
+    wouldnegpm = getPersonMarker(wouldneg, 'k-pt')
+    
+    infl = infl + wouldpm + wouldnegpm
     
     #wtype = noun in all cases
     for i in infl:
