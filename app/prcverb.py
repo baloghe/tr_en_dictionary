@@ -2,6 +2,7 @@ import regex
 regex.DEFAULT_VERSION = regex.VERSION1
 
 from app.constants import *
+import app.prcnoun as noun
 
     
 rp_stem = {'last_syl_low':rp_last_syl_low
@@ -689,7 +690,78 @@ def processVerb(w):
     potaorpm = getPersonMarker(potaor, 'z-aor')
     
     infl = infl + potaorpm
+
+    #Relative clauses
+    ##Relative past: DIk + noun cases
+    relpt = pt
+    relpt['infl'] = relpt['infl'] + 'k'
+    relptout = getMx(relpt['infl'], noun.rps)
+    relptacc = noun.getAccusative(relpt, relptout)
+    relptdat = noun.getDative(relpt, relptout)
+    relptabl = noun.getAblative(relpt, relptout)
+    relptloc = noun.getLocative(relpt, relptout)
     
+    infl = infl + [relptacc, relptdat, relptabl, relptloc]
+
+    ###Noun Possessives +cases
+    relptpos = noun.getPossessive(relpt,relptout)
+    infl= infl + relptpos
+    for a in relptpos:
+        aout = getMx(a['infl'], noun.rps)
+        infl.append(noun.getAccusative(a,aout))
+        infl.append(noun.getGenitive(a,aout))
+        infl.append(noun.getKi(noun.getGenitive(a,aout)))
+        infl.append(noun.getWith(a,aout))
+        infl.append(noun.getPredicative(a,aout))
+        infl.append(noun.getAblative(a,aout))
+        infl.append(noun.getKi(noun.getAblative(a,aout)))
+        infl.append(noun.getLocative(a,aout))
+        infl.append(noun.getKi(noun.getLocative(a,aout)))
+        nind = noun.getIndirect(a,aout)
+        nindout = getMx(nind['infl'], noun.rps)
+        infl.append(noun.getPredicative(nind,nindout))
+        nindpm = noun.getPersonMarker(nind,nindout,'z-nind')
+        nindpt = noun.getPast(nind,nindout)
+        nindptout = getMx(nindpt['infl'], noun.rps)
+        infl.append(noun.getPredicative(nindpt,nindptout))
+        nindptpm = noun.getPersonMarker(nindpt,nindout,'k-pt')
+        infl = infl + nindpm + nindptpm
+
+    ##Relative future: (y)AcAk + noun cases
+    relfut = fut
+    relfut['infl'] = relfut['infl'] + 'k'
+    relfutout = getMx(relfut['infl'], noun.rps)
+    relfutacc = noun.getAccusative(relfut, relfutout)
+    relfutdat = noun.getDative(relfut, relfutout)
+    relfutabl = noun.getAblative(relfut, relfutout)
+    relfutloc = noun.getLocative(relfut, relfutout)
+    
+    infl = infl + [relfutacc, relfutdat, relfutabl, relfutloc]
+
+    ###Noun Possessives
+    relfutpos = noun.getPossessive(relfut,relfutout)
+    infl= infl + relfutpos
+    for a in relfutpos:
+        aout = getMx(a['infl'], noun.rps)
+        infl.append(noun.getAccusative(a,aout))
+        infl.append(noun.getGenitive(a,aout))
+        infl.append(noun.getKi(noun.getGenitive(a,aout)))
+        infl.append(noun.getWith(a,aout))
+        infl.append(noun.getPredicative(a,aout))
+        infl.append(noun.getAblative(a,aout))
+        infl.append(noun.getKi(noun.getAblative(a,aout)))
+        infl.append(noun.getLocative(a,aout))
+        infl.append(noun.getKi(noun.getLocative(a,aout)))
+        nind = noun.getIndirect(a,aout)
+        nindout = getMx(nind['infl'], noun.rps)
+        infl.append(noun.getPredicative(nind,nindout))
+        nindpm = noun.getPersonMarker(nind,nindout,'z-nind')
+        nindpt = noun.getPast(nind,nindout)
+        nindptout = getMx(nindpt['infl'], noun.rps)
+        infl.append(noun.getPredicative(nindpt,nindptout))
+        nindptpm = noun.getPersonMarker(nindpt,nindout,'k-pt')
+        infl = infl + nindpm + nindptpm
+
     #wtype = noun in all cases
     for i in infl:
         i['wtype'] = 'verb'
