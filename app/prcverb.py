@@ -249,6 +249,19 @@ def getCannotDictForm(stem, mx):
         ret = ret + 'ememek'
     
     return {'infl': ret, 'src': getSrc(stem, 'Can.Neg')}
+
+def getPotentialDictForm(stem, mx):
+    ret = stem['infl']
+    
+    if mx['ends_vow']:
+        ret = ret + 'y'
+    
+    if mx['last_syl_low']:
+        ret = ret + 'abilmek'
+    else:
+        ret = ret + 'ebilmek'
+    
+    return {'infl': ret, 'src': getSrc(stem, 'Pot')}
     
 def getPersonMarker(word, paradigm):
     pm = {'cont-z-pr': ['um','sun','','uz','sunuz','lar']
@@ -420,7 +433,7 @@ def processVerb(w):
     infl = infl + contnegptpm
     
     #Future
-    ##Affirmative future +in-the-past
+    ##Affirmative future +in-the-past +indirect
     fustem = getFutureStem(w)
     fustemout = getMx(fustem, rp_stem)
     fut = getFuture({'infl': fustem, 'src': None},fustemout)
@@ -432,7 +445,14 @@ def processVerb(w):
     infl = infl + futpm
     infl = infl + futptpm
     
-    ##Negative future +in-the-pastnegstem = getNegStem(w)
+    futindstem = getFuture({'infl': fustem, 'src': None},fustemout)['infl']
+    futindstemout = getMx(futindstem, rp_stem)
+    futind = getIndirect(getFuture({'infl': fustem, 'src': None},fustemout),futindstemout)
+    
+    futindpm = getPersonMarker(futind, 'z-ind')
+    infl = infl + futindpm
+    
+    ##Negative future +in-the-pastnegstem = getNegStem(w) +indirect
     negstem1 = getNegStem1(w)
     negstem1out = getMx(negstem1, rp_stem)
     futneg = getFuture({'infl': negstem1, 'src': 'Neg'},negstem1out)
@@ -444,6 +464,13 @@ def processVerb(w):
     
     infl = infl + futnegpm
     infl = infl + futnegptpm
+    
+    futnegindstem = getFuture({'infl': negstem1, 'src': 'Neg'},negstem1out)['infl']
+    futnegindstemout = getMx(futnegindstem, rp_stem)
+    futnegind = getIndirect(getFuture({'infl': negstem1, 'src': 'Neg'},negstem1out),futnegindstemout)
+    
+    futnegindpm = getPersonMarker(futnegind, 'z-ind')
+    infl = infl + futnegindpm
     
     #Indirect
     ##Indirect Affirmative +past
@@ -614,6 +641,54 @@ def processVerb(w):
     wouldnegpm = getPersonMarker(wouldneg, 'k-pt')
     
     infl = infl + wouldpm + wouldnegpm
+    
+    #Potential Affirmative (y)Abil
+    potdfstem = ptstem
+    potdfstemout = ptstemout
+    potdf = getPotentialDictForm({'infl': potdfstem, 'src': None},potdfstemout)
+    potcontstem = getContinuousStem(potdf['infl'])
+    potcontstemout = getMx(potcontstem, rp_stem)
+    potcont = getContinuous({'infl': potcontstem, 'src': potdf['src']},potcontstemout)
+    potcontpt = getPast(potcont, None)
+    potcont['src'] = getSrc(potcont, 'Pr')
+    
+    potcontpm = getPersonMarker(potcont, 'cont-z-pr')
+    potcontptpm = getPersonMarker(potcontpt, 'cont-k-pt')
+    
+    infl = infl + potcontpm + potcontptpm
+    
+    potfutstem = getFutureStem(potdf['infl'])
+    potfutstemout = getMx(potfutstem, rp_stem)
+    potfut = getFuture({'infl': potfutstem, 'src': potdf['src']},potfutstemout)
+    potfutpt = getPast(potfut, None)
+    
+    potfutpm = getPersonMarker(potfut, 'z-fut')
+    potfutptpm = getPersonMarker(potfutpt, 'k-pt')
+    
+    infl = infl + potfutpm + potfutptpm
+    
+    potindstem = getStem(potdf['infl'])
+    potindstemout = getMx(potindstem, rp_stem)
+    potind = getIndirect({'infl': potindstem, 'src': potdf['src']},potindstemout)
+    potindpm = getPersonMarker(potind, 'z-ind')
+    potindpt = getPast(potind, None)
+    potindptpm = getPersonMarker(potindpt, 'k-ind-pt')
+    
+    infl = infl + potindpm + potindptpm
+    
+    potptstem = potindstem
+    potptstemout = getMx(potptstem, rp_stem)
+    potpt = getPast({'infl': potptstem, 'src': potdf['src']},potptstemout)
+    potptpm = getPersonMarker(potpt, 'k-pt')
+    
+    infl = infl + potptpm
+    
+    potaorstem = potptstem
+    potaorstemout = getMx(potaorstem, rp_stem)
+    potaor = getAorist({'infl': potaorstem, 'src': potdf['src']}, potaorstemout)
+    potaorpm = getPersonMarker(potaor, 'z-aor')
+    
+    infl = infl + potaorpm
     
     #wtype = noun in all cases
     for i in infl:
