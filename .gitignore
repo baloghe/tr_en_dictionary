@@ -155,6 +155,7 @@ cython_debug/
 # Large interim results
 interim_output/TR_EN_prod.html
 interim_output/TR_EN_prod.json
+mobi/TR_EN_prod.html
 
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can

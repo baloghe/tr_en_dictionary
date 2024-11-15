@@ -6,10 +6,12 @@ WORDTYPE_MAP = {'verb': 'verb'
     ,'phrase': 'phrase'
     ,'adj': 'adjective'
     ,'adv': 'adverb'
-    ,'conj': 'conjuncture'
+    ,'conj': 'conjunction'
     ,'part': 'particle'
     ,'prep': 'preposition'
-    ,'pron': 'pronoun'}
+    ,'pron': 'pronoun'
+    ,'posp': 'postposition'
+    ,'det': 'determinant'}
 
 EXCEPTIONS = {
         'PLURAL':{

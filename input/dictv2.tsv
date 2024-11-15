@@ -2641,7 +2641,7 @@ fantastik	fantastic	adj
 fantezi	fantasy	noun
 far	headlight	noun
 fare	mouse	noun
-fare	mouse, rat	noun
+fare	rat	noun
 fark	difference	noun	fark etmek: to notice
 farketmek	to notice, to realize	verb
 farklı	different	adj
@@ -2651,7 +2651,7 @@ farkında olmak	to be aware of	verb
 farkında	aware	adj
 farz	duty	noun
 fasulye	bean	noun
-fasulye	bean, beans	noun
+fasulye	bean	noun
 fasıl	section	noun
 fatura	bill	noun
 fatura	invoice, bill	noun
@@ -6953,7 +6953,7 @@ sıcaklık	temperature	noun
 sıfat	adjective	noun
 sıfat	title	noun
 sıhhiyeci	paramedic	noun
-sık	frequent 	adv sık sık: often
+sık	frequent	adv	sık sık: often
 sıklık	frequency	noun
 sıkmak	to squeeze	verb
 sıkça	frequently	adv
@@ -7453,7 +7453,7 @@ toplam	total	adj
 toplam	total, sum	noun
 toplama	addition	noun
 toplamak	to collect	verb
-toplamak	to gather; to collect	verb
+toplamak	to gather	verb
 toplamak	to tidy up	verb
 toplanan	addend	noun
 toplantı	meeting	noun
@@ -7495,7 +7495,7 @@ tsunami	tsunami	noun
 tufan	flood, deluge	noun
 tuhaf	odd	adj
 tuhaf	strange	adj
-tuhaf	strange, odd, weird	adj
+tuhaf	weird	adj
 tunç	bronze	noun
 tur	tour	noun
 turist	tourist	noun
@@ -7503,7 +7503,6 @@ turistik yer	sight	noun
 turistik	touristic	adj
 turizm	tourism	noun
 turuncu	orange (colour)	adj
-turuncu	orange	adj
 tutanak	official report, minutes	noun
 tutarlı	consistent, coherent	adj
 tutarlılık	consistency	noun
@@ -8048,8 +8047,7 @@ yazlık	summer house	noun
 yazmak	to write	verb
 yazı tura atmak	to toss	verb
 yazı	writing	noun
-yazık	pity	Yazık! What a pity!
-yazık	pity, shame	noun
+yazık	pity, shame	noun	Yazık! What a pity!
 yazılı	inscribed; written; registered	adj
 yazılım	software	noun
 yazım	writing	noun
