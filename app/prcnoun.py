@@ -365,8 +365,8 @@ def processNoun(w):
     infl.append(getKi(plrloc))
     
     #Past and personal marker applied to nominal
-    wpm = getPersonMarker({'infl': w, 'src': None},wout,'z-ind')
-    plrpm = getPersonMarker(plr,plrout,'z-ind')
+    wpm = getPersonMarker({'infl': w, 'src': 'Aor'},wout,'z-ind')
+    plrpm = getPersonMarker({'infl': plr['infl'], 'src': getSrc(plr,'Aor')},plrout,'z-ind')
     
     infl = infl + wpm + plrpm
     

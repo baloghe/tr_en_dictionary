@@ -1,0 +1,40 @@
+<?xml version="1.0"?><!DOCTYPE package SYSTEM "oeb1.ent">
+
+<!-- the command line instruction 'prcgen dictionary.opf' will produce the dictionary.prc file in the same folder-->
+<!-- the command line instruction 'mobigen dictionary.opf' will produce the dictionary.mobi file in the same folder-->
+
+<package unique-identifier="uid" xmlns:dc="Dublin Core">
+
+<meta name="cover" content="my-cover-image" />
+
+<metadata>
+	<dc-metadata xmlns:opf="http://www.idpf.org/2007/opf>
+		<dc:Identifier id="uid">dict</dc:Identifier>
+		<!-- Title of the document -->
+		<dc:Title><h2>TR-EN dictionary TEST</h2></dc:Title>
+		<dc:Language>EN</dc:Language>
+		<dc:Publisher>Endre Balogh</dc:Publisher>
+		<dc:creator opf:role="aut">Balogh, Endre</dc:creator>
+	</dc-metadata>
+	<x-metadata>
+		<output encoding="utf-8" flatten-dynamic-dir="yes"/>
+		<DictionaryInLanguage>tr</DictionaryInLanguage>
+		<DictionaryOutLanguage>en-us</DictionaryOutLanguage>
+	</x-metadata>
+</metadata>
+
+<!-- list of all the files needed to produce the .prc file -->
+<manifest>
+ <item id="dictionary0" href="../interim_output/tstdict.html" media-type="text/x-oeb1-document"/>
+ <item id="my-cover-image" href="cover.jpg" media-type="image/jpeg" />
+</manifest>
+
+
+<!-- list of the html files in the correct order  -->
+<spine>
+	<itemref idref="dictionary0"/>
+</spine>
+
+<tours/>
+<guide> <reference type="search" title="Dictionary Search" onclick= "index_search()"/> </guide>
+</package>
