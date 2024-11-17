@@ -4,7 +4,7 @@ regex.DEFAULT_VERSION = regex.VERSION1
 from app.constants import *
 import app.prcnoun as noun
 
-    
+
 rp_stem = {'last_syl_low':rp_last_syl_low
             ,'ends_cons':rp_ends_cons
             ,'ends_vow':rp_ends_vow
@@ -20,10 +20,7 @@ def getSrc(word, actSrc):
     if word['src']:
         return word['src'] + '.' + actSrc
     else:
-        return actSrc
-
-def getStem(word):
-    return word[:len(word)-3]
+        return actSrc    
 
 def getContinuousStem(word):
     stem = getStem(word)
@@ -43,12 +40,18 @@ def getFutureStem(word):
         return EXCEPTIONS['CONTINUOUS_STEM'][stem]
     else:
         return stem
-        
-def getNegStem(word):
-    return word[:len(word)-2]
 
-def getNegStem1(word):
-    return word[:len(word)-1]
+def getStem(word, inMarker=None):
+    if inMarker=='Cont':
+        return getContinuousStem(word)
+    elif inMarker=='Fut':
+        return getFutureStem(word)
+    elif inMarker=='Neg-Cont':
+        return word[:len(word)-2]
+    elif inMarker=='Neg':
+        return word[:len(word)-1]
+    else:
+        return word[:len(word)-3]
 
 def getContinuous(stem, mx):
     if stem['infl'] in EXCEPTIONS['CONTINUOUS']:
@@ -225,9 +228,9 @@ def getNecessitative(stem, mx):
         
     return {'infl': ret, 'src': getSrc(stem, 'Nec')}
 
-def getObligation(stem):
-    ret = stem
+def getObligation(stem, neg=False):
     negret = stem
+    ret = stem
     
     if stem[len(stem)-3:] == 'mak':
         ret = stem[:len(stem)-3] + 'mağa'
@@ -236,7 +239,10 @@ def getObligation(stem):
         ret = stem[:len(stem)-3] + 'meğe'
         negret = stem[:len(stem)-3] + 'memeğe'
         
-    return [{'infl': ret, 'src': 'Obl'}, {'infl': negret, 'src': 'Obl'}]
+    if(neg):
+        return {'infl': negret, 'src': 'Neg.Obl'}
+    else:
+        return {'infl': ret, 'src': 'Obl'}
 
 def getCannotDictForm(stem, mx):
     ret = stem['infl']
@@ -397,11 +403,11 @@ def getPersonMarker(word, paradigm):
         
     return ret
 
-def processVerb(w):
+def processCont(w):
 
     infl = []
 
-    prstem = getContinuousStem(w)
+    prstem = getStem(w, 'Cont')
 
     #Continuous (y)Iyor
     ##Affirmative Continuous
@@ -420,7 +426,7 @@ def processVerb(w):
     
     ##Negative Continuous
     ###Negative Continuous Present
-    negstem = getNegStem(w)
+    negstem = getStem(w, 'Neg-Cont')
     negstemout = getMx(negstem, rp_stem)
     contneg = getContinuous({'infl': negstem, 'src': 'Neg'},negstemout)
     contnegpt = getPast(contneg, None)
@@ -433,9 +439,15 @@ def processVerb(w):
     contnegptpm = getPersonMarker(contnegpt, 'cont-k-pt')
     infl = infl + contnegptpm
     
+    return infl
+
+def processFut(w):
+
+    infl = []
+    
     #Future
     ##Affirmative future +in-the-past +indirect
-    fustem = getFutureStem(w)
+    fustem = getStem(w, 'Fut')
     fustemout = getMx(fustem, rp_stem)
     fut = getFuture({'infl': fustem, 'src': None},fustemout)
     futpt = getPast(fut, None)
@@ -452,9 +464,52 @@ def processVerb(w):
     
     futindpm = getPersonMarker(futind, 'z-ind')
     infl = infl + futindpm
+
+    ##Relative future: (y)AcAk + noun cases
+    fustem = getStem(w, 'Fut')
+    fustemout = getMx(fustem, rp_stem)
+    relfut = getFuture({'infl': fustem, 'src': None},fustemout)
+    relfut['infl'] = relfut['infl']
+    relfutout = getMx(relfut['infl'], noun.rps)
+    relfutacc = noun.getAccusative(relfut, relfutout)
+    relfutdat = noun.getDative(relfut, relfutout)
+    relfutabl = noun.getAblative(relfut, relfutout)
+    relfutloc = noun.getLocative(relfut, relfutout)
+    
+    infl = infl + [relfutacc, relfutdat, relfutabl, relfutloc]
+
+    ###Noun Possessives
+    relfutpos = noun.getPossessive(relfut,relfutout)
+    infl= infl + relfutpos
+    for a in relfutpos:
+        aout = getMx(a['infl'], noun.rps)
+        infl.append(noun.getAccusative(a,aout))
+        infl.append(noun.getGenitive(a,aout))
+        infl.append(noun.getKi(noun.getGenitive(a,aout)))
+        infl.append(noun.getWith(a,aout))
+        infl.append(noun.getPredicative(a,aout))
+        infl.append(noun.getAblative(a,aout))
+        infl.append(noun.getKi(noun.getAblative(a,aout)))
+        infl.append(noun.getLocative(a,aout))
+        infl.append(noun.getKi(noun.getLocative(a,aout)))
+        nind = noun.getIndirect(a,aout)
+        nindout = getMx(nind['infl'], noun.rps)
+        infl.append(noun.getPredicative(nind,nindout))
+        nindpm = noun.getPersonMarker(nind,nindout,'z-nind')
+        nindpt = noun.getPast(nind,nindout)
+        nindptout = getMx(nindpt['infl'], noun.rps)
+        infl.append(noun.getPredicative(nindpt,nindptout))
+        nindptpm = noun.getPersonMarker(nindpt,nindout,'k-pt')
+        infl = infl + nindpm + nindptpm
+    
+    return infl
+
+def processNeg(w):
+
+    infl = []
     
     ##Negative future +in-the-pastnegstem = getNegStem(w) +indirect
-    negstem1 = getNegStem1(w)
+    negstem1 = getStem(w, 'Neg')
     negstem1out = getMx(negstem1, rp_stem)
     futneg = getFuture({'infl': negstem1, 'src': 'Neg'},negstem1out)
     #print(f"w :: negstem1={negstem1} , futneg={futneg}")
@@ -473,7 +528,97 @@ def processVerb(w):
     futnegindpm = getPersonMarker(futnegind, 'z-ind')
     infl = infl + futnegindpm
     
-    #Indirect
+    ##Indirect Negative +past
+    indneg = getIndirect({'infl': negstem1, 'src': 'Neg'},negstem1out)
+    indnegpm = getPersonMarker(indneg, 'z-ind')
+    indnegpt = getPast(indneg, None)
+    indnegptpm = getPersonMarker(indnegpt, 'k-ind-pt')
+    
+    infl = infl + indnegpm
+    infl = infl + indnegptpm
+    
+    ##Negative Simple Past
+    negpt = getPast({'infl': negstem1, 'src': 'Neg'},negstem1out)
+    negptpm = getPersonMarker(negpt, 'k-pt')
+    infl = infl + negptpm
+    
+    #Aorist +ken
+    aorneg = {'infl': negstem1, 'src': 'Neg.Aor'}
+    aornegpm = getPersonMarker(aorneg, 'z-aor-neg')
+    kenneg = getKen(aorneg, mode='negative')
+    infl = infl + aornegpm + [kenneg]
+    
+    #Progressive mAktA
+    maktanegstem = negstem1
+    maktaneg = getProgressive({'infl': maktanegstem, 'src': 'Neg'}, getMx(getStem(w), rp_stem))
+    
+    infl = infl + [maktaneg]
+    
+    #Predicative DIr +past mIstIr
+    pcontnegstem = getContinuous({'infl': getStem(w, 'Neg-Cont'), 'src': 'Neg'},getMx(getStem(w, 'Neg-Cont'), rp_stem))
+    pcontnegout = getMx(pcontnegstem['infl'], rp_stem)
+    pmaktanegstem = maktaneg
+    pmaktanegout = getMx(pmaktanegstem['infl'], rp_stem)
+    pmistirnegstem = indneg
+    pmistirnegout = getMx(pmistirnegstem['infl'], rp_stem)
+    
+    pcontneg = getPredicative(pcontnegstem, pcontnegout)
+    pmaktaneg = getPredicative(pmaktanegstem, pmaktanegout)
+    pmistirneg = getPredicative(pmistirnegstem, pmistirnegout)
+    
+    infl = infl + [pcontneg, pmaktaneg, pmistirneg]
+    
+    #Imperative
+    impnegstem = negstem1
+    impneg = getImperative({'infl': impnegstem, 'src': None}, None)
+    impnegpm = getPersonMarker(impneg, 'z-imp')
+    
+    infl = infl + impnegpm
+    
+    #Optative
+    optnegstem = negstem1
+    optneg = getOptative({'infl': optnegstem, 'src': None}, None)
+    optnegpm = getPersonMarker(optneg, 'm-opt')
+    
+    infl = infl + optnegpm
+    
+    #Necessitative
+    necnegstem = negstem1
+    necnegstemout = negstem1out
+    necneg = getNecessitative({'infl': necnegstem, 'src': None}, necnegstemout)
+    necnegpm = getPersonMarker(necneg, 'z-nec')
+    
+    infl = infl + necnegpm
+    
+    #Would (otherwise) == Aorist + Past    
+    wouldnegstem = aorneg['infl'] + 'z'
+    wouldnegstemout = getMx(wouldnegstem, rp_stem)
+    wouldneg = getPast({'infl': wouldnegstem, 'src': aorneg['src']},wouldnegstemout)
+    wouldnegpm = getPersonMarker(wouldneg, 'k-pt')
+    
+    infl = infl + wouldnegpm
+    
+    #Obligation (with mecbur)
+    infl.append(getObligation(w, True))
+    
+    #Relative clauses
+    ##Relative past: DIk + noun cases
+    relnegpt = negpt
+    relnegpt['infl'] = relnegpt['infl'] + 'k'
+    relnegptout = getMx(relnegpt['infl'], noun.rps)
+    relnegptacc = noun.getAccusative(relnegpt, relnegptout)
+    relnegptdat = noun.getDative(relnegpt, relnegptout)
+    relnegptabl = noun.getAblative(relnegpt, relnegptout)
+    relnegptloc = noun.getLocative(relnegpt, relnegptout)
+    
+    infl = infl + [relnegptacc, relnegptdat, relnegptabl, relnegptloc]
+    
+    return infl
+
+def processInd(w):
+
+    infl = []
+    
     ##Indirect Affirmative +past
     indstem = getStem(w)
     indstemout = getMx(indstem, rp_stem)
@@ -485,109 +630,94 @@ def processVerb(w):
     infl = infl + indpm
     infl = infl + indptpm
     
-    ##Indirect Negative +past
-    indneg = getIndirect({'infl': negstem1, 'src': 'Neg'},negstem1out)
-    indnegpm = getPersonMarker(indneg, 'z-ind')
-    indnegpt = getPast(indneg, None)
-    indnegptpm = getPersonMarker(indnegpt, 'k-ind-pt')
+    return infl
+
+def processPt(w):
+
+    infl = []
     
-    infl = infl + indnegpm
-    infl = infl + indnegptpm
-    
-    #Past
     ptstem = getStem(w)
     ptstemout = getMx(ptstem, rp_stem)
     pt = getPast({'infl': ptstem, 'src': None},ptstemout)
-    negpt = getPast({'infl': negstem1, 'src': 'Neg'},negstem1out)
     ptpm = getPersonMarker(pt, 'k-pt')
-    negptpm = getPersonMarker(negpt, 'k-pt')
     
-    infl = infl + ptpm + negptpm
+    infl = infl + ptpm
+
+    #Relative clauses
+    ##Relative past: DIk + noun cases
+    ptstem = getStem(w)
+    ptstemout = getMx(ptstem, rp_stem)
+    pt = getPast({'infl': ptstem, 'src': None},ptstemout)
+    relpt = pt
+    relpt['infl'] = relpt['infl'] + 'k'
+    relptout = getMx(relpt['infl'], noun.rps)
+    relptacc = noun.getAccusative(relpt, relptout)
+    relptdat = noun.getDative(relpt, relptout)
+    relptabl = noun.getAblative(relpt, relptout)
+    relptloc = noun.getLocative(relpt, relptout)
+    
+    infl = infl + [relptacc, relptdat, relptabl, relptloc]
+
+    ###Noun Possessives +cases
+    relptpos = noun.getPossessive(relpt,relptout)
+    infl= infl + relptpos
+    for a in relptpos:
+        aout = getMx(a['infl'], noun.rps)
+        infl.append(noun.getAccusative(a,aout))
+        infl.append(noun.getGenitive(a,aout))
+        infl.append(noun.getKi(noun.getGenitive(a,aout)))
+        infl.append(noun.getWith(a,aout))
+        infl.append(noun.getPredicative(a,aout))
+        infl.append(noun.getAblative(a,aout))
+        infl.append(noun.getKi(noun.getAblative(a,aout)))
+        infl.append(noun.getLocative(a,aout))
+        infl.append(noun.getKi(noun.getLocative(a,aout)))
+        nind = noun.getIndirect(a,aout)
+        nindout = getMx(nind['infl'], noun.rps)
+        infl.append(noun.getPredicative(nind,nindout))
+        nindpm = noun.getPersonMarker(nind,nindout,'z-nind')
+        nindpt = noun.getPast(nind,nindout)
+        nindptout = getMx(nindpt['infl'], noun.rps)
+        infl.append(noun.getPredicative(nindpt,nindptout))
+        nindptpm = noun.getPersonMarker(nindpt,nindout,'k-pt')
+        
+        infl = infl + nindpm + nindptpm
+    
+    return infl
+
+def processAor(w):
+
+    infl = []
     
     #Aorist +ken
-    aorstem = ptstem
-    aorstemout = ptstemout
+    aorstem = getStem(w)
+    aorstemout = getMx(aorstem, rp_stem)
     aor = getAorist({'infl': aorstem, 'src': None}, aorstemout)
-    aorneg = {'infl': negstem1, 'src': 'Neg.Aor'}
     aorpm = getPersonMarker(aor, 'z-aor')
-    aornegpm = getPersonMarker(aorneg, 'z-aor-neg')
     ken = getKen(aor)
-    kenneg = getKen(aorneg, mode='negative')
     
-    infl = infl + aorpm + aornegpm + [ken, kenneg]
+    infl = infl + aorpm + [ken]
     
-    #Progressive mAktA
-    maktastem = ptstem
-    maktastemout = ptstemout
-    makta = getProgressive({'infl': maktastem, 'src': None}, maktastemout)
-    maktanegstem = negstem1
-    maktaneg = getProgressive({'infl': maktanegstem, 'src': 'Neg'}, maktastemout)
+    #Would (otherwise) == Aorist + Past
+    wouldstemout = getMx(aor['infl'], rp_stem)
+    would = getPast(aor,wouldstemout)
+    wouldpm = getPersonMarker(would, 'k-pt')
     
-    infl = infl + [makta, maktaneg]
+    infl = infl + wouldpm
     
-    #Predicative DIr +past mIstIr
-    pcontstem = cont
-    pcontout = getMx(pcontstem['infl'], rp_stem)
-    pcontnegstem = contneg
-    pcontnegout = getMx(pcontnegstem['infl'], rp_stem)
-    pmaktastem = makta
-    pmaktaout = getMx(pmaktastem['infl'], rp_stem)
-    pmaktanegstem = maktaneg
-    pmaktanegout = getMx(pmaktanegstem['infl'], rp_stem)
-    pmistirstem = ind
-    pmistirout = getMx(pmistirstem['infl'], rp_stem)
-    pmistirnegstem = indneg
-    pmistirnegout = getMx(pmistirnegstem['infl'], rp_stem)
-    
-    pcont = getPredicative(pcontstem, pcontout)
-    pcontneg = getPredicative(pcontnegstem, pcontnegout)
-    pmakta = getPredicative(pmaktastem, pmaktaout)
-    pmaktaneg = getPredicative(pmaktanegstem, pmaktanegout)
-    pmistir = getPredicative(pmistirstem, pmistirout)
-    pmistirneg = getPredicative(pmistirnegstem, pmistirnegout)
-    
-    infl = infl + [pcont, pcontneg, pmakta, pmaktaneg, pmistir, pmistirneg]
-    
-    #Imperative
-    impstem = ptstem
-    imp = getImperative({'infl': impstem, 'src': None}, None)
-    impnegstem = negstem1
-    impneg = getImperative({'infl': impnegstem, 'src': None}, None)
-    imppm = getPersonMarker(imp, 'z-imp')
-    impnegpm = getPersonMarker(impneg, 'z-imp')
-    
-    infl = infl + imppm + impnegpm
-    
-    #Optative
-    optstem = ptstem
-    opt = getOptative({'infl': optstem, 'src': None}, None)
-    optnegstem = negstem1
-    optneg = getOptative({'infl': optnegstem, 'src': None}, None)
-    optpm = getPersonMarker(opt, 'm-opt')
-    optnegpm = getPersonMarker(optneg, 'm-opt')
-    
-    infl = infl + optpm + optnegpm
-    
-    #Necessitative
-    necstem = ptstem
-    necstemout = ptstemout
-    nec = getNecessitative({'infl': necstem, 'src': None}, necstemout)
-    necnegstem = negstem1
-    necnegstemout = negstem1out
-    necneg = getNecessitative({'infl': necnegstem, 'src': None}, necnegstemout)
-    necpm = getPersonMarker(nec, 'z-nec')
-    necnegpm = getPersonMarker(necneg, 'z-nec')
-    
-    infl = infl + necpm + necnegpm
-    
-    #Obligation (with mecbur)
-    infl = infl + getObligation(w) #includes negative as well
+    return infl
+
+def processCannot(w):
+
+    infl = []
             
     #Cannot = Stem+(y)a/e+Neg+Tense+PersonMarker
+    ptstem = getStem(w)
+    ptstemout = getMx(ptstem, rp_stem)
     cantstem = ptstem
     cantstemout = ptstemout
     cantdf = getCannotDictForm({'infl': cantstem, 'src': None}, cantstemout)
-    cantcontstem = getContinuousStem(cantdf['infl'])
+    cantcontstem = getStem(cantdf['infl'], 'Cont')
     cantcontstemout = getMx(cantcontstem, rp_stem)
     cantcont = getContinuous({'infl': cantcontstem, 'src': cantdf['src']},cantcontstemout)
     cantcontpt = getPast(cantcont, None)
@@ -631,23 +761,19 @@ def processVerb(w):
     
     infl = infl + cantaorpm
     
-    #Would (otherwise) == Aorist + Past
-    wouldstemout = getMx(aor['infl'], rp_stem)
-    would = getPast(aor,wouldstemout)
-    wouldpm = getPersonMarker(would, 'k-pt')
-    
-    wouldnegstem = aorneg['infl'] + 'z'
-    wouldnegstemout = getMx(wouldnegstem, rp_stem)
-    wouldneg = getPast({'infl': wouldnegstem, 'src': aorneg['src']},wouldnegstemout)
-    wouldnegpm = getPersonMarker(wouldneg, 'k-pt')
-    
-    infl = infl + wouldpm + wouldnegpm
+    return infl
+
+def processPot(w):
+
+    infl = []
     
     #Potential Affirmative (y)Abil
+    ptstem = getStem(w)
+    ptstemout = getMx(ptstem, rp_stem)
     potdfstem = ptstem
     potdfstemout = ptstemout
     potdf = getPotentialDictForm({'infl': potdfstem, 'src': None},potdfstemout)
-    potcontstem = getContinuousStem(potdf['infl'])
+    potcontstem = getStem(potdf['infl'], 'Cont')
     potcontstemout = getMx(potcontstem, rp_stem)
     potcont = getContinuous({'infl': potcontstem, 'src': potdf['src']},potcontstemout)
     potcontpt = getPast(potcont, None)
@@ -658,7 +784,7 @@ def processVerb(w):
     
     infl = infl + potcontpm + potcontptpm
     
-    potfutstem = getFutureStem(potdf['infl'])
+    potfutstem = getStem(potdf['infl'], 'Fut')
     potfutstemout = getMx(potfutstem, rp_stem)
     potfut = getFuture({'infl': potfutstem, 'src': potdf['src']},potfutstemout)
     potfutpt = getPast(potfut, None)
@@ -690,77 +816,95 @@ def processVerb(w):
     potaorpm = getPersonMarker(potaor, 'z-aor')
     
     infl = infl + potaorpm
-
-    #Relative clauses
-    ##Relative past: DIk + noun cases
-    relpt = pt
-    relpt['infl'] = relpt['infl'] + 'k'
-    relptout = getMx(relpt['infl'], noun.rps)
-    relptacc = noun.getAccusative(relpt, relptout)
-    relptdat = noun.getDative(relpt, relptout)
-    relptabl = noun.getAblative(relpt, relptout)
-    relptloc = noun.getLocative(relpt, relptout)
     
-    infl = infl + [relptacc, relptdat, relptabl, relptloc]
+    return infl
 
-    ###Noun Possessives +cases
-    relptpos = noun.getPossessive(relpt,relptout)
-    infl= infl + relptpos
-    for a in relptpos:
-        aout = getMx(a['infl'], noun.rps)
-        infl.append(noun.getAccusative(a,aout))
-        infl.append(noun.getGenitive(a,aout))
-        infl.append(noun.getKi(noun.getGenitive(a,aout)))
-        infl.append(noun.getWith(a,aout))
-        infl.append(noun.getPredicative(a,aout))
-        infl.append(noun.getAblative(a,aout))
-        infl.append(noun.getKi(noun.getAblative(a,aout)))
-        infl.append(noun.getLocative(a,aout))
-        infl.append(noun.getKi(noun.getLocative(a,aout)))
-        nind = noun.getIndirect(a,aout)
-        nindout = getMx(nind['infl'], noun.rps)
-        infl.append(noun.getPredicative(nind,nindout))
-        nindpm = noun.getPersonMarker(nind,nindout,'z-nind')
-        nindpt = noun.getPast(nind,nindout)
-        nindptout = getMx(nindpt['infl'], noun.rps)
-        infl.append(noun.getPredicative(nindpt,nindptout))
-        nindptpm = noun.getPersonMarker(nindpt,nindout,'k-pt')
-        infl = infl + nindpm + nindptpm
+def processVerb(w):
 
-    ##Relative future: (y)AcAk + noun cases
-    relfut = fut
-    relfut['infl'] = relfut['infl'] + 'k'
-    relfutout = getMx(relfut['infl'], noun.rps)
-    relfutacc = noun.getAccusative(relfut, relfutout)
-    relfutdat = noun.getDative(relfut, relfutout)
-    relfutabl = noun.getAblative(relfut, relfutout)
-    relfutloc = noun.getLocative(relfut, relfutout)
+    infl = []
+
+    #Continuous
+    infl = infl + processCont(w)
     
-    infl = infl + [relfutacc, relfutdat, relfutabl, relfutloc]
-
-    ###Noun Possessives
-    relfutpos = noun.getPossessive(relfut,relfutout)
-    infl= infl + relfutpos
-    for a in relfutpos:
-        aout = getMx(a['infl'], noun.rps)
-        infl.append(noun.getAccusative(a,aout))
-        infl.append(noun.getGenitive(a,aout))
-        infl.append(noun.getKi(noun.getGenitive(a,aout)))
-        infl.append(noun.getWith(a,aout))
-        infl.append(noun.getPredicative(a,aout))
-        infl.append(noun.getAblative(a,aout))
-        infl.append(noun.getKi(noun.getAblative(a,aout)))
-        infl.append(noun.getLocative(a,aout))
-        infl.append(noun.getKi(noun.getLocative(a,aout)))
-        nind = noun.getIndirect(a,aout)
-        nindout = getMx(nind['infl'], noun.rps)
-        infl.append(noun.getPredicative(nind,nindout))
-        nindpm = noun.getPersonMarker(nind,nindout,'z-nind')
-        nindpt = noun.getPast(nind,nindout)
-        nindptout = getMx(nindpt['infl'], noun.rps)
-        infl.append(noun.getPredicative(nindpt,nindptout))
-        nindptpm = noun.getPersonMarker(nindpt,nindout,'k-pt')
-        infl = infl + nindpm + nindptpm
+    #Future
+    infl = infl + processFut(w)
+    
+    #Negative
+    infl = infl + processNeg(w)
+    
+    #Indirect
+    infl = infl + processInd(w)
+    
+    #Past
+    infl = infl + processPt(w)
+    
+    #Aorist +ken
+    infl = infl + processAor(w)
+    
+    #Cannot = Stem+(y)a/e+Neg+Tense+PersonMarker
+    infl = infl + processCannot(w)
+    
+    #Potential Affirmative (y)Abil
+    infl = infl + processPot(w)
+    
+    #Other cases/tenses
+    
+    #Progressive mAktA
+    ptstem = getStem(w)
+    ptstemout = getMx(ptstem, rp_stem)
+    maktastem = ptstem
+    maktastemout = ptstemout
+    makta = getProgressive({'infl': maktastem, 'src': None}, maktastemout)
+    
+    infl = infl + [makta]
+    
+    #Predicative DIr +past mIstIr
+    pcontstem = getContinuous({'infl': getStem(w, 'Cont'), 'src': None},getMx(getStem(w, 'Cont'), rp_stem))
+    pcontout = getMx(pcontstem['infl'], rp_stem)
+    pmaktastem = makta
+    pmaktaout = getMx(pmaktastem['infl'], rp_stem)
+    indstem = getStem(w)
+    indstemout = getMx(indstem, rp_stem)
+    ind = getIndirect({'infl': indstem, 'src': None},indstemout)
+    pmistirstem = ind
+    pmistirout = getMx(pmistirstem['infl'], rp_stem)
+    
+    pcont = getPredicative(pcontstem, pcontout)
+    pmakta = getPredicative(pmaktastem, pmaktaout)
+    pmistir = getPredicative(pmistirstem, pmistirout)
+    
+    infl = infl + [pcont, pmakta, pmistir]
+    
+    #Imperative
+    ptstem = getStem(w)
+    ptstemout = getMx(ptstem, rp_stem)
+    impstem = ptstem
+    imp = getImperative({'infl': impstem, 'src': None}, None)
+    imppm = getPersonMarker(imp, 'z-imp')
+    
+    infl = infl + imppm
+    
+    #Optative
+    ptstem = getStem(w)
+    ptstemout = getMx(ptstem, rp_stem)
+    optstem = ptstem
+    opt = getOptative({'infl': optstem, 'src': None}, None)
+    optpm = getPersonMarker(opt, 'm-opt')
+    
+    infl = infl + optpm
+    
+    #Necessitative
+    ptstem = getStem(w)
+    ptstemout = getMx(ptstem, rp_stem)
+    necstem = ptstem
+    necstemout = ptstemout
+    nec = getNecessitative({'infl': necstem, 'src': None}, necstemout)
+    necpm = getPersonMarker(nec, 'z-nec')
+    
+    infl = infl + necpm
+    
+    #Obligation (with mecbur)
+    infl.append(getObligation(w))
 
     #wtype = noun in all cases
     for i in infl:
