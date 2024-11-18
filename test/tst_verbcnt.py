@@ -12,11 +12,18 @@ def prcSrc(src):
             ret.append(i)
     return ret
 
-def getFirstSrc(src):
-    s = src.split('.')
-    return s[0]
+def getSlot(parents, keys):
+    ret = ''
+    for k in keys:
+        for p in parents:
+            if not ret and k==p:
+                ret = k
+            #print(f"p={p} - k={k} - ret={ret}")
+    if not ret:
+        ret = 'OTH'
+    return ret
 
-ks = ['Aor','Cont','Ind','Nec','Can','Fut','Neg','Pot','Pt','OTH']
+ks = ['Aor','Cont','Ind','Nec','Can','Fut','Neg.Fut','Neg.Pt','Neg','Pot','Pt','OTH']
 pdict = {}
 odict = {}
 for k in ks:
@@ -26,18 +33,16 @@ p = processVerb(WRD)
 
 for a in p:
     parents = prcSrc(a['src'])
-    first = getFirstSrc(a['src'])
     for q in parents:
         if q in pdict:
             pdict[q] = pdict[q] + 1
         else:
             pdict[q] = 1
     
-    if first not in odict:
-        first = 'OTH'
-    odict[first][1] = odict[first][1] + 1
-    if len(odict[first][0])==0 or len(odict[first][0]) > len(a['infl']):
-        odict[first][0] = a['infl']
+    slot = getSlot(parents, ks)
+    odict[slot][1] = odict[slot][1] + 1
+    if len(odict[slot][0])==0 or len(odict[slot][0]) > len(a['infl']):
+        odict[slot][0] = a['infl']
 
 print("Parents' dict ::")
 for k in sorted(pdict.keys()):
@@ -46,14 +51,16 @@ print("Representants' dict ::")
 for k in sorted(odict.keys()):
     print(f"{k}\t{odict[k]}")
 '''
-Aor     ['arar', 13]
-Can     ['arayamam', 48]		drop -m  :: arayama
-Cont    ['arıyor', 13]
-Fut     ['arayacak', 112]
-Ind     ['aramış', 13]
-Nec     ['aramalı', 12]
-Neg     ['aramam', 65]			drop -m  :: arama
-Pot     ['arayabildi', 48]		drop -di :: arayabil
-Pt      ['aradı', 100]
-OTH     ['ara', 26]
+Aor     ['gelir'     , 19]
+Can     ['gelemem'   , 48]   -> delete last letter
+Cont    ['geliyor'   , 13]
+Fut     ['gelecek'   , 112]
+Ind     ['gelmiş'    , 13]
+Nec     ['gelmeli'   , 12]
+Neg     ['gelme'     , 47]
+Neg.Fut ['gelmeyecek', 112]
+Neg.Pt  ['gelmedi'   , 106]
+OTH     ['gel'       , 33]
+Pot     ['gelebildi' , 54]  -> delete last 2 letters
+Pt      ['geldi'     , 106]
 '''
