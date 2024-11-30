@@ -29,7 +29,7 @@ def getAlternate(word, mx):
             last = ret[len(ret)-1]
             ret = ret[:len(ret)-1] + ALTERNATING_CONSONANTS[last]
     return ret
-	
+    
 def getAlternatePoss(word, mx):
     ret = word
     if word not in EXCEPTIONS['ALTERNATE_POSS']:
@@ -159,7 +159,7 @@ def getPossessive(word, mx):
     if word['infl'] in EXCEPTIONS['POSSESSIVE']:
         ret = []
         for w in EXCEPTIONS['POSSESSIVE'][word['infl']]:
-            ret.append({'infl':  w, 'src': getSrc(word, 'PossEx')})
+            ret.append({'infl':  w, 'src': getSrc(word, 'Poss')})
         return ret
         
     vow_lo = ['m','n','sı','mız','nız']
@@ -455,7 +455,9 @@ def processNoun(w):
     for i in infl:
         i['wtype'] = 'noun'
     
-    return infl
+    ret = getInflectionGroups(infl,'noun')
+    
+    return ret
     
 #TEST
 #for w in ['karı']:

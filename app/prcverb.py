@@ -329,6 +329,13 @@ def getPersonMarker(word, paradigm):
         stem = word['infl']
         for p in pm:
             ret.append({'infl': stem + p , 'src': word['src']})
+        #bonus: -lArdI
+        bonus = stem
+        if pm[len(pm)-1:] == 'lar':
+            bonus = word['infl'][:len(word['infl'])-2] + 'lardı'
+        else:
+            bonus = word['infl'][:len(word['infl'])-2] + 'lerdi'
+        ret.append({'infl': bonus , 'src': word['src']})
     elif paradigm == 'z-aor':
         pm = []
         if mx['last_syl_ai']:
@@ -910,7 +917,9 @@ def processVerb(w):
     for i in infl:
         i['wtype'] = 'verb'
     
-    return infl
+    ret = getInflectionGroups(infl,'verb')
+    
+    return ret
     
 #TEST
 #for w in ['yemek', 'gitmek', 'aramak']:

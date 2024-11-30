@@ -17,12 +17,13 @@ if len(sys.argv) >= 4:
     OUTFILE = sys.argv[3]
 
     ENTRIES = {}
-    INFLECTION_TO_ENTRY = {}
+    INFLECTION_TO_HEAD = {}
+    HEAD_TO_ENTRY = {}
     ERRORS = {}
 
     readTSV(INFILE, ENTRIES, ERRORS)
-    calcInflections(ENTRIES, INFLECTION_TO_ENTRY)
-    writeJSON(OUTJSON, INFLECTION_TO_ENTRY)
-    writeXML(OUTFILE, WORDTYPE_MAP, ENTRIES, INFLECTION_TO_ENTRY)
+    calcInflections(ENTRIES, INFLECTION_TO_HEAD, HEAD_TO_ENTRY)
+    writeJSON(OUTJSON, INFLECTION_TO_HEAD)
+    writeXML(OUTFILE, WORDTYPE_MAP, ENTRIES, INFLECTION_TO_HEAD, HEAD_TO_ENTRY, INFLECTION_DESC)
 else:
     print ('Less arguments passed than needed! exit program')

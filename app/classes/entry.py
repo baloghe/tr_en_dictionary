@@ -36,27 +36,18 @@ class Entry:
         wt = set(map(lambda x: x.getWordType(), self.meanings))
         #print(f"calcInflections :: wt={wt}")
         if 'noun' in wt:
-            actinf = processNoun(self.orig)
-            for i in actinf:
-                if i['infl'] in self.inflections:
-                    self.inflections[i['infl']].append(i)
-                else:
-                    self.inflections[i['infl']] = [i]
+            self.inflections['noun'] = processNoun(self.orig)
         
         if 'verb' in wt:
-            actinf = processVerb(self.orig)
-            for i in actinf:
-                if i['infl'] in self.inflections:
-                    self.inflections[i['infl']].append(i)
-                else:
-                    self.inflections[i['infl']] = [i]
-            #print(f"self.inflections={self.inflections}")
+            self.inflections['verb'] = processVerb(self.orig)
         
     def toJSONObj(self):
         ms = []
         for m in self.meanings:
             ms.append(m.toJSONObj())
         ii = []
-        for i in self.inflections.values():
-            ii.append(i)
+        for t in self.inflections.values():
+            for k in self.inflections[t].keys():
+                for i in self.inflections[t][k]["infl"]:
+                    ii.append(i)
         return {'o': self.orig, 'm': ms, 'i': ii}

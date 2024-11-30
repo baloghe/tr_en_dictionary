@@ -23,12 +23,23 @@ def writeXmlHeader():
     return (html,fs);
     
 def writePB(where):
-    etree.SubElement(where, "{www.mobipocket.com/pagebreak}pagebreak", nsmap={'mbp':NSMAP['mbp']})
+    pb = etree.SubElement(where, "{www.mobipocket.com/pagebreak}pagebreak", nsmap={'mbp':NSMAP['mbp']})
+    pb.text = ''
 
-def writeOriginal(orth, origtext):
+def writeOriginal(orth, origtext, grps=None, grpMap=None, head=None):
     porig = etree.SubElement(orth,"p")
     borig = etree.SubElement(porig,"b")
     borig.text = origtext
+    if grps:
+        ig = []
+        for g in grps:
+            if g != 'OTH':
+                r = '.'.join(map(lambda x: grpMap[x], g.split('.')))
+                ig.append(r)
+        if(ig):
+            iorig = etree.SubElement(porig,"i")
+            iorig.text = ' + ' + ' or '.join(ig) + ' = ' + head
+            
 
 def writeMeanings(orth, wt, wtMap):
     for tp in sorted(wt):
@@ -89,7 +100,20 @@ def writeComplexMeanings(orth, wt, wtMap):
                 span.text = str
             etree.SubElement(ptype,"br")
 
-def writeEntry(where, inEntry, wtMap, inInflection2Entry):
+def writeInflections(where, sInfl):
+    if len(sInfl) > 0:
+        infl = etree.SubElement(where, "{www.mobipocket.com/idx}infl", nsmap={'idx':NSMAP['idx']})
+        clr_infl = list(set(sInfl))
+        if len(clr_infl) > 255:
+            print(f"WARNING: entry {origtext}, head={head} has {len(clr_infl)} inflections! Truncated to 255")
+            clr_infl = clr_infl[0:255]
+        for c in clr_infl:
+            ai = etree.SubElement(infl,"{www.mobipocket.com/idx}iform", nsmap={'idx':NSMAP['idx']})
+            ai.set('value',c)
+            ai.set('exact','yes')
+            ai.text = ''
+
+def writeEntry(where, inEntry, head, wtMap, inflGroups, grpMap):
     #print(f"inEntry: {inEntry}")
     wt = inEntry.getMeaningsByTypes()
     origtext = inEntry.getOrig()
@@ -101,28 +125,31 @@ def writeEntry(where, inEntry, wtMap, inInflection2Entry):
         entry.set(k,v)
         
     orth = etree.SubElement(entry, "{www.mobipocket.com/idx}orth", nsmap={'idx':NSMAP['idx']})
-    orth.set('value', origtext)
+    orth.set('value', head)
+    if head==None or head == '':
+        print(f"head is None for origtext={origtext}, inflGroups={inflGroups}")
     
     #original
-    writeOriginal(orth, origtext)
+    writeOriginal(orth, origtext, inflGroups, grpMap, head)
     
     #meanings with eventual examples
     writeMeanings(orth, wt, wtMap)
     
-    #inflexions
+    #collect inflections
     sInfl = []
     for (k,v) in inEntry.getInflections().items():
-        if len(inInflection2Entry[k]) == 1:
-            sInfl.append(k)
-    if len(sInfl) > 0:
-        infl = etree.SubElement(orth, "{www.mobipocket.com/idx}infl", nsmap={'idx':NSMAP['idx']})
-        clr_infl = list(set(sInfl))
-        for c in clr_infl:
-            ai = etree.SubElement(infl,"{www.mobipocket.com/idx}iform", nsmap={'idx':NSMAP['idx']})
-            ai.set('value',c)
-            ai.set('exact','yes')
+        tpis = inEntry.getInflections()[k]
+        tpkeys = list(set(tpis.keys()) & set(inflGroups))
+        for x in tpkeys:
+            sInfl = sInfl + list(map(lambda y: y['infl'], tpis[x]['infl']))
+            #sInfl = sInfl + tpis[x]['infl']
+            #print(f"writeEntry :: added {k}.{x} :: {len(tpis[x]['infl'])}")
+    
+    #write out inflections
+    writeInflections(orth, sInfl)
 
-def writeComplexEntry(where, origtext, wtMap, inEntries, inInflection2Entry):
+#fs, inEntries, h, oo, wtMap, grpMap
+def writeComplexEntry(where, inEntries, head, origs, wtMap, grpMap):
     writePB(where)
 
     entry = etree.SubElement(where, "{www.mobipocket.com/idx}entry", nsmap={'idx':NSMAP['idx']})
@@ -130,54 +157,53 @@ def writeComplexEntry(where, origtext, wtMap, inEntries, inInflection2Entry):
         entry.set(k,v)
         
     orth = etree.SubElement(entry, "{www.mobipocket.com/idx}orth", nsmap={'idx':NSMAP['idx']})
-    orth.set('value', origtext)
-    
-    #original
-    writeOriginal(orth, origtext)
+    orth.set('value', head)
     
     #why complex
     porig = etree.SubElement(orth,"p")
     iorig = etree.SubElement(porig,"i")
     iorig.text = 'Different words sharing the same inflected form. Potential originals:'
     
-    #meanings with eventual examples
-    #1. entries having the same dictionary form as origtext (all word types)
-    wt = {}
-    if origtext in inEntries:
-        wt0 = inEntries[origtext].getMeaningsByTypes()
-        for t in wt0:
-            wt[t] = []
-            for i in wt0[t]:
-                wt[t].append({'inflected': None, 'orig': origtext, 'meaning': i})
-    
-    #2. entries having an inflected form matching the literal of origtext, filtered for equalling word type
-    for e in inInflection2Entry[origtext]:
-        if e != origtext:
-            wt0 = inEntries[e].getMeaningsByTypes()
-            matchInfl = inEntries[e].getInflections()[origtext]
-            for f in matchInfl:
-                ft = f['wtype']
-                if ft in wt0:
-                    if ft not in wt:
-                        wt[ft] = []
-                    for i in wt0[ft]:
-                        wt[ft].append({'inflected': f['src'], 'orig': e, 'meaning': i})
-            
-    writeComplexMeanings(orth, wt, wtMap)
-    
-    #no inflection since the entry itself represents an inflected form
+    #meaning +examples for each candidate
+    ol = etree.SubElement(orth,"ol")
+    sInfl = []
+    for o in list(origs.keys()):
+        li = etree.SubElement(ol,"li")
+        igrps = origs[o]
+        #original
+        writeOriginal(li, o, igrps, grpMap, head)
+        #meanings with eventual examples
+        wt = inEntries[o].getMeaningsByTypes()
+        writeMeanings(li, wt, wtMap)
+        #collect inflections
+        for (k,v) in inEntries[o].getInflections().items():
+            tpis = inEntries[o].getInflections()[k]
+            tpkeys = list(set(tpis.keys()) & set(igrps))
+            for x in tpkeys:
+                sInfl = sInfl + list(map(lambda y: y['infl'], tpis[x]['infl']))
+        
+    #write out inflections
+    writeInflections(orth, sInfl)
 
-def writeXML(outFileName, wtMap, inEntries, inInflection2Entry):
+def writeXML(outFileName, wtMap, inEntries, inInflection2Head, inHead2Entry, grpMap):
     
     (html,fs) = writeXmlHeader()
-    
+    simple = 0
+    complex = 0
     # first write out words with no overlapping with another word's inflection
-    for e in sorted(inEntries):
-        o = inEntries[e].getOrig()
-        if len(inInflection2Entry[o]) == 1:
-            writeEntry(fs,inEntries[e], wtMap, inInflection2Entry)
+    for h in sorted(inHead2Entry.keys()):
+        oo = inHead2Entry[h]
+        #print(f"h={h}, oo={oo}")
+        if len(oo.items()) == 1:
+            o = list(oo.keys())[0] #Entry.orig
+            igrps = oo[o]    #list of inflection group IDs
+            writeEntry(fs, inEntries[o], h, wtMap, igrps, grpMap)
+            simple = simple + 1
         else:
-            writeComplexEntry(fs, o, wtMap, inEntries, inInflection2Entry)
+            writeComplexEntry(fs, inEntries, h, oo, wtMap, grpMap)
+            complex = complex + 1
     
+    print(f"Processed {simple} simple and {complex} complex entries.")
     # write tree to actual XML file
     etree.ElementTree(html).write(outFileName, xml_declaration=True, encoding='UTF-8')
+    print(f"XML successfully created: {outFileName}")
