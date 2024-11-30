@@ -9,14 +9,16 @@ for c in g:
     print(f"{c} :: {g[c]["head"]} , {len(g[c]["infl"])}")
 
 '''
-Aor     ['arar', 13]
-Can     ['arayamam', 48]		drop -m  :: arayama
-Cont    ['arıyor', 13]
-Fut     ['arayacak', 112]
-Ind     ['aramış', 13]
-Nec     ['aramalı', 12]
-Neg     ['aramam', 65]			drop -m  :: arama
-Pot     ['arayabildi', 48]		drop -di :: arayabil
-Pt      ['aradı', 100]
-OTH     ['ara', 26]
+Aor     ['gelir'     , 19]
+Can     ['gelemem'   , 48]   -> delete last letter
+Cont    ['geliyor'   , 13]
+Fut     ['gelecek'   , 112]
+Ind     ['gelmiş'    , 13]
+Nec     ['gelmeli'   , 12]
+Neg     ['gelme'     , 47]
+Neg.Fut ['gelmeyecek', 112]
+Neg.Pt  ['gelmedi'   , 106]
+OTH     ['gel'       , 33]
+Pot     ['gelebildi' , 54]  -> delete last 2 letters
+Pt      ['geldi'     , 106]
 '''
