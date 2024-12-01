@@ -300,7 +300,7 @@ def getPredicative(word, mx):
         ret = ret + 'ür'
     
     return {'infl': ret, 'src': getSrc(word, 'Pred')}
-    
+
 def getPersonMarker(word, mx, paradigm):
     pm = []
     if paradigm == 'k-pt':
@@ -341,6 +341,10 @@ def processNoun(w):
     infl.append(plr)
     
     plrout = getMx(plr['infl'], rps)
+    
+    ## predicative on nominal
+    infl.append(getPredicative({'infl': w, 'src': None},wout))
+    infl.append(getPredicative(plr,plrout))
     
     infl.append(getAccusative({'infl': w, 'src': None},wout))
     infl.append(getAccusative(plr,plrout))
@@ -387,7 +391,7 @@ def processNoun(w):
     plrindout = getMx(plrind['infl'], rps)
     windpm = getPersonMarker(wind,windout,'z-ind')
     plrindpm = getPersonMarker(plrind,plrindout,'z-ind')
-    
+    ## +predicative
     infl.append(getPredicative(wind,windout))
     infl.append(getPredicative(plrind,plrindout))
     infl= infl + windpm + plrindpm

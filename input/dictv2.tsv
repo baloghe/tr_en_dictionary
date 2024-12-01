@@ -167,6 +167,8 @@ adlı	named	adj
 adres	address	noun
 adım	pace	noun
 adım	step	noun	adım atmak: to take a step
+adına	in the name of	posp
+adına	on behalf of	posp
 af	amnesty, forgiveness	noun
 afalli	aphallia	noun
 aferin	well done	phrase
@@ -682,6 +684,7 @@ açıkçası	frankly	adj
 açıkçası	frankly	conj
 açılım	expansion; opening out	noun
 açılış	opening	noun
+açısından	from the point of view	posp
 ağ	net	noun
 ağ	network	noun
 ağa	landlord	noun
@@ -766,6 +769,7 @@ bakmak	to look	verb
 bakmak	to watch	verb
 bakteri	bacterium	noun
 bakım	maintenance, care	noun
+bakımından	from the point of view	posp
 bakır	copper	noun
 bakış	glance; view	noun
 bakış	look	noun	boş bakışlarla: with a blank look
@@ -1172,7 +1176,9 @@ boylu	tall	adj
 boyun	neck	noun
 boyuna	lengthwise, longitudinally	adv
 boyunbağı	tie	noun
-boyunca	alongside; throughout	posp
+boyunca	alongside	posp
+boyunca	throughout	posp
+boyunca	all along	posp
 boyut	dimension	noun
 boyut	size	noun
 boz	gray	adj	boz ayı: brown bear
@@ -2181,7 +2187,7 @@ etmen	factor, agent	noun
 etnik	ethnic	adj
 etnoloji	ethnology	noun
 etraf	surroundings	noun
-etrafında	around	adv
+etrafında	around	posp
 etrafında	round	prep
 etyemez	vegetarian	adj
 euro	euro	noun
@@ -3759,6 +3765,7 @@ karşılıksız	unreciprocated, complimentary	adj
 karşın	in spite of	posp
 karşın	in spite of	prep
 karşısında	opposite	prep
+karşısında	across	posp
 karşıt	contrary; opposite	adj
 karşıt	opposite	noun
 karşıtlık	contrast	noun
@@ -5745,6 +5752,7 @@ savunmak	to defend	verb
 savunucu	defender, champion	noun
 savurmak	to hurl	verb
 saydam	transparent	adj
+sayesinde	thanks to	posp
 sayfa	page <p.>	noun
 sayfa	page	noun
 saygı	respect	noun
@@ -6158,6 +6166,7 @@ sürekli	continuous	adj
 süreklilik	continuity	noun
 süreli	periodical, periodic	adj
 süresince	through	adv
+süresince	during the period of	posp
 süreç	process	noun
 sürgü	bolt	noun
 sürgü	lock [latch, bolt]	noun
@@ -6239,6 +6248,7 @@ sıradan	ordinary	adj
 sıralamak	to line up; to arrange	verb
 sıralarında	around	adv
 sırasında	at	prep
+sırasında	during	posp
 sırf	merely	adv
 sırf	only	adv
 sırf	sheer	adj
@@ -6374,6 +6384,7 @@ taptaze	fresh	adj
 tapu	title, deed	noun
 tapınak	temple	noun
 taraf	side	noun	arka tarafta: at the back
+tarafından	by	posp
 tarafsız	neutral; unbiased	adj
 taraftar	supporter, fan	noun
 tarak	comb	noun
@@ -7089,7 +7100,7 @@ yanılmak	to be mistaken	verb
 yanılmak	to be wrong	verb
 yanılsama	illusion	noun
 yanında	at	prep
-yanında	near	prep
+yanında	near	posp
 yanında	next to	prep
 yanısıra	as well as	conj
 yanısıra	besides, in addition to	posp
@@ -7286,6 +7297,7 @@ yeraltı	underground	adj
 yeraltı	underground	noun
 yerel	local	adj
 yerfıstıkları	peanuts	noun
+yerine	in the place of	posp
 yerleşik	settled, established	adj
 yerleşim	settlement	noun
 yerleşmek	to settle	verb
@@ -7353,6 +7365,7 @@ yoldaş	comrade, companion	noun
 yollamak	to send	verb
 yolmak	to pluck	verb
 yolsuzluk	corruption	noun
+yoluyla	by means of	posp
 yorgan	blanket	noun
 yorgan	quilt	noun
 yorgun	tired	adj
@@ -7461,8 +7474,8 @@ yüzmek	to skin	verb
 yüzmek	to swim	verb
 yüzyıl	century	noun
 yüzük	ring	noun	yüzük parmağı: ring finger
-yüzünden	because of	conj
-yüzünden	due to	prep
+yüzünden	because of	posp
+yüzünden	due to	posp
 yıkamak	to wash	verb
 yıkanmak	to being washed	verb
 yıkmak	to demolish	verb
@@ -8210,7 +8223,8 @@ zıt	opposite, contrary	adj
 şenlik	festival	noun
 şer	evil	noun
 şeref	honor	noun
-şerefe!	Cheers!	phrase
+şerefe	Cheers!	phrase
+şerefine	for the/in honor of	posp
 şerefsiz	dishonest	adj
 şeriat	Islamic law, sharia	noun
 şerit	ribbon, band; lane	noun
