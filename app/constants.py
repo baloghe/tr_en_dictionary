@@ -98,7 +98,7 @@ rp_all_vows = regex.compile(r'[aeoöuüıi]')
 
 INFLECTION_GROUPS = {
     "noun": ['Ind','Pl.Ind','Pl.Poss.Ind','Pl.Poss','Pl','Poss.Ind','Poss','OTH'],
-    "verb": ['Aor','Cont','Ind','Nec','Can','Fut','Neg','Pot','Pt','OTH']
+    "verb": ['Aor','Cont','Ind','Nec','Can','Fut','Neg.Fut','Neg','Pot','Pt','OTH']
 }
 
 INFLECTION_DESC = {
