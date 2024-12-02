@@ -5245,11 +5245,11 @@ pahalı	expensive	adj
 pak	clean	adj
 paket	package, parcel	noun
 paketlemek	to pack, to wrap up	verb
-paleoklimatoloji	palaeoclimatology [Br.]	noun
-paleoklimatoloji	paleoclimatology [Am.]	noun
+paleoklimatoloji	palaeoclimatology	noun
 palto	coat	noun
 pamuk	cotton wool	noun
 pamuk	cotton	noun	pamuk şeker: cotton candy
+pancar	beet	noun
 panel	panel	noun
 panik	panic	noun
 pankart	banner	noun
@@ -5355,7 +5355,6 @@ pernisiyöz	pernicious	adj
 personel	personnel, staff	noun
 perspektif	perspective	noun
 pervane	propeller	noun
-perşembe	Thursday <Thu., Th.>	noun
 perşembe	Thursday	noun
 petrol	petrol, oil	noun
 peygamber	prophet	noun
@@ -5363,7 +5362,7 @@ peynir	cheese	noun
 pezevenk	pimp	noun
 peçete	napkin	noun
 peşin	beforehand; in cash	adv
-pijama	pajamas {pl} [Am.]	noun
+pijama	pajamas	noun
 piknik	picnic	noun
 pil	battery	noun	AAA pil: AAA battery
 pilav	rice [meal]	noun
@@ -5424,7 +5423,7 @@ pozitif	positive	adj
 poşet	nylon bag	noun
 pratik	convenient	adj
 pratik	handy	adj
-pratik	practical; handy	adj
+pratik	practical	adj
 prens	prince	noun
 prenses	princess	noun
 prensip	principle	noun
@@ -5496,7 +5495,7 @@ rastlantı	chance, accident, coincidence	noun
 rastlantı	coincidence	noun
 rasyonel	rational	adj
 ray	rail	noun
-ray	railroad <RR> [Am.]	noun
+ray	railroad	noun
 rayba	reamer	noun
 raybalamak	to ream	verb
 razı	willing, ready	adj
@@ -5524,8 +5523,6 @@ rekabetçi	competitive	noun
 reklam	advertisement	noun
 rekor	record	noun
 rektör	rector	noun
-renk	color	noun
-renk	colour [Br.]	noun
 renk	colour	noun
 renkli	colored; colorful	adj
 resim	picture	noun
@@ -5541,7 +5538,7 @@ rezerv	reserve	noun
 rezil	vile	adj
 reçel	jam	noun
 reçete	prescription	noun
-reçete	prescription; recipe	noun
+reçete	recipe	noun
 reçetesi	prescription	noun
 rica	request	noun
 rinoplasti	rhinoplasty	noun
@@ -5575,8 +5572,8 @@ rüzgarlı	windy	adj
 rüşvet	bribe, bribery	noun
 saadet	bliss, happiness	noun
 saat	clock	noun
-saat	hour <h, hr>	noun
-saat	hour; watch	noun
+saat	hour	noun
+saat	watch	noun
 saat	time of day	noun
 saat	watch	noun	saat kaç? what time is it?
 saatlik	hourly; for X hours	adj
@@ -5595,9 +5592,9 @@ sabırsız	impatient	adj
 sabırsızlanmak	to look forward to	verb
 sadakat	loyalty	noun
 sade	plain	adj
-sade	simple, plain	adj
+sade	simple	adj
 sadece	only	adv
-sadece	only, merely	adv
+sadece	merely	adv
 sadrazam	grand vizier	noun
 sadık	loyal	adj
 saf	naive	adj	saf olmama: impurity
@@ -5606,7 +5603,7 @@ saf	side	noun
 safha	phase, stage	noun
 saflık	purity	noun
 saha	field	noun
-saha	field, area, region	noun
+saha	area, region	noun
 sahi	really	adv
 sahibi	owner	noun
 sahiden	actually	adv
@@ -5614,7 +5611,7 @@ sahiden	really	adv
 sahiden	to be honest	adv
 sahil	coast	noun
 sahil	shore	noun
-sahil	shore; coast; beach	noun
+sahil	beach	noun
 sahip	owner	noun
 sahiplenmek	to embrace	verb
 sahne	scene	noun
@@ -5623,9 +5620,9 @@ sahte	fake	adj
 sakal	beard	noun
 sakallı	bearded	adj
 sakar	clumsy	adj
-sakat	disabled (wo*man)	noun
+sakat	disabled person	noun
 sakat	disabled	adj
-sakat	disabled, handicapped	adj
+sakat	handicapped	adj
 sakatlamak	to injure	verb
 sakin	calm	adj	sakin ol: calm down
 sakin	quiet	adj
@@ -5653,7 +5650,7 @@ salak	idiotic	adj
 salak	stupid	adj
 salata	salad	noun
 saldırgan	aggressive	adj
-saldırgan	aggressive, assailant	adj
+saldırgan	assailant	adj
 saldırganlık	aggression	noun
 saldırmak	to attack	verb
 saldırı	attack	noun
@@ -5662,14 +5659,13 @@ salgılamak	to excrete	verb
 salgın	epidemic	noun
 salkım	bunch	noun
 sallamak	to shake	verb
-sallamak	to wave; to shake	verb
+sallamak	to wave	verb
 salmak	to release	verb
 salmak	to set free	verb
 salmonelloz	salmonellosis	noun
 salon	living room, hall	noun
 salt	solely; absolute	adv
 saltanat	sultanate	noun
-salı	Tuesday <Tue., Tu.>	noun
 salı	Tuesday	noun
 saman	hay	noun
 samimi	sincere	adj
@@ -5753,7 +5749,6 @@ savunucu	defender, champion	noun
 savurmak	to hurl	verb
 saydam	transparent	adj
 sayesinde	thanks to	posp
-sayfa	page <p.>	noun
 sayfa	page	noun
 saygı	respect	noun
 saygılı	respectful	adj

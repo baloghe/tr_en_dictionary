@@ -1,4 +1,4 @@
 from app.prcverb import processVerb
 
-for w in ['aramak']:
+for w in ['yakalamak']:
     print(f"{w} -> {processVerb(w)}")

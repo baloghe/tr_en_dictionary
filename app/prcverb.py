@@ -632,6 +632,14 @@ def processNeg(w):
     
     infl = infl + necnegpm
     
+    ##Necessitative past
+    necnegptstem = necneg['infl'] + 'y'
+    necnegptstemout = getMx(necnegptstem, rp_stem)
+    necnegpt = getPast({'infl': necnegptstem, 'src': necneg['src']}, necnegptstemout)
+    necnegptpm = getPersonMarker(necnegpt, 'k-pt')
+    
+    infl = infl + necnegptpm
+    
     #Would (otherwise) == Aorist + Past    
     wouldnegstem = aorneg['infl'] + 'z'
     wouldnegstemout = getMx(wouldnegstem, rp_stem)
@@ -671,6 +679,14 @@ def processNeg(w):
     cndnegpm = getPersonMarker(cndneg, 'k-pt')
     
     infl = infl + cndnegpm
+    
+    ##Irrealis Conditional past
+    cndnegptstem = cndneg['infl'] + 'y'
+    cndnegptstemout = getMx(cndnegptstem, rp_stem)
+    cndnegpt = getPast({'infl': cndnegptstem, 'src': cndneg['src']}, cndnegptstemout)
+    cndnegptpm = getPersonMarker(cndnegpt, 'k-pt')
+    
+    infl = infl + cndnegptpm
     
     return infl
 
@@ -989,6 +1005,14 @@ def processVerb(w):
     
     infl = infl + necpm
     
+    ##Necessitative past
+    necptstem = nec['infl'] + 'y'
+    necptstemout = getMx(necptstem, rp_stem)
+    necpt = getPast({'infl': necptstem, 'src': nec['src']}, necptstemout)
+    necptpm = getPersonMarker(necpt, 'k-pt')
+    
+    infl = infl + necptpm
+    
     #Obligation (with mecbur)
     infl.append(getObligation(w))
 
@@ -999,6 +1023,14 @@ def processVerb(w):
     cndpm = getPersonMarker(cnd, 'k-pt')
     
     infl = infl + cndpm
+    
+    ##Irrealis Conditional past
+    cndptstem = cnd['infl'] + 'y'
+    cndptstemout = getMx(cndptstem, rp_stem)
+    cndpt = getPast({'infl': cndptstem, 'src': cnd['src']}, cndptstemout)
+    cndptpm = getPersonMarker(cndpt, 'k-pt')
+    
+    infl = infl + cndptpm
 
     #wtype = noun in all cases
     for i in infl:
