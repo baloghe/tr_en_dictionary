@@ -4,9 +4,9 @@ from app.constants import *
 WRD = 'kar'
 
 p = processNoun(WRD)
-g = getInflectionGroups(p,'noun')
-for c in g:
-    print(f"{c} :: {g[c]["head"]} , {len(g[c]["infl"])}")
+
+for c in p:
+    print(f"{c} :: {p[c]["head"]} , {len(p[c]["infl"])}")
 
 
 '''
