@@ -4,9 +4,9 @@ from app.constants import *
 WRD = 'gelmek'
 
 p = processVerb(WRD)
-g = getInflectionGroups(p,'verb')
-for c in g:
-    print(f"{c} :: {g[c]["head"]} , {len(g[c]["infl"])}")
+
+for c in p:
+    print(f"{c} :: {p[c]["head"]} , {len(p[c]["infl"])}")
 
 '''
 Aor     ['gelir'     , 19]
