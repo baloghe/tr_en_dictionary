@@ -415,6 +415,7 @@ def processNoun(w):
     for a in wpos:
         aout = getMx(a['infl'], rps)
         infl.append(getAccusative(a,aout))
+        infl.append(getDative(a,aout))
         infl.append(getGenitive(a,aout))
         infl.append(getKi(getGenitive(a,aout)))
         infl.append(getWith(a,aout))
@@ -423,9 +424,10 @@ def processNoun(w):
         infl.append(getKi(getAblative(a,aout)))
         infl.append(getLocative(a,aout))
         infl.append(getKi(getLocative(a,aout)))
-        ind = getIndirect(a,aout)        
+        ind = getIndirect(a,aout)
         indout = getMx(ind['infl'], rps)
-        infl.append(getPredicative(ind,indout))
+        indpred = getPredicative(ind,indout)
+        infl.append(indpred)
         indpm = getPersonMarker(ind,indout,'z-ind')
         indpt = getPast(ind,indout)
         indptout = getMx(indpt['infl'], rps)
@@ -435,6 +437,7 @@ def processNoun(w):
     for a in plrpos:
         aout = getMx(a['infl'], rps)
         infl.append(getAccusative(a,aout))
+        infl.append(getDative(a,aout))
         infl.append(getGenitive(a,aout))
         infl.append(getKi(getGenitive(a,aout)))
         infl.append(getWith(a,aout))
