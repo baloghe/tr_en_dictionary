@@ -67,14 +67,31 @@ EXCEPTIONS = {
             ,'bil': 'bilir'
             ,'bul': 'bulur'
             ,'dur': 'durur'
+            ,'et': 'eder'
             ,'gel': 'gelir'
+            ,'git': 'gider'
             ,'gör': 'görür'
             ,'kal': 'kalir'
             ,'ol': 'olur'
             ,'öl': 'ölür'
             ,'san': 'sanır'
+            ,'tat': 'tader'
             ,'var': 'varır'
             ,'vur': 'vurur'
+        },
+        'IP_STEM': {
+             'ye': 'yi'
+            ,'de': 'di'
+            ,'git': 'gid'
+            ,'et': 'ed'
+            ,'tat': 'tad'
+        },
+        'ING_STEM': {
+             'ye': 'yi'
+            ,'de': 'di'
+            ,'git': 'gid'
+            ,'et': 'ed'
+            ,'tat': 'tad'
         }
     }
 
@@ -168,6 +185,8 @@ def getInflectionGroups(infl, type):
     for k in ks:
         ret[k] = {"head":"","infl":[]}
     for a in infl:
+        if 'src' not in a:
+            print(a)
         parents = getParents(a['src'])
         slot = getSlot(parents, ks)
         ret[slot]["infl"].append(a)
