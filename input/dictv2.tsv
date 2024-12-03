@@ -232,8 +232,8 @@ aktivite	activity	noun
 aktör	actor	noun
 akuzatif	accusative	noun
 akçe	money, coin	noun
-akıl	mind [intellect]	noun
-akıl	mind, reason; wisdom	noun
+akıl	mind, intellect	noun
+akıl	reason, wisdom	noun
 akılcı	rational	adj
 akıllanmak	to become wise	verb
 akıllı	bright	adj
@@ -858,6 +858,7 @@ bağlamak	to connect	verb
 bağlamak	to tie	verb
 bağlantı	connection	noun	bağlantı koptu: connection lost
 bağlantılı	connected	adj
+bağlatmak   to tie up   verb
 bağlayıcı	connector; binding	noun
 bağlaç	conjunction	noun
 bağlı	tied to; bound to	posp
@@ -2849,8 +2850,7 @@ haksızlık	injustice	noun
 hal	situation	noun	aksi halde: otherwise
 hal	state, condition	noun
 hal	status	noun	hale geldi: has become	haliyle: as it stands
-hala	aunt [father's sister]	noun
-hala	aunt, father’s sister	noun
+hala	aunt (father's sister)	noun
 hala	still	adv
 halbuki	but, however, whereas	conj
 halbuki	however	conj
@@ -3008,10 +3008,10 @@ hecelemek	to spell	verb
 hedef	aim	noun
 hedef	goal	noun
 hedef	target	noun	hedef almak: to target
-hedef	target; mark	noun
+hedef	mark	noun
 hedeflemek	to aim	verb
 hediye	gift	noun
-hediye	gift, present	noun
+hediye	resent	noun
 hediye	present	noun
 hegemonya	hegemony	noun
 hekim	doctor	noun
@@ -3046,8 +3046,7 @@ herhangi	any [noun qualifier]	pron
 herhangi	any	pron
 herhangi	whichever, any	adv
 herif	guy	noun
-herif	guy	noun
-herif	guy; husband	noun
+herif	husband	noun
 herkes	everybody	pron
 herkes	everyone	pron
 hesap	account	noun	hesap lütfen! account please!	hesap verirsin: you will be held accountable
@@ -3057,11 +3056,11 @@ heves	passing desire, fancy	noun
 hevesli	eager	adj
 heybet	majesty	noun
 heyecan	excitement	noun
-heyecan	excitement, thrill	noun
+heyecan	thrill	noun
 heyecanlanmak	to get excited	verb
 heyecanlı	excited	adj
 heyecanlı	exciting	adj
-heyecanlı	exciting, nervous	adj
+heyecanlı	nervous	adj
 heyet	committee, board	noun
 heykel	sculpture	noun
 heykel	statue	noun
@@ -3078,7 +3077,7 @@ hipotez	hypothesis	noun
 his	feeling	noun
 hisse	part; lot	noun
 hissetmek	to feel	verb
-hissetmek	to feel; to perceive	verb
+hissetmek	to perceive	verb
 histoloji	histology	noun
 hitap	addressing	noun
 hiyerarşi	hierarchy	noun
@@ -3100,7 +3099,7 @@ hoplamak	to hop	verb
 horlamak	to snore	verb
 hormon	hormone	noun
 horoz	cock	noun
-horoz	cock, rooster	noun
+horoz	rooster	noun
 hortum	hose	noun
 hoş	amiable	adj
 hoş	nice	adj
@@ -3116,7 +3115,7 @@ hukuki	legal	adj
 hukuksal	legal	adj
 hukukçu	lawyer	noun
 hurma	date	noun
-husus	matter, subject; case	noun
+husus	matter, case	noun
 husus	subject	noun
 hususi	private	adj
 huy	temperament, disposition	noun
@@ -3138,7 +3137,6 @@ hür	free	adj
 hürmet	respect	noun
 hürmet	reverence	noun
 hürriyet	freedom	noun
-hürriyet	freedom, liberty	noun
 hürriyet	liberty	noun
 hüzün	melancholy	noun
 hüzünlü	sad, melancholic	adj
@@ -3146,10 +3144,10 @@ hırpalamak	to treat roughly, to misuse	verb
 hırs	ambition	noun
 hırslı	ambitious	adj
 hırsız	burglar	noun
-hırsız	thief, burglar	noun
+hırsız	thief	noun
 hırsızlık	theft	noun
-hırsızlık	theft, robbery	noun
-hıyar	cucumber [Cucumis sativus L.]	noun
+hırsızlık	robbery	noun
+hıyar	cucumber	noun
 hız	speed	noun
 hızla	quickly	adv
 hızla	rapidly	adv
@@ -3157,7 +3155,7 @@ hızlanmak	to speed up, to accelerate	verb
 hızlı	fast	adj
 hızlı	quick	adj
 hızlı	rapid	adj
-hızlı	rapid, speedy	adj
+hızlı	speedy	adj
 hıçkırmak	to hiccup, to sob	verb
 hıçkırık	hiccough	noun
 hıçkırık	hiccup	noun
@@ -3201,7 +3199,7 @@ ihracatçı	exporter, shipper	noun
 ihraç	exportation	noun
 ihtilal	revolution	noun
 ihtimal	possibility	noun
-ihtimal	probability, possibility	noun
+ihtimal	probability	noun
 ihtiva	contents	noun
 ihtiyar	elderly	adj
 ihtiyar	old	adj
@@ -3235,7 +3233,7 @@ ilaveten	in addition	adv
 ilaç	medicine	noun
 ilaç	medicine, drug	noun
 ilaçlamak	to apply medicine or pesticides	verb
-ile	with <w/>	prep
+ile	with	prep
 ile	with, together	conj
 ileri	forward	adj	ileriye doğru: forward	ileri sürmek: to assert
 ileri	front; forward; advanced	noun
@@ -3268,8 +3266,7 @@ ilişkin	related to	posp
 ilişmek	to catch on	verb
 ilk	first	adv
 ilk	first	det
-ilkbahar	spring [season]	noun
-ilkbahar	spring	noun
+ilkbahar	spring (season)	noun
 ilke	principle	noun
 ilkel	primitive	adj
 ilkin	at first, firstly	adv
@@ -3323,7 +3320,7 @@ incecik	very thin	adj	incecik yapılı: slender
 inceleme	examination	noun
 incelemek	to analyze	verb
 incelik	politeness, slimness	noun
-incelikle	subtly [lightly]	adv
+incelikle	subtly (lightly)	adv
 incir	fig	noun
 incitmek	to hurt	verb
 incitmek	to insult	verb
