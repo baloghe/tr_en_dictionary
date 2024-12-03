@@ -40,6 +40,22 @@ def getFutureStem(word):
         return EXCEPTIONS['CONTINUOUS_STEM'][stem]
     else:
         return stem
+        
+def getIpStem(word):
+    stem = getStem(word)
+    
+    if stem in EXCEPTIONS['IP_STEM']:
+        return EXCEPTIONS['IP_STEM'][stem]
+    else:
+        return stem
+        
+def getIngStem(word):
+    stem = getStem(word)
+    
+    if stem in EXCEPTIONS['ING_STEM']:
+        return EXCEPTIONS['ING_STEM'][stem]
+    else:
+        return stem
 
 def getStem(word, inMarker=None):
     if inMarker=='Cont':
@@ -50,6 +66,10 @@ def getStem(word, inMarker=None):
         return word[:len(word)-2]
     elif inMarker=='Neg':
         return word[:len(word)-1]
+    elif inMarker=='Ip':
+        return getIpStem(word)
+    elif inMarker=='Ing':
+        return getIngStem(word)
     else:
         return word[:len(word)-3]
 
@@ -282,6 +302,49 @@ def getPotentialDictForm(stem, mx):
         ret = ret + 'ebilmek'
     
     return {'infl': ret, 'src': getSrc(stem, 'Pot')}
+
+def getIp(stem, mx):
+    ret = stem['infl']
+    
+    if mx['ends_vow']:
+        ret = ret + 'y'
+    
+    if mx['last_syl_ai']:
+        ret = ret + 'ıp'
+    elif mx['last_syl_ei']:
+        ret = ret + 'ip'
+    elif mx['last_syl_ou']:
+        ret = ret + 'up'
+    elif mx['last_syl_öü']:
+        ret = ret + 'üp'
+    
+    return {'infl': ret, 'src': getSrc(stem, 'Ip')}
+
+def getIng(stem, mx):
+    ret = stem['infl']
+    
+    if mx['ends_vow']:
+        ret = ret + 'y'
+    
+    if mx['last_syl_low']:
+        ret = ret + 'an'
+    else:
+        ret = ret + 'en'
+    
+    return {'infl': ret, 'src': getSrc(stem, 'Ing')}
+
+def getByIng(stem, mx):
+    ret = stem['infl']
+    
+    if mx['ends_vow']:
+        ret = ret + 'y'
+    
+    if mx['last_syl_low']:
+        ret = ret + 'arak'
+    else:
+        ret = ret + 'erek'
+    
+    return {'infl': ret, 'src': getSrc(stem, 'Ing')}
 
 def getRelClauses(stem, mx):
 
@@ -1031,6 +1094,21 @@ def processVerb(w):
     cndptpm = getPersonMarker(cndpt, 'k-pt')
     
     infl = infl + cndptpm
+    
+    #-Ip
+    ipstem = getStem(w, 'Ip')
+    ipstemout = getMx(ipstem, rp_stem)
+    ip = getIp({'infl': ipstem, 'src': None}, ipstemout)
+    
+    infl = infl + [ip]
+    
+    #-Ing == -(y)An + by -ing == -(y)ArAk
+    ingstem = getStem(w, 'Ing')
+    ingstemout = getMx(ingstem, rp_stem)
+    ing = getIng({'infl': ingstem, 'src': None}, ingstemout)
+    bying = getByIng({'infl': ingstem, 'src': None}, ingstemout)
+    
+    infl = infl + [ing, bying]
 
     #wtype = noun in all cases
     for i in infl:
