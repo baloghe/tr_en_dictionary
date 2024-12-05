@@ -1,6 +1,7 @@
 from .meaning import Meaning
 from app.prcnoun import processNoun
 from app.prcverb import processVerb
+from app.prcadj import processAdj
 
 class Entry:
     def __init__(self, orig, meaning, wordtype, examples):
@@ -40,6 +41,9 @@ class Entry:
         
         if 'verb' in wt:
             self.inflections['verb'] = processVerb(self.orig)
+        
+        if 'adj' in wt:
+            self.inflections['aj'] = processAdj(self.orig)
         
     def toJSONObj(self):
         ms = []
