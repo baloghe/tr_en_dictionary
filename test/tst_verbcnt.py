@@ -1,12 +1,22 @@
 from app.prcverb import processVerb
 from app.constants import *
 
-WRD = 'gelmek'
+WRD = 'ısıtmak'
 
 p = processVerb(WRD)
 
+infl = {}
+
 for c in p:
     print(f"{c} :: {p[c]["head"]} , {len(p[c]["infl"])}")
+    for i in p[c]["infl"]:
+        s = i["src"]
+        if s in infl:
+            infl[s] = infl[s] + 1
+        else:
+            infl[s] = 1
+for g in sorted(list(infl.keys())):
+    print(f"{g} :: {infl[g]}")
 
 '''
 Aor     ['gelir'     , 19]
