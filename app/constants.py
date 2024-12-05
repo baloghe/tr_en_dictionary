@@ -18,7 +18,7 @@ EXCEPTIONS = {
             'saat':'saatler',
             'hal':'haller'
         },
-        'ALTERNATE': ['sap','at','kek','saç','saat','kat','adet'],
+        'ALTERNATE': ['sap','at','kek','saç','saat','kat','adet','cesaret'],
         'ALTERNATE_POSS': ['kek','saç'],
         'ACCUSATIVE': {
              'saat':'saati'
@@ -92,6 +92,13 @@ EXCEPTIONS = {
             ,'git': 'gid'
             ,'et': 'ed'
             ,'tat': 'tad'
+        },
+        'CAN_STEM': {
+             'ye': 'yi'
+            ,'de': 'di'
+            ,'git': 'gid'
+            ,'et': 'ed'
+            ,'tat': 'tad'
         }
     }
 
@@ -115,7 +122,8 @@ rp_all_vows = regex.compile(r'[aeoöuüıi]')
 
 INFLECTION_GROUPS = {
     "noun": ['Ind','Pl.Ind','Pl.Poss.Ind','Pl.Poss','Pl','Poss.Ind','Poss','OTH'],
-    "verb": ['Aor','Cont','Ind','Nec','Can','Fut','Neg.Fut','Neg','Pot','Pt','OTH']
+    "verb": ['Aor','Cont','Ind','Nec','Can.Neg.Ing','Can','Fut','Ing','Neg.Fut','Neg.Ing','Neg.Pt','Neg','Pot','Pt','OTH'],
+    "adj" : ['Ind','OTH']
 }
 
 INFLECTION_DESC = {
@@ -144,8 +152,15 @@ INFLECTION_DESC = {
     "Obl": "Obligation",
     "Can": "Can",
     "Pot": "Potential",
-    "Neg": "Negative"
+    "Neg": "Negative",
+    "Ing": "VerbIng"
 }
+
+def getSrc(word, actSrc):
+    if word['src']:
+        return word['src'] + '.' + actSrc
+    else:
+        return actSrc
 
 def getMx(stem, rexArr):
     ret = {}
