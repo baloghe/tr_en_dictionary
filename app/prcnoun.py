@@ -40,12 +40,6 @@ def getAlternatePoss(word, mx):
             ret = ret[:len(ret)-1] + ALTERNATING_CONSONANTS_POSS[last]
     return ret
 
-def getSrc(word, actSrc):
-    if word['src']:
-        return word['src'] + '.' + actSrc
-    else:
-        return actSrc
-
 def getPlural(word, mx):
     if word['infl'] in EXCEPTIONS['PLURAL']:
         return {'infl': EXCEPTIONS['PLURAL'][word['infl']] , 'src': getSrc(word, 'Pl')}
@@ -90,7 +84,9 @@ def getDative(word, mx):
         return {'infl': EXCEPTIONS['DATIVE'][word['infl']] , 'src': getSrc(word, 'Acc')}
         
     ret = word['infl']
-    if mx['ends_vow']:
+    if mx['ends_vow'] and word['src'] and word['src'][len(word['src'])-4:]=='Poss':
+        ret = ret + 'n'
+    elif mx['ends_vow']:
         ret = ret + 'y'
     else:
         # alternate when needed
@@ -108,6 +104,9 @@ def getLocative(word, mx):
         return {'infl': EXCEPTIONS['LOCATIVE'][word['infl']] , 'src': getSrc(word, 'Loc')}
         
     ret = word['infl']
+    if mx['ends_vow'] and word['src'] and word['src'][len(word['src'])-4:]=='Poss':
+        ret = ret + 'n'
+        
     if mx['last_syl_low'] and mx['last_cons_hard']:
         ret = ret + 'ta'
     elif mx['last_cons_hard']:
