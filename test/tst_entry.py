@@ -4,6 +4,7 @@ from app.constants import *
 
 tv = ["yakalamak", "to wash", "verb", None]
 tn = ["yakma", "incineration", "noun", None]
+ta = ["güzel", "beautiful", "adj", None]
 
 def testRecord(record):
     print(f"orig :: {record}")
@@ -19,3 +20,5 @@ print("Test verb ::")
 testRecord(tv)
 print("Test noun ::")
 testRecord(tn)
+print("Test adj ::")
+testRecord(ta)
