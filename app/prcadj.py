@@ -157,6 +157,6 @@ def processAdj(w):
     for i in infl:
         i['wtype'] = 'adj'
     
-    ret = getInflectionGroups(infl,'adj')
+    ret = getInflectionGroups(infl,'adj',w)
     
     return ret

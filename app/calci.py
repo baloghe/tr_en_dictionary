@@ -1,7 +1,21 @@
 from app.classes.entry import Entry
 
+def rearrInflections(inInflection2Head, inSharedInflections):
+    keysToDel = []
+    for (k,v) in inInflection2Head.items():
+        v = list(set(v))
+        if len(v) > 1:
+            #shared inflections to be moved to a different dict
+            keysToDel.append(k)
+            inSharedInflections[k] = v;
+        else:
+            #single head goes back to where it was
+            inInflection2Head[k] = v
+    for k in keysToDel:
+        inInflection2Head.pop(k, None)
+
 def addHeadToInflection(inInflection2Head, infl, head):
-    if infl in inInflection2Head:
+    if infl in inInflection2Head.keys():
         inInflection2Head[infl].append(head)
     else:
         inInflection2Head[infl] = [head]
@@ -18,8 +32,9 @@ def addEntryToHead(inHead2Entry, head, src, orig):
     else:
         inHead2Entry[head] = {orig:[src]}
 
-def calcInflections(inEntries, inInflection2Head, inHead2Entry):
+def calcInflections(inEntries, inInflection2Head, inHead2Entry, inSharedInflections):
     for o in inEntries:
+        inEntries[o].calcInflections()
         try:
             inEntries[o].calcInflections()
         except:
@@ -37,9 +52,8 @@ def calcInflections(inEntries, inInflection2Head, inHead2Entry):
                     head = alli[tp][k]["head"]
                     addEntryToHead(inHead2Entry,head,k,t)
                     for i in alli[tp][k]["infl"]:
-                        addHeadToInflection(inInflection2Head, i["infl"], head)
+                        addHeadToInflection(inInflection2Head, i['infl'], head)
                     
-    # distinct links        
-    for i in inInflection2Head:
-        inInflection2Head[i] = list(set(inInflection2Head[i]))
+    # distinct links and identify shared inflections
+    rearrInflections(inInflection2Head, inSharedInflections)
         

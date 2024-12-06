@@ -43,7 +43,7 @@ class Entry:
             self.inflections['verb'] = processVerb(self.orig)
         
         if 'adj' in wt:
-            self.inflections['aj'] = processAdj(self.orig)
+            self.inflections['adj'] = processAdj(self.orig)
         
     def toJSONObj(self):
         ms = []
