@@ -192,7 +192,7 @@ def getSlot(parents, keys):
         ret = 'OTH'
     return ret
 
-def getInflectionGroups(infl, type):
+def getInflectionGroups(infl, type, orig):
     ks = ['OTH']
     if type and type in INFLECTION_GROUPS:
         ks = INFLECTION_GROUPS[type]
@@ -207,4 +207,7 @@ def getInflectionGroups(infl, type):
         ret[slot]["infl"].append(a)
         if len(ret[slot]["head"])==0 or len(ret[slot]["head"]) >= len(a['infl']):
             ret[slot]["head"] = a['infl']
+    if 'OTH' in ks:
+        ret['OTH']["head"] = orig
+
     return ret
