@@ -16,12 +16,6 @@ rp_stem = {'last_syl_low':rp_last_syl_low
             ,'ends_aeoö':rp_ends_aeoo
             ,'last_cons_hard':rp_last_cons_hard}
 
-def getSrc(word, actSrc):
-    if word['src']:
-        return word['src'] + '.' + actSrc
-    else:
-        return actSrc    
-
 def getContinuousStem(word):
     stem = getStem(word)
     
@@ -56,6 +50,14 @@ def getIngStem(word):
         return EXCEPTIONS['ING_STEM'][stem]
     else:
         return stem
+        
+def getCanStem(word):
+    stem = getStem(word)
+    
+    if stem in EXCEPTIONS['CAN_STEM']:
+        return EXCEPTIONS['CAN_STEM'][stem]
+    else:
+        return stem
 
 def getStem(word, inMarker=None):
     if inMarker=='Cont':
@@ -70,6 +72,8 @@ def getStem(word, inMarker=None):
         return getIpStem(word)
     elif inMarker=='Ing':
         return getIngStem(word)
+    elif inMarker=='Can':
+        return getCanStem(word)
     else:
         return word[:len(word)-3]
 
@@ -751,6 +755,22 @@ def processNeg(w):
     
     infl = infl + cndnegptpm
     
+    #-Ing == -(y)An + by -ing == -(y)ArAk
+    ingneg = getIng({'infl': negstem1, 'src': 'Neg'}, negstem1out)
+    byingneg = getByIng({'infl': negstem1, 'src': 'Neg'}, negstem1out)
+    
+    infl = infl + [ingneg, byingneg]
+
+    ##Noun Possessives for -(y)An
+    ingnegout = getMx(ingneg['infl'], noun.rps)
+    ingnegacc = noun.getAccusative(ingneg, ingnegout)
+    ingnegdat = noun.getDative(ingneg, ingnegout)
+    ingnegabl = noun.getAblative(ingneg, ingnegout)
+    ingnegloc = noun.getLocative(ingneg, ingnegout)
+
+    infl = infl + [ingnegacc, ingnegdat, ingnegabl, ingnegloc]
+    infl = infl + getNounPossessives(ingneg,ingnegout)
+    
     return infl
 
 def processInd(w):
@@ -863,10 +883,8 @@ def processCannot(w):
     infl = []
             
     #Cannot = Stem+(y)a/e+Neg+Tense+PersonMarker
-    ptstem = getStem(w)
-    ptstemout = getMx(ptstem, rp_stem)
-    cantstem = ptstem
-    cantstemout = ptstemout
+    cantstem = getStem(w, 'Can')
+    cantstemout = getMx(cantstem, rp_stem)
     cantdf = getCannotDictForm({'infl': cantstem, 'src': None}, cantstemout)
     cantcontstem = getStem(cantdf['infl'], 'Cont')
     cantcontstemout = getMx(cantcontstem, rp_stem)
@@ -911,6 +929,24 @@ def processCannot(w):
     cantaorpm = getPersonMarker(cantaor, 'z-aor-neg')
     
     infl = infl + cantaorpm
+    
+    #-Ing == -(y)An + by -ing == -(y)ArAk
+    cantingstem = getStem(cantdf['infl'])
+    cantingstemout = getMx(cantingstem, rp_stem)
+    canting = getIng({'infl': cantingstem, 'src': cantdf['src']}, cantingstemout)
+    bycanting = getByIng({'infl': cantingstem, 'src': cantdf['src']}, cantingstemout)
+    
+    infl = infl + [canting, bycanting]
+
+    ##Relative clauses and Noun Possessives for -(y)An
+    cantingout = getMx(canting['infl'], noun.rps)
+    cantingacc = noun.getAccusative(canting, cantingout)
+    cantingdat = noun.getDative(canting, cantingout)
+    cantingabl = noun.getAblative(canting, cantingout)
+    cantingloc = noun.getLocative(canting, cantingout)
+
+    infl = infl + [cantingacc, cantingdat, cantingabl, cantingloc]
+    infl = infl + getNounPossessives(canting,cantingout)
     
     return infl
 
@@ -1110,11 +1146,21 @@ def processVerb(w):
     
     infl = infl + [ing, bying]
 
+    ##Noun Possessives for -(y)An
+    ingout = getMx(ing['infl'], noun.rps)
+    ingacc = noun.getAccusative(ing, ingout)
+    ingdat = noun.getDative(ing, ingout)
+    ingabl = noun.getAblative(ing, ingout)
+    ingloc = noun.getLocative(ing, ingout)
+
+    infl = infl + [ingacc, ingdat, ingabl, ingloc]
+    infl = infl + getNounPossessives(ing,ingout)
+
     #wtype = noun in all cases
     for i in infl:
         i['wtype'] = 'verb'
     
-    ret = getInflectionGroups(infl,'verb')
+    ret = getInflectionGroups(infl,'verb',w)
     
     return ret
     
