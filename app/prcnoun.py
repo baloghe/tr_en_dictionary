@@ -461,7 +461,7 @@ def processNoun(w):
     for i in infl:
         i['wtype'] = 'noun'
     
-    ret = getInflectionGroups(infl,'noun')
+    ret = getInflectionGroups(infl,'noun',w)
     
     return ret
     
