@@ -21,6 +21,19 @@ class Entry:
         
     def getInflections(self):
         return self.inflections
+    
+    def getInflectionGroup(self, inGrpIDs):
+        ret = []
+        #print(f"inGrpIDs={inGrpIDs}")
+        for t in list(self.inflections.keys()):
+            for g in list(self.inflections[t].keys()):
+                #print(f"t={t}, g={g}")
+                if g in inGrpIDs:
+                    #print(self.inflections[t][g])
+                    for i in self.inflections[t][g]['infl']:
+                        #print(i)
+                        ret.append(i['infl'])
+        return ret
         
     def getMeaningsByTypes(self):
         wt = {}
