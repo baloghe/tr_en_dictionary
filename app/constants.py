@@ -50,6 +50,7 @@ EXCEPTIONS = {
             ,'git': 'gid'
             ,'et': 'ed'
             ,'tat': 'tad'
+            ,'affet': 'affed'
         },
         'CONTINUOUS': {
         },
