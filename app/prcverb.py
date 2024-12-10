@@ -350,6 +350,35 @@ def getByIng(stem, mx):
     
     return {'infl': ret, 'src': getSrc(stem, 'Ing')}
 
+def getUnless(stem, mx):
+    ret = stem['infl']
+    
+    if mx['last_syl_low']:
+        ret = ret + 'dıkça'
+    else:
+        ret = ret + 'dikçe'
+    
+    return {'infl': ret, 'src': getSrc(stem, 'Unless')}
+
+def getAs(stem, mx):
+    ret = stem['infl']
+
+    if mx['last_cons_hard']:
+        ret = ret + 't'
+    else:
+        ret = ret + 'd'
+    
+    if mx['last_syl_ai']:
+        ret = ret + 'ıkça'
+    elif mx['last_syl_ei']:
+        ret = ret + 'ikçe',
+    elif mx['last_syl_ou']:
+        ret = ret + 'ukça'
+    elif mx['last_syl_öü']:
+        ret = ret + 'ükçe'
+    
+    return {'infl': ret, 'src': getSrc(stem, 'As')}
+
 def getRelClauses(stem, mx):
 
     infl = []
@@ -631,6 +660,13 @@ def processNeg(w):
     futnegindpm = getPersonMarker(futnegind, 'z-ind')
     infl = infl + futnegindpm
     
+    ##-mAdIkcA: Unless
+    unlstem = negstem1
+    unlstemout = negstem1out
+    unl = getUnless({'infl': unlstem, 'src': 'Neg'},unlstemout)
+    
+    infl = infl + [unl]
+
     ##Indirect Negative +past
     indneg = getIndirect({'infl': negstem1, 'src': 'Neg'},negstem1out)
     indnegpm = getPersonMarker(indneg, 'z-ind')
@@ -1155,6 +1191,13 @@ def processVerb(w):
 
     infl = infl + [ingacc, ingdat, ingabl, ingloc]
     infl = infl + getNounPossessives(ing,ingout)
+
+    ## As -dIkcA
+    dikcastem = getStem(w)
+    dikcaout = getMx(dikcastem, rp_stem)
+    dikca = getAs({'infl': dikcastem, 'src': None}, dikcaout)
+
+    infl = infl + [dikca]
 
     #wtype = noun in all cases
     for i in infl:
