@@ -30,7 +30,7 @@ def readTSV(inFileName):
         i = 0
         for row in tsv_reader:
             i = i+1
-            lines = lines + row
+            lines.append(row)
         print(f"{inFileName} :: lines read: {i}")
     return lines
 
@@ -53,6 +53,7 @@ def addExample(e, dict):
         bk[w] = {'o':o,'f':f,'done':False}
         
     for entry in dict:
+        # print(entry)
         if done >= len(ws):
             break
         for w in ws:
@@ -71,13 +72,13 @@ def addExample(e, dict):
     
     #return something helpful
     if done >= len(ws):
-        ret = {'success': True, 'missing': [], 'cnt': done}
+        ret = {'success': True, 'missing': [], 'cnt': done, 'already': already}
     else:
         notf = []
         for w in ws:
             if not bk[w]['done']:
                 notf.append(w)
-        ret = {'success': False, 'missing': notf, 'cnt': done}
+        ret = {'success': False, 'missing': notf, 'cnt': done, 'already': already}
     return ret
 
 def writeTSV(outFileName, inLines):
