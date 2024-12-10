@@ -153,7 +153,9 @@ INFLECTION_DESC = {
     "Can": "Can",
     "Pot": "Potential",
     "Neg": "Negative",
-    "Ing": "VerbIng"
+    "Ing": "VerbIng",
+    "Unless": "Unless",
+    "As": "As"
 }
 
 def getSrc(word, actSrc):
