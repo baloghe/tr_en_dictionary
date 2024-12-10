@@ -229,14 +229,14 @@ def getGenitive(word, mx):
     
 def getWith(word, mx):
     
-    ret = ''
+    ret = word['infl']
     if mx['ends_vow']:
-        ret = word['infl']
+        ret = word['infl'] + 'y'
+        
+    if mx['last_syl_low']:
+        ret = ret+'la'
     else:
-        if mx['last_syl_low']:
-            ret = word['infl']+'la'
-        else:
-            ret = word['infl']+'le'
+        ret = ret+'le'
             
     return {'infl': ret , 'src': getSrc(word, 'With')}
             
