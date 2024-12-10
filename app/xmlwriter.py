@@ -98,7 +98,11 @@ def writeEntry(where, page, head, grpMap, infls, wtMap):
         entry.set(k,v)
         
     orth = etree.SubElement(entry, "{www.mobipocket.com/idx}orth", nsmap={'idx':NSMAP['idx']})
-    orth.set('value', head)
+    try:
+        orth.set('value', head)
+    except:
+        print(f"XMLWriter :: orth.set failed, head={head}")
+        print(infls)
     
     #original
     if len(page) == 1:

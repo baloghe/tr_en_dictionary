@@ -22,6 +22,6 @@ if len(sys.argv) >= 4:
     readTSV(INFILE, ENTRIES, ERRORS)
     groups = calcInflections(ENTRIES)
     writeXML(OUTFILE, groups, WORDTYPE_MAP, INFLECTION_DESC)
-    writeJSON(OUTJSON, groups)
+    # writeJSON(OUTJSON, groups)
 else:
     print ('Less arguments passed than needed! exit program')

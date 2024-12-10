@@ -371,7 +371,7 @@ def getAs(stem, mx):
     if mx['last_syl_ai']:
         ret = ret + 'ıkça'
     elif mx['last_syl_ei']:
-        ret = ret + 'ikçe',
+        ret = ret + 'ikçe'
     elif mx['last_syl_ou']:
         ret = ret + 'ukça'
     elif mx['last_syl_öü']:
