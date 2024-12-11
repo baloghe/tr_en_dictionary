@@ -1,6 +1,8 @@
 import json
 import re
 
+from app.tsvreader import readTSV
+
 def getInflections(inJsonFileName):
     with open(inJsonFileName, 'r', encoding='UTF-8') as f:
         return json.load(f)
@@ -23,25 +25,46 @@ def writeResult(outFileName, inArray):
     file.writelines(list(map(lambda e: e[0] + '\t' + str(e[1]) + '\n', inArray)))
     file.close()
 
-def tryDict(inJsonFileName, inText, outFoundFileName, outNotFoundFileName):
-    INFL = getInflections(inJsonFileName)
-   
+def tryDict(inInfls, inText, outFoundFileName, outNotFoundFileName):
+       
     DWORD = getDistinctWords(inText)
-    print(f"tryDict :: {len(INFL)} inflections against {len(DWORD)} distinct words:")
+    print(f"tryDict :: {len(inInfls)} inflections against {len(DWORD)} distinct words:")
     
     FOUND = []
     NOTFOUND = []
     for k,cnt in DWORD.items():
         found = False
-        if k in INFL:
+        if k in inInfls:
             FOUND.append([k,cnt])
         else:
             NOTFOUND.append([k,cnt])
-        if(k=='aldım'):
-            print(f"aldım :: {found}")
             
     print(f"FOUND: {len(FOUND)} words, still MISSING: {len(NOTFOUND)}")
 
     #print(FOUND)
     writeResult(outFoundFileName, FOUND)
     writeResult(outNotFoundFileName, NOTFOUND)
+
+def tryDictJSON(inJsonFileName, inText, outFoundFileName, outNotFoundFileName):
+    INFL = getInflections(inJsonFileName)
+    tryDict(INFL, inText, outFoundFileName, outNotFoundFileName)
+
+def tryDictTSV(inDictFileName, inText, outFoundFileName, outNotFoundFileName):
+    ENTRIES = {}
+    ERRORS = {}
+
+    readTSV(inDictFileName, ENTRIES, ERRORS)
+
+    for o in ENTRIES:
+        try:
+            ENTRIES[o].calcInflections()
+        except:
+            print(f"ERROR: no inflection could be calculated for Entry={o}")
+    INFL = []
+    for (k,e) in list(ENTRIES.items()):
+        i = e.getInflections()
+        for t in list(i.keys()):
+            for g in list(i[t].keys()):
+                for j in i[t][g]['infl']:
+                    INFL.append(j['infl'])
+    tryDict(INFL, inText, outFoundFileName, outNotFoundFileName)
