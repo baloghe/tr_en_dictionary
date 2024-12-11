@@ -131,7 +131,7 @@ def calcInflections(inEntries):
     INFLECTION_TO_HEAD = {}
     HEAD_TO_ENTRY = {}
     for o in inEntries:
-        inEntries[o].calcInflections()
+        # inEntries[o].calcInflections()
         try:
             inEntries[o].calcInflections()
         except:
