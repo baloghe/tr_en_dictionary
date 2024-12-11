@@ -1,6 +1,13 @@
 import regex
 regex.DEFAULT_VERSION = regex.VERSION1
 
+ALPHABET2 = 'aAâÂbBcCçÇdDeEfFgGğĞhHiİıIîÎjJkKlLmMnNoOöÖpPqQrRsSşŞtTuUûÛüÜvVwWxXyYzZ'
+ALPHABET = {'a':0,'A':0,'â':0,'Â':0,'b':1,'B':1,'c':2,'C':2,'ç':2,'Ç':2,'d':3,'D':3,'e':4,'E':4,'f':5,'F':5
+            ,'g':6,'G':6,'ğ':6,'Ğ':6,'h':7,'H':7,'i':8,'İ':8,'ı':8,'I':8,'î':8,'Î':8,'j':9,'J':9,'k':10,'K':10
+            ,'l':11,'L':11,'m':12,'M':12,'n':13,'N':13,'o':14,'O':14,'ö':15,'Ö':15,'p':16,'P':16,'q':17,'Q':17
+            ,'r':18,'R':18,'s':19,'S':19,'ş':19,'Ş':19,'t':20,'T':20,'u':21,'U':21,'û':21,'Û':21,'ü':22,'Ü':22
+            ,'v':23,'V':23,'w':24,'W':24,'x':25,'X':25,'y':26,'Y':26,'z':27,'Z':27}
+
 WORDTYPE_MAP = {'verb': 'verb'
     ,'noun': 'noun'
     ,'phrase': 'phrase'
@@ -18,7 +25,7 @@ EXCEPTIONS = {
             'saat':'saatler',
             'hal':'haller'
         },
-        'ALTERNATE': ['sap','at','kek','saç','saat','kat','adet','cesaret'],
+        'ALTERNATE': ['sap','at','kek','saç','saat','kat','adet','cesaret','fiyat'],
         'ALTERNATE_POSS': ['kek','saç'],
         'ACCUSATIVE': {
              'saat':'saati'
@@ -40,7 +47,9 @@ EXCEPTIONS = {
              'akıl': ['aklım','aklın','aklı','aklımız','aklınız'],
              'ömür': ['ömrüm','ömrün','ömrü','ömrümüz','ömrünüz'],
              'vakit': ['vaktim','vaktin','vakti','vaktimiz','vaktiniz'],
-             'zihin': ['zihnim','zihnin','zihni','zihnimiz','zihniniz']
+             'zihin': ['zihnim','zihnin','zihni','zihnimiz','zihniniz'],
+             'isim': ['ismim','ismin','ismi','ismimiz','isminiz'],
+             'karın': ['karnım','karnın','karnı','karnımiz','karnıniz']
         },
         'GENITIVE': {
         },
@@ -51,6 +60,7 @@ EXCEPTIONS = {
             ,'et': 'ed'
             ,'tat': 'tad'
             ,'affet': 'affed'
+            ,'seyret': 'seyred'
         },
         'CONTINUOUS': {
         },
@@ -60,6 +70,8 @@ EXCEPTIONS = {
             ,'git': 'gid'
             ,'et': 'ed'
             ,'tat': 'tad'
+            ,'affet': 'affed'
+            ,'seyret': 'seyred'
         },
         'FUTURE': {
         },
@@ -79,6 +91,8 @@ EXCEPTIONS = {
             ,'tat': 'tader'
             ,'var': 'varır'
             ,'vur': 'vurur'
+            ,'affet': 'affeder'
+            ,'seyret': 'seyreder'
         },
         'IP_STEM': {
              'ye': 'yi'
@@ -86,6 +100,8 @@ EXCEPTIONS = {
             ,'git': 'gid'
             ,'et': 'ed'
             ,'tat': 'tad'
+            ,'affet': 'affed'
+            ,'seyret': 'seyred'
         },
         'ING_STEM': {
              'ye': 'yi'
@@ -93,6 +109,8 @@ EXCEPTIONS = {
             ,'git': 'gid'
             ,'et': 'ed'
             ,'tat': 'tad'
+            ,'affet': 'affed'
+            ,'seyret': 'seyred'
         },
         'CAN_STEM': {
              'ye': 'yi'
@@ -100,6 +118,8 @@ EXCEPTIONS = {
             ,'git': 'gid'
             ,'et': 'ed'
             ,'tat': 'tad'
+            ,'affet': 'affed'
+            ,'seyret': 'seyred'
         }
     }
 
@@ -158,6 +178,16 @@ INFLECTION_DESC = {
     "Unless": "Unless",
     "As": "As"
 }
+
+def _alphaLookup(c):
+    if c in ALPHABET:
+        return ALPHABET[c]
+    else:
+        return -1
+
+def alphaSort(a):
+    # works both
+    return sorted(a, key=lambda word: [_alphaLookup(c) for c in ''.join(word)])
 
 def getSrc(word, actSrc):
     if word['src']:
