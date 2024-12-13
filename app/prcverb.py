@@ -379,6 +379,23 @@ def getAs(stem, mx):
     
     return {'infl': ret, 'src': getSrc(stem, 'As')}
 
+def getWhen(stem, mx):
+    ret = stem['infl']
+    
+    if mx['ends_vow']:
+        ret = ret + 'y'
+    
+    if mx['last_syl_ai']:
+        ret = ret + 'ınca'
+    elif mx['last_syl_ei']:
+        ret = ret + 'ince'
+    elif mx['last_syl_ou']:
+        ret = ret + 'unca'
+    elif mx['last_syl_öü']:
+        ret = ret + 'ünce'
+    
+    return {'infl': ret, 'src': getSrc(stem, 'When')}
+
 def getRelClauses(stem, mx):
 
     infl = []
@@ -403,6 +420,15 @@ def getPersonMarker(word, paradigm):
     if paradigm in ['cont-z-pr', 'cont-k-pt']:
         for p in pm[paradigm]:
             ret.append({'infl': word['infl']+p , 'src': word['src']})
+        #bonus: -lArdI
+        if paradigm=='cont-k-pt':
+            bonus = word['infl']
+            if mx['last_syl_ai'] or mx['last_syl_ou']:
+                bonus = word['infl'][:len(word['infl'])-2] + 'lardı'
+            else:
+                bonus = word['infl'][:len(word['infl'])-2] + 'lerdi'
+            #print(f"{word['infl']} -> bonus: {bonus}")
+            ret.append({'infl': bonus , 'src': word['src']})
     elif paradigm == 'z-fut':
         ending = {'ak': ['ğım','ksın','k','ğız','ksınız','klar']
                  ,'ek': ['ğim','ksin','k','ğiz','ksiniz','kler']}
@@ -411,7 +437,7 @@ def getPersonMarker(word, paradigm):
         
         for p in ending[actend]:
             ret.append({'infl': word['infl'] + p , 'src': word['src']})
-    elif paradigm == 'k-pt':
+    elif paradigm == 'k-pr':
         ending = {'lo': ['m','n','','k','nız','lar']
                  ,'hi': ['m','n','','k','niz','ler']}
         actend = ''
@@ -453,10 +479,11 @@ def getPersonMarker(word, paradigm):
             ret.append({'infl': stem + p , 'src': word['src']})
         #bonus: -lArdI
         bonus = stem
-        if pm[len(pm)-1:] == 'lar':
+        if mx['last_syl_ai'] or mx['last_syl_ou']:
             bonus = word['infl'][:len(word['infl'])-2] + 'lardı'
         else:
             bonus = word['infl'][:len(word['infl'])-2] + 'lerdi'
+        #print(f"{stem} -> bonus: {bonus}")
         ret.append({'infl': bonus , 'src': word['src']})
     elif paradigm == 'z-aor':
         pm = []
@@ -640,6 +667,15 @@ def processNeg(w):
 
     infl = []
     
+    ##Relative clauses on the negative infinitive
+    neginf = getStem(w, 'Neg')
+    if neginf[len(neginf)-1:] == 'a':
+        neginf = neginf + 'mak'
+    else:
+        neginf = neginf + 'mek'
+    neginfout = getMx(neginf, noun.rps)
+    infl = infl + getRelClauses({'infl': neginf, 'src': 'Neg'}, neginfout)
+
     ##Negative future +in-the-pastnegstem = getNegStem(w) +indirect
     negstem1 = getStem(w, 'Neg')
     negstem1out = getMx(negstem1, rp_stem)
@@ -666,6 +702,13 @@ def processNeg(w):
     unl = getUnless({'infl': unlstem, 'src': 'Neg'},unlstemout)
     
     infl = infl + [unl]
+
+    ## When not -IncA
+    incanegstem = negstem1
+    incanegout = negstem1out
+    incaneg = getWhen({'infl': incanegstem, 'src': 'Neg'}, incanegout)
+
+    infl = infl + [incaneg]
 
     ##Indirect Negative +past
     indneg = getIndirect({'infl': negstem1, 'src': 'Neg'},negstem1out)
@@ -779,7 +822,7 @@ def processNeg(w):
     cndnegstem = negstem1
     cndnegstemout = getMx(cndnegstem, rp_stem)
     cndneg = getConditional({'infl': cndnegstem, 'src': None}, cndnegstemout)
-    cndnegpm = getPersonMarker(cndneg, 'k-pt')
+    cndnegpm = getPersonMarker(cndneg, 'k-pr')
     
     infl = infl + cndnegpm
     
@@ -839,7 +882,7 @@ def processPt(w):
     
     #Conditional
     ptcond = getConditional(pt, ptstemout, addy=True)
-    ptcondpm = getPersonMarker(ptcond, 'k-pt')
+    ptcondpm = getPersonMarker(ptcond, 'k-pr')
     
     infl = infl + ptcondpm
 
@@ -908,7 +951,7 @@ def processAor(w):
     #Aorist + Conditional == Realis condition
     aorstem = aor['infl']
     aorcond = getConditional(aor, wouldstemout)
-    aorcondpm = getPersonMarker(aorcond, 'k-pt')
+    aorcondpm = getPersonMarker(aorcond, 'k-pr')
     
     infl = infl + aorcondpm
     
@@ -1044,7 +1087,7 @@ def processPot(w):
     potcndstem = potaorstem
     potcndstemout = potaorstemout
     potcnd = getConditional({'infl': potcndstem, 'src': potdf['src']}, potcndstemout)
-    potcndpm = getPersonMarker(potcnd, 'k-pt')
+    potcndpm = getPersonMarker(potcnd, 'k-pr')
     
     infl = infl + potcndpm
     
@@ -1080,14 +1123,17 @@ def processVerb(w):
     
     #Other cases/tenses
     
-    #Progressive mAktA
+    #Progressive mAktA + Past mAktAydI
     ptstem = getStem(w)
     ptstemout = getMx(ptstem, rp_stem)
     maktastem = ptstem
     maktastemout = ptstemout
     makta = getProgressive({'infl': maktastem, 'src': None}, maktastemout)
+    maktaptstem = makta['infl']+'y'
+    maktaptstemout = getMx(maktaptstem, rp_stem)
+    maktapt = getPast({'infl': maktaptstem, 'src': makta['src']}, maktaptstemout)
     
-    infl = infl + [makta]
+    infl = infl + [makta, maktapt]
 
     ##Rather == mAktA + n + sa == Progressive Conditional
     cndmaktastem = makta['infl'] + 'n'
@@ -1155,7 +1201,7 @@ def processVerb(w):
     cndstem = getStem(w)
     cndstemout = getMx(cndstem, rp_stem)
     cnd = getConditional({'infl': cndstem, 'src': None}, cndstemout)
-    cndpm = getPersonMarker(cnd, 'k-pt')
+    cndpm = getPersonMarker(cnd, 'k-pr')
     
     infl = infl + cndpm
     
@@ -1198,6 +1244,18 @@ def processVerb(w):
     dikca = getAs({'infl': dikcastem, 'src': None}, dikcaout)
 
     infl = infl + [dikca]
+
+    ## When -IncA
+    incastem = getStem(w)
+    incaout = getMx(incastem, rp_stem)
+    inca = getWhen({'infl': incastem, 'src': None}, incaout)
+
+    infl = infl + [inca]
+
+    ##Relative clauses on the infinitive
+    inf = w
+    infout = getMx(w, noun.rps)
+    infl = infl + getRelClauses({'infl': inf, 'src': None}, infout)
 
     #wtype = noun in all cases
     for i in infl:
