@@ -161,13 +161,13 @@ def getPossessive(word, mx):
             ret.append({'infl':  w, 'src': getSrc(word, 'Poss')})
         return ret
         
-    vow_lo = ['m','n','sı','mız','nız']
-    vow_hi = ['m','n','si','miz','niz']
+    vow_lo = ['m','n','sı','mız','nız','sı']
+    vow_hi = ['m','n','si','miz','niz','si']
     
-    con_ai = ['ım','ın','ısı','ımız','ınız']
-    con_ei = ['im','in','isi','imiz','iniz']
-    con_ou = ['um','un','u','umuz','unuz']
-    con_oouu = ['üm','ün','ü','ümüz','ünüz']
+    con_ai = ['ım','ın','ı','ımız','ınız','ı']
+    con_ei = ['im','in','i','imiz','iniz','i']
+    con_ou = ['um','un','u','umuz','unuz','u']
+    con_oouu = ['üm','ün','ü','ümüz','ünüz','ü']
         
     ret = []
     if mx['ends_vow']:
