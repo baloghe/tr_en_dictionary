@@ -433,6 +433,10 @@ def processNoun(w):
         infl.append(getPredicative(indpt,indptout))
         indptpm = getPersonMarker(indpt,indout,'k-pt')
         infl = infl + indpm + indptpm
+        apt = getPast(a,aout)
+        aptout = getMx(apt['infl'], rps)
+        aptpm = getPersonMarker(apt,aptout,'k-pt')
+        infl = infl + aptpm
     for a in plrpos:
         aout = getMx(a['infl'], rps)
         infl.append(getAccusative(a,aout))
@@ -454,6 +458,10 @@ def processNoun(w):
         infl.append(getPredicative(indpt,indptout))
         indptpm = getPersonMarker(indpt,indout,'k-pt')
         infl = infl + indpm + indptpm
+        apt = getPast(a,aout)
+        aptout = getMx(apt['infl'], rps)
+        aptpm = getPersonMarker(apt,aptout,'k-pt')
+        infl = infl + aptpm
     
     #Predicative DIr +past mIstIr
     
