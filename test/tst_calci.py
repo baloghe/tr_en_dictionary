@@ -5,10 +5,10 @@ from app.constants import *
 
 tv = ["yakalamak", "to wash", "verb", None]
 tn = ["yakma", "incineration", "noun", None]
+tadj = ["aksi", "opposite", "adj", None]
+tadv = ["aksine", "on the contrary", "adv", None]
 
 ENTRIES = {}
-INFLECTION_TO_HEAD = {}
-HEAD_TO_ENTRY = {}
 
 def createEntry(record):
     print(f"orig :: {record}")
@@ -27,14 +27,19 @@ def testCalcI(record):
     ENTRIES = {}
     ENTRIES[e.getOrig()] = e
     #print(e)
-    INFLECTION_TO_HEAD = {}
-    HEAD_TO_ENTRY = {}
-    calcInflections(ENTRIES, INFLECTION_TO_HEAD, HEAD_TO_ENTRY)
-    print("HEAD_TO_ENTRY ::")
-    print(HEAD_TO_ENTRY)
+    grps = calcInflections(ENTRIES)
+    for g in grps.keys():
+        print(f"{g} -> {len(grps[g].getInflections())}, valid: {grps[g].isValid()}")
+
 
 print("Test verb ::")
 testCalcI(tv)
 
 print("Test noun ::")
 testCalcI(tn)
+
+print("Test adjective ::")
+testCalcI(tadj)
+
+print("Test adverb ::")
+testCalcI(tadv)
