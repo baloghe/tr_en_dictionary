@@ -1,6 +1,7 @@
 import csv
 
 from app.classes.entry import Entry
+from app.constants import WORDTYPE_MAP
 
 def addError(line, problem, dstErrors):
     e = None
@@ -27,6 +28,8 @@ def readTSV(inFileName, dstEntries, dstErrors):
                     t = row[2]
                 else:
                     addError(i, 'missing word type', dstErrors)
+                if t not in WORDTYPE_MAP:
+                    addError(i, 'unknown word type', dstErrors)
                 if len(row) > 3 and len(row[3]) > 0:
                     x = row[3:]
                 
