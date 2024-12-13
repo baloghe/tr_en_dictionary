@@ -43,13 +43,15 @@ EXCEPTIONS = {
              'hal':'halden'
         },
         'POSSESSIVE': {
-             'su': ['suyum','suyun','suyu','suyumuz','suyunuz'],
-             'akıl': ['aklım','aklın','aklı','aklımız','aklınız'],
-             'ömür': ['ömrüm','ömrün','ömrü','ömrümüz','ömrünüz'],
-             'vakit': ['vaktim','vaktin','vakti','vaktimiz','vaktiniz'],
-             'zihin': ['zihnim','zihnin','zihni','zihnimiz','zihniniz'],
-             'isim': ['ismim','ismin','ismi','ismimiz','isminiz'],
-             'karın': ['karnım','karnın','karnı','karnımiz','karnıniz']
+             'su': ['suyum','suyun','suyu','suyumuz','suyunuz','suyu'],
+             'akıl': ['aklım','aklın','aklı','aklımız','aklınız','aklı'],
+             'ömür': ['ömrüm','ömrün','ömrü','ömrümüz','ömrünüz','ömrü'],
+             'vakif': ['vakfım','vakfın','vakfı','vakfımız','vakfınız','vakfı'],
+             'vakit': ['vaktim','vaktin','vakti','vaktimiz','vaktiniz','vakti'],
+             'zihin': ['zihnim','zihnin','zihni','zihnimiz','zihniniz','zihni'],
+             'isim': ['ismim','ismin','ismi','ismimiz','isminiz','ismi'],
+             'karın': ['karnım','karnın','karnı','karnımız','karnınız','karnı'],
+             'ağız': ['ağzım','ağzın','ağzı','ağzımız','ağzınız','ağzı']
         },
         'GENITIVE': {
         },
@@ -61,6 +63,8 @@ EXCEPTIONS = {
             ,'tat': 'tad'
             ,'affet': 'affed'
             ,'seyret': 'seyred'
+            ,'kaybet': 'kaybed'
+            ,'zannet': 'zanned'
         },
         'CONTINUOUS': {
         },
@@ -72,6 +76,8 @@ EXCEPTIONS = {
             ,'tat': 'tad'
             ,'affet': 'affed'
             ,'seyret': 'seyred'
+            ,'kaybet': 'kaybed'
+            ,'zannet': 'zanned'
         },
         'FUTURE': {
         },
@@ -93,6 +99,8 @@ EXCEPTIONS = {
             ,'vur': 'vurur'
             ,'affet': 'affeder'
             ,'seyret': 'seyreder'
+            ,'kaybet': 'kaybeder'
+            ,'zannet': 'zanneder'
         },
         'IP_STEM': {
              'ye': 'yi'
@@ -102,6 +110,8 @@ EXCEPTIONS = {
             ,'tat': 'tad'
             ,'affet': 'affed'
             ,'seyret': 'seyred'
+            ,'kaybet': 'kaybed'
+            ,'zannet': 'zanned'
         },
         'ING_STEM': {
              'ye': 'yi'
@@ -111,6 +121,8 @@ EXCEPTIONS = {
             ,'tat': 'tad'
             ,'affet': 'affed'
             ,'seyret': 'seyred'
+            ,'kaybet': 'kaybed'
+            ,'zannet': 'zanned'
         },
         'CAN_STEM': {
              'ye': 'yi'
@@ -120,6 +132,8 @@ EXCEPTIONS = {
             ,'tat': 'tad'
             ,'affet': 'affed'
             ,'seyret': 'seyred'
+            ,'kaybet': 'kaybed'
+            ,'zannet': 'zanned'
         }
     }
 
@@ -176,18 +190,24 @@ INFLECTION_DESC = {
     "Neg": "Negative",
     "Ing": "VerbIng",
     "Unless": "Unless",
-    "As": "As"
+    "As": "As",
+    "When": "When"
 }
 
 def _alphaLookup(c):
-    if c in ALPHABET:
-        return ALPHABET[c]
+    if type(c) is str:
+        if c in ALPHABET:
+            return ALPHABET[c]
+        else:
+            return -1
+    elif type(c) in [int, float]:
+        return c
     else:
         return -1
 
 def alphaSort(a):
     # works both
-    return sorted(a, key=lambda word: [_alphaLookup(c) for c in ''.join(word)])
+    return sorted(a, key=lambda word: [_alphaLookup(c) for c in ''.join(map(str,word))])
 
 def getSrc(word, actSrc):
     if word['src']:
