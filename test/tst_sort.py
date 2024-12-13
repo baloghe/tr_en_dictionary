@@ -15,3 +15,7 @@ print(alphaSort(words))
 w2 = [['kar','snow','noun'],['çakı','pocket knife','noun'],['çocuk','child','noun'],['ceza','punishment','noun']]
 print(w2)
 print(alphaSort(w2))
+
+w3 = [['kar',4],['çakı',9],['çocuk',20],['ceza',40]]
+print(w3)
+print(alphaSort(w3))
