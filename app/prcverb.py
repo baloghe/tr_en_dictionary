@@ -568,6 +568,7 @@ def getNounPossessives(stem, mx):
     for a in stempos:
         aout = getMx(a['infl'], noun.rps)
         infl.append(noun.getAccusative(a,aout))
+        infl.append(noun.getDative(a,aout))
         infl.append(noun.getGenitive(a,aout))
         infl.append(noun.getKi(noun.getGenitive(a,aout)))
         infl.append(noun.getWith(a,aout))
@@ -907,6 +908,7 @@ def processPt(w):
     for a in relptpos:
         aout = getMx(a['infl'], noun.rps)
         infl.append(noun.getAccusative(a,aout))
+        infl.append(noun.getDative(a,aout))
         infl.append(noun.getGenitive(a,aout))
         infl.append(noun.getKi(noun.getGenitive(a,aout)))
         infl.append(noun.getWith(a,aout))
