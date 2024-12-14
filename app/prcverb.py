@@ -624,7 +624,15 @@ def processCont(w):
     
     ###Negative Continuous Past
     contnegptpm = getPersonMarker(contnegpt, 'cont-k-pt')
-    infl = infl + contnegptpm
+    infl = infl + contnegptpm    
+
+    #Indirect continuous
+    icontstem = cont['infl']
+    icontout = getMx(icontstem, rp_stem)
+    icont = getIndirect(cont, icontout)
+    icontpm = getPersonMarker(icont, 'cont-z-pr')
+
+    infl = infl + icontpm
     
     return infl
 
@@ -756,6 +764,14 @@ def processNeg(w):
     pmistirneg = getPredicative(pmistirnegstem, pmistirnegout)
     
     infl = infl + [pcontneg, pmaktaneg, pmistirneg]
+
+    #Indirect continuous
+    icontnegstem = getContinuous({'infl': getStem(w, 'Neg-Cont'), 'src': 'Neg'},getMx(getStem(w, 'Neg-Cont'), rp_stem))
+    icontnegout = getMx(icontnegstem['infl'], rp_stem)
+    icontneg = getIndirect(icontnegstem, icontnegout)
+    icontnegpm = getPersonMarker(icontneg, 'cont-z-pr')
+
+    infl = infl + icontnegpm
     
     #Imperative
     impnegstem = negstem1
