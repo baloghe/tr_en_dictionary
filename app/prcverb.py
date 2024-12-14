@@ -786,6 +786,13 @@ def processNeg(w):
     necnegptpm = getPersonMarker(necnegpt, 'k-pt')
     
     infl = infl + necnegptpm
+
+    ##Necessitative Predicative
+    necnegpredstem = necneg['infl']
+    necnegpredstemout = getMx(necnegpredstem, rp_stem)
+    necnegpred = getPredicative({'infl': necnegpredstem, 'src': necneg['src']}, necnegpredstemout)
+    
+    infl = infl + [necnegpred]
     
     #Would (otherwise) == Aorist + Past    
     wouldnegstem = aorneg['infl'] + 'z'
@@ -1195,6 +1202,13 @@ def processVerb(w):
     necptpm = getPersonMarker(necpt, 'k-pt')
     
     infl = infl + necptpm
+
+    ##Necessitative Predicative
+    necpredstem = nec['infl']
+    necpredstemout = getMx(necpredstem, rp_stem)
+    necpred = getPredicative({'infl': necpredstem, 'src': nec['src']}, necpredstemout)
+    
+    infl = infl + [necpred]
     
     #Obligation (with mecbur)
     infl.append(getObligation(w))
