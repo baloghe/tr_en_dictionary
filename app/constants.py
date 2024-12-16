@@ -65,6 +65,7 @@ EXCEPTIONS = {
             ,'seyret': 'seyred'
             ,'kaybet': 'kaybed'
             ,'zannet': 'zanned'
+            ,'başet': 'başed'
         },
         'CONTINUOUS': {
         },
@@ -78,6 +79,7 @@ EXCEPTIONS = {
             ,'seyret': 'seyred'
             ,'kaybet': 'kaybed'
             ,'zannet': 'zanned'
+            ,'başet': 'başed'
         },
         'FUTURE': {
         },
@@ -101,6 +103,7 @@ EXCEPTIONS = {
             ,'seyret': 'seyreder'
             ,'kaybet': 'kaybeder'
             ,'zannet': 'zanneder'
+            ,'başet': 'başeder'
         },
         'IP_STEM': {
              'ye': 'yi'
@@ -112,6 +115,7 @@ EXCEPTIONS = {
             ,'seyret': 'seyred'
             ,'kaybet': 'kaybed'
             ,'zannet': 'zanned'
+            ,'başet': 'başed'
         },
         'ING_STEM': {
              'ye': 'yi'
@@ -123,6 +127,7 @@ EXCEPTIONS = {
             ,'seyret': 'seyred'
             ,'kaybet': 'kaybed'
             ,'zannet': 'zanned'
+            ,'başet': 'başed'
         },
         'CAN_STEM': {
              'ye': 'yi'
@@ -134,6 +139,7 @@ EXCEPTIONS = {
             ,'seyret': 'seyred'
             ,'kaybet': 'kaybed'
             ,'zannet': 'zanned'
+            ,'başet': 'başed'
         }
     }
 
