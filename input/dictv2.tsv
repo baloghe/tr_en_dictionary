@@ -406,7 +406,7 @@ anlatılmak	to be told	verb
 anlatım	exposition	noun
 anlatım	expression	noun
 anlayamak	to understand, to realize	verb
-anlayış	understanding	noun
+anlayış	understanding, mentality	noun
 anlayışlı	understanding, considerate	adj
 anlaşılmak	to be understood	verb	anlaşıldı: understood
 anlaşmak	to agree	verb
@@ -759,6 +759,7 @@ ağrı	pain	noun
 ağrımak	to ache	verb
 ağrımak	to hurt	verb
 ağustos	August	noun
+ağı	poison	noun
 ağır	heavy	adj
 ağırlamak	to host, to entertain sb.	verb
 ağırlaşmak	to slow down	verb
@@ -802,8 +803,10 @@ babacan	friendly, fatherly	adj
 baca	chimney	noun
 bacak	leg	noun
 bacaklar	legs	noun
+bacaksız	legless	adj	
 bacı	sister	noun
 badem	almond	noun
+badye	bathtub	noun
 bagaj	baggage	noun
 bagaj	luggage	noun
 bahane	excuse	noun	hep bir bahane buluyorsun! you always find an excuse!
@@ -820,24 +823,33 @@ bahçe	garden	noun	bahçe işleri: gardening
 bahşiş	tip	noun
 bakan	minister	noun
 bakanlık	ministry	noun
+bakımsız	neglected, squalid	adj
+bakın	look!	phrase
 baki	permanent	adj
 bakkal	grocery	noun
+bakma	look, watch, attendance	noun
 bakmak	to face	verb
 bakmak	to look at	verb
 bakmak	to look	verb
 bakmak	to watch	verb
+baksanıza	look at this!	phrase
 bakteri	bacterium	noun
 bakım	maintenance, care	noun
 bakımından	from the point of view	posp
 bakır	copper	noun
-bakış	glance; view	noun
+bakış	glance, view	noun
 bakış	look	noun	boş bakışlarla: with a blank look
+bakışmak	to look at each other, to make eyes	verb
 bal	honey	noun
+balarası	honey bee	noun
 bale	ballet	noun
+balerin	ballerina, ballet dancer	noun
+balıkyağı	fish oil	noun
 balina	whale	noun
 balkon	balcony	noun
 ballandıra	in detail	adv	ballandıra ballandıra anlatmak: describe eloborately, in exaggerated details
 balmumu	wax	noun
+balo	prom, ball (dancing)	noun
 balon	balloon	noun
 balta	ax	noun
 balık	fish	noun	köpek balık: shark
@@ -861,12 +873,13 @@ barbekü	barbecue	noun
 bardak	glass	noun
 bari	at least	adv
 baro	bar	noun
-barınmak	to take shelter	verb
+barınmak	to give/take shelter	verb
+barınak	shelter, refuge	noun
 barış	peace	noun
 barışmak	to make peace	verb
 barıştırmak	to reconcile	verb
-basamak	step	noun
 basamak	step, stair	noun
+basamaklı	-stepped, composed of steps	adj
 basit	easy	adj
 basit	simple	adj	basit bir şekilde: in a simple way
 baskı	edition	noun
@@ -899,6 +912,7 @@ baygın	unconscious	adj
 bayi	franchiser, distributor	noun
 baykuş	owl	noun
 bayrak	flag	noun
+bayraktar	flag bearer, ensign, standard bearer	noun
 bayram	religious festival, national holiday	noun
 bayılmak	to be fond of	verb
 bayılmak	to faint	verb
@@ -929,6 +943,8 @@ bağımlılık	addiction, dependency	noun
 bağımsız	independent	adj
 bağımsızlık	independence	noun
 bağıntı	relation, connection	noun
+bağıra	shout	noun	bağıra bağıra: shouting loudly
+bağırma	yell, shout, scream	noun
 bağırmak	to shout	verb
 bağırmak	to yell	verb
 bağırsak	intestine	noun
@@ -936,7 +952,7 @@ bağış	donation	noun
 bağışlamak	to donate	verb
 bağışlamak	to forgive	verb
 bağışıklık	immunity	noun
-baş	head	noun	en başta: at first
+baş	head	noun	en başta: at first	baş etmek: to cope with
 başak	spike	noun
 başarmak	to succeed in	verb
 başarmak	to succeed	verb
@@ -945,18 +961,30 @@ başarılı	successful	adj
 başarısız	unsuccessful	adj
 başarısızlık	failure	noun
 başbakan	prime minister	noun
+başetmek	to cope with	verb
+başeser	masterpiece	noun
+basılmak	to be printed	verb
+basım	printing, (book) edition	noun
+başhemşire	head nurse	noun
 başka	else	adv
 başka	other	det
+başkalık	diversity	noun
+başkası	somebody else	noun
 başkaldırmak	to rebel	verb
 başkan	president	noun
 başkanlık	presidency	noun
 başkent	capital	noun
+başlama	start	noun
 başlamak	to begin	verb
 başlamak	to start	verb
+başlanmak	to start	verb
+başlatmak	to launch, to initiate	verb
 başlangıç	beginning	noun
 başlangıç	start	noun
+başlı	-headed	adj
 başlıca	principal, main	adj
 başlık	headgear; headline, title	noun
+başlıklı	headed, titled	adj
 başparmak	thumb	noun
 başrol	lead role	noun
 başrol	lead, leading role	noun
@@ -970,6 +998,9 @@ başörtüsü	scarf	noun
 başşehir	capital	noun
 bebek	baby	noun
 beceri	talent, skill	noun
+becerikli	skilled, resourceful, clever	adj
+beceriksiz	incompetent	adj
+beceriksizlik	incompetence, clumsiness	noun
 becermek	to accomplish, to do	verb
 becermek	to get things done	verb
 bedava	gratis, free	adj
@@ -1014,7 +1045,7 @@ belirteç	adverb	noun
 belirti	symptom; sign	noun
 belirtim	annotation	noun
 belirtmek	to imply	verb
-belirtmek	to state	verb
+belirtmek	to state, to indicate	verb
 belki	maybe	adv
 belki	perhaps	adv
 belki	probably	adv
@@ -1038,6 +1069,8 @@ benzemek	to look like	verb
 benzemek	to resemble	verb
 benzer	like	adv
 benzer	similar	adj
+benzeri	quasi	adv
+benzeri	similar	adj
 benzerlik	similarity	noun
 benzin	gas, petrol	noun
 benzin	petrol	noun
@@ -1056,6 +1089,7 @@ bereket	blessing	noun
 beri	since	adv
 beri	since	posp
 besbelli	obvious	adj
+besi	stock, food	noun
 besin	food	noun
 besin	nourishment	noun
 besin	nutrition	noun
@@ -1070,7 +1104,10 @@ beyan	declaration	noun
 beyanname	declaration	noun
 beyaz	white	adj
 beyefendi	gentleman	noun
+beyefendilik	gentlemanliness	noun
 beyin	brain	noun
+beyinsiz	brainless, stupid	adj
+beylerbeyi	grand seigneur	noun	
 beylik	principality, seigniory	noun
 bez	piece of cloth	noun
 bezelye	pea	noun
@@ -1079,6 +1116,8 @@ bezmek	to get tired	verb
 beğeni	good taste	noun
 beğenmek	to like	verb
 beğenmek	to admire	verb
+beğendirmek	to recommend	verb
+beğenilmek	to be liked, to be approved of, to be recognised	verb
 beş	five	noun
 beşer	human being	noun
 beşeri	human	adj
@@ -1092,6 +1131,7 @@ bilanço	balance sheets	noun
 bildirge	declaration	noun
 bildiri	notice; proclamation	noun
 bildirim	notice, declaration	noun
+bildirmek	to report, to notify	verb
 bile	even	adv
 bile	even	posp
 bilek	wrist	noun
@@ -1108,8 +1148,13 @@ bilgilenmek	to be informed	verb
 bilgili	well-informed, learned	adj
 bilgin	scholar, scientist	noun
 bilgisayar	computer	noun
+bilgisiz	ignorant, uninformed, illiterate	adj
+bilgisizlik	ignorance, illiteracy, unawareness	noun
+bilgiç	pedant, pragmatist, know-all, prig	noun
+bilgiçlik	pedantry	noun
 bilhassa	above all	adv
 bilhassa	especially	adv
+bilindik	known	phrase	bilindiği gibi: as is known
 bilim	science	noun
 bilimsel	scientific	adj
 bilimsel	scholarly	adj
@@ -1121,6 +1166,7 @@ bilinçsiz	unconscious, unaware	adj
 bilişim	informatics, cyber	noun
 bilişsel	cognitive	adj
 bilmek	to know	verb	kim bilir? who knows?
+bilmez	adjective	ignorant
 bilokasyon	bilocation	noun
 bilye	marble	noun
 bin	thousand	noun
@@ -1751,9 +1797,9 @@ diktatörlük	dictatorship	noun
 dikuçar	helicopter	noun
 dil	language	noun
 dil	tongue	noun
-dilek	wish	noun
+dilek	wish	noun	başan dileklerimle: best wishes!
 dilekçe	petition	noun
-dilemek	to ask for [request]	verb
+dilemek	to ask for, to request	verb
 dilenci	beggar	noun
 dilim	slice, piece	noun
 dimdik	straight up; very steep	adj
@@ -3552,7 +3598,7 @@ iş	job	noun
 iş	work	noun	işe son vermek: to quit work
 iş	work, business	noun
 işadamı	businessman	noun
-işaret	sign	noun
+işaret	sign, indication	noun	işaret etmek: to indicate, to point out
 işaretlemek	to mark	verb
 işbirliği	cooperation	noun
 işgal	occupation	noun	işgal etti: occupied
@@ -4430,9 +4476,8 @@ küsur	fraction, or some	adj
 kütük	log; register	noun
 kütüphane	library	noun
 kütüphaneci	librarian	noun
+küvet	bathtub	noun
 küçücük	tiny	adj
-küçük	little	adj
-küçük	small	adj
 küçük	small, little	adj
 küçülmek	to become small; to shrink	verb
 küçültmek	to minimize	verb
