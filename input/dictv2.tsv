@@ -144,7 +144,7 @@ açılmak	to open	verb
 acımak	to ache	verb
 acımasız	merciless	adj
 acıtmak	to hurt	verb
-ad	name	noun	adınız ne? what is your name?	ad koymak: to call [name]	adı olmak: to be called
+ad	name	noun	adınız ne? what is your name?	ad koymak: to call (name)	adı olmak: to be called
 ad	noun	noun
 ada	island	noun
 adalet	justice	noun
@@ -256,11 +256,12 @@ akşam	evening	noun
 akşam	in the evening	adv
 akşamleyin	in the evening	adv
 akşamüstü	evening	noun
-alabalık	trout [a number of species of freshwater fish belonging to the Salmoninae subfamily]	noun
+alabalık	trout (a number of species of freshwater fish belonging to the Salmoninae subfamily)	noun
 alaca	multicolored	adj
 alacak	debt, credit	noun
 alacakaranlık	twilight	noun
-alaka	interest, concern	noun
+alaka	interest, concern, relevance	noun
+alâka	interest, concern, relevance	noun
 alakalı	related, concerned	adj
 alakalı	relevant	adj
 alan	area	noun
@@ -281,7 +282,7 @@ alem	universe; entertainment	noun
 alet	machine	noun
 alet	tool	noun
 alet	instrument, device	noun
-alev	flame	noun	alev almak: to burn [be on fire] / to burst into flame
+alev	flame	noun	alev almak: to burn (be on fire) / to burst into flame
 alevlenmek	to blaze (burn brightly)	verb
 alevlenmek	to flame (burn)	verb
 aleyhinde	against	prep
@@ -353,7 +354,7 @@ ambar	storehouse	noun
 ambargo	embargo	noun
 ambulans	ambulance	noun
 amca	(paternal) uncle	noun
-amca	uncle [father's brother]	noun
+amca	uncle (father's brother)	noun
 ameliyat	operation	noun
 ameliyat	surgery	noun
 amir	chief	noun
@@ -378,7 +379,7 @@ anatomik	anatomical	adj
 anavatan	motherland	noun
 anayasa	constitution	noun
 anayasal	constitutional	adj
-ancak	not until [next week]	adv
+ancak	not until (next week)	adv
 ancak	however	conj
 ancak	though	conj
 ancak	yet	conj
@@ -493,7 +494,7 @@ arkadaşça	friendly	adj
 arkadaşlık	friendship	noun
 arkasında	behind	prep
 arkeoastronomi	archaeoastronomy	noun
-arkeoastronomi	archeoastronomy [Am.]	noun
+arkeoastronomi	archeoastronomy (Am.)	noun
 arkeogenetik	archaeogenetics 	noun
 arkeoloji	archeology	noun
 armağan	gift	noun
@@ -503,7 +504,7 @@ arsa	land, field	noun
 art	back	noun
 art	behind	noun
 artan	growing	adj
-artan	left [remaining]	adj
+artan	left (remaining)	adj
 artan	residual	adj
 artist	artist	noun
 artmak	to increase	verb
@@ -1060,7 +1061,7 @@ ben	I	pron
 bence	in my opinion	adv
 bencil	selfish	adj
 bende	I have	phrase	bende yok: I don't have
-beni	me [direct object]	pron
+beni	me (direct object)	pron
 benim	my	pron
 benimsemek	to adopt, to internalize	verb
 benlik	ego; personality	noun
@@ -1172,8 +1173,10 @@ bilye	marble	noun
 bin	thousand	noun
 bina	building	noun
 binbaşı	major	noun
+binlerce	thousands	phrase
 binmek	to ride; to get on	verb
-bir	a, an [indefinite article]	det
+bindirmek	to mount sg	verb
+bir	a, an (indefinite article)	det
 bir	one	noun
 bira	beer	noun
 birader	brother	noun
@@ -1186,6 +1189,8 @@ biraz	somewhat	adv
 birazcık	a little bit	det
 birazdan	soon	adv
 birbirinden	from each other	adv
+birbirine	each other	adv
+birbirlerine	each other	adv
 birden	suddenly	adv
 birdenbire	suddenly	adv
 birebir	one-to-one	adv
@@ -1199,10 +1204,14 @@ birikim	saving	noun
 birikmek	to accumulate	verb
 birikmek	to come together	verb
 biriktirmek	to save	verb
+birileri	someone	adv
+birilerine	to someone	adv
 birim	unit	noun
 birinci	first	adj
 birinci	first	adv
 birincil	primary	adj
+birincilik	first	noun
+birisi	someone	pron
 birkaç	a couple of	adv
 birkaç	a few	adv
 birkaç	a few	det
@@ -1221,7 +1230,7 @@ birçok	a lot	noun
 birçok	many	adj
 birçok	several	adj
 bisiklet	bicycle	noun
-bisiklet	bike [bicycle]	noun	bisiklete binme: cycling
+bisiklet	bike (bicycle)	noun	bisiklete binme: cycling
 bisküvi	biscuit	noun
 bitim	end	noun
 bitirmek	wind up	verb
@@ -1238,11 +1247,12 @@ biyokimya	biochemistry	noun
 biyoloji	biology	noun
 biyolojik	biological	adj
 biyopsi	biopsy	noun
-biz	us [direct and indirect object]	pron
+biz	us (direct and indirect object)	pron
 biz	we	pron
-bize	us [direct and indirect object]	pron
+bize	us (direct and indirect object)	pron
 bizim	our	pron
 bizim	ours	pron
+bizimki	ours	pron
 bizzat	in person	adv
 biçim	form	noun
 biçim	shape	noun
@@ -1254,8 +1264,10 @@ blefarit	blepharitis	noun
 blok	block	noun
 bloknot	pad	noun
 bluz	blouse	noun
+böbürlenmek	to brag	verb
 bodrum	basement	noun
 bodrum	cellar	noun
+bohça	pack, bundle	noun
 bok	shit, crap	noun
 bol	plentiful, abundant	adj
 bolluk	abundance; looseness	noun
@@ -1272,6 +1284,8 @@ borç	debt	noun
 borç	loan	noun	borç almak: to borrow (take debt)	borç vermek: to borrow (grant loan)
 borçlanmak	to get into debt	verb
 borçlu	debtor, indebted	adj
+bostan	kitchen garden, orchard	noun
+bostancı	gardener	noun
 bot	boat; boot	noun
 botulizm	botulism	noun
 boy	height; length	noun
@@ -1282,6 +1296,7 @@ boylamak	to end up	verb	hapishaneye boylamak: end up in prison
 boylu	tall	adj
 boyun	neck	noun
 boyuna	lengthwise, longitudinally	adv
+boyuna	continuously, on and on	adv
 boyunbağı	tie	noun
 boyunca	alongside	posp
 boyunca	throughout	posp
@@ -1290,31 +1305,34 @@ boyut	dimension	noun
 boyut	size	noun
 boz	gray	adj	boz ayı: brown bear
 bozkır	steppe	noun
-bozmak	to blemish [blight]	verb
+bozmak	to blemish (blight)	verb
 bozmak	to blight	verb
 bozmak	to corrupt	verb
-bozmak	to damage [ruin]	verb
-bozmak	to deprave [corrupt]	verb
+bozmak	to damage (ruin)	verb
+bozmak	to deprave (corrupt)	verb
 bozmak	to distort	verb
 bozmak	to disturb	verb
-bozmak	to pervert [corrupt]	verb
-bozmak	to ruin [blight]	verb
+bozmak	to pervert (corrupt)	verb
+bozmak	to ruin (blight)	verb
 bozmak	to ruin	verb
-bozmak	to spoil [blight]	verb
+bozmak	to spoil (blight)	verb
 bozuk	broke	adj
 bozuk	broken	adj
 bozuk	damaged	adj
 bozuk	faulty	adj
 bozukluk	defect; small change	noun
+bozulma	corruption, breakdown	noun
 bozulmak	to break down	verb
 boğa	bull	noun
 boğaz	throat	noun	boğazım ağrıyor: I have a sore throat
+boğaziçi	Bosphorus	noun
 boğmak	to choke, to suffocate	verb
-boş	empty	adj	boş vakit: leisure time	boş zaman: leisure time
+boş	empty	adj	boş vakit: leisure time	boş zaman: leisure time	boş yere: in vain, to no avail
 boşalmak	to become empty	verb
 boşaltmak	to discharge	verb
 boşamak	to divorce	verb
 boşanma	divorce	noun
+boşanmak	to obtain a divorce
 boşanmış	divorced	adj
 boşluk	emptiness	noun
 boşta	idle	adj
@@ -1331,7 +1349,9 @@ bucak	subdistrict, corner	noun
 budala	fool	noun
 budala	idiot	noun
 budala	simpleton	noun
+budalalık	foolishness	noun
 bugün	today	adv
+bugünkü	current	adj
 buhar	steam	noun
 buharlaşmak	to evaporate	verb
 buji	spark plug	noun
@@ -1366,6 +1386,7 @@ burjuvazi	bourgeoisie	noun
 burs	scholarship, grant	noun
 burun	nose	noun	burun kıvırmak: to turn up one's nose
 buruşmak	to wrinkle, to crease, to crush	verb
+buruşturmak	to wrinkle, to crease, to crush	verb
 burç	sign, zodiac; tower	noun
 buse	kiss	noun
 buton	button	noun
@@ -1376,10 +1397,13 @@ buz	ice	noun
 buzdolabı	fridge	noun
 buzdolabı	refrigerator	noun
 buzul	glacier	noun
+büzülmek	to shrink, to crouch	verb
 buçuk	and a half	adj
 buğday	wheat	noun
+buğu	mist	noun
+buğu	steam, vapor	noun
 böbrek	kidney	noun
-böcek	bug; insect	noun
+böcek	bug, insect	noun
 bölge	area	noun
 bölge	region	noun
 bölgesel	regional	adj
@@ -1394,6 +1418,7 @@ börek	pastry	noun
 böyle	in this way	adv
 böyle	like this	adv
 böyle	so, thus, such a	adv
+böyle	such	adj
 böylece	in this way	adv
 böylelikle	so, in this way	conj
 böğür	flank	noun
@@ -1422,8 +1447,7 @@ büyü	charm	noun
 büyü	magic	noun
 büyü	spell	noun	büyü bozulurken: as the spell was broken
 büyücü	witch	noun
-büyük	big	adj
-büyük	big; great	adj
+büyük	big, great	adj
 büyük	large	adj
 büyük	tall	adj
 büyükanne	grandmother	noun
@@ -1466,6 +1490,8 @@ canlanmak	to light up; to be refreshed	verb
 canlı	living; animate	adj
 canlılık	liveliness, vigor	noun
 cansız	inanimate, lifeless	adj
+caymak	to change one's mind, to back down	verb
+cayılmak	to change one's mind, to back down	verb
 cari	current	adj
 casus	stooge	noun
 cazibe	charm	noun
@@ -1497,6 +1523,7 @@ cetvel	scale, schedule	noun
 cevap	answer	noun
 cevap	reply	noun
 cevaplamak	to answer	verb
+cevaplanmak	to be answered	verb
 cevher	ore, essence	noun
 ceviz	walnut	noun
 ceylan	deer	noun
@@ -1504,8 +1531,9 @@ ceylan	gazelle	noun
 ceza	punishment	noun	ceza vermek: to punish
 cezaevi	prison house, jail	noun
 cezalandırma	punishment	noun
+cezalandırmak	to punish	verb
 ciddi	grave	adj
-ciddi	serious [grave]	adj
+ciddi	serious (grave)	adj
 ciddi	serious	adj	Ciddiye alma! Take it easy!
 ciddiyet	seriousness	noun
 cihaz	gadget	noun
@@ -1536,7 +1564,7 @@ cumartesi	Saturday	noun
 cumhurbaşkanı	president	noun
 cumhuriyet	republic	noun
 cumhuriyetçi	republican	noun
-cömert	generous [liberal, lavish]	adj
+cömert	generous (liberal, lavish)	adj
 cömert	generous	adj
 cübbe	robe	noun
 cüce	dwarf	noun
@@ -1613,7 +1641,7 @@ dayanıklı	impervious	adj
 dayanım	strength	noun
 dayanışma	solidarity	noun
 dayı	(maternal) uncle	noun
-dayı	uncle [mother's brother]	noun
+dayı	uncle (mother's brother)	noun
 dağ	mountain	noun
 dağılmak	to scatter	verb
 dağılmak	to scatter, to disperse	verb
@@ -1754,11 +1782,11 @@ değer	worth	noun
 değerlendirme	assessment	noun
 değerlendirme	evaluation	noun
 değerlenmek	to gain value	verb
-değerli	precious [valuable]	adj
-değerli	substantial [valuable]	adj
+değerli	precious (valuable)	adj
+değerli	substantial (valuable)	adj
 değerli	treasured	adj
 değerli	valuable	adj
-değerli	worthy [of a person]	adj
+değerli	worthy (of a person)	adj
 değil	be not (nominal negation)	noun
 değil	not	phrase	değil mi: isn't it
 değin	up to, until	posp
@@ -1824,7 +1852,7 @@ dinleyici	listener, audience	noun
 dinmek	to cease	verb
 dinmek	to stop	verb	yağmur diniyor: the rain is stopping
 dinsel	religious	adj
-dip	bottom [of receptacles]	noun
+dip	bottom (of receptacles)	noun
 dip	bottom	noun	denizin dibinde: at the bottom of the sea
 dip	bottom, base	noun
 diploma	diploma	noun
@@ -1852,7 +1880,7 @@ diyar	country, land	noun
 diye	in order to	conj
 diye	such	conj
 diyet	diet; blood money	noun
-diz	knee [Genu]	noun
+diz	knee (Genu)	noun
 diz	knee	noun
 dize	line (of poetry)	noun
 dizge	system	noun
@@ -2204,7 +2232,7 @@ engelli	handicapped	noun
 engin	open, vast, boundless	adj
 enişte	brother-in-law	noun
 enişte	sister’s or aunt’s husband	noun
-enişte	uncle [related by marriage]	noun
+enişte	uncle (related by marriage)	noun
 enkaz	ruins	noun
 ense	nape, back of the neck	noun
 ensiz	narrow	adj
@@ -2244,7 +2272,7 @@ ermek	to reach	verb
 ermiş	saint	noun
 erozyon	erosion	noun
 ertelemek	adjourn	verb
-ertelemek	to postpone	verb	[belirsiz bir tarihe / süresiz olarak] ertelemek: to postpone to an indefinite date
+ertelemek	to postpone	verb	(belirsiz bir tarihe / süresiz olarak) ertelemek: to postpone to an indefinite date
 ertesi	next	adj	ertesi sabah: next morning
 ertesi	following	adj
 esas	fundamental	noun
@@ -2315,7 +2343,7 @@ evre	phase, stage	noun
 evren	universe; cosmos	noun
 evrensel	universal	adj
 evrim	evolution	noun
-evvel	ago [postpos.]	adv
+evvel	ago (postpos.)	adv
 evvel	before	posp
 evvela	in the first place	adv
 eyalet	state; province	noun
@@ -2377,7 +2405,7 @@ eşya	item	noun
 eşya	things, belongings	noun
 faaliyet	activity	noun
 fabrika	factory, plant	noun
-fabrika	plant [factory]	noun
+fabrika	plant (factory)	noun
 facia	disaster	noun
 fahişe	prostitute	noun
 fahri	honorary	adj
@@ -2459,7 +2487,7 @@ fiil	verb	noun
 fiilen	de facto	adv
 fikir	idea	noun
 fikir	thought	noun
-fikir	mind [opinion]	noun
+fikir	mind (opinion)	noun
 fikir	opinion	noun
 fikoloji	phycology	noun
 fil	elephant	noun
@@ -2645,7 +2673,7 @@ gerileme	retreat	noun
 gerilemek	to regress	verb
 gerilim	tension	noun
 gerilla	guerrilla	noun
-gerizekâlı	retarded [sl.]	adj
+gerizekâlı	retarded (sl.)	adj
 germek	to tighten; to irritate	verb
 gerçek	correct	adj
 gerçek	fact	noun
@@ -2719,7 +2747,7 @@ gitmek	to leave	verb
 giyim	clothing, dressing	noun
 giyinmek	to dress	verb
 giyinmek	to get dressed	verb
-giymek	to put on [clothes]	verb
+giymek	to put on (clothes)	verb
 giymek	to put on, to wear	verb
 giymek	to wear	verb
 giysi	clothes, dress	noun
@@ -2737,7 +2765,7 @@ gol	goal (football)	noun
 grafik	graph, diagram	noun
 gram	gram	noun
 grev	strike (of workers)	noun
-gri	gray [Am.]	adj
+gri	gray (Am.)	adj
 gri	gray	adj
 grip	flu	noun
 grup	group	noun
@@ -2956,7 +2984,7 @@ haklı	right; rightful	adj
 haksız	unjust	adj
 haksızlık	injustice	noun
 hal	situation	noun	aksi halde: otherwise
-hal	state, condition	noun	-mAsI halinde: in case of
+hal	state, condition	noun	-mAsI halinde: in case of	kendi halinde: on its own
 hal	status	noun	hale geldi: has become	haliyle: as it stands
 hala	aunt (father's sister)	noun
 hala	still	adv
@@ -3138,7 +3166,7 @@ hemen	at once	adv
 hemen	immediately	adv
 hemen	in a moment	adv
 hemen	right now; immediately	adv
-hemşire	nurse [female]	noun
+hemşire	nurse (female)	noun
 hemşire	nurse	noun
 henüz	just	adv
 henüz	yet	adv
@@ -3154,7 +3182,7 @@ hergün	everyday	adv
 herhalde	in any case	adv
 herhalde	possibly, probably	adv
 herhalde	presumably	adv
-herhangi	any [noun qualifier]	pron
+herhangi	any (noun qualifier)	pron
 herhangi	any	pron
 herhangi	whichever, any	adv
 herif	guy	noun
@@ -3530,7 +3558,7 @@ istila	invasion	noun
 istismar	exploit, abuse	noun
 istisna	exception	noun
 isyan	rebellion	noun
-it	mutt [dog, mongrel]	noun
+it	mutt (dog, mongrel)	noun
 it	stray dog	noun
 itaat	obedience, abidance	noun
 itaatkar	submissive	adj
@@ -3559,7 +3587,7 @@ iyimser	optimistic	adj
 iyon	ion	noun
 iz	track, trace	noun
 izah	explanation	noun
-izin	holiday [esp. Br.]	noun
+izin	holiday (esp. Br.)	noun
 izin	permission	noun	izin vermek: to allow
 izin	permit	noun
 izinli	allowed	adj
@@ -3577,9 +3605,9 @@ içermek	to contain	verb
 içermek	to include, contain	verb
 içgüdü	instinct	noun
 içi	inside	adv
-için	for	posp
+için	for	posp	bunun için: therefore, hence
 için	for	prep
-içinde	inside	adv
+içinde	inside	adv	bunun içinde: herein
 içinden	out of	prep
 içinden	through	prep
 içine	into	prep
@@ -3625,18 +3653,18 @@ işçi	worker, employee	noun
 işçilik	labor, workmanship	noun
 jambon	ham	noun
 jandarma	gendarme	noun
-jeofizik	geophysics [treated as sg.]	noun
+jeofizik	geophysics (treated as sg.)	noun
 jeomorfoloji	geomorphology	noun
 jest	favor, gesture	noun
 jilet	razor blade	noun
-jinekoloji	gynaecology [Br.]	noun
-jinekoloji	gynecology [Am.]	noun
+jinekoloji	gynaecology (Br.)	noun
+jinekoloji	gynecology (Am.)	noun
 jüri	jury	noun
 kaba	rough; rude	adj
 kaba	rude	adj
 kaba	unfriendly	adj
 kabahat	fault	noun
-kabak	courgette [Br.]	noun
+kabak	courgette (Br.)	noun
 kabak	zucchini, pumpkin, squash	noun
 kabarmak	to swell, to become fluffy	verb
 kabile	clan, tribe	noun
@@ -3666,7 +3694,7 @@ kadı	kadi	noun
 kadın	woman	noun
 kadın	woman, female	noun
 kadınlık	womanhood	noun
-kafa	head [Caput]	noun
+kafa	head (Caput)	noun
 kafa	head	noun
 kafa	head; mind	noun
 kafalı	bright	adj
@@ -3683,14 +3711,15 @@ kahve	coffee	noun
 kahve	café	noun
 kahvehane	cafe	noun
 kahverengi	brown	adj
+kahır	wrath	noun
 kaide	rule; base	noun
 kakmak	to poke	verb
 kalabalık	crowd	noun
 kalabalık	crowded	adj
-kalan	left [remaining]	adj
+kalan	left (remaining)	adj
 kalan	residual	adj
 kalaylamak	to (coat with) tin	verb
-kalaylamak	to swear at sb. [sl.]	verb
+kalaylamak	to swear at sb. (sl.)	verb
 kaldırma	lift	noun
 kaldırmak	to carry	verb
 kaldırmak	to lift, to raise	verb
@@ -3719,11 +3748,11 @@ kalmak	to stay, to remain	verb
 kalp	heart	noun	kalbimde: in my heart
 kalsit	calcite	noun
 kalsiyum	calcium	noun
-kalça	hip [Coxa]	noun
+kalça	hip (Coxa)	noun
 kalça	hip	noun
 kalıcı	permanent	adj
 kalıcı	residual	adj
-kalın	fat [thick]	adj
+kalın	fat (thick)	adj
 kalın	thick	adj
 kalınlık	thickness	noun
 kalıntı	remains, ruins	noun
@@ -3849,7 +3878,7 @@ karpuz	watermelon	noun
 kart	aged	adj
 kart	card	noun
 kart	stale	adj
-kartal	eagle [bird]	noun
+kartal	eagle (bird)	noun
 kartal	eagle	noun
 kartografya	cartography	noun
 karton	cardboard	noun
@@ -3957,7 +3986,7 @@ kaydetmek	to record	verb
 kaygana	omelette	noun
 kaygı	anxiety	noun
 kaygı	anxiety, worry	noun
-kaygı	concern [worry]	noun
+kaygı	concern (worry)	noun
 kaygı	solicitude	noun
 kaygı	worry	noun
 kaygılı	anxious	adj
@@ -3984,7 +4013,7 @@ kaza	accident	noun
 kazak	pullover	noun
 kazak	sweater	noun
 kazan	caldron	noun
-kazanmak	to earn [money]	verb
+kazanmak	to earn (money)	verb
 kazanmak	to win	verb
 kazanç	earnings, benefit	noun
 kazanç	revenue	noun
@@ -4029,7 +4058,7 @@ kemoterapi	chemotherapy	noun
 kenar	edge	noun	kenar çekmek: to edge	kenara çekmek: to pull over
 kenar	side, edge	noun
 kendi	self	pron
-kendileri	themselves [direct / indirect object]	pron
+kendileri	themselves (direct / indirect object)	pron
 kendini	herself	pron
 kendini	yourself	pron
 kent	city	noun
@@ -4075,7 +4104,7 @@ keza	likewise	adv
 keza	likewise, so and so	conj
 keçi	goat	noun
 keşfetmek	to discover	verb
-keşfetmek	to find [discover, detect]	verb
+keşfetmek	to find (discover, detect)	verb
 keşif	discovery	noun
 keşif	exploration	noun
 keşişleme	southeaster	noun
@@ -4092,7 +4121,7 @@ kil	clay	noun
 kiler	cellar	noun
 kilim	rug, carpet	noun
 kilise	church	noun
-kilit	lock [on a door]	noun
+kilit	lock (on a door)	noun
 kilit	lock	noun
 kilitlemek	to lock	verb
 kilo	kilo	noun
@@ -4145,7 +4174,7 @@ koca	husband	noun
 kocaman	huge	adj
 kocaman	huge, enormous	adj
 kod	code	noun
-kodes	jailhouse [sl.]	noun
+kodes	jailhouse (sl.)	noun
 kodlamak	to encode	verb
 koherent	coherent	adj
 kohezif	cohesive	adj
@@ -4186,7 +4215,7 @@ komutan	commander	noun
 komutanlık	commandership	noun
 komünist	communist	noun
 komünizm	communism	noun
-komşu	neighbor [Am.]	noun
+komşu	neighbor (Am.)	noun
 komşu	neighbor	noun	komşu kız: girl next door
 konak	mansion	noun
 konaklamak	to stay	verb
@@ -4232,11 +4261,11 @@ koreografi	choreography	noun
 koridor	corridor	noun
 korkak	coward	adj
 korkmak	to fear	verb
-korku	dread [horror]	noun
+korku	dread (horror)	noun
 korku	fear	noun
 korku	horror	noun
-korku	scare [horror]	noun
-korku	thrill [horror]	noun
+korku	scare (horror)	noun
+korku	thrill (horror)	noun
 korku	trepidation	noun
 korkunç	awful	adj
 korkunç	awful, terrible	adj
@@ -4327,6 +4356,7 @@ kumanda	command	noun
 kumandan	commander	noun
 kumar	gamble	noun
 kumar	gambling	noun
+kumarbaz	gambler	noun
 kumaş	cloth, fabric	noun
 kumaş	fabric	noun
 kumpas	vernier caliper	noun
@@ -4354,7 +4384,7 @@ kurnazca	on the sly	adv
 kurs	course	noun
 kurt	wolf; worm	noun
 kurtarmak	to help	verb
-kurtarmak	to save [rescue]	verb
+kurtarmak	to save (rescue)	verb
 kurtarmak	to save	verb
 kurtarmak	to save; to rescue	verb
 kurtarıcı	savior	noun
@@ -4389,7 +4419,7 @@ kutlamak	to congratulate; to celebrate	verb
 kutlu	blessed	adj
 kutsal	sacred	adj
 kutsal	sacred, holy	adj
-kutu	box [jewellery box, on newspaper page etc.]	noun
+kutu	box (jewellery box, on newspaper page etc.)	noun
 kutu	box, case	noun
 kutu	can	noun
 kutup	pole	noun
@@ -4406,13 +4436,13 @@ kuyu	well	noun
 kuzen	cousin	noun
 kuzey	North	noun
 kuzey	north	noun
-kuzguni	raven [color]	adj
-kuzin	cousin [female]	noun
+kuzguni	raven (color)	adj
+kuzin	cousin (female)	noun
 kuzu	lamb	noun
 kuş	bird	noun
 kuşak	generation	noun
 kuşatmak	to surround	verb
-kuşkonmaz	asparagus [Asparagus officinalis]	noun
+kuşkonmaz	asparagus (Asparagus officinalis)	noun
 kuşku	suspicion; doubt	noun
 kuşkulanmak	to doubt	verb
 kuşkulanmak	to suspect	verb
@@ -4443,7 +4473,7 @@ kötülemek	to vilify	verb
 kötüleyici	pejorative	adj
 kötülük	evil	noun
 kötümserlik	pessimism	noun
-kötümserlikle	negatively [in a pessimistic way]	adv
+kötümserlikle	negatively (in a pessimistic way)	adv
 köy	village	noun
 köylü	villager	noun
 köylü	villager, peasant	adj
@@ -4457,7 +4487,7 @@ küllük	ashtray	noun
 kültür	culture	noun
 kültürel	cultural	adj
 kültürlü	cultured	adj
-kümbet	cupola [dome]	noun
+kümbet	cupola (dome)	noun
 kümbet	dome	noun
 küme	heap, pile, stack	noun
 kümes	coop	noun
@@ -4544,8 +4574,8 @@ kıyaslamak	to compare	verb
 kıyma	mincemeat	noun
 kıymet	value	noun
 kıymet	value, worth	noun
-kıymetli	precious [valuable]	adj
-kıymetli	substantial [valuable]	adj
+kıymetli	precious (valuable)	adj
+kıymetli	substantial (valuable)	adj
 kıymetli	treasured	adj
 kıymetli	valuable	adj
 kıymetli	valuable, precious	adj
@@ -4589,7 +4619,7 @@ lanet	curse	noun
 lapa	mush	noun
 lapa	pulp	noun
 lastik	rubber	noun
-lastik	tyre [Br.]	noun
+lastik	tyre (Br.)	noun
 lastikli	ambiguous	adj
 lastikli	elastic	adj
 latife	witty remark	noun
@@ -4612,7 +4642,7 @@ liberalizm	liberalism	noun
 lider	leader	noun
 liderlik	leadership	noun
 lif	fiber	noun
-lif	fibre [Br.]	noun
+lif	fibre (Br.)	noun
 lig	league	noun
 liman	harbor, port	noun
 limit	limit	noun
@@ -4801,7 +4831,7 @@ merdiven	stairway; ladder	noun
 merdiven	steps	noun
 merhamet	pity, affection	noun
 merkez	center	noun
-merkez	centre [Br.]	noun
+merkez	centre (Br.)	noun
 merkezi	central	adj
 merkezî	central	adj
 mermer	marble	noun
@@ -4853,7 +4883,7 @@ mezar	grave	noun
 mezarlık	cemetery	noun
 mezarlık	graveyard, cemetery	noun
 meze	appetizer	noun
-meze	starter [Br.] [appetizer]	noun
+meze	starter (Br.) (appetizer)	noun
 mezhep	sect	noun
 mezun	graduate	adj
 mezun	graduate	noun
@@ -4890,8 +4920,8 @@ milliyet	nationality	noun
 milliyetçi	nationalist	noun
 milliyetçi	nationalistic	adj
 milliyetçilik	nationalism	noun
-milyar	billion [Am.]	noun
-milyar	milliard [Br.]	noun
+milyar	billion (Am.)	noun
+milyar	milliard (Br.)	noun
 milyon	million	noun
 mimar	architect	noun
 mimari	architectural	adj
@@ -4910,6 +4940,7 @@ minnettar	thankful	adj
 mintan	shirt	noun
 miras	heritage; inheritance	noun
 mirası	inheritance	noun
+mirasçı	heir	noun
 misafir	guest	noun	misafir etmek: to host
 misafir	guest, visitor	noun
 misafir	visitor	noun
@@ -5041,7 +5072,7 @@ müteahhit	contractor	noun
 mütevazi	humble	adj
 mütevazı	humble	adj
 müteşekkir	thankful	adj
-müthiş	awesome [excellent]	adj
+müthiş	awesome (excellent)	adj
 müthiş	outstanding	adj
 müthiş	terrific, excellent	adj
 müttefik	ally	noun
@@ -5054,7 +5085,7 @@ müşterek	common	adj
 müşteri	customer	noun
 mırıldamak	to murmur, to mumble	verb
 mısra	line	noun
-mısır	corn [Zea mays] [Am.] [Aus.] [NZ]	noun
+mısır	corn (Zea mays) (Am.) (Aus.) (NZ)	noun
 mısır	corn	noun
 nabız	pulse	noun
 nadir	rare	adj
@@ -5110,7 +5141,7 @@ nemli	moist	adj
 nemli	moisture	noun
 nemli	wet	adj
 nere	where	noun
-nerede	where [interrogative]	adv
+nerede	where (interrogative)	adv
 nereden	where ... from	adv
 neredeyse	almost	adv
 neredeyse	nearly	adv
@@ -5242,10 +5273,10 @@ oluşmak	to consist of	verb
 oluşturmak	to create	verb
 oluşum	formation; constitution	noun
 omurga	backbone	noun
-omurga	spinal column [Columna vertebralis]	noun
+omurga	spinal column (Columna vertebralis)	noun
 omuz	shoulder	noun
 on	ten	noun
-ona	him [indirect object]	pron
+ona	him (indirect object)	pron
 onarmak	to repair, to restore	verb
 onarım	repair, restoration	noun
 onay	approval, consent	noun
@@ -5254,10 +5285,10 @@ onaylamak	to approve, to certify	verb
 onca	so much	det
 onkoloji	oncology	noun
 onlar	they	pron
-onlara	them [direct object]	pron
+onlara	them (direct object)	pron
 ontolojik	ontological	adj
-onu	him [direct object]	pron
-onun	his [possessive]	pron
+onu	him (direct object)	pron
+onun	his (possessive)	pron
 onunki	hers	pron
 onur	pride, honor	noun
 onurlu	respectful	adj
@@ -5453,6 +5484,8 @@ pernisiyöz	pernicious	adj
 personel	personnel, staff	noun
 perspektif	perspective	noun
 pervane	propeller	noun
+pervasız	reckless	adj
+pervaz	cornice	noun
 perşembe	Thursday	noun
 petrol	petrol, oil	noun
 peygamber	prophet	noun
@@ -5463,7 +5496,7 @@ peşin	beforehand; in cash	adv
 pijama	pajamas	noun
 piknik	picnic	noun
 pil	battery	noun	AAA pil: AAA battery
-pilav	rice [meal]	noun
+pilav	rice (meal)	noun
 pilav	rice dish, pilaf	noun
 pilot	pilot	noun
 pire	flea	noun
@@ -5472,7 +5505,7 @@ pirinç	rice	noun
 piromani	pyromania	noun
 pirsing	piercing	noun
 pirzola	chop	noun
-pis	dirty	adj
+pis	dirty, filthy	adj
 pislik	dirt, filth	noun
 pist	landing field, track	noun
 piyano	piano	noun
@@ -5553,7 +5586,7 @@ pul	stamp	noun
 pusu	ambush	noun
 pusula	compass; memorandum	noun
 püre	puree	noun
-pürüzsüzce	fluently [of movement]	adv
+pürüzsüzce	fluently (of movement)	adv
 püsküllü	fringed	adj
 püskürmek	to spew	verb
 pıtırtı	patter	noun
@@ -5631,7 +5664,7 @@ resmetmek	to portray	verb
 resmi	official	adj
 ressam	painter	noun
 restoran	restaurant	noun
-rezene	fennel [Foeniculum vulgare]	noun
+rezene	fennel (Foeniculum vulgare)	noun
 rezerv	reserve	noun
 rezil	vile	adj
 reçel	jam	noun
@@ -5684,7 +5717,7 @@ sabahleyin	early	adj
 sabahleyin	in the morning	adv
 sabit	fixed, stable, constant	adj
 sabit	still	adj
-sabitlemek	to fix [fasten]	verb
+sabitlemek	to fix (fasten)	verb
 sabretmek	to be patient	verb
 sabun	soap	noun	sabun köpüğü: soap bubble
 sabır	patience	noun
@@ -5918,7 +5951,7 @@ seminer	seminar	noun
 sempati	sympathy	noun
 sempozyum	symposium	noun
 semt	neighborhood	noun
-sen	you [informal]	pron
+sen	you (informal)	pron
 senaryo	scenario, screenplay	noun
 sendika	union	noun
 sendikal	trade union	adj
@@ -5932,7 +5965,7 @@ sepet	box	noun
 sepet	cart	noun
 sera	greenhouse	noun
 seramik	ceramic	noun
-serbest	free	adj
+serbest	free, independent	adj
 sergi	exhibition, display	noun
 sergilemek	to exhibit, to display; to show	verb
 sergilemek	to perform	verb
@@ -5987,7 +6020,7 @@ sevinç	joy	noun
 sevinç	joy, delight, happiness	noun
 sevinçli	glad	adj
 seviye	level	noun
-seviye	station [in society]	noun
+seviye	station (in society)	noun
 sevişmek	to make love	verb
 sevk	shipping	noun
 sevmek	to love	verb
@@ -6036,14 +6069,14 @@ simge	symbol	noun
 simgelemek	to symbolize	verb
 simit	bagel	noun
 simsiyah	black as coal	adj
-simsiyah	ebony [color]	adj
+simsiyah	ebony (color)	adj
 simsiyah	jet black	adj
-simsiyah	raven [color]	adj
+simsiyah	raven (color)	adj
 sincap	squirrel	noun
 sinek	fly, mosquito	noun
-sinema	cinema [Br.]	noun
+sinema	cinema (Br.)	noun
 sinema	cinema	noun
-sinir	nerve [Nervus]	noun
+sinir	nerve (Nervus)	noun
 sinir	nerve	noun
 sinirlenmek	to get angry	verb
 sinirli	angry	adj
@@ -6074,7 +6107,7 @@ siyaset	politics	noun
 siyasetçi	politician	noun
 siyasi	political	adj
 siz	you {pl}	pron
-sizi	you [plural direct and indirect object] [informal]	pron
+sizi	you (plural direct and indirect object) (informal)	pron
 sizlerle	with you	pron
 skandal	scandal	noun
 slogan	slogan	noun
@@ -6099,7 +6132,7 @@ solmak	to fade	verb
 soluk	breath	noun
 solumak	to breathe	verb
 solunum	breathing	noun
-somun	loaf [bread, wood]	noun
+somun	loaf (bread, wood)	noun
 somun	nut	noun
 somurtmak	to sulk	verb
 somut	concrete	adj
@@ -6111,7 +6144,7 @@ son	end, conclusion	noun
 son	last	adj	sonra devam ediyoruz: then we continue	sonraki: next	sonsuz: forever
 son	last	adv
 sonbahar	autumn	noun
-sonbahar	fall [Am.]	noun
+sonbahar	fall (Am.)	noun
 sonbahar	fall, autumn	noun
 sonlanmak	to be over, to end	verb
 sonra	after	adv
@@ -6141,6 +6174,7 @@ sorun	problem; matter, issue	noun
 sorun	trouble	noun
 sorunlu	problematic	adj
 soruşturma	investigation	noun
+soruşturmak	to investigate	verb
 sos	sauce	noun
 sosis	sausage	noun
 sosyal	social	adj
@@ -6223,7 +6257,7 @@ sömürge	colony	noun
 sömürmek	to exploit	verb
 sömürü	exploitation	noun
 sönmek	to die down	verb
-sönmek	to go out [light, fire]	verb
+sönmek	to go out (light, fire)	verb
 söylem	discourse	noun
 söylemek	to pronounce	verb
 söylemek	to say	verb
@@ -6254,7 +6288,7 @@ sünnet	circumcision	noun
 süper	super	adj
 süperenfeksiyon	superinfection	noun
 süpermarket	supermarket	noun
-süprematizm	Suprematism [also: suprematism]	noun
+süprematizm	Suprematism (also: suprematism)	noun
 süpürge	broom	noun
 süpürmek	to sweep	verb
 sürat	speed	noun
@@ -6268,7 +6302,7 @@ süresince	through	adv
 süresince	during the period of	posp
 süreç	process	noun
 sürgü	bolt	noun
-sürgü	lock [latch, bolt]	noun
+sürgü	lock (latch, bolt)	noun
 sürgün	exile	noun
 sürmek	to continue	verb
 sürmek	to drive	verb
@@ -6276,7 +6310,7 @@ sürmek	to drive; to last	verb
 sürmek	to last	verb
 sürmek	to plow	verb
 sürmek	to spread	verb
-sürmek	to take [to last]	verb
+sürmek	to take (to last)	verb
 sürpriz	surprise	noun
 sürtmek	to rub	verb
 sürü	crowd	noun	bir sürü: a lot of
@@ -6368,8 +6402,8 @@ sızmak	to leak	verb
 sızı	ache	noun
 sızıntı	leak	noun
 sıçmak	to excrete; to mess up	verb
-sıçmak	to shit [be stricken with fear]	verb
-sıçmak	to shit [vulg.] [excrete something from the anus]	verb
+sıçmak	to shit (be stricken with fear)	verb
+sıçmak	to shit (vulg.) (excrete something from the anus)	verb
 sıçramak	to jump	verb
 sığ	shallow	adj
 sığmak	to fit into	verb
@@ -6430,7 +6464,7 @@ taktik	tactics	noun
 takvim	calendar	noun
 takviye	reinforcement	noun
 takı	jewelry, ornament	noun
-takım	team	noun
+takım	team	noun	bir takım: some
 takımada	archipelago	noun
 takırdamak	to rattle	verb
 talan	pillage	noun	talan etmek: to plunder
@@ -6510,7 +6544,7 @@ tartışma	quarrel	noun
 tartışmak	to argue	verb
 tartışmak	to quarrel	verb
 tarz	style; manner	noun
-tarçın	cinnamon [Cinnamomum zeylanicum]	noun
+tarçın	cinnamon (Cinnamomum zeylanicum)	noun
 tarım	agriculture	noun
 tarımsal	agricultural	adj
 tas	bowl	noun
@@ -6598,7 +6632,7 @@ tek	lonely	adj
 tek	single / the only	det
 tekel	monopoly	noun
 teker	wheel	noun
-tekerlek	tire [Am.]	noun
+tekerlek	tire (Am.)	noun
 tekerlek	wheel	noun
 tekil	singular, individual	adj
 tekke	dervish lodge	noun
@@ -6617,7 +6651,7 @@ tel	wire, string	noun
 telaffuz	pronunciation	noun
 telafi	compensation	noun
 telaş	hurry	noun
-telaş	trepidation [worry]	noun
+telaş	trepidation (worry)	noun
 telaş	worry	noun
 telaşlı	fussing	adj
 telefon	phone	noun	telefon etmek: to call on the phone	telefon numarası: phone number
@@ -6699,7 +6733,7 @@ tesettürlü	hijab	noun
 tesir	effect, influence	noun
 tesis	establishment; facility	noun
 teslim	delivery; submission	noun
-teslim	surrender	noun	teslim olmak: to give up [surrender, relinquish]
+teslim	surrender	noun	teslim olmak: to give up (surrender, relinquish)
 tespit	conclusion	noun
 tespit	detection	noun	iyi tespit: well spotted	tespit etmek: to determine
 test	test	noun
@@ -6711,7 +6745,7 @@ tetkik	investigation, examination	noun
 teyit	confirmation	noun
 teyp	tape recorder	noun
 teyze	(maternal) aunt	noun
-teyze	aunt [mother's sister]	noun
+teyze	aunt (mother's sister)	noun
 tez	argument	noun
 tez	quick	adj
 tez	rapid	adj
@@ -6825,8 +6859,8 @@ tutuklamak	to arrest	verb
 tutuklu	arrested	noun
 tutum	manner, attitude	noun
 tuvalet	lavatory	noun
-tuvalet	restroom [Am.]	noun
-tuvalet	toilet [Br.]	noun
+tuvalet	restroom (Am.)	noun
+tuvalet	toilet (Br.)	noun
 tuvalet	toilet	noun
 tuz	salt	noun	tuzağa düşmüş: trapped
 tuzak	trap, snare	noun
@@ -6884,7 +6918,7 @@ tıraş	shave	noun
 tıraş	shaving	noun
 tırmanmak	to climb	verb
 tırnak	nail	noun
-tırtıl	caterpillar [insect]	noun
+tırtıl	caterpillar (insect)	noun
 ucuz	cheap	adj
 ufacık	tiny	adj
 ufak	small	adj
@@ -6907,8 +6941,8 @@ umursamaz	unconcerned	adj	umursamaz bir şekilde: indifferently
 umut	hope	noun	umut etmek: to hope	umutlarını kırmak: to disappoint
 umutsuz	desperate	adj
 umutsuz	hopeless	adj
-umutsuzluk	bleakness [of a situation]	noun
-umutsuzluk	despair [feeling]	noun
+umutsuzluk	bleakness (of a situation)	noun
+umutsuzluk	despair (feeling)	noun
 umutsuzluk	desperation	noun
 umutsuzluk	hopelessness	noun
 un	flour	noun
@@ -6988,7 +7022,7 @@ uzun	long	adj
 uzunluk	length	noun
 uç	end	noun
 uç	terminal	adj	uçup gitmek: to fly away
-uçak	airplane [Am.]	noun
+uçak	airplane (Am.)	noun
 uçak	airplane	noun
 uçak	plane	noun
 uçma	flight	noun
@@ -7035,7 +7069,7 @@ vanilya	vanilla	noun
 vapur	ship	noun
 var	there is	phrase
 vardı	sb./sth. had	phrase
-varis	heir	noun
+varis	heir, successor	noun
 varlık	existence	noun
 varlıklı	rich, wealthy	adj
 varlıklı	wealthy	adj
@@ -7104,7 +7138,7 @@ volkanoloji	volcanology	noun
 volkanoloji	vulcanology	noun
 vura	hit	noun	vura vura: banging on
 vurgu	emphasis	noun
-vurgulamak	to emphasise [Br.]	verb
+vurgulamak	to emphasise (Br.)	verb
 vurgulamak	to emphasize	verb
 vurmak	to beat	verb
 vurmak	to hit	verb
@@ -7130,7 +7164,7 @@ yakalama	catch	noun	yakalama kararı: arrest warrant
 yakalamak	to catch	verb
 yaklaşmak	to approach	verb
 yaklaşmakmak	to approach	verb
-yaklaşık	about [circa]	adv
+yaklaşık	about (circa)	adv
 yaklaşık	approximate, approximately	adj
 yaklaşık	approximately	adv
 yaklaşım	approach	noun
@@ -7207,7 +7241,7 @@ yanıt	answer	noun
 yanıt	answer, reply, response	noun
 yanıtlamak	to answer	verb
 yanıtlamak	to answer, to reply	verb
-yapabilir	sb. may [is permitted]	phrase
+yapabilir	sb. may (is permitted)	phrase
 yapay	artificial, imitation	adj
 yapayalnız	all alone	adj
 yapmak	to build	verb
@@ -7375,7 +7409,7 @@ yemin	oath	noun	yemin etmek: to swear
 yemiş	fruit	noun
 yemyeşil	lush green	adj
 yen	sleeve	noun
-yenge	aunt [related by marriage]	noun
+yenge	aunt (related by marriage)	noun
 yenge	sister-in-law, brother’s wife	noun
 yengeç	crab	noun
 yeni	new	adj
@@ -7456,7 +7490,7 @@ yol	path	noun
 yol	road	noun
 yol	way	noun
 yolcu	traveler, passenger	noun
-yolculuk	journey	noun	yolculuğa çıkış: departure [on a journey]
+yolculuk	journey	noun	yolculuğa çıkış: departure (on a journey)
 yolculuk	journey, trip; voyage	noun
 yolculuk	travel	noun
 yolculuk	trip	noun
@@ -7498,7 +7532,7 @@ yumuşak	soft	adj
 yumuşamak	to soften	verb
 yunus	dolphin	noun
 yunuslama	pitch	noun
-yurt	dormitory [Am.]	noun
+yurt	dormitory (Am.)	noun
 yurt	home	noun
 yurt	homeland, country	noun
 yurtdışı	abroad	noun
@@ -7639,8 +7673,8 @@ zayıflık	weakness	noun
 zedelemek	to injure, to damage	verb
 zehir	poison	noun
 zehirlemek	to poison	verb
-zehirlenme	intoxication [poisoning]	noun
-zehirlenme	poisoning [effect of sth. toxic]	noun
+zehirlenme	intoxication (poisoning)	noun
+zehirlenme	poisoning (effect of sth. toxic)	noun
 zehirli	poisonous	adj
 zehirli	poisonous, toxic	adj
 zeka	intelligence, intellect	noun
@@ -7648,7 +7682,7 @@ zekalı	clever	adj
 zeki	bright	adj
 zeki	clever	adj
 zeki	intelligent	adj
-zeki	smart [intelligent]	adj
+zeki	smart (intelligent)	adj
 zeki	smart, clever	adj
 zekice	clever	adj
 zekâ	intelligence	noun
@@ -7723,18 +7757,20 @@ zıt	opposite, contrary	adj
 çalkalamak	to shake; to rinse	verb
 çalmak	to ring	verb	zil çalmak: to ring	kapıyı çalmak: to knock on the door
 çalmak	to steal	verb
-çalmak	to steal; to play an instrument	verb
+çalmak	to play an instrument	verb
+çalınmak	to be stolen	verb
 çalı	bush	noun
 çalışan	employee	noun
-çalışan	employee, working	noun
+çalışan	working	noun
 çalışkan	hardworking	adj
+çalışkanlık	diligence, assiduity	noun
 çalışma	work	noun
 çalışmak	to struggle	verb
 çalışmak	to work	verb
 çalıştırmak	to operate	verb
 çam	pine, pine tree	noun
 çamaşır	laundry	noun
-çamaşır	laundry; clothes	noun
+çamaşır	clothes	noun
 çamaşır	washing	noun	çamaşır makinesi: washing machine
 çamur	mud	noun
 çamur	sludge	noun
@@ -7755,10 +7791,13 @@ zıt	opposite, contrary	adj
 çaresiz	hopeless	adj
 çaresizce	hopelessly	adv
 çaresizlik	desperation	noun
-çaresizlik	helplessness [lack of power]	noun
+çaresizlik	helplessness (lack of power)	noun
 çaresizlik	hopelessness, despair	noun
-çaresizlik	impotence [helplessness]	noun
+çaresizlik	impotence (helplessness)	noun
 çark	wheel	noun
+çarkıfelek	wheel of fortune	noun
+çarpık	crooked, irregular, wry	adj
+çarpıklık	distortion	noun
 çarpmak	to bump, to crash; to multiply	verb
 çarpmak	to knock	verb
 çarpmak	to shock	verb
@@ -7768,13 +7807,12 @@ zıt	opposite, contrary	adj
 çarşamba	Wednesday	noun
 çarşı	market place	noun
 çat	bang	noun
-çatal	fork	noun
 çatal	fork, bifurcation	noun
 çatlak	split	noun
 çatlamak	to burst	verb
 çatlamak	to crack	verb
-çatı	roof [of a building]	noun
-çatı	roof	noun
+çatı	roof (of a building)	noun
+çatık	wrinkly, frowning	adj
 çatışma	conflict	noun
 çatışmak	to clash	verb
 çatışmak	to fight	verb
@@ -7788,15 +7826,16 @@ zıt	opposite, contrary	adj
 çağdaş	contemporary	adj
 çağdaş	modern	adj
 çağlamak	to splash	verb
-çağrı	call	noun
+çağrı	call, invitation, convocation	noun
 çağrışım	connotation	noun
-çağırmak	to call	verb
-çağırmak	to call; to invite	verb
-çağırmak	to get [summon]	verb
+çağırmak	to call, to invite	verb
+çağırmak	to get (summon)	verb
 çağırmak	to invite	verb
 çağırmak	to invoke	verb
 çağırmak	to shout	verb
 çağırmak	to summon	verb
+çağırtmak	to send for, to summon	verb
+cebir	algebra	noun
 çehre	face	noun
 çek	cheque	noun
 çekici	attractive	adj
@@ -7810,6 +7849,7 @@ zıt	opposite, contrary	adj
 çekiç	hammer	noun
 çekiştirmek	to criticize maliciously	verb
 çekmece	drawer	noun	çekmeceli dolap: chest of drawers
+çekilmek	to be pulled, to withdraw	verb
 çekmek	to bear	verb
 çekmek	to pull	verb
 çelik	steel	noun
@@ -7821,9 +7861,11 @@ zıt	opposite, contrary	adj
 çember	wheel	noun
 çene	chin	noun
 çene	jaw	noun
-çerez	starter [Br.] [appetizer]	noun
+çerez	starter (appetizer)	noun
 çerçeve	frame	noun
 çete	gang	noun
+çetin	tough, difficult, hard, arduous	adj
+çevik	agile, nimble, swift	adj
 çeviri	translation	noun
 çevirme	translation	noun
 çevirmek	to rotate, to turn; to translate	verb
@@ -7908,13 +7950,13 @@ zıt	opposite, contrary	adj
 çuval	bag	noun
 çuval	sack	noun
 çökmek	to collapse	verb
-çökmek	to fall down [also fig.]	verb
+çökmek	to fall down (also fig.)	verb
 çöküntü	collapse; depression	noun
 çöküş	collapse	noun
 çöl	desert	noun
-çöp	garbage [Am.]	noun
+çöp	garbage (Am.)	noun
 çöp	garbage	noun
-çöp	trash [Am.]	noun
+çöp	trash (Am.)	noun
 çöp	waste	noun
 çözelti	solution	noun
 çözmek	to solve	verb
@@ -7939,7 +7981,7 @@ zıt	opposite, contrary	adj
 çıktı	output	noun
 çıkış	exit	noun
 çıldırmak	to go mad, to go insane	verb
-çılgın	mad [insane]	adj
+çılgın	mad (insane)	adj
 çılgın	mad, crazy, wild	adj
 çılgınlık	madness	noun
 çınar	plane tree	noun
@@ -7993,7 +8035,7 @@ zıt	opposite, contrary	adj
 ömür	lifetime	noun
 ön	front	noun
 önad	adjective	noun
-önce	ago [postpos.]	adv
+önce	ago (postpos.)	adv
 önce	before	adv
 önce	before	conj
 önceki	former	adj
@@ -8001,7 +8043,7 @@ zıt	opposite, contrary	adj
 öncelik	priority	noun
 öncelikle	first of all	adv
 öncelikli	primary, priority	adj
-öncelikli	prior [of high priority]	adj
+öncelikli	prior (of high priority)	adj
 öncesinde	before that	adv
 öncü	pioneer	noun
 öncülük	leadership	noun
@@ -8097,7 +8139,7 @@ zıt	opposite, contrary	adj
 özgürlük	freedom	noun
 özgürlük	freedom, liberty	noun
 özgüven	self-confidence	noun
-özlem	hunger [longing]	noun
+özlem	hunger (longing)	noun
 özlem	longing	noun
 özlemek	to miss	verb
 özne	subject	noun
@@ -8124,7 +8166,7 @@ zıt	opposite, contrary	adj
 öğretmiş	taught	adj
 öğüt	advice	noun
 öğüt	advice, recommendation	noun
-ücret	charge [fee]	noun
+ücret	charge (fee)	noun
 ücret	fee; wage	noun
 ücretli	paid	adj
 ücretsiz	free of charge	adj
@@ -8135,8 +8177,8 @@ zıt	opposite, contrary	adj
 ülkücü	idealist	noun
 ümit	hope	noun
 ümitsiz	desperate	adj
-ümitsizlik	bleakness [of a situation]	noun
-ümitsizlik	despair [feeling]	noun
+ümitsizlik	bleakness (of a situation)	noun
+ümitsizlik	despair (feeling)	noun
 ümitsizlik	desperation	noun
 ümmet	community; mass	noun
 ün	fame, reputation	noun
@@ -8233,7 +8275,7 @@ zıt	opposite, contrary	adj
 ıslanmak	to get wet	verb
 ısmarlamak	to order	verb
 ısmarlamak	to order, to request	verb
-ısrar	insistence	noun
+ısrar	insistence	noun	-DA ısrar etmek: to insist on sg.
 ısrarlı	insistent, steadfast	adj
 ıssız	deserted	adj	ıssız ada: desert island
 ıssız	uninhabited	adj
@@ -8380,7 +8422,7 @@ zıt	opposite, contrary	adj
 şuur	comprehension	noun
 şöhret	fame	noun
 şölen	feast	noun
-şövalye	knight [Middle Ages warrior]	noun
+şövalye	knight (Middle Ages warrior)	noun
 şöyle	thus	adv
 şükran	gratitude, appreciation	noun
 şükretmek	to thank God, to praise	verb
