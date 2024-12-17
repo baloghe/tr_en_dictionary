@@ -1167,7 +1167,7 @@ bilinçsiz	unconscious, unaware	adj
 bilişim	informatics, cyber	noun
 bilişsel	cognitive	adj
 bilmek	to know	verb	kim bilir? who knows?
-bilmez	adjective	ignorant
+bilmez	ignorant	adj
 bilokasyon	bilocation	noun
 bilye	marble	noun
 bin	thousand	noun
@@ -1332,7 +1332,7 @@ boşalmak	to become empty	verb
 boşaltmak	to discharge	verb
 boşamak	to divorce	verb
 boşanma	divorce	noun
-boşanmak	to obtain a divorce
+boşanmak	to obtain a divorce	verb
 boşanmış	divorced	adj
 boşluk	emptiness	noun
 boşta	idle	adj
@@ -1538,7 +1538,11 @@ ciddi	serious	adj	Ciddiye alma! Take it easy!
 ciddiyet	seriousness	noun
 cihaz	gadget	noun
 cilt	skin	noun
-cilt	skin; volume	noun
+cilt	volume	noun
+ciltlemek	to bind (books)	verb
+ciltlenmek	to be bound (books)	verb
+cimri	greedy, stingy, mean	adj
+cimrilik	stinginess, parsimony, sordidness	adj
 cin	genie	noun
 cinayet	murder	noun
 cins	sex	noun
@@ -1567,7 +1571,8 @@ cumhuriyetçi	republican	noun
 cömert	generous (liberal, lavish)	adj
 cömert	generous	adj
 cübbe	robe	noun
-cüce	dwarf	noun
+cüce	dwarf, midget	noun
+cümbüş	revel, revelry, riot	noun
 cümle	sentence; totality	noun
 cüret	courage	noun
 cüzdan	purse	noun
@@ -1581,7 +1586,8 @@ dahi	also	conj
 dahi	even	conj
 dahi	genius	noun
 dahi	likewise	conj
-dahil	including	noun
+dahil	including, included	adj
+dahilik	genius	noun
 daima	always	adv
 daima	always	conj
 daimi	permanent, constant, regular	adj
@@ -1593,8 +1599,12 @@ dakik	punctual	adj
 dakika	minute	noun
 daktilo	typewriter	noun
 dal	branch	noun
+daldırmak	to dip, to immerse	verb
 dalga	wave	noun	dalgalı akım: alternating current
-dalgalanmak	to fluctuate; to wave	verb
+dalgacı	buffoon, clown	noun
+dalgınlık	toughtfulness, abstraction	noun
+dalgınlıkla	absentmindedly	adv
+dalgalanmak	to fluctuate, to wave	verb
 dalgalı	wavy	adj
 dalgın	preoccupied; absentminded	adj
 dalmak	to dive	verb
@@ -1610,7 +1620,8 @@ damlamak	to drip	verb
 dana	calf	noun
 dans	dance	noun
 dansçı	dancer	noun
-dansör	dancer	noun
+dansör	dancer, belly dancer	noun
+dansöz	dancer, belly dancer	noun
 danışmak	to consult	verb
 danışman	consultant, adviser	noun
 danışmanlık	consultancy	noun
@@ -1621,6 +1632,8 @@ daracık	skintight, quite narrow	adj
 daralmak	to become narrow, to get tight	verb
 darbe	blow	noun
 darbe	hit	noun
+darbuka	tambourine	noun
+dargın	cross, angry with, resentful	adj
 darı	millet	noun
 datif	dative	noun
 dava	lawsuit; case	noun
@@ -1648,6 +1661,7 @@ dağılmak	to scatter, to disperse	verb
 dağılım	distribution; dispersion	noun
 dağınık	messy	adj
 dağınık	scattered, dispersed; untidy	adj
+dağınıklık	clutter, disarray, untidiness	noun
 dağıtmak	to deliver	verb
 dağıtmak	to distribute	verb
 dağıtmak	to scatter	verb
@@ -2754,10 +2768,8 @@ giysi	clothes, dress	noun
 giz	secret, mystery	noun
 gizem	mystery, enigma	noun
 gizemli	mystical	adj
-gizlemek	to hide	verb
 gizlemek	to hide, to conceal	verb
-gizli	secret	adj
-gizli	secret; hidden	adj
+gizli	secret, hidden	adj
 gizlilik	secrecy	noun
 glikoz	glucose	noun
 global	global	adj
@@ -2765,7 +2777,6 @@ gol	goal (football)	noun
 grafik	graph, diagram	noun
 gram	gram	noun
 grev	strike (of workers)	noun
-gri	gray (Am.)	adj
 gri	gray	adj
 grip	flu	noun
 grup	group	noun
@@ -2782,8 +2793,7 @@ gökkuşağı	rainbow	noun
 göktaşı	meteor	noun
 gökyüzü	sky	noun
 göl	lake	noun
-gölge	shadow	noun	gölge etmek: to stand in one's way
-gölge	shadow; shade	noun
+gölge	shadow, shade	noun	gölge etmek: to stand in one's way
 gölgelemek	to overshadow, to cloud	verb
 gölgeli	shady	adj
 gömlek	shirt	noun
@@ -2848,13 +2858,10 @@ gözükmek	to appear	verb
 göç	immigration	noun
 göç	migration	noun
 göçebe	migrant, nomad	noun
-göçebe	nomad	noun
 göçmek	to emigrate	verb
 göçmek	to migrate	verb
 göçmen	immigrant, refugee	noun
-göğüs	breast	noun
-göğüs	chest	noun
-göğüs	chest; breast, bosom	noun
+göğüs	chest, breast, bosom	noun
 gübre	fertilizer	noun
 gücendirmek	to hurt	verb
 gücendirmek	to insult	verb
@@ -2894,7 +2901,7 @@ güneş	sun	noun
 güneşlenmek	to sunbathe	verb
 güneşli	sunny	adj
 günlük	daily	adj
-günlük	daily; diary	noun
+günlük	diary	noun
 güpegündüz	in broad daylight	phrase
 gür	loud, thick	adj
 gür	strong	adj
@@ -2928,16 +2935,15 @@ güç	force	noun
 güç	power	noun
 güçlenmek	to get strong	verb
 güçleşmek	to get hard, to grow difficult	verb
-güçlü	strong	adj
 güçlü	strong, powerful	adj
 güçlük	difficulty	noun
 güçsüz	powerless, weak	adj
 güçsüz	weak	adj
 gıda	food	noun
-gıda	food, nourishment	noun
+gıda	nourishment	noun
 gık	squeak	noun	gık dememek: not to say a word
 gırtlak	throat	noun
-gırtlak	throat; eating	noun
+gırtlak	eating	noun
 haber	information	noun	haberim var: I'm aware of it
 haber	message	noun
 haber	news	noun	ne haber? what's up?	hayırlı haberler: good news
@@ -2948,11 +2954,11 @@ habersiz	uninformed, unaware	adj
 hac	pilgrimage	noun
 hacim	volume	noun
 hacı	hadji, pilgrim	noun
-had	limit; extremity	noun
+had	limit, extremity	noun
 hadi	let's	phrase
 hadis	hadith, Quranic verse	noun
 hadise	event, incident	noun
-hafif	light; easy	adj
+hafif	light, easy	adj
 hafiflemek	to lighten	verb
 hafta	week	noun	hafta sonu: weekend	bir hafta içinde: within a week	hafta arası / ortası: midweek
 haftalık	weekly	noun
@@ -3130,6 +3136,7 @@ hayır	no; donation	noun
 hayırdır	what's wrong	phrase
 hayırlı	good; beneficial	adj
 haz	pleasure, delight	noun
+hazzetmek	to enjoy	verb
 hazine	treasure	noun
 haziran	June	noun
 hazne	case	noun
@@ -6687,7 +6694,7 @@ ten	skin	noun
 tencere	pot	noun
 tencere	saucepan	noun
 teneffüs	break (at school)	noun
-teneke	tin	noun
+teneke	tin, can	noun
 tenha	deserted	adj
 tenkit	criticism	noun
 teori	theory	noun
@@ -7901,9 +7908,14 @@ cebir	algebra	noun
 çil	freckle	noun
 çile	suffering, ordeal	noun
 çilek	strawberry	noun
+çim	gras, lawn	noun
 çimdik	tweak	noun
 çimen	grass	noun
+çimenlik	lawn	noun
 çimento	cement	noun
+çin	China	noun
+çin	Chinese	adj
+çince	Chinese	adj
 çingene	gypsy	noun
 çirkin	ugly	adj
 çivi	nail	noun
@@ -7911,6 +7923,7 @@ cebir	algebra	noun
 çizge	diagram	noun
 çizgi	line	noun
 çizgili	striped	adj
+çizilmek	to be drawn	verb
 çizim	drawing	noun
 çizme	boot	noun
 çizme	boots {pl}	noun
@@ -7946,7 +7959,9 @@ cebir	algebra	noun
 çoğalmak	to increase; to multiply	verb
 çoğunluk	majority	noun
 çubuk	rod, bar	noun
-çukur	pit, hole	noun
+çukur	pit, hole, cavity	noun
+çukur	hollow	adj
+çul	gunny (ard-wearing fabric used for sacks)	noun
 çuval	bag	noun
 çuval	sack	noun
 çökmek	to collapse	verb
@@ -7954,41 +7969,46 @@ cebir	algebra	noun
 çöküntü	collapse; depression	noun
 çöküş	collapse	noun
 çöl	desert	noun
-çöp	garbage (Am.)	noun
-çöp	garbage	noun
-çöp	trash (Am.)	noun
+çöp	garbage, trash	noun
 çöp	waste	noun
 çözelti	solution	noun
-çözmek	to solve	verb
-çözmek	to solve; to untie	verb
+çözmek	to solve, to untie	verb
 çözüm	solution	noun
 çözümlemek	to analyze	verb
 çünkü	as	conj
 çünkü	because of	prep
 çünkü	because	conj
 çürük	rotten, decay	adj
-çürümek	to rot	verb
 çürümek	to rot, to decay	verb
 çürütmek	to refute	verb
 çıkar	benefit	noun
+çıkarcı	sordid, expedient, calculating	adj
+çıkarcı	profiteer, self-seeker	noun
+çıkarcılık	sordidness	noun
 çıkarmak	to remove	verb
 çıkarmak	to take off	verb
 çıkarım	inference	noun
+çıkma	emergence, rise, climbing	noun
+çıkma	withdrawal	noun
 çıkmak	to go out (of)	verb
 çıkmak	to go/come out	verb
 çıkmak	to leave	verb
 çıkmaz	dead end, impasse	noun
 çıktı	output	noun
 çıkış	exit	noun
+çıkıvermek	to dart	verb
 çıldırmak	to go mad, to go insane	verb
-çılgın	mad (insane)	adj
 çılgın	mad, crazy, wild	adj
 çılgınlık	madness	noun
 çınar	plane tree	noun
 çınlamak	to ring	verb
-çıplak	naked; bare	adj
+çıplak	naked, bare	adj
+çıplaklık	nudity	noun
 çırak	apprentice	noun
+çirkin	ugly, unattractive	adj
+çirkinlik	ugliness	noun
 çırpmak	to scramble, to flap	verb
+çırpınmak	to struggle, to flutter	verb
 çırılçıplak	stark naked	adj
 çıtkırıldım	fragile	adj
 çıtırtı	crackle	noun
@@ -7999,17 +8019,13 @@ cebir	algebra	noun
 ödemek	to pay	verb
 ödenek	allocation	noun
 ödev	duty; assignment, homework	noun
-ödev	homework	noun
 ödül	prize, reward	noun
 ödüllendirmek	to reward	verb
 ödün	concession	noun
 ödünç	loan	noun
 ödünç	on loan	adj	ödünç almak: to borrow
-öfke	anger	noun
 öfke	anger, rage	noun
-öfke	rage	noun
 öfkelenmek	to rage, to get angry	verb
-öfkeli	angry	adj
 öfkeli	angry, outraged	adj
 öfkeyle	angrily	adv
 öksürmek	to cough	verb
@@ -8028,7 +8044,6 @@ cebir	algebra	noun
 ölümcül	deadly	adj
 ölümcül	mortal, fatal	adj
 ölümcül	pernicious	adj
-ölümlü	mortal	adj
 ölümsüz	immortal	adj
 ölümsüzlük	immortality	noun
 ömür	life	noun
@@ -8057,7 +8072,6 @@ cebir	algebra	noun
 önemsiz	indifferent	adj
 önemsiz	unimportant	adj
 önerge	proposal, motion	noun
-öneri	suggestion	noun
 öneri	suggestion, proposal	noun
 önerme	proposition	noun
 önermek	to propose	verb
