@@ -858,11 +858,14 @@ def processNeg(w):
     
     infl = infl + cndnegptpm
     
-    #-Ing == -(y)An + by -ing == -(y)ArAk
+    #-Ing == -(y)An + Past-Ing == -dAn + by -ing == -(y)ArAk
     ingneg = getIng({'infl': negstem1, 'src': 'Neg'}, negstem1out)
+    ingptnegstem = negstem1 + 'd'
+    ingptnegstemout = getMx(ingptnegstem, rp_stem)
+    ingptneg = getIng({'infl': ingptnegstem, 'src': 'Neg.Pt'}, ingptnegstemout)
     byingneg = getByIng({'infl': negstem1, 'src': 'Neg'}, negstem1out)
     
-    infl = infl + [ingneg, byingneg]
+    infl = infl + [ingneg, byingneg, ingptneg]
 
     ##Noun Possessives for -(y)An
     ingnegout = getMx(ingneg['infl'], noun.rps)
