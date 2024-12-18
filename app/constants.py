@@ -25,7 +25,7 @@ EXCEPTIONS = {
             'saat':'saatler',
             'hal':'haller'
         },
-        'ALTERNATE': ['sap','at','kek','saç','saat','kat','adet','cesaret','fiyat'],
+        'ALTERNATE': ['sap','at','kek','saç','saat','kat','adet','cesaret','fiyat','dikkat'],
         'ALTERNATE_POSS': ['kek','saç'],
         'ACCUSATIVE': {
              'saat':'saati'
@@ -51,7 +51,10 @@ EXCEPTIONS = {
              'zihin': ['zihnim','zihnin','zihni','zihnimiz','zihniniz','zihni'],
              'isim': ['ismim','ismin','ismi','ismimiz','isminiz','ismi'],
              'karın': ['karnım','karnın','karnı','karnımız','karnınız','karnı'],
-             'ağız': ['ağzım','ağzın','ağzı','ağzımız','ağzınız','ağzı']
+             'ağız': ['ağzım','ağzın','ağzı','ağzımız','ağzınız','ağzı'],
+             'kahır': ['kahrım','kahrın','kahrı','kahrımız','kahrınız','kahrı'],
+             'boyun': ['boynum','boynun','boynu','boynumuz','boynunuz','boynu'],
+             'böğür': ['böğrüm','böğrün','böğrü','böğrümüz','böğrünüz','böğrü']             
         },
         'GENITIVE': {
         },
@@ -66,6 +69,7 @@ EXCEPTIONS = {
             ,'kaybet': 'kaybed'
             ,'zannet': 'zanned'
             ,'başet': 'başed'
+            ,'hazzet': 'hazzed'
         },
         'CONTINUOUS': {
         },
@@ -80,6 +84,7 @@ EXCEPTIONS = {
             ,'kaybet': 'kaybed'
             ,'zannet': 'zanned'
             ,'başet': 'başed'
+            ,'hazzet': 'hazzed'
         },
         'FUTURE': {
         },
@@ -104,6 +109,7 @@ EXCEPTIONS = {
             ,'kaybet': 'kaybeder'
             ,'zannet': 'zanneder'
             ,'başet': 'başeder'
+            ,'hazzet': 'hazzeder'
         },
         'IP_STEM': {
              'ye': 'yi'
@@ -116,6 +122,7 @@ EXCEPTIONS = {
             ,'kaybet': 'kaybed'
             ,'zannet': 'zanned'
             ,'başet': 'başed'
+            ,'hazzet': 'hazzed'
         },
         'ING_STEM': {
              'ye': 'yi'
@@ -128,6 +135,7 @@ EXCEPTIONS = {
             ,'kaybet': 'kaybed'
             ,'zannet': 'zanned'
             ,'başet': 'başed'
+            ,'hazzet': 'hazzed'
         },
         'CAN_STEM': {
              'ye': 'yi'
@@ -140,6 +148,7 @@ EXCEPTIONS = {
             ,'kaybet': 'kaybed'
             ,'zannet': 'zanned'
             ,'başet': 'başed'
+            ,'hazzet': 'hazzed'
         }
     }
 
