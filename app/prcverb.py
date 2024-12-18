@@ -19,8 +19,8 @@ rp_stem = {'last_syl_low':rp_last_syl_low
 def getContinuousStem(word):
     stem = getStem(word)
     
-    if stem in EXCEPTIONS['CONTINUOUS_STEM']:
-        return EXCEPTIONS['CONTINUOUS_STEM'][stem]
+    if stem in EXCEPTIONS['GENERAL_STEM']:
+        return EXCEPTIONS['GENERAL_STEM'][stem]
     
     if regex.match(rp_ends_aeoo, stem):
         return stem[:len(stem)-1]
@@ -30,32 +30,32 @@ def getContinuousStem(word):
 def getFutureStem(word):
     stem = getStem(word)
     
-    if stem in EXCEPTIONS['CONTINUOUS_STEM']:
-        return EXCEPTIONS['CONTINUOUS_STEM'][stem]
+    if stem in EXCEPTIONS['GENERAL_STEM']:
+        return EXCEPTIONS['GENERAL_STEM'][stem]
     else:
         return stem
         
 def getIpStem(word):
     stem = getStem(word)
     
-    if stem in EXCEPTIONS['IP_STEM']:
-        return EXCEPTIONS['IP_STEM'][stem]
+    if stem in EXCEPTIONS['GENERAL_STEM']:
+        return EXCEPTIONS['GENERAL_STEM'][stem]
     else:
         return stem
         
 def getIngStem(word):
     stem = getStem(word)
     
-    if stem in EXCEPTIONS['ING_STEM']:
-        return EXCEPTIONS['ING_STEM'][stem]
+    if stem in EXCEPTIONS['GENERAL_STEM']:
+        return EXCEPTIONS['GENERAL_STEM'][stem]
     else:
         return stem
         
 def getCanStem(word):
     stem = getStem(word)
     
-    if stem in EXCEPTIONS['CAN_STEM']:
-        return EXCEPTIONS['CAN_STEM'][stem]
+    if stem in EXCEPTIONS['GENERAL_STEM']:
+        return EXCEPTIONS['GENERAL_STEM'][stem]
     else:
         return stem
 
@@ -226,8 +226,8 @@ def getImperative(stem, mx):
 def getOptative(stem, mx):
     ret = stem['infl']
     
-    if ret in EXCEPTIONS['CONTINUOUS_STEM']:
-        ret = EXCEPTIONS['CONTINUOUS_STEM'][ret]
+    if ret in EXCEPTIONS['GENERAL_STEM']:
+        ret = EXCEPTIONS['GENERAL_STEM'][ret]
     
     if mx == None:
         mx = getMx(ret, {'ends_vow': rp_ends_vow, 'last_syl_low': rp_last_syl_low})
@@ -381,6 +381,9 @@ def getAs(stem, mx):
 
 def getWhen(stem, mx):
     ret = stem['infl']
+    
+    if ret in EXCEPTIONS['GENERAL_STEM']:
+        ret = EXCEPTIONS['GENERAL_STEM'][ret]
     
     if mx['ends_vow']:
         ret = ret + 'y'
