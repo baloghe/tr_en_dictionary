@@ -54,11 +54,13 @@ EXCEPTIONS = {
              'ağız': ['ağzım','ağzın','ağzı','ağzımız','ağzınız','ağzı'],
              'kahır': ['kahrım','kahrın','kahrı','kahrımız','kahrınız','kahrı'],
              'boyun': ['boynum','boynun','boynu','boynumuz','boynunuz','boynu'],
-             'böğür': ['böğrüm','böğrün','böğrü','böğrümüz','böğrünüz','böğrü']             
+             'böğür': ['böğrüm','böğrün','böğrü','böğrümüz','böğrünüz','böğrü'],
+             'evlat': ['evladım','evladın','evladı','evladımız','evladınız','evladı'],
+             'göğüs': ['göğsüm','göğsün','göğsü','göğsümüz','göğsünüz','göğsü']
         },
         'GENITIVE': {
         },
-        'CONTINUOUS_STEM': {
+        'GENERAL_STEM': {
              'ye': 'yi'
             ,'de': 'di'
             ,'git': 'gid'
@@ -72,19 +74,6 @@ EXCEPTIONS = {
             ,'hazzet': 'hazzed'
         },
         'CONTINUOUS': {
-        },
-        'FUTURE_STEM': {
-             'ye': 'yi'
-            ,'de': 'di'
-            ,'git': 'gid'
-            ,'et': 'ed'
-            ,'tat': 'tad'
-            ,'affet': 'affed'
-            ,'seyret': 'seyred'
-            ,'kaybet': 'kaybed'
-            ,'zannet': 'zanned'
-            ,'başet': 'başed'
-            ,'hazzet': 'hazzed'
         },
         'FUTURE': {
         },
@@ -110,45 +99,6 @@ EXCEPTIONS = {
             ,'zannet': 'zanneder'
             ,'başet': 'başeder'
             ,'hazzet': 'hazzeder'
-        },
-        'IP_STEM': {
-             'ye': 'yi'
-            ,'de': 'di'
-            ,'git': 'gid'
-            ,'et': 'ed'
-            ,'tat': 'tad'
-            ,'affet': 'affed'
-            ,'seyret': 'seyred'
-            ,'kaybet': 'kaybed'
-            ,'zannet': 'zanned'
-            ,'başet': 'başed'
-            ,'hazzet': 'hazzed'
-        },
-        'ING_STEM': {
-             'ye': 'yi'
-            ,'de': 'di'
-            ,'git': 'gid'
-            ,'et': 'ed'
-            ,'tat': 'tad'
-            ,'affet': 'affed'
-            ,'seyret': 'seyred'
-            ,'kaybet': 'kaybed'
-            ,'zannet': 'zanned'
-            ,'başet': 'başed'
-            ,'hazzet': 'hazzed'
-        },
-        'CAN_STEM': {
-             'ye': 'yi'
-            ,'de': 'di'
-            ,'git': 'gid'
-            ,'et': 'ed'
-            ,'tat': 'tad'
-            ,'affet': 'affed'
-            ,'seyret': 'seyred'
-            ,'kaybet': 'kaybed'
-            ,'zannet': 'zanned'
-            ,'başet': 'başed'
-            ,'hazzet': 'hazzed'
         }
     }
 
