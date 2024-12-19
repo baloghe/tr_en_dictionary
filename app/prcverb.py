@@ -297,6 +297,9 @@ def getCannotDictForm(stem, mx):
 def getPotentialDictForm(stem, mx):
     ret = stem['infl']
     
+    if ret in EXCEPTIONS['GENERAL_STEM']:
+        ret = EXCEPTIONS['GENERAL_STEM'][ret]
+    
     if mx['ends_vow']:
         ret = ret + 'y'
     
