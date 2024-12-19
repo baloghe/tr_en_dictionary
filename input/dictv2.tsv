@@ -814,8 +814,9 @@ bahane	excuse	noun	hep bir bahane buluyorsun! you always find an excuse!
 bahar	spring	noun
 baharat	spice	noun
 baharat	spices	noun
-bahis	bet	noun	bahse tutuşmak: to make a bet	bahsi açılmak: to open a discussion
-bahis	bet; subject	noun
+bahis	bet	noun	bahse tutuşmak: to make a bet
+bahis	discussion	noun	bahsi açılmak: to open a discussion
+bahis	subject	noun
 bahri	great crested grebe	noun
 bahsedilen	said	adj
 bahsetmek	to mention	verb
@@ -901,8 +902,6 @@ batı	west	noun	gün batımı: sunset
 batılı	western	adj
 batırmak	to ruin	verb
 batırmak	to sink	verb
-bavul	luggage	noun
-bavul	suitcase	noun
 bavul	suitcase, luggage	noun
 bay	Mr.	noun
 bayan	Miss, Mrs., Ms., woman	noun
@@ -2866,12 +2865,12 @@ gönüllü	volunteer	adj
 göre	for, according to	posp
 görece	relatively	adv
 göreli	relative	adj
-görev	duty	noun
 görev	duty, assignment	noun
 görevlendirme	employment	noun
 görevlendirmek	to assign	verb
 görevli	in charge, on duty	noun
 görgü	manners	noun
+görgüsüz	provincial, graceless, mannerless	adj
 görkemli	splendid, magnificent	adj
 görmek	to see	verb
 görsel	visual	adj
