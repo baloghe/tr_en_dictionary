@@ -8,6 +8,8 @@ tn = ["yakma", "incineration", "noun", None]
 tadj = ["aksi", "opposite", "adj", None]
 tadv = ["aksine", "on the contrary", "adv", None]
 
+multi = [["diş", "tooth", "noun", None] , ["dış", "external", "adj", None]]
+
 ENTRIES = {}
 
 def createEntry(record):
@@ -31,6 +33,15 @@ def testCalcI(record):
     for g in grps.keys():
         print(f"{g} -> {len(grps[g].getInflections())}, valid: {grps[g].isValid()}")
 
+def testMultiRecords(records):
+    ENTRIES = {}
+    for r in records:
+        print(r)
+        e = createEntry(r)
+        ENTRIES[e.getOrig()] = e
+        grps = calcInflections(ENTRIES)
+        for g in grps.keys():
+            print(f"{g} -> {len(grps[g].getInflections())}, valid: {grps[g].isValid()}")
 
 print("Test verb ::")
 testCalcI(tv)
@@ -41,5 +52,5 @@ testCalcI(tn)
 print("Test adjective ::")
 testCalcI(tadj)
 
-print("Test adverb ::")
-testCalcI(tadv)
+print("Test multi ::")
+testMultiRecords(multi)
