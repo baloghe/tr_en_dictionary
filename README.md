@@ -83,9 +83,13 @@ Upon reading in the TSV input, only Entries and Meanings get generated. Inflecte
 
 ### Calculating Inflections
 An Entry may have different word types (like _kara_ being both a noun and an adjective), therefore may have subject to different grammar rules yielding a vast amount of inflected forms.
+
 Generation of inflected forms is broken down by word types: prcnoun.processNoun(), prcverb.processVerb() etc.
+
 Agglutination means a relatively short stem (e.g. _et_: make) may take on various appendices yielding not just long results (e.g. _edebileceğim_: I will be able to make) but also a lot of them, well above a thousand.
+
 Keeping in mind that Kindle won't handle groups over 255 members anyway, it seems to be a good idea to keep track of the inflection (something like _edebileceğim_ = _et_ + Potential + Future + PossessiveSingular1) and later do a grouping based on the inflection paths.
+
 By calling _Entry.calcInflections()_, the inflections get generated and grouped first by Word type, then by the grouping rule laid down in _constants.INFLECTION_GROUPS_.
 ```
 {'infl': 'edebileceğim', 'src': 'Pot.Fut', 'wtype': 'verb'}
@@ -93,6 +97,7 @@ By calling _Entry.calcInflections()_, the inflections get generated and grouped 
 
 ### Regrouping Inflections
 Unfortunately a simple calculation of all potential inflections would yield e.g. _karın_ appearing under both _karı_ (wife) and _kar_ (snow). Words without any predefined processing will have no inflected forms at all (e.g. Phrases will always be relegated to this category).
+
 The next step in the process is 
 * to generate the widest possible set of distinct words to be handled (practically by pouring together all 'orig' forms and inflected forms from Entries)
 * and then grouping them so that Kindle doesn't get confused
