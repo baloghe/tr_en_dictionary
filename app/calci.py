@@ -1,7 +1,8 @@
-from app.classes.entry import Entry
+#from app.classes.entry import Entry
 from app.classes.group import Group
+from app.constants import *
 
-def rearrInflections(inEntries, inInflection2Head, inSharedInflections, inSharedGroups, inHead2Entry):
+def rearrInflections(inEntries, inInflection2Head, inSharedInflections, inSharedGroups, inHead2Entry, inExactList):
     keysToDel = []
     for (k,v) in inInflection2Head.items():
         v = list(set(v))                            #head='kızmış' pertains to different entries!
@@ -34,12 +35,15 @@ def rearrInflections(inEntries, inInflection2Head, inSharedInflections, inShared
                 origtext = inEntries[ent].getOrig()
                 actgrp = {'id': h, 'head': '', 'page': [{'orig': origtext, 'inflGrps': gg, 'mbytp': inEntries[ent].getMeaningsByTypes()}]}
                 ilist = []      # list of inflections
+                exact = []      # exact spelling needed
                 alterhead = ''  # alternative head in case original head is a shared one and has to be dropped
                 for i in inEntries[ent].getInflectionGroup(gg):
                     if i not in inSharedInflections:
                         ilist.append(i)
                         if len(alterhead)==0 or len(alterhead) >= len(i):
                             alterhead = i
+                        if i in inExactList:
+                            exact.append(i)
                 if not ilist:
                     if len(inEntries[ent].getInflections()) == 0:
                         actgrp['head'] = origtext
@@ -54,7 +58,7 @@ def rearrInflections(inEntries, inInflection2Head, inSharedInflections, inShared
                     ilist.remove(actgrp['head'])
                 actgrp['infls'] = ilist
                 #print(f"single {pg} -> {len(ilist)} inflections")
-                groups[actgrp['id']] = Group(actgrp['id'],actgrp['head'],actgrp['page'],actgrp['infls'])
+                groups[actgrp['id']] = Group(actgrp['id'],actgrp['head'],actgrp['page'],actgrp['infls'],exact)
                 simpleCnt = simpleCnt+1
     
     # Shared groups from inSharedGroups
@@ -62,9 +66,12 @@ def rearrInflections(inEntries, inInflection2Head, inSharedInflections, inShared
     for gid in list(inSharedGroups.keys()):
         #print(f"gid: {gid}")
         ilist = inSharedGroups[gid] # list of inflections
+        exact = []      # exact spelling needed
         potentries = {} # e.g. {'kar': ['Poss.Ind', 'OTH'], 'karın': ['Ind']}
         for i in ilist:
             heads = inSharedInflections[i]['heads']
+            if i in inExactList:
+                exact.append(i)
             #print(heads)
             for h in heads:
                 es = inHead2Entry[h] #e.g. {'kar': ['Poss.Ind'], 'karın': ['Ind']}
@@ -98,7 +105,7 @@ def rearrInflections(inEntries, inInflection2Head, inSharedInflections, inShared
             ilist.remove(head)
 
         # create Group object:
-        groups[gid] = Group(gid,head,pages,ilist)
+        groups[gid] = Group(gid,head,pages,ilist,exact)
         sharedCnt = sharedCnt + 1
 
     print(f"Groups created: {simpleCnt} simple and {sharedCnt} shared groups")
@@ -125,11 +132,20 @@ def addEntryToHead(inHead2Entry, head, src, orig):
     else:
         inHead2Entry[head] = {orig:[src]}
 
+def updateExact(inExacts, infl):
+    infl_coded = getCodedWord(infl)
+    if infl_coded in inExacts:
+        if infl not in inExacts[infl_coded]:
+            inExacts[infl_coded].append(infl)
+    else:
+        inExacts[infl_coded] = [infl]
+
 def calcInflections(inEntries):
     SHARED_INFLECTIONS = {}
     SHARED_GROUPS = {}
     INFLECTION_TO_HEAD = {}
     HEAD_TO_ENTRY = {}
+    EXACT_INFLECTIONS = {}
     for o in inEntries:
         # inEntries[o].calcInflections()
         try:
@@ -141,6 +157,7 @@ def calcInflections(inEntries):
             t = inEntries[o].getOrig()
             addHeadToInflection(INFLECTION_TO_HEAD,t,t)
             addEntryToHead(HEAD_TO_ENTRY,t,'OTH',t)
+            updateExact(EXACT_INFLECTIONS, t)
             # add inflections and heads
             alli = inEntries[o].getInflections()
             for tp,x in alli.items():
@@ -150,7 +167,17 @@ def calcInflections(inEntries):
                     addEntryToHead(HEAD_TO_ENTRY,head,k,t)
                     for i in alli[tp][k]["infl"]:
                         addHeadToInflection(INFLECTION_TO_HEAD, i['infl'], head)
+                        updateExact(EXACT_INFLECTIONS, i['infl'])
                     
+    # filter EXACT_INFLECTIONS for conflicting words only
+    EXACT_INFLECTIONS = {k: v for k, v in EXACT_INFLECTIONS.items() if len(v) > 1}
+    EXACT_LIST = []
+    for k, v in EXACT_INFLECTIONS.items():
+        for i in v:
+            if i not in EXACT_LIST:
+                EXACT_LIST.append(i)
+    print(f"Number of exact inflected forms: {len(EXACT_LIST)}")
+
     # distinct links and identify shared inflections
-    outGroups = rearrInflections(inEntries, INFLECTION_TO_HEAD, SHARED_INFLECTIONS, SHARED_GROUPS, HEAD_TO_ENTRY)
+    outGroups = rearrInflections(inEntries, INFLECTION_TO_HEAD, SHARED_INFLECTIONS, SHARED_GROUPS, HEAD_TO_ENTRY, EXACT_LIST)
     return outGroups
