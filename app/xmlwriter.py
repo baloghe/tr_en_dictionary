@@ -70,7 +70,7 @@ def writeMeanings(orth, wt, wtMap):
                 print(f"{m.getMeaning()} -> missing word type")
                 tperror = False
 
-def writeInflections(where, sInfl, head):
+def writeInflections(where, sInfl, head, exact):
     if len(sInfl) > 0:
         infl = etree.SubElement(where, "{www.mobipocket.com/idx}infl", nsmap={'idx':NSMAP['idx']})
         clr_infl = list(set(sInfl))
@@ -80,7 +80,8 @@ def writeInflections(where, sInfl, head):
         for c in clr_infl:
             ai = etree.SubElement(infl,"{www.mobipocket.com/idx}iform", nsmap={'idx':NSMAP['idx']})
             ai.set('value',c)
-            ai.set('exact','yes')
+            if c in exact:
+                ai.set('exact','yes')
             ai.text = ''
 
 '''
@@ -89,7 +90,7 @@ def writeInflections(where, sInfl, head):
     head: "inf grp head"
     infls: list(string) of inflection literals
 '''
-def writeEntry(where, page, head, grpMap, infls, wtMap):
+def writeEntry(where, page, head, grpMap, infls, wtMap, exact):
     
     writePB(where)
 
@@ -120,7 +121,7 @@ def writeEntry(where, page, head, grpMap, infls, wtMap):
             writeMeanings(li, d['mbytp'], wtMap)
     
     #write out inflections
-    writeInflections(orth, infls, head)
+    writeInflections(orth, infls, head, exact)
 
 def writeXML(outFileName, inGroups, wtMap, grpMap):
     (html,fs) = writeXmlHeader()
@@ -129,7 +130,7 @@ def writeXML(outFileName, inGroups, wtMap, grpMap):
     for id in sorted(inGroups.keys()):
         g = inGroups[id]
         if(g.isValid()):
-            writeEntry(fs, g.getPages(), g.getHead(), grpMap, g.getInflections(), wtMap)
+            writeEntry(fs, g.getPages(), g.getHead(), grpMap, g.getInflections(), wtMap, g.getExactInflections())
             cnt = cnt+1
         else:
             invalidgrp.append(id)
