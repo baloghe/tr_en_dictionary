@@ -271,7 +271,7 @@ def getObligation(stem, neg=False):
 def getConditional(stem, mx, addy=False):
     ret = stem['infl']
 
-    if addy and mx['last_syl_low'] and mx['ends_vow']:
+    if addy and mx['ends_vow']:
         ret = ret + 'y'
     
     if mx['last_syl_low']:
@@ -914,7 +914,8 @@ def processPt(w):
     infl = infl + ptpm
     
     #Conditional
-    ptcond = getConditional(pt, ptstemout, addy=True)
+    ptcondout = getMx(pt['infl'], rp_stem)
+    ptcond = getConditional(pt, ptcondout, addy=True)
     ptcondpm = getPersonMarker(ptcond, 'k-pr')
     
     infl = infl + ptcondpm
@@ -1265,9 +1266,11 @@ def processVerb(w):
     ingstem = getStem(w, 'Ing')
     ingstemout = getMx(ingstem, rp_stem)
     ing = getIng({'infl': ingstem, 'src': None}, ingstemout)
+    ingout = getMx(ing['infl'], noun.rps)   
+    ingplr = noun.getPlural(ing, ingout)
     bying = getByIng({'infl': ingstem, 'src': None}, ingstemout)
     
-    infl = infl + [ing, bying]
+    infl = infl + [ing, ingplr, bying]
 
     ##Noun Possessives for -(y)An
     ingout = getMx(ing['infl'], noun.rps)
