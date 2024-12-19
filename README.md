@@ -62,11 +62,11 @@ E.g. _karı_ (1: wife, non-inflected ; 2: snow in accusative) can appear only on
   * e.g. _karı_ (wife uninflected) and _karın_ (~your wife) should be excluded
   * this will all point to an entry something like '_karı_: wife'
 * the intersection of the inflected forms of _karı_ and _kar_
-  * exactly that is the place for _karı_ and _kar_
+  * exactly that is the place for _karı_ and _karın_
   * it will point to a mixed entry something like '1: _kar_: snow , 2: _karı_: wife'
 And, belive it or not, _kara_ can mean black (as an adjective uninflected), land (as a noun uninflected) or even 'to the snow' (_kar_ +Dative)...
 
-Kindle can only handle 255 inflected forms under a given _orth_ tag. In case an entry has more inflected forms, some kind of partitioning must be applied.
+Moreover, Kindle can only handle 255 inflected forms under a given _orth_ tag. In case an entry has more inflected forms, some kind of partitioning must be applied.
 
 ### Entries and Meanings
 Each _original_ read from the input TSV is considered as an Entry. An Entry may have different Meanings pertaining to different Word Types.
