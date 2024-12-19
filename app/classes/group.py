@@ -1,9 +1,10 @@
 class Group:
-    def __init__(self, id, inHead, inPageLst, inInfls):
+    def __init__(self, id, inHead, inPageLst, inInfls, inExact):
         self.id = id
         self.head = inHead
         self.pages = inPageLst    # list( {orig: "orig word", inflGrps: ["OTH" or "Pt.Abl...."], mbytp: Entry.getMeaningsByTypes() } )
         self.inflections = inInfls
+        self.exactInfls = inExact
     
     def getId(self):
         return self.id
@@ -19,5 +20,6 @@ class Group:
     
     def getInflections(self):
         return self.inflections
-
     
+    def getExactInflections(self):
+        return self.exactInfls
