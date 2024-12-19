@@ -170,6 +170,9 @@ def _alphaLookup(c):
     else:
         return -1
 
+def getCodedWord(s):
+    return '.'.join([str(_alphaLookup(c)) for c in s])
+
 def alphaSort(a):
     # works both
     return sorted(a, key=lambda word: [_alphaLookup(c) for c in ''.join(map(str,word))])
