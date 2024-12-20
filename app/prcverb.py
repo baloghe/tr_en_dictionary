@@ -410,8 +410,9 @@ def getRelClauses(stem, mx):
     dat = noun.getDative(stem, mx)
     abl = noun.getAblative(stem, mx)
     loc = noun.getLocative(stem, mx)
+    wth = noun.getWith(stem, mx)
     
-    infl = infl + [acc, dat, abl, loc]
+    infl = infl + [acc, dat, abl, loc, wth]
 
     return infl
     
@@ -682,14 +683,24 @@ def processNeg(w):
 
     infl = []
     
-    ##Relative clauses on the negative infinitive
+    ##Relative clauses on the negative infinitive -mAk
     neginf = getStem(w, 'Neg')
     if neginf[len(neginf)-1:] == 'a':
         neginf = neginf + 'mak'
     else:
         neginf = neginf + 'mek'
     neginfout = getMx(neginf, noun.rps)
-    infl = infl + getRelClauses({'infl': neginf, 'src': 'Neg'}, neginfout)
+    neginfrel = getRelClauses({'infl': neginf, 'src': 'Neg'}, neginfout)
+
+    infl = infl + [{'infl': neginf, 'src': 'Neg'}] + neginfrel
+
+    ##Relative clauses + possessives on the negative infinitive -mA
+    neginf2stem = getStem(neginf, 'Neg')
+    neginf2out = getMx(neginf2stem, noun.rps)
+    neginf2rel = getRelClauses({'infl': neginf2stem, 'src': 'Neg'}, neginf2out)
+    neginf2pos = getNounPossessives({'infl': neginf2stem, 'src': 'Neg'}, neginf2out)
+
+    infl = infl + neginf2rel + neginf2pos
 
     ##Negative future +in-the-pastnegstem = getNegStem(w) +indirect
     negstem1 = getStem(w, 'Neg')
@@ -1083,7 +1094,7 @@ def processPot(w):
     potcontpm = getPersonMarker(potcont, 'cont-z-pr')
     potcontptpm = getPersonMarker(potcontpt, 'cont-k-pt')
     
-    infl = infl + potcontpm + potcontptpm
+    infl = infl + [potdf] + potcontpm + potcontptpm
     
     potfutstem = getStem(potdf['infl'], 'Fut')
     potfutstemout = getMx(potfutstem, rp_stem)
@@ -1296,10 +1307,20 @@ def processVerb(w):
 
     infl = infl + [inca]
 
-    ##Relative clauses on the infinitive
+    ##Relative clauses on the infinitive -mAk
     inf = w
     infout = getMx(w, noun.rps)
-    infl = infl + getRelClauses({'infl': inf, 'src': None}, infout)
+    infrel = getRelClauses({'infl': inf, 'src': None}, infout)
+
+    infl = infl + infrel
+
+    ##Relative clauses + possessives on the infinitive -mA
+    inf2stem = getStem(w, 'Neg')
+    inf2out = getMx(inf2stem, noun.rps)
+    inf2rel = getRelClauses({'infl': inf2stem, 'src': None}, inf2out)
+    inf2pos = getNounPossessives({'infl': inf2stem, 'src': None}, inf2out)
+    
+    infl = infl + inf2rel + inf2pos
 
     #wtype = noun in all cases
     for i in infl:
