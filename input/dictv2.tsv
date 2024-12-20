@@ -153,6 +153,7 @@ adam	man	noun
 adam	person	noun
 adamak	to dedicate	verb
 adamak	to devote	verb
+adamış	devoted, wedded	adj
 adaptasyon	adaptation	noun
 aday	candidate	noun
 adaylık	candidacy, nomination	noun
@@ -1475,6 +1476,7 @@ cadde	road	noun
 cadde	street	noun
 cadı	witch	noun
 cahil	illiterate, uneducated	adj
+cahillik	ignorance, inexperience	noun
 cam	glass	noun
 cam	window	noun	cam kenarında: by the window
 cambaz	acrobat	noun
@@ -2843,6 +2845,7 @@ grup	group	noun
 gurbet	foreign land	noun
 gurur	pride	noun	gurur duymak: to be proud of
 gururlu	proud	adj
+gururla	proudly	adv
 göbek	navel, belly	noun
 gök	sky	noun
 gökada	galaxy	noun
@@ -2874,6 +2877,7 @@ görgüsüz	provincial, graceless, mannerless	adj
 görkemli	splendid, magnificent	adj
 görmek	to see	verb
 görsel	visual	adj
+görülmek	to be seen, to occur	verb
 görünmek	to appear	verb
 görünmek	to look	verb
 görünmek	to seem	verb
@@ -2893,6 +2897,8 @@ gösterici	guide, demonstrator	noun
 gösterim	display, show	noun
 göstermek	to prove	verb
 göstermek	to show	verb
+gösterilmek	to be shown	verb
+gösteriş	show, presentation, display	noun
 göt	ass	noun
 götürmek	to bring	verb
 götürmek	to carry	verb
@@ -2900,19 +2906,26 @@ götürmek	to take to	verb
 götürmek	to take	verb
 gövde	body	noun
 gövde	fuselage	noun
-göz	eye	noun	gözler dört açmış: eyes wide open	gözler önüne sermek: to reveal
+göz	eye	noun	gözler dört açmış: eyes wide open	gözler önüne sermek: to reveal	çıplakla göz önüne sermek: to lay bare (some facts)
 gözaltı	custody	noun	gözaltına almak: to detain
+gözcü	lookout, observer, watchman	noun
 gözde	favorite	adj
 gözetim	supervision, care; protection	noun
 gözetlemek	to observe	verb
 gözetlemek	to watch	verb
 gözetmek	to consider; to guard	verb
+gözkapak	eyelid	noun
 gözlem	observation	noun
 gözlemci	observer	noun
 gözlemek	to watch; to observe	verb
 gözlemlemek	to observe	verb
 gözlük	glasses	noun
 gözlük	spectacles	noun
+gözlüklü	spectacled, wearing glasses	adj
+gözlüksüz	without glasses	adj
+gözönüne	in sight	adv
+gözyaşartıcı	lachrymose, tear-inducing, tearful	adj	gözyaşartıcı etki: tear-jerking effect
+gözyaş	tear	noun
 gözyaşı	tear	noun
 gözükmek	to appear	verb
 göç	immigration	noun
@@ -2929,17 +2942,23 @@ gücenmiş	hurt	adj
 güdü	drive, motivation	noun
 gül	rose	noun
 güldeste	anthology	noun
+güldürmek	to make laugh, to amuse	verb
 güle	bye	phrase	güle güle: bye
+güleç	laughing	adj
+güleryüz	smiling face	noun
 gülme	laugh	noun
 gülmek	to laugh	verb	katıla gülmek: to laugh out loud
 gülümseme	smile	noun
 gülümsemek	to smile	verb
 gülünecek	funny	adj
-gülünç	funny	adj
+gülünç	funny, ridiculous	adj
+gülünçlü	funny, ridiculous	adj
+gülünçlük	ridiculousness, amusement	noun
 gülüş	laugh	noun
 gülüş	laughter	noun
-gümrük	customs duty	noun
-gümrük	customs	noun
+gülüşmek	to amuse oneself	verb
+güm	flump (dull, thudding sound)	noun	helanın kapısı içerden güm güm vurulmaya başladı: the door of the toilet started to be pounded from inside
+gümrük	customs, duty	noun
 gümüş	silver	adj
 gümüş	silver	noun
 gün	day	noun	günlerde: at days	günün birinde: some day	bir gün: one day	gün ağarması: dawn	gün batısı: sunset	gün batımı: sunset
@@ -2987,6 +3006,7 @@ güzel	beautiful	adj	her şey güzeldi: everything was fine
 güzel	fine	adv
 güzel	good	adj
 güzel	pretty	adj
+güzelce	nicely	adv
 güzelleşmek	to become beautiful	verb
 güzellik	beauty	noun
 güzellik	beauty; kindness	noun
@@ -3025,6 +3045,7 @@ hadise	event, incident	noun
 hafif	light, easy	adj
 hafiflemek	to lighten	verb
 hafta	week	noun	hafta sonu: weekend	bir hafta içinde: within a week	hafta arası / ortası: midweek
+haftalarca	for weeks	adv
 haftalık	weekly	noun
 hafıf	light	adj
 hafıf	lightly	adv
@@ -3040,10 +3061,7 @@ hakem	referee	noun
 hakikat	fact	noun
 hakikat	truth	noun
 hakikaten	in fact	adv
-hakikaten	really	adv
 hakikaten	really, truly	adv
-hakikaten	truly	adv
-hakiki	genuine	adj
 hakiki	genuine, real	adj
 hakim	dominating	adj
 hakim	judge	noun
@@ -3063,10 +3081,10 @@ halbuki	however	conj
 hâlbuki	however	conj
 halen	at present, still	adv
 halife	caliph	noun
+haline	into	prep
 halis	pure	adj
 haliyle	naturally, consequently	conj
 halk	folk	noun
-halk	people	noun
 halk	people; nation	noun
 halk	public	adj
 halka	hoop; circle; ring	noun
@@ -3087,6 +3105,10 @@ hanedan	dynasty	noun
 hangi	which	adj
 hangi	which	pron
 hangisi	which	pron
+hangimiz	which of us	pron
+hangimize	which of us (Dat.)	pron
+hanginiz	which of you	pron
+hangisini	which of his (Acc.)	pron
 hani	so	adv
 hani	let me see	adv
 hani	you know	phrase
@@ -3115,6 +3137,7 @@ hareketsiz	motionless	adj
 harem	harem	noun
 harf	letter	noun
 harflemek	to spell	verb
+harıl	busy	adv	harıl harıl: busy
 harici	external, abroad	adj
 harika	awesome	adj
 harika	fabulous	adj
@@ -3122,6 +3145,7 @@ harika	great	adj
 harika	superb	adj
 harika	wonderful	adj
 harita	map	noun
+harikalık	awesomeness	noun
 hariç	except for	noun
 hariç	except	prep
 harman	harvest	noun
@@ -3142,6 +3166,7 @@ hastalanma	disease	noun
 hastalanmak	to get ill	verb
 hastalık	disease	noun
 hastalık	illness, sickness	noun
+hastalıklı	sickly, weak, diseased	adj
 hastane	hospital	noun
 hastel	hostel	noun
 hasım	inimical	adj
@@ -3164,6 +3189,7 @@ hatıra	memory	noun
 hatıra	memory	noun
 hatırlama	remembrance	noun
 hatırlama	recollection	noun
+hatırlamak	to remember	verb
 hatırlatmak	to remind	verb
 hava	air	noun
 hava	air; weather	noun
@@ -3186,7 +3212,8 @@ hayalet	ghost	noun
 hayali	imaginary	adj
 hayat	life	noun	hayatım: my dear	hayatta gelmek: to come alive	hayatta kalmak: to survive
 hayati	vital	adj
-hayda	come on	phrase
+hayda	come on!	phrase
+haydi	come on!	phrase
 haykırmak	to shout	verb
 hayli	a lot	adv
 hayli	quite a lot	adj	bir hayli: pretty much
@@ -3209,6 +3236,7 @@ hazret	excellency	noun
 hazır	ready	adj
 hazır	ready, prepared	adj
 hazırlamak	to prepare	verb
+hazırlanmak	to get ready	verb
 hazırlık	preparation	noun
 hazırlıklı	prepared	adj
 haç	cross	noun
@@ -3228,6 +3256,7 @@ hediye	present	noun
 hegemonya	hegemony	noun
 hekim	doctor	noun
 hekim	physician	noun
+hela	closet	noun
 helal	halal	noun
 hele	above all, especially, in particular	conj
 helikopter	helicopter	noun
@@ -3238,14 +3267,18 @@ hemen	at once	adv
 hemen	immediately	adv
 hemen	in a moment	adv
 hemen	right now; immediately	adv
-hemşire	nurse (female)	noun
+hemşehri	citizen, fellow countryman	noun
 hemşire	nurse	noun
 henüz	just	adv
 henüz	yet	adv
 hep	always	adv
-hepimiz	all of us	noun
+hep	all	adv
+hep	ever	adv
+hepimiz	all of us	pron
+hepiniz	all of you	pron
 hepsi	all	adj
 hepsi	everything	pron
+hepsi	all of them	pron
 her	all	adj
 her	each / every	det
 her	each	pron
@@ -3288,6 +3321,8 @@ hile	trick, cheat	noun
 hileli	dishonest	adj
 himaye	patronage, protection	noun
 hipotez	hypothesis	noun
+hırçın	combative, gruff, irritable	adj
+hırçınlık	bad temper, sourness	noun
 his	feeling	noun
 hisse	part; lot	noun
 hissetmek	to feel	verb
@@ -3316,9 +3351,9 @@ horoz	cock	noun
 horoz	rooster	noun
 hortum	hose	noun
 hoş	amiable	adj
-hoş	nice	adj
-hoş	pleasant	adj	hoşça kalın: goodbye
-hoş	welcome	adj
+hoş	nice, lovely	adj
+hoş	pleasant	adj
+hoşça	nicely, pleasantly	adv	hoşça kalın: goodbye
 hoşgörü	tolerance	noun
 hoşlanmak	to like	verb
 hoşnut	pleased, happy	adj
@@ -3336,7 +3371,9 @@ huy	temperament, disposition	noun
 huysuz	grumpy, irritable	adj
 huzur	tranquility, peace	noun
 huzurlu	peaceful, calm	adj
-huzursuz	uneasy	adj
+huzurla	peacefully, calmly	adv
+huzursuz	uneasy, restless	adj
+huzursuzca	restlessly	adj
 huzursuzluk	uneasiness, disquiet	noun
 hâlâ	still	noun
 hücre	cell	noun
@@ -3393,12 +3430,12 @@ iddia	claim	noun	iddia etmek: to claim
 iddialı	assertive	adj
 iddialı	sophisticated	adj
 ideal	ideal, perfect	adj
+ideal	ideal, aim, dream	noun
 ideoloji	ideology	noun
 ideolojik	ideological	adj
 idrak	perception, intelligence	noun
 idrar	urine	noun
-ifade	expression	noun
-ifade	expression; testimony	noun
+ifade	expression, testimony	noun
 iflas	bankruptcy	noun
 iftar	breaking of a fast (during Ramadan)	noun
 iftira	slander	noun
@@ -3541,6 +3578,8 @@ incitmek	to insult	verb
 indeks	index	noun
 indirgemek	to degrade	verb
 indirim	discount	noun
+indirmek	to download	verb
+indirmek	to lower, to put down	verb
 inek	cow	noun
 infaz	execution	noun
 inisiyatif	initiative	noun
@@ -3591,6 +3630,9 @@ ishal	diarrhea	noun
 isim	name	noun	isminiz ne? what is your name?	isimli: named, called
 isimlendirmek	to name	verb
 isimli	called, named	adj
+isimsiz	anonymous, nameless	adj
+isimsiz	anonym	noun
+iskarpin	shoes (heeled and ankleless shoes)	noun
 iskele	wharf, pier, dock	noun
 iskelet	skeleton	noun
 iskemle	chair	noun
@@ -3691,6 +3733,8 @@ içten	sincere	adv
 içtenlik	sincerity	noun
 iğne	needle	noun
 iğne	pin	noun
+iğnelemek	to pin	verb
+iğneli	needled, pointed, barbed	adj
 iğrenme	disgust	noun
 iğrenç	disgusting	adj
 iş	employment	noun
@@ -3704,6 +3748,7 @@ işbirliği	cooperation	noun
 işgal	occupation	noun	işgal etti: occupied
 işgücü	workforce	noun
 işitmek	to hear	verb
+işkembe	tripe (edible lining from the stomachs of various farm animals)	noun
 işkence	torture	noun
 işlem	operation	noun
 işlem	procedure	noun
@@ -5796,8 +5841,10 @@ sabitlemek	to fix (fasten)	verb
 sabretmek	to be patient	verb
 sabun	soap	noun	sabun köpüğü: soap bubble
 sabır	patience	noun
+sabırla	patiently	adv
 sabırlı	patient	adj
 sabırsız	impatient	adj
+sabırsızca	impatiently	adv
 sabırsızlanmak	to look forward to	verb
 sadakat	loyalty	noun
 sade	plain	adj
@@ -6077,6 +6124,7 @@ sesli	loud	adj
 sessiz	hushed	adj
 sessiz	quiet	adj
 sessiz	silent	adj
+sessizce	silently	adv
 sessizlik	silence	noun
 set	barrier	noun
 set	wall	noun
@@ -8070,7 +8118,7 @@ cebir	algebra	noun
 çılgınlık	madness	noun
 çınar	plane tree	noun
 çınlamak	to ring	verb
-çıplak	naked, bare	adj
+çıplak	naked, bare	adj	çıplakla göz önüne sermek: to lay bare (some facts)
 çıplaklık	nudity	noun
 çırak	apprentice	noun
 çirkin	ugly, unattractive	adj
