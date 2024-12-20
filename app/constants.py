@@ -25,8 +25,8 @@ EXCEPTIONS = {
             'saat':'saatler',
             'hal':'haller'
         },
-        'ALTERNATE': ['sap','at','kek','saç','saat','kat','adet','cesaret','fiyat','dikkat'],
-        'ALTERNATE_POSS': ['kek','saç'],
+        'ALTERNATE': ['sap','at','kek','saç','saat','kat','adet','cesaret','fiyat','dikkat','ip'],
+        'ALTERNATE_POSS': ['kek','saç','ip'],
         'ACCUSATIVE': {
              'saat':'saati'
             ,'gol':'golü'
