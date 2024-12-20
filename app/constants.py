@@ -56,7 +56,12 @@ EXCEPTIONS = {
              'boyun': ['boynum','boynun','boynu','boynumuz','boynunuz','boynu'],
              'böğür': ['böğrüm','böğrün','böğrü','böğrümüz','böğrünüz','böğrü'],
              'evlat': ['evladım','evladın','evladı','evladımız','evladınız','evladı'],
-             'göğüs': ['göğsüm','göğsün','göğsü','göğsümüz','göğsünüz','göğsü']
+             'göğüs': ['göğsüm','göğsün','göğsü','göğsümüz','göğsünüz','göğsü'],
+             'hacim': ['hacmim','hacmin','hacmi','hacmimiz','hacminiz','hacmi'],
+             'hak': ['hakkım','hakkın','hakkı','hakkımız','hakkınız','hakkı'],
+             'hal': ['halim','halin','hali','halimiz','haliniz','hali'],
+             'halk': ['halkım','halkın','halkı','halkımız','halkınız','halkı']
+             
         },
         'GENITIVE': {
         },
