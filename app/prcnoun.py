@@ -165,6 +165,7 @@ def getPossessive(word, mx):
     else:
         # alternate when needed
         stem = getAlternate(word['infl'], mx)
+        mx = getMx(stem,rps)
 
     vow_lo = ['m','n','sı','mız','nız','sı']
     vow_hi = ['m','n','si','miz','niz','si']
