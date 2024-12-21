@@ -91,7 +91,7 @@ EXCEPTIONS = {
             ,'gel': 'gelir'
             ,'git': 'gider'
             ,'gör': 'görür'
-            ,'kal': 'kalir'
+            ,'kal': 'kalır'
             ,'ol': 'olur'
             ,'öl': 'ölür'
             ,'san': 'sanır'
