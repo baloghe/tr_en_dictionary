@@ -155,12 +155,17 @@ def getLocativePersonals(word):
     return ret
         
 def getPossessive(word, mx):
-    if word['infl'] in EXCEPTIONS['POSSESSIVE']:
+    stem = word['infl']
+    if stem in EXCEPTIONS['POSSESSIVE']:
         ret = []
-        for w in EXCEPTIONS['POSSESSIVE'][word['infl']]:
+        for w in EXCEPTIONS['POSSESSIVE'][stem]:
             ret.append({'infl':  w, 'src': getSrc(word, 'Poss')})
         return ret
-        
+    
+    else:
+        # alternate when needed
+        stem = getAlternate(word['infl'], mx)
+
     vow_lo = ['m','n','sı','mız','nız','sı']
     vow_hi = ['m','n','si','miz','niz','si']
     
@@ -173,13 +178,13 @@ def getPossessive(word, mx):
     if mx['ends_vow']:
         if mx['last_syl_low']:
             for p in vow_lo:
-                ret.append(word['infl']+p)
+                ret.append(stem+p)
         else:
             for p in vow_hi:
-                ret.append(word['infl']+p)
+                ret.append(stem+p)
     else:
         # alternate when needed
-        base = getAlternatePoss(word['infl'], mx)
+        base = getAlternatePoss(stem, mx)
             
         # then apply possessive markers
         if mx['last_syl_ai']:
