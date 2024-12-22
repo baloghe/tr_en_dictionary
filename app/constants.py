@@ -60,8 +60,9 @@ EXCEPTIONS = {
              'hacim': ['hacmim','hacmin','hacmi','hacmimiz','hacminiz','hacmi'],
              'hak': ['hakkım','hakkın','hakkı','hakkımız','hakkınız','hakkı'],
              'hal': ['halim','halin','hali','halimiz','haliniz','hali'],
-             'halk': ['halkım','halkın','halkı','halkımız','halkınız','halkı']
-             
+             'halk': ['halkım','halkın','halkı','halkımız','halkınız','halkı'],
+             'keşif': ['keşfinim','keşfinin','keşfini','keşfinimiz','keşfininiz','keşfini'],
+             'keyif': ['keyfinim','keyfinin','keyfini','keyfinimiz','keyfininiz','keyfini']
         },
         'GENITIVE': {
         },
@@ -78,6 +79,7 @@ EXCEPTIONS = {
             ,'başet': 'başed'
             ,'hazzet': 'hazzed'
             ,'hisset': 'hissed'
+            ,'keşfet': 'keşfed'
         },
         'CONTINUOUS': {
         },
@@ -106,6 +108,7 @@ EXCEPTIONS = {
             ,'başet': 'başeder'
             ,'hazzet': 'hazzeder'
             ,'hisset': 'hisseder'
+            ,'keşfet': 'keşfeder'
         }
     }
 
