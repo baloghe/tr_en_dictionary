@@ -128,8 +128,8 @@ rp_ends_aeoo = regex.compile(r'.*?[aeoö]$')
 rp_all_vows = regex.compile(r'[aeoöuüıi]')
 
 INFLECTION_GROUPS = {
-    "noun": ['Ind','Pl.Ind','Pl.Poss.Ind','Pl.Poss','Pl','Poss.Ind','Poss','OTH'],
-    "verb": ['Aor','Cont','Ind','Nec','Can.Neg.Ing','Can','Fut','Ing','Neg.Fut','Neg.Ing','Neg.Pt','Neg','Pot','Pt','OTH'],
+    "noun": ['Ind','Pl.Ind','Pl.Poss.Ind.Pt','Pl.Poss.Ind','Pl.Poss.Pt','Pl.Poss','Pl','Poss.Ind.Pt','Poss.Ind','Poss.Pt','Poss','OTH'],
+    "verb": ['Aor','Cont','Ind','Nec','Can.Neg.Ing.Poss','Can.Neg.Ing','Can.Poss','Can','Fut.Poss','Fut','Ing','Neg.Fut.Poss','Neg.Fut','Neg.Ing.Poss','Neg.Ing','Neg.Pt.Poss','Neg.Pt','Neg.Poss','Neg','Pot','Pt.Poss','Pt','Poss','Pl','OTH'],
     "adj" : ['Ind','OTH']
 }
 
