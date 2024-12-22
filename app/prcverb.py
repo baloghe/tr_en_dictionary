@@ -411,8 +411,17 @@ def getRelClauses(stem, mx):
     abl = noun.getAblative(stem, mx)
     loc = noun.getLocative(stem, mx)
     wth = noun.getWith(stem, mx)
+
+    plr = noun.getPlural(stem, mx)
+    plrout = getMx(plr['infl'], noun.rps)
+
+    accplr = noun.getAccusative(plr, plrout)
+    datplr = noun.getDative(plr, plrout)
+    ablplr = noun.getAblative(plr, plrout)
+    locplr = noun.getLocative(plr, plrout)
+    wthplr = noun.getWith(plr, plrout)
     
-    infl = infl + [acc, dat, abl, loc, wth]
+    infl = infl + [acc, dat, abl, loc, wth] + [plr, accplr, datplr, ablplr, locplr, wthplr]
 
     return infl
     
@@ -505,6 +514,7 @@ def getPersonMarker(word, paradigm):
         stem = word['infl']
         for p in pm:
             ret.append({'infl': stem + p , 'src': word['src']})
+        #print([word, pm, mx['last_syl_ai']])
     elif paradigm == 'z-aor-neg':
         pm = []
         if mx['last_syl_ai']:
@@ -571,8 +581,13 @@ def getNounPossessives(stem, mx):
     infl = []
     
     stempos = noun.getPossessive(stem,mx)
-    infl= infl + stempos
-    for a in stempos:
+
+    plr = noun.getPlural(stem, mx)
+    plrout = getMx(plr['infl'], noun.rps)
+    plrpos = noun.getPossessive(plr,plrout)
+
+    infl= infl + stempos + plrpos
+    for a in stempos + plrpos:
         aout = getMx(a['infl'], noun.rps)
         infl.append(noun.getAccusative(a,aout))
         infl.append(noun.getDative(a,aout))
@@ -939,39 +954,15 @@ def processPt(w):
     relpt = pt
     relpt['infl'] = relpt['infl'] + 'k'
     relptout = getMx(relpt['infl'], noun.rps)
-    relptacc = noun.getAccusative(relpt, relptout)
-    relptdat = noun.getDative(relpt, relptout)
-    relptabl = noun.getAblative(relpt, relptout)
-    relptloc = noun.getLocative(relpt, relptout)
     
-    infl = infl + [relptacc, relptdat, relptabl, relptloc]
+    #infl = infl + [relptacc, relptdat, relptabl, relptloc]
+    relptn = getRelClauses(relpt, relptout)
+    infl = infl + relptn
 
     ###Noun Possessives +cases
-    relptpos = noun.getPossessive(relpt,relptout)
-    infl= infl + relptpos
-    for a in relptpos:
-        aout = getMx(a['infl'], noun.rps)
-        infl.append(noun.getAccusative(a,aout))
-        infl.append(noun.getDative(a,aout))
-        infl.append(noun.getGenitive(a,aout))
-        infl.append(noun.getKi(noun.getGenitive(a,aout)))
-        infl.append(noun.getWith(a,aout))
-        infl.append(noun.getPredicative(a,aout))
-        infl.append(noun.getAblative(a,aout))
-        infl.append(noun.getKi(noun.getAblative(a,aout)))
-        infl.append(noun.getLocative(a,aout))
-        infl.append(noun.getKi(noun.getLocative(a,aout)))
-        nind = noun.getIndirect(a,aout)
-        nindout = getMx(nind['infl'], noun.rps)
-        infl.append(noun.getPredicative(nind,nindout))
-        nindpm = noun.getPersonMarker(nind,nindout,'z-nind')
-        nindpt = noun.getPast(nind,nindout)
-        nindptout = getMx(nindpt['infl'], noun.rps)
-        infl.append(noun.getPredicative(nindpt,nindptout))
-        nindptpm = noun.getPersonMarker(nindpt,nindout,'k-pt')
-        
-        infl = infl + nindpm + nindptpm
-
+    relptpos = getNounPossessives(relpt, relptout)
+    infl = infl + relptpos
+    
     return infl
 
 def processAor(w):
