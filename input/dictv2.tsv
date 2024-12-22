@@ -677,7 +677,7 @@ ayrıcalıklı	privileged	adj
 ayrılış	departure	noun
 ayrılmak	to leave, to separate	verb
 ayrılık	separation; division	noun
-ayrım	distinction, discrimination	noun
+ayrım	distinction, discrimination	noun	ayrım varamak: to make a distinction
 ayrımcılık	discrimination	noun
 ayrımlı	different	adj
 ayrıntı	detail	noun
@@ -740,6 +740,7 @@ açıkçası	frankly speaking	adv
 açıkçası	frankly	adj
 açıkçası	frankly	conj
 açılım	expansion; opening out	noun
+açılmak	to losen up	verb
 açılış	opening	noun
 açısından	from the point of view	posp
 ağ	net	noun
@@ -1232,6 +1233,7 @@ birçok	several	adj
 bisiklet	bicycle	noun
 bisiklet	bike (bicycle)	noun	bisiklete binme: cycling
 bisküvi	biscuit	noun
+biteviye	ceaseless	adj
 bitim	end	noun
 bitirmek	wind up	verb
 bitiş	conclusion	noun
@@ -1958,7 +1960,7 @@ dolu	full, filled	adj
 domates	tomato	noun
 domuz	pig	noun
 don	frost	noun
-don	pants	noun
+don	pants, underwear	noun
 donamak	to decorate, to equip	verb
 donanma	navy	noun
 donanım	hardware	noun
@@ -2013,6 +2015,8 @@ doğuştan	innate, by birth	adv
 dram	drama	noun
 dramatik	dramatic	adj
 dua	prayer	noun
+duba	pontoon	noun
+duba	barge, ark	noun
 dudak	lip	noun
 dul	widow, widower	noun
 duman	smoke, fumes	noun
@@ -2602,6 +2606,7 @@ frekans	frequency	noun
 fren	brake	noun
 fruktoz	fructose	noun
 fuar	fair	noun
+fulya	jonquil, daffodil, narcissus	noun
 futbol	football	noun
 futbolcu	football player	noun
 füze	missile	noun
@@ -3686,6 +3691,8 @@ itici	repulsive; motivating	adj
 itikat	belief	noun
 itiraf	confession	noun	itiraf etmek: to admit
 itiraz	objection	noun	itiraz etmek: to disagree
+itiş	thrust, push, pushing	noun
+itişmek	to crush, to push and shove	verb	itişip kakışmak: to jostle
 itmek	to push	verb
 ittifak	alliance	noun
 ittifak	unity	noun
@@ -3784,8 +3791,12 @@ kabahat	fault	noun
 kabak	courgette (Br.)	noun
 kabak	zucchini, pumpkin, squash	noun
 kabarmak	to swell, to become fluffy	verb
+kabartmak	to bloat up, to raise, t puff up	verb
 kabile	clan, tribe	noun
-kabiliyet	talent, ability	noun
+kabiliyet	talent, ability, capability	noun
+kabiliyetli	talented, capable	adj
+kabiliyetsiz	incapable, talentless	ad
+kabiliyetsizlik	inaptitude, incapability	noun
 kabin	cabin	noun
 kabine	cabinet	noun
 kabir	grave	noun
@@ -3799,8 +3810,9 @@ kabullenmek	to accept	verb
 kaburga	frame	noun
 kabızlık	constipation	noun
 kadar	to	prep
-kadar	until	conj
-kadar	until; as much as	posp
+kadar	until, up to, as much as	conj
+kadar	till, by	prep
+kadar	as, so	adv
 kadeh	glass, goblet	noun
 kademe	rank, level	noun
 kader	fate, destiny	noun
@@ -3808,8 +3820,8 @@ kadife	velvet	adj
 kadife	velvet	noun
 kadro	staff, personnel, group	noun
 kadı	kadi	noun
-kadın	woman	noun
 kadın	woman, female	noun
+kadıncağız	poor woman, Jane Smith	noun
 kadınlık	womanhood	noun
 kafa	head (Caput)	noun
 kafa	head	noun
@@ -3829,10 +3841,12 @@ kahve	café	noun
 kahvehane	cafe	noun
 kahverengi	brown	adj
 kahır	wrath	noun
-kaide	rule; base	noun
-kakmak	to poke	verb
+kaide	rule, base	noun
+kakmak	to poke, to push, to inlay	verb
+kakışmak	to mess with	verb	itişip kakışmak: to jostle
 kalabalık	crowd	noun
 kalabalık	crowded	adj
+kalakalmak	to be left stranded	verb
 kalan	left (remaining)	adj
 kalan	residual	adj
 kalaylamak	to (coat with) tin	verb
@@ -3859,18 +3873,25 @@ kalkmak	to stand up	verb
 kalkış	departure	noun
 kalkış	take off	noun
 kalkış	take-off	noun
+kalkınma	development, reconstruction	noun
+kalkınmak	tp develop, to progress	verb
 kalkışmak	to try to	verb
 kalmak	to stay	verb
 kalmak	to stay, to remain	verb
+kalorifer	radiator, heater	noun
 kalp	heart	noun	kalbimde: in my heart
+kalpli	-hearted	posp
 kalsit	calcite	noun
 kalsiyum	calcium	noun
 kalça	hip (Coxa)	noun
 kalça	hip	noun
 kalıcı	permanent	adj
 kalıcı	residual	adj
+kalıcılık	permanence	noun
 kalın	fat (thick)	adj
 kalın	thick	adj
+kalınlaşma	thickening	noun
+kalınlaşmak	to thicken	verb
 kalınlık	thickness	noun
 kalıntı	remains, ruins	noun
 kalıntı	residue	noun
@@ -3891,6 +3912,7 @@ kanaat	opinion	noun
 kanal	channel	noun
 kanamak	to bleed	verb
 kanat	wing	noun
+kanatlı	winged	adj
 kanatçık	aileron	noun
 kandil	oil lamp; candle	noun
 kanepe	couch, sofa	noun
@@ -3901,10 +3923,12 @@ kanun	law	noun
 kanun	law, statute	noun
 kanyak	brandy	noun
 kanımca	in my opinion	adv
+kanı	opinion, belief, conclusion, impression	noun
 kanıt	evidence	noun
 kanıt	evidence, proof	noun
 kanıt	proof	noun
 kanıtlamak	to prove	verb
+kanıtlı	proven	adj
 kaos	chaos	noun
 kap	case	noun
 kap	container	noun
@@ -3913,9 +3937,10 @@ kap	plate	noun
 kap	pot	noun
 kapak	lid, cover, cap	noun
 kapalı	shut, closed; covered	adj
-kapamak	to close sg	verb
+kapama	closing, closure, sealing	noun
 kapamak	to close, to shut	verb
 kapanmak	to being closed	verb
+kapanık	closed	adj	içine kapanık bir çocuk: an introverted child
 kapasite	capacity	noun
 kapatmak	to close	verb
 kapatmak	to switch off	verb	kapatın şunu: turn it off
@@ -3939,6 +3964,9 @@ kaptan	captain	noun
 kapuçino	cappuccino	noun
 kapı	door	noun
 kapıcı	doorman	noun
+kapılmak	to be/get carried away	verb
+kapılmak	to abandon oneself	verb
+kapılmak	to give free rein to sg	verb
 kar	profit	noun
 kar	snow	noun
 kara	black	adj	Karadeniz: Black Sea
@@ -3965,8 +3993,8 @@ kararlılık	determination	noun
 kararmak	to darken	verb	iç karartmak: to depress
 kararmak	to turn black	verb
 kararname	decree	noun
-kararsız	hesitant	adj
-kararsız	hesitant; unstable	adj
+kararsız	hesitant, unstable	adj
+karatahta	blackboard	noun
 karavan	van	noun
 karavel	caravel	noun
 karayel	northwester	noun
@@ -3986,6 +4014,7 @@ kariyer	career	noun
 karlı	snowy	adj
 karmak	to blend	verb
 karmak	to mix	verb
+karmakarışık	chaotic, messy	adj
 karmaşa	confusion, turmoil	noun
 karmaşık	complex	adj
 karnabahar	cauliflower	noun
@@ -4000,11 +4029,15 @@ kartal	eagle	noun
 kartografya	cartography	noun
 karton	cardboard	noun
 kartpostal	postcard	noun
+karyola	bedstead	noun
 karı	wife	noun
-karın	belly	noun
+karıkoca	couple, man and wife	noun
 karın	belly, abdomen	noun
 karınca	ant	noun
 karış	hand span	noun
+karışmak	to interfere, to meddle	verb
+karışmak	to be mixed up	verb
+karışmak	to be confused	verb
 karıştırmak	to confuse	verb
 karıştırmak	to mix up	verb
 karıştırıcı	mixer	noun
@@ -4019,6 +4052,7 @@ karşı	opposite, against	adj
 karşılamak	to meet	verb
 karşılamak	to welcome	verb
 karşılanmak	to be met	verb	hoş karşılanmak: to welcome
+karşılaşmak	to meet, to encounter	verb
 karşılaştırma	comparison	noun
 karşılaştırmak	to compare	verb
 karşılıklı	mutual	adj
@@ -4046,6 +4080,8 @@ kasten	on purpose	adv
 kastetmek	to mean	verb
 kastetmek	to mean, to imply	verb
 kasım	November	noun
+kasıntı	itching, swaggering	adj
+kasıntı	swaggerer, s.one with confident and arrogant manner	noun
 kasıt	intention	noun
 kasıtlı	on purpose	adv
 kat	floor	noun	zemin kat: ground floor
@@ -4064,9 +4100,11 @@ katlamak	to fold over; to double	verb
 katlanmak	to tolerate, to endure	verb
 katletmek	to massacre, to slay	verb
 katliam	massacre	noun
+katlı	-storied	adj
 katmak	to add	verb
 katman	layer, stratum	noun
 katolik	catholic	adj
+katran	tar, bitumen	noun
 katsayı	coefficient	noun
 katı	hard, rigid; tough	adj
 katıl	killer	noun	katıla gülmek: to laugh out loud
@@ -4074,10 +4112,12 @@ katılmak	to agree	verb
 katılmak	to take part	verb
 katılım	participation, attendance	noun
 katılımcı	participant	noun
+kavak	poplar	noun
 kavanoz	jar	noun
 kavga	fight	noun	kavga etmek: to argue, to fight
-kavga	quarrel	noun
 kavga	quarrel, fight; struggle	noun
+kavgacı	quarrelsome, combatant	adj
+kavgacı	fighter, wrangler	noun
 kavim	tribe	noun
 kavram	concept	noun
 kavram	notion	noun
@@ -4153,6 +4193,7 @@ kaçmak	to run away	verb
 kaçıncı	which	noun
 kaçınmak	to avoid	verb
 kaçınmak	to beware	verb
+kaçırmak	to miss	verb
 kaçış	escape, desertion	noun
 kağıt	paper	noun
 kaş	eyebrow	noun
@@ -4164,8 +4205,14 @@ keder	grief, sorrow	noun
 kedi	cat	noun
 kefen	shroud	noun
 kek	cake	noun
+kekeleme	stuttering, stammering	noun
+kekelemek	to stutter, to falter, to stammer	verb
+kekeme	stammering	adj
+kekeme	stammerer	noun
+kekemelik	stuttering, stammering	noun
 kel	bald	adj
 kelebek	butterfly	noun
+kelepçe	handcuff	noun
 kelime	word	noun
 keman	violin	noun
 kemer	belt	noun
@@ -4182,22 +4229,27 @@ kent	city	noun
 kentleşmek	to urbanize	verb
 kentli	city-dweller	adj
 kentsel	urban	adj
+kepçe	ladle (soup-serving spoon)	noun
 kerata	rascal	noun
 kere	time; times	noun
 kerevit	crayfish	noun
 kereviz	celery	noun
 kerkenez	kestrel	noun
 kervan	caravan	noun
+kervansaray	caravanserai	noun
 kese	small bag; pouch	noun
 kesici	cutter	noun
 kesik	cut	noun
+kesilmek	to be chopped	verb
+kesilmek	to be interrupted	verb
+kesilmek	to go sour	verb
 kesilmiş	chopped	adj
 kesim	part, portion; sector	noun
-kesin	certain	adj
 kesin	certain, definite; absolute	adj
 kesin	exactly	adv
 kesin	sure	adj
 kesinleşmek	to become definite	verb
+kesinleştirmek	to finalize	verb
 kesinlik	certainty, definiteness	noun
 kesinlikle	Out of the question!	phrase
 kesinlikle	definitely	adv
@@ -4261,13 +4313,13 @@ kir	dirt, filth	noun
 kira	rent	noun
 kiracı	tenant	noun
 kiralamak	to rent	verb
+kiralık	for rent	adj
 kiraz	cherry	noun
 kiremit	tile	noun
 kireç	lime	noun
 kiriş	beam	noun
 kirlenmek	to get dirty, to become polluted	verb
 kirletmek	to dirty, to pollute	verb
-kirli	dirty	adj
 kirli	dirty; polluted	adj
 kirlilik	pollution	noun
 kirpi	hedgehog	noun
@@ -4400,12 +4452,10 @@ koruma	bodyguard	noun
 korumak	to protect	verb
 koruyucu	protective	adj
 koskoca	huge	adj
-kostüm	costume	noun
 kostüm	costume, suit	noun
 kot	jeans; altitude	noun
 kota	quota, limit	noun
 kova	bucket	noun
-kovalamak	to chase	verb
 kovalamak	to chase, to pursue, to follow	verb
 kovboy	cowboy	noun
 kovmak	to dismiss	verb
@@ -4417,6 +4467,7 @@ koymak	to put	verb
 koymak	to set down	verb
 koyu	dark (color)	adj
 koyu	dark	adj
+koyulaşmak	to darken	verb
 koyun	bosom	noun
 koyun	sheep	noun
 koz	leverage	noun
@@ -4630,6 +4681,8 @@ küçülmek	to become small; to shrink	verb
 küçültmek	to minimize	verb
 küçümsemek	to despise	verb
 küçümsemek	to look down on	verb
+kıkırdak	cartilage, gristle	noun
+kıkırdamak	to chuckle, to giggle	verb
 kıl	human hair	noun
 kılavuz	guide	noun
 kılkuyruk	(northern) pintail	noun
@@ -4639,11 +4692,15 @@ kılıç	sword	noun
 kımıldamak	to move	verb
 kımıldatmak	to move	verb
 kına	henna	noun
+kınama	condemnation	noun
 kınamak	to condemn	verb
 kıpkırmızı	crimson	adj
 kıpırdamak	to move	verb
 kır	field	noun
+kırbaç	whip	noun
 kırarcasına	vehemently	adv
+kırgın	offended, disappointed, hurt	adj
+kırgın	displeased, disgruntled	adj
 kırk	forty	noun
 kırlangıç	swallow	noun
 kırmak	to break	verb
@@ -4651,7 +4708,11 @@ kırmak	to hurt	verb
 kırmızı	red	adj
 kırsal	rural	adj
 kırık	broken	adj
+kırıklık	broken, cracked	adj
+kırıklık	fracture, break	noun
 kırışık	wrinkle	noun
+kırılmak	to break, to crash, to crush	verb
+kırıtmak	to break, to mince	verb
 kısa	quick	adj
 kısa	short	adj
 kısaca	briefly	adv
@@ -4664,8 +4725,7 @@ kıskançlık	jealousy	noun
 kısmak	to reduce, to lessen	verb
 kısmen	partially	adv
 kısmen	partly	adv
-kısmet	fortune	noun
-kısmet	fortune, destiny; kismet	noun
+kısmet	fortune, destiny	noun
 kısmet	luck	noun
 kısmi	partial	adj
 kısık	hoarse	adj
@@ -4674,6 +4734,7 @@ kısım	portion	noun	bu kısımda: at this point
 kısır	barren, infertile, unproductive	adj
 kısıtlamak	to restrict, to limit	verb
 kısıtlı	limited, restricted	adj
+kıt	scarce, unusual, uncommon	adj
 kıta	continent; military detachment	noun
 kıtlık	shortage	noun
 kıvam	consistency	noun
@@ -4888,6 +4949,7 @@ matematik	mathematics	noun
 matematiksel	mathematical	adj
 materyal	material	noun
 mavi	blue	adj
+mavna	barge, ark	noun
 maya	yeast	noun
 mayalamak	to brew	verb
 maydanoz	parsley	noun
@@ -5555,6 +5617,7 @@ parça	portion	noun
 parçacık	particle	noun
 parçalamak	to smash up, to tear	verb
 parıldamak	to glint	verb
+parıltı	glow, glare	noun
 pasaj	passage; arcade	noun
 pasaport	passport	noun
 pasif	passive	adj
@@ -5775,6 +5838,8 @@ reklam	advertisement	noun
 rekor	record	noun
 rektör	rector	noun
 renk	colour	noun
+rengarenk	colorful	adj
+rengârenk	colorful	adj
 renkli	colored; colorful	adj
 resim	picture	noun
 resim	picture, photograph	noun
@@ -6379,6 +6444,8 @@ sökmek	to pull out	verb
 sömürge	colony	noun
 sömürmek	to exploit	verb
 sömürü	exploitation	noun
+söndürmek	to turn off, to extinguish	verb
+söndürülmek	to be extinguishe	verb
 sönmek	to die down	verb
 sönmek	to go out (light, fire)	verb
 söylem	discourse	noun
@@ -6443,7 +6510,8 @@ sürükleme	drag	noun
 sürüklemek	to drag	verb
 sürümek	to drag along	verb
 süs	ornament	noun
-süslemek	to decorate	verb
+süslemek	to decorate, to embellish	verb
+süslemek	to dress up, to make one's toilet	verb
 süslü	ornamented, decorated	adj
 süt	milk	noun	etliye sütlüye karışmamak: not interested in anything
 sütun	column	noun
@@ -6489,7 +6557,7 @@ sınıfsal	class-related	adj
 sınır	border	noun
 sınır	edge	noun
 sınır	limit, border, boundary	noun
-sınırlamak	to limit	verb
+sınırlamak	to limit, to restrict, to bond, to confine	verb
 sınırlandırmak	to limit	verb
 sınırlı	bounded; limited	adj
 sınırlı	limited	adj
@@ -6529,9 +6597,11 @@ sıçmak	to shit (be stricken with fear)	verb
 sıçmak	to shit (vulg.) (excrete something from the anus)	verb
 sıçramak	to jump	verb
 sığ	shallow	adj
+sığdırmak	to fit, to squeeze	verb
 sığmak	to fit into	verb
 sığınak	shelter, refuge	noun
 sığır	cattle	noun
+ta	in the	adv
 taahhüt	commitment	noun
 tabak	plate	noun
 tabaka	layer, stratum	noun
@@ -6556,7 +6626,7 @@ tahammül	patience, endurance	noun
 tahlil	analysis	noun
 tahliye	discharge, release	noun
 tahmin	guess	noun	tahmin etmek: to suppose
-tahmin	guess; estimation	noun
+tahmin	estimation	noun
 tahmini	about (approximate)	adv
 tahmini	estimated	adj
 tahribat	damage	noun
@@ -6913,6 +6983,7 @@ tombul	chubby	adj
 tomografi	tomography	noun
 tomurcuk	bud	noun
 ton	ton	noun
+ton	tone, shade	noun
 tonbalığı	tuna	noun
 top	ball	noun
 topal	crippled	adj
@@ -7197,7 +7268,7 @@ varlık	existence	noun
 varlıklı	rich, wealthy	adj
 varlıklı	wealthy	adj
 varmak	to arrive at	verb
-varmak	to reach	verb
+varmak	to reach	verb	ayrım varmak: to make a distinction
 varolmak	to exist	verb
 varoluş	existence	noun
 varoş	suburb	noun
@@ -8569,4 +8640,4 @@ cebir	algebra	noun
 şık	chic	adj
 şık	dapper	adj
 şık	fashionable	adj
-şık	option	noun
+şık	option	nounn
