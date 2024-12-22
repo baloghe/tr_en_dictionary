@@ -77,6 +77,7 @@ EXCEPTIONS = {
             ,'zannet': 'zanned'
             ,'başet': 'başed'
             ,'hazzet': 'hazzed'
+            ,'hisset': 'hissed'
         },
         'CONTINUOUS': {
         },
@@ -104,6 +105,7 @@ EXCEPTIONS = {
             ,'zannet': 'zanneder'
             ,'başet': 'başeder'
             ,'hazzet': 'hazzeder'
+            ,'hisset': 'hisseder'
         }
     }
 
