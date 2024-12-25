@@ -289,6 +289,7 @@ alevlenmek	to flame (burn)	verb
 aleyhinde	against	prep
 aleyhinde	opposite	adj
 aleyhine	against	prep
+aleyhisselâm	peace be upon him (an expression of respect to be said when one of the psophets is mentioned)	phrase
 alfabe	alphabet	noun
 algoloji	algology	noun
 algı	perception	noun
@@ -493,6 +494,7 @@ arka	back	noun	arka tarafta: at the back
 arkadaş	friend	noun	sınıf arkadaş: classmate
 arkadaşça	friendly	adj
 arkadaşlık	friendship	noun
+arkalık	backrest (chair)	noun
 arkasında	behind	prep
 arkeoastronomi	archaeoastronomy	noun
 arkeoastronomi	archeoastronomy (Am.)	noun
@@ -957,7 +959,7 @@ bağışıklık	immunity	noun
 baş	head	noun	en başta: at first	baş etmek: to cope with
 başak	spike	noun
 başarmak	to succeed in	verb
-başarmak	to succeed	verb
+başarmak	to accomplish	verb
 başarı	success	noun	başarıyla tamamlanmış: successfully completed
 başarılı	successful	adj
 başarısız	unsuccessful	adj
@@ -1371,6 +1373,7 @@ bulmak	to find	verb
 bulundurmak	to keep, to maintain	verb
 bulunmak	to lie	verb
 bulunmak	to stand	verb
+bulunmak	to exist, to be present, to be situated	verb	bulunduğum yer: where I am
 bulut	cloud	noun
 bulutlu	cloudy	adj
 buluş	invention, discovery	noun
@@ -1509,6 +1512,8 @@ cemiyet	society	noun
 cenaze	funeral	noun
 cenk	combat, battle	noun
 cennet	heaven, paradise	noun
+centik	notch, indentation, incision	noun
+centikli	jagged, notched, crenated	adj
 centilmence	gallantly	adv
 cep	pocket	noun
 cephe	front, side	noun
@@ -1748,7 +1753,7 @@ depolamak	to store	verb
 deprem	earthquake	noun
 depresyon	depression	noun
 dere	stream	noun
-derece	degree	noun	bir dereceye kadar: somewhat / to some extent	son derece: extremely
+derece	degree	noun	bir dereceye kadar: somewhat / to some extent	son derece: extremely	ne derece: to what extent
 dergi	periodical, magazine	noun
 derhal	immediately	adv
 deri	leather	noun
@@ -2153,6 +2158,7 @@ dışişleri	foreign affairs	noun
 dışkı	excrement	noun
 dışlamak	to exclude	verb
 dışsal	external	adj
+ebat	dimension	noun
 ebe	midwife	noun
 ebedi	eternal, endless	adj
 ebediyen	forever	adv
@@ -3160,6 +3166,7 @@ harçlık	pocket money	noun
 has	peculiar	adj
 hasar	damage	noun	hasara uğratmak: to damage
 hasat	harvest	noun
+hasır	wicker, straw	noun
 hasret	longing	noun
 hassas	sensitive	adj
 hassasiyet	sensitivity	noun
@@ -3418,6 +3425,7 @@ hıçkırık	hiccup	noun
 hışıltı	wheeze	noun
 iade	return	noun
 ibadet	worship	noun
+ibare	phrase, expression	noun
 ibaret	composed of	posp
 ibik	crest	noun
 ibre	needle	noun
@@ -3640,8 +3648,7 @@ isimsiz	anonym	noun
 iskarpin	shoes (heeled and ankleless shoes)	noun
 iskele	wharf, pier, dock	noun
 iskelet	skeleton	noun
-iskemle	chair	noun
-ispat	proof	noun
+iskemle	chair, stool	noun
 ispat	proof, evidence	noun
 ispatlamak	to prove	verb
 israf	waste	noun
@@ -3795,7 +3802,7 @@ kabartmak	to bloat up, to raise, t puff up	verb
 kabile	clan, tribe	noun
 kabiliyet	talent, ability, capability	noun
 kabiliyetli	talented, capable	adj
-kabiliyetsiz	incapable, talentless	ad
+kabiliyetsiz	incapable, talentless	adj
 kabiliyetsizlik	inaptitude, incapability	noun
 kabin	cabin	noun
 kabine	cabinet	noun
@@ -4079,6 +4086,7 @@ kastanyet	castanet	noun
 kasten	on purpose	adv
 kastetmek	to mean	verb
 kastetmek	to mean, to imply	verb
+kasvet	gloom	noun
 kasım	November	noun
 kasıntı	itching, swaggering	adj
 kasıntı	swaggerer, s.one with confident and arrogant manner	noun
@@ -5186,6 +5194,7 @@ muhteşem	superb	adj
 muhteşem	wonderful	adj
 mukavemet	strength	noun
 mum	candle	noun
+mumluk	candle holder	noun
 musevi	Jewish	noun
 musiki	music	noun
 muska	amulet	noun
@@ -8640,4 +8649,4 @@ cebir	algebra	noun
 şık	chic	adj
 şık	dapper	adj
 şık	fashionable	adj
-şık	option	nounn
+şık	option	noun
