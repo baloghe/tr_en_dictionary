@@ -160,6 +160,9 @@ mobi/TR_EN_prod.html
 #mobi generation log
 mobi/log.txt
 
+#backup
+*.bak
+
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
 #  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
