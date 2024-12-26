@@ -13,7 +13,7 @@ def addError(line, problem, dstErrors):
     dstErrors[line] = e
     
 def readTSV(inFileName, dstEntries, dstErrors):
-    with open(inFileName, "r", encoding="utf8") as tsv:
+    with open(inFileName, "r", encoding="utf-8") as tsv:
         tsv_reader = csv.reader(tsv, delimiter="\t")
         i = 0
         for row in tsv_reader:

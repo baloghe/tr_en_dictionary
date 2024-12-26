@@ -1,0 +1,49 @@
+argument list ['C:\\Endre\\GitHub_repos\\tr_en_dictionary\\app\\run.py', 'input/dictv2.tsv', 'interim_output/TR_EN_prod.json', 'interim_output/TR_EN_prod.html']
+ReadTSV :: 6816 entries added from input/dictv2.tsv, errors: 0
+Errors:
+{}
+Number of exact inflected forms: 29672
+Groups created: 28908 simple and 13097 shared groups
+12 simple groups got entirely shared, e.g. anlamak.anlayamaz
+WARNING: head=aldım has 339 inflections! Truncated to 255
+WARNING: head=anan has 329 inflections! Truncated to 255
+WARNING: head=atam has 307 inflections! Truncated to 255
+WARNING: head=bağıran has 329 inflections! Truncated to 255
+WARNING: head=boğan has 329 inflections! Truncated to 255
+WARNING: head=demedim has 340 inflections! Truncated to 255
+WARNING: head=dizen has 329 inflections! Truncated to 255
+WARNING: head=doğan has 329 inflections! Truncated to 255
+WARNING: head=ekmeler has 274 inflections! Truncated to 255
+WARNING: head=ekmeler has 274 inflections! Truncated to 255
+WARNING: head=eğen has 329 inflections! Truncated to 255
+WARNING: head=idim has 338 inflections! Truncated to 255
+WARNING: head=kanadım has 339 inflections! Truncated to 255
+WARNING: head=karan has 329 inflections! Truncated to 255
+WARNING: head=kardığı has 334 inflections! Truncated to 255
+WARNING: head=kasan has 329 inflections! Truncated to 255
+WARNING: head=kayan has 329 inflections! Truncated to 255
+WARNING: head=kesen has 329 inflections! Truncated to 255
+WARNING: head=kovan has 329 inflections! Truncated to 255
+WARNING: head=kuran has 299 inflections! Truncated to 255
+WARNING: head=kurduğu has 338 inflections! Truncated to 255
+WARNING: head=oyan has 329 inflections! Truncated to 255
+WARNING: head=saran has 329 inflections! Truncated to 255
+WARNING: head=süren has 329 inflections! Truncated to 255
+WARNING: head=tatmiler has 274 inflections! Truncated to 255
+WARNING: head=tatmin has 297 inflections! Truncated to 255
+WARNING: head=tatmiler has 274 inflections! Truncated to 255
+WARNING: head=taşıdım has 339 inflections! Truncated to 255
+WARNING: head=tepen has 329 inflections! Truncated to 255
+WARNING: head=vuran has 329 inflections! Truncated to 255
+WARNING: head=yakan has 329 inflections! Truncated to 255
+WARNING: head=yaran has 328 inflections! Truncated to 255
+WARNING: head=yayan has 329 inflections! Truncated to 255
+WARNING: head=yemeler has 274 inflections! Truncated to 255
+WARNING: head=yemeler has 274 inflections! Truncated to 255
+WARNING: head=çakmalar has 274 inflections! Truncated to 255
+WARNING: head=çakmalar has 274 inflections! Truncated to 255
+WARNING: head=öten has 329 inflections! Truncated to 255
+WARNING: head=şişen has 329 inflections! Truncated to 255
+Headwords to write out: 41993
+12 groups deemed as invalid
+XML successfully created: interim_output/TR_EN_prod.html

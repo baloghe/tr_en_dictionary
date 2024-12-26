@@ -61,8 +61,9 @@ EXCEPTIONS = {
              'hak': ['hakkım','hakkın','hakkı','hakkımız','hakkınız','hakkı'],
              'hal': ['halim','halin','hali','halimiz','haliniz','hali'],
              'halk': ['halkım','halkın','halkı','halkımız','halkınız','halkı'],
-             'keşif': ['keşfinim','keşfinin','keşfini','keşfinimiz','keşfininiz','keşfini'],
-             'keyif': ['keyfinim','keyfinin','keyfini','keyfinimiz','keyfininiz','keyfini']
+             'keşif': ['keşfim','keşfin','keşfi','keşfimiz','keşfiniz','keşfi'],
+             'keyif': ['keyfim','keyfin','keyfi','keyfimiz','keyfiniz','keyfi'],
+             'beyin': ['beynim','beynin','beyni','beynimiz','beyniz','beyni']
         },
         'GENITIVE': {
         },
@@ -131,9 +132,9 @@ rp_ends_aeoo = regex.compile(r'.*?[aeoö]$')
 rp_all_vows = regex.compile(r'[aeoöuüıi]')
 
 INFLECTION_GROUPS = {
-    "noun": ['Ind','Pl.Ind','Pl.Poss.Ind.Pt','Pl.Poss.Ind','Pl.Poss.Pt','Pl.Poss','Pl','Poss.Ind.Pt','Poss.Ind','Poss.Pt','Poss','OTH'],
-    "verb": ['Aor','Cont','Ind','Nec','Can.Neg.Ing.Poss','Can.Neg.Ing','Can.Poss','Can','Fut.Poss','Fut','Ing','Neg.Fut.Poss','Neg.Fut','Neg.Ing.Poss','Neg.Ing','Neg.Pt.Poss','Neg.Pt','Neg.Poss','Neg','Pot','Pt.Poss','Pt','Poss','Pl','OTH'],
-    "adj" : ['Ind','OTH']
+    "noun": ['Pl','Poss','OTH'],
+    "verb": ['Can.Neg.Ing','Can.Poss','Can','Fut.Poss','Fut','Ing','Neg.Fut.Poss','Neg.Fut','Neg.Ing','Neg.Pt','Neg.Poss','Neg','Pt','Poss','Pl','OTH'],
+    "adj" : ['OTH']
 }
 
 INFLECTION_DESC = {

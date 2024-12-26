@@ -6,7 +6,7 @@ pv = processVerb('olmak')
 pn = processNoun('at')
 pa = processAdj('sık')
 
-showGrp = pn
+showGrp = pv
 for g in showGrp.keys():
     print(f"{g} :: {len(showGrp[g]['infl'])}")
 

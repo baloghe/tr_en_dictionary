@@ -1,0 +1,8 @@
+argument list ['C:\\Endre\\GitHub_repos\\tr_en_dictionary\\app\\run.py', 'input/dict_test_v2.tsv', 'interim_output/tstdict.json', 'interim_output/tstdict.html']
+ReadTSV :: 6 entries added from input/dict_test_v2.tsv, errors: 0
+Errors:
+{}
+Number of exact inflected forms: 0
+Groups created: 10 simple and 12 shared groups
+Headwords to write out: 22
+XML successfully created: interim_output/tstdict.html
