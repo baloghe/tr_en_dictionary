@@ -26,8 +26,10 @@ def rearrInflections(inEntries, inInflection2Head, inSharedInflections, inShared
 
     #identify groups
     simpleCnt = 0
+    surplusCnt = 0
     groups = {}
     voidheads = []
+    surplusGroups = []
     # Single (simple) groups from Head->Entry mapping
     for (h,e) in inHead2Entry.items():
         if len(list(e.items())) ==1:
@@ -56,6 +58,20 @@ def rearrInflections(inEntries, inInflection2Head, inSharedInflections, inShared
                 #in case we found a head, it should be removed from the inflection list
                 if actgrp['head'] and actgrp['head'] in ilist:
                     ilist.remove(actgrp['head'])
+                
+                # more than <constants.MOBI_MAX_INFLECTIONS> inflections => create new group and limit ilist in <constants.MOBI_MAX_INFLECTIONS>
+                if(len(ilist) > MOBI_MAX_INFLECTIONS):
+                    ilist2 = ilist[MOBI_MAX_INFLECTIONS:]
+                    ilist = ilist[:MOBI_MAX_INFLECTIONS]
+                    head2 = ilist2[0]
+                    for i in sorted(ilist2):
+                        if len(head2)==0 or len(head2) >= len(i):
+                            head2 = i
+                    sg = Group(actgrp['id']+".2",head2,actgrp['page'],ilist2,exact)
+                    surplusGroups.append(sg)
+                    # print(f"New group created: ID={sg.getId()}, head={sg.getHead()}, ilist: len={len(sg.getInflections())}")
+                    surplusCnt = surplusCnt + 1
+                
                 actgrp['infls'] = ilist
                 #print(f"single {pg} -> {len(ilist)} inflections")
                 groups[actgrp['id']] = Group(actgrp['id'],actgrp['head'],actgrp['page'],actgrp['infls'],exact)
@@ -103,12 +119,30 @@ def rearrInflections(inEntries, inInflection2Head, inSharedInflections, inShared
         # remove head from inflection list
         if head:
             ilist.remove(head)
+        
+        # more than <constants.MOBI_MAX_INFLECTIONS> inflections => create new group and limit ilist in <constants.MOBI_MAX_INFLECTIONS>
+        if(len(ilist) > MOBI_MAX_INFLECTIONS):
+            ilist2 = ilist[MOBI_MAX_INFLECTIONS:]
+            ilist = ilist[:MOBI_MAX_INFLECTIONS]
+            head2 = ilist2[0]
+            for i in sorted(ilist2):
+                if len(head2)==0 or len(head2) >= len(i):
+                    head2 = i
+            sg = Group(gid+".2",head2,pages,ilist2,exact)
+            surplusGroups.append(sg)
+            # print(f"New group created: ID={sg.getId()}, head={sg.getHead()}, ilist: len={len(sg.getInflections())}")
+            surplusCnt = surplusCnt + 1
 
         # create Group object:
         groups[gid] = Group(gid,head,pages,ilist,exact)
         sharedCnt = sharedCnt + 1
-
-    print(f"Groups created: {simpleCnt} simple and {sharedCnt} shared groups")
+       
+    sgnote = ""
+    if(surplusCnt > 0):
+        for g in surplusGroups:
+            groups[g.getId()] = g
+        sgnote = f" + added another {surplusCnt} by splitting long inflection lists"
+    print(f"Groups created: {simpleCnt} simple and {sharedCnt} shared groups" + sgnote)
     if len(voidheads) > 0:
         print(f"{len(voidheads)} simple groups got entirely shared, e.g. {voidheads[0]}")
 

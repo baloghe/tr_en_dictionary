@@ -100,7 +100,7 @@ Unfortunately a simple calculation of all potential inflections would yield e.g.
 
 The next step in the process is 
 * to generate the widest possible set of distinct words to be handled (practically by pouring together all 'orig' forms and inflected forms from Entries)
-* and then grouping them so that Kindle doesn't get confused
+* and then grouping them so that Kindle gets neither confused (same inflection pops up in different entries) nor overloaded (more then 255 inflections under one entry or more than 64K entries in the same index)
 The Groups should also be "press-ready" that is, a designated headword, all meanings and examples must be available.
 
 ### XML Creation

@@ -196,7 +196,9 @@ ahkam	stupid	adj
 ahlak	morality	noun
 ahlak	morals	noun
 ahlaki	ethical, moral	adj
-ahmak	idiotic	adj
+ahmak	idiot, jerk, jackass, imbecile	noun
+ahmak	idiotic, foolish, imbecile	adj
+ahmaklık	stupidity, foolishness, imbecility	noun
 ahtapot	octopus	noun
 ahududu	raspberry	noun
 ahır	barn	noun
@@ -242,6 +244,8 @@ akuzatif	accusative	noun
 akçe	money, coin	noun
 akıl	mind, intellect	noun
 akıl	reason, wisdom	noun
+akılsız	stupid, absurd	adj
+akılsızlık	​stupidity, unreason, absurdness	noun
 akılcı	rational	adj
 akıllanmak	to become wise	verb
 akıllı	bright	adj
@@ -332,7 +336,9 @@ alçakgönüllü	modest	adj
 alçalmak	to go down, to descend	verb
 alçaltmak	to degrade, to lower	verb
 alıcı	client, recipient, addressee	noun	gönül alıcı: conciliatory
-alıkoymak	to withhold, to detain, to keep	verb
+alık	simpleton, scatterbrained, dimwitted	adj
+alıklık	stupidity	noun
+alıkoymak	to withhold, to detain, to retain, to keep	verb
 alım	buying, purchase	noun
 alın	forehead	noun
 alınmak	to be taken	verb
@@ -446,6 +452,7 @@ aperitif	aperitive	noun
 aptal	fool	noun
 aptal	idiotic	adj
 aptal	silly	adj
+aptallık	stupidity, foolishness	noun
 ara	break	noun	bir ara: for a while	bu arada: meanwhile, by the way	ara sıra: sometimes	ara vermek: to adjourn	arada bir: every now and then, once in a while
 ara	intermediate	adj	aranızda: among you
 araba	car	noun
@@ -1478,7 +1485,7 @@ bırakmak	to let	verb
 bıyık	moustache	noun
 bıyık	mustache	noun
 bıyıklı	mustached	adj
-bıçak	knife	noun
+bıçak	knife	noun	kelebek bıçağı: balisong, butterfly knife
 bıçaklamak	to stab	verb
 cadde	road	noun
 cadde	street	noun
@@ -2217,7 +2224,7 @@ eksiksiz	complete	adj
 eksilmek	to lessen	verb
 eksponansiyel	exponential	adj
 ekşi	sour	adj
-el	hand	noun	ele almak: to handle	ele alınmak: to be handled
+el	hand	noun	ele almak: to handle	ele alınmak: to be handled	elle tutulur: palpable, tangible
 elastik	elastic	adj
 elbette	certainly	adv
 elbette	of course	adv
@@ -2632,7 +2639,7 @@ fırtına	storm	noun
 fırça	brush	noun
 fırçalamak	to brush	verb
 fırın	bakery	noun
-fırın	oven; bakery	noun
+fırın	oven	noun	fırın küreği: oven shovel, peel
 fırın	stove	noun
 fıstık	peanut	noun	yer fıstığı: peanut
 fısıldamak	to whisper	verb
@@ -2663,6 +2670,7 @@ gayet	quite, rather	adv
 gayet	very	adv
 gayret	effort	noun
 gayretli	hardworking	adj
+gayri	non-	prep
 gayrimenkul	real estate	noun
 gayrı	other than	posp
 gaz	gas	noun
@@ -4214,7 +4222,7 @@ kekeme	stammering	adj
 kekeme	stammerer	noun
 kekemelik	stuttering, stammering	noun
 kel	bald	adj
-kelebek	butterfly	noun
+kelebek	butterfly	noun	kelebek bıçağı: balisong, butterfly knife
 kelepçe	handcuff	noun
 kelime	word	noun
 keman	violin	noun
@@ -4659,7 +4667,7 @@ kümes	coop	noun
 küp	cube; caldron	noun
 kür	cure	noun
 küre	globe, sphere	noun
-kürek	shovel	noun
+kürek	shovel, spade	noun	fırın küreği: oven shovel, peel
 küresel	global	adj
 küreselleşmek	to become global	verb
 kürk	fur	noun
@@ -4959,6 +4967,7 @@ maç	match	noun
 mağara	cave	noun
 mağaza	department store, shop	noun
 mağdur	victim	noun
+mağrur	proud, haughty	adj
 mecbur	obliged	adj
 mecburiyet	compulsion	noun
 meclis	assembly	noun
@@ -5770,6 +5779,7 @@ püre	puree	noun
 pürüzsüzce	fluently (of movement)	adv
 püsküllü	fringed	adj
 püskürmek	to spew	verb
+pırazvana	tang, shank	noun	back portion of the blade component of a tool where it extends into stock material or connects to a handle
 pıtırtı	patter	noun
 radikal	radical	adj
 radyasyon	radiation	noun
@@ -6015,7 +6025,7 @@ sansür	censorship	noun
 santral	telephone exchange; power plant	noun
 sanı	thought	noun
 sanık	suspect	noun
-sap	handle	noun
+sap	handle, stem	noun
 sapan	slingshot, sling	noun
 saplamak	to stick	verb
 sapma	deviation	noun
@@ -6164,6 +6174,7 @@ sermek	to spread	verb
 serpilmek	to sprinkle	verb
 serpmek	to sprinkle	verb
 sersem	silly	adj
+sersemlik	​dizziness, silliness, stupor, stupidity	noun
 serseri	vagabond, drifter	adj
 sert	hard	adj
 sert	hard, tough; strong	adj
@@ -6761,8 +6772,7 @@ tatlı	sweet	noun
 tatlı	sweet; pleasant, nice	adj
 tatlı	sweetie	noun
 tatmak	to taste	verb
-tatmin	satisfaction	noun
-tatmin	satisfaction	verb	tatmin etmek: to satisfy
+tatmin	satisfaction	noun	tatmin etmek: to satisfy
 tatsız	tasteless, unpleasant	adj
 tava	frying pan	noun
 tava	pan	noun
@@ -7038,7 +7048,7 @@ tutarlı	consistent, coherent	adj
 tutarlılık	consistency	noun
 tutku	passion	noun
 tutmak	to catch	verb
-tutmak	to hold	verb
+tutmak	to hold	verb	elle tutulur: palpable, tangible
 tutsak	captive	noun
 tutucu	conservative	adj
 tutuklamak	to arrest	verb
@@ -7206,7 +7216,7 @@ uzmanlaşmak	to specialize	verb
 uzmanlık	expertise	noun
 uzun	long	adj
 uzunluk	length	noun
-uç	end	noun
+uç	end, tip	noun	parmağımın ucu: tip of my finger
 uç	terminal	adj	uçup gitmek: to fly away
 uçak	airplane (Am.)	noun
 uçak	airplane	noun
@@ -7477,6 +7487,7 @@ yardım	help, aid	noun
 yardımcı	aide, helper	noun
 yardımcılık	aide	noun
 yardımlaşmak	to help each other	verb
+yarenlik	gabfest (slang: an informal meeting to talk and exchange news, a long conversation)	noun
 yargı	opinion; judgment	noun
 yargılamak	to judge	verb
 yargıtay	supreme court	noun
@@ -7914,6 +7925,7 @@ zorunluluk	obligation	noun
 zulüm	cruelty, oppression	noun
 zümre	group	noun
 zümrüdü	emerald	adj
+züppe	dude, dandy, snob	noun
 zürafa	giraffe	noun
 zıplamak	to hop	verb
 zıplamak	to jump; to bounce	verb

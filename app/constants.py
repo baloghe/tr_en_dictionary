@@ -1,6 +1,8 @@
 import regex
 regex.DEFAULT_VERSION = regex.VERSION1
 
+MOBI_MAX_INFLECTIONS = 255
+
 ALPHABET2 = 'aAâÂbBcCçÇdDeEfFgGğĞhHiİıIîÎjJkKlLmMnNoOöÖpPqQrRsSşŞtTuUûÛüÜvVwWxXyYzZ'
 ALPHABET = {'a':0,'A':0,'â':0,'Â':0,'b':1,'B':1,'c':2,'C':2,'ç':2,'Ç':2,'d':3,'D':3,'e':4,'E':4,'f':5,'F':5
             ,'g':6,'G':6,'ğ':6,'Ğ':6,'h':7,'H':7,'i':8,'İ':8,'ı':8,'I':8,'î':8,'Î':8,'j':9,'J':9,'k':10,'K':10

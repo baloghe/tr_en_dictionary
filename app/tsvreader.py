@@ -43,6 +43,9 @@ def readTSV(inFileName, dstEntries, dstErrors):
                 print(f"ERROR: line {i} :: {row}")
                 addError(i, 'not enough tabs', dstErrors)
         
-        print(f"ReadTSV :: {len(dstEntries)} entries added from {inFileName}, errors: {len(dstErrors)}")
-        print('Errors:')
-        print(dstErrors)
+        print(f"ReadTSV :: {len(dstEntries)} entries added from {inFileName}")
+        if dstErrors:
+            print(f'Errors: {len(dstErrors)}')
+            print(dstErrors)
+        else:
+            print('Input read without errors...')

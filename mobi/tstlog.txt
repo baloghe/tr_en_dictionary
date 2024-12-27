@@ -17,9 +17,9 @@ Info(prcgen): Resolving hyperlinks
 Info(prcgen): Writing hyperlinks
 Info(prcgen): Converting and merging image file "C:\Endre\GitHub_repos\tr_en_dictionary\mobi\cover.jpg"
 Info(prcgen/inflections): Compiling inflections
-Info(prcgen/inflections): Number of new <idx:infl> inflection rules:  0000788
-Info(prcgen/inflections): Of which rules used only once or twice:     0000563
-Info(prcgen/inflections): Number of inflection rule groups:           0000016
+Info(prcgen/inflections): Number of new <idx:infl> inflection rules:  0001332
+Info(prcgen/inflections): Of which rules used only once or twice:     0001039
+Info(prcgen/inflections): Number of inflection rule groups:           0000020
 Info(prcgen): Building index into record  0000000 Index name: word
 Info(prcgen): Unicode index using optimized single-byte utf-16 encoding
 Info(prcgen): The default lookup index is: "word"
@@ -34,14 +34,14 @@ Info(prcgen): Building MOBI file, record count:   0000001
 Info(prcgen): Building MOBI file record  0000000
 Info(prcgen): Building MOBI file record  0000001
 Info(prcgen): Uncompressed record size:   0004096
-Info(prcgen): Final stats - TEXT:      000001382 bytes 000000002 records 
+Info(prcgen): Final stats - TEXT:      000001523 bytes 000000002 records 
 Info(prcgen): Final stats - PICTURES:  000000000 bytes 000000000 records 
-Info(prcgen): Final stats - INDEXES:   000137408 bytes 000000010 records 
-Info(prcgen): Final stats - TRAILING:  000000036 bytes 000000002 records 
+Info(prcgen): Final stats - INDEXES:   000148900 bytes 000000010 records 
+Info(prcgen): Final stats - TRAILING:  000000044 bytes 000000002 records 
 Info(prcgen): Final stats - FRAMES:    000000180 bytes 000000003 records 
-Info(prcgen): Final stats - OTHER:     000021274 bytes 000000004 records 
-Info(prcgen): Final stats - TOTAL:     000160280 bytes 000000019 records 
-Info(prcgen): Final stats - text compressed to (in % of original size):  029.66%
+Info(prcgen): Final stats - OTHER:     000021273 bytes 000000004 records 
+Info(prcgen): Final stats - TOTAL:     000171920 bytes 000000019 records 
+Info(prcgen): Final stats - text compressed to (in % of original size):  028.43%
 Info(prcgen): The document identifier is: "TR-EN_dictionary_TEST"
 Info(prcgen): The file format version is V7
 Info(prcgen): Saving MOBI file
