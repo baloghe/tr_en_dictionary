@@ -83,6 +83,8 @@ EXCEPTIONS = {
             ,'hazzet': 'hazzed'
             ,'hisset': 'hissed'
             ,'keşfet': 'keşfed'
+            ,'gevşet': 'gevşed'
+            ,'sabret': 'sabred'
         },
         'CONTINUOUS': {
         },
@@ -112,6 +114,8 @@ EXCEPTIONS = {
             ,'hazzet': 'hazzeder'
             ,'hisset': 'hisseder'
             ,'keşfet': 'keşfeder'
+            ,'gevşet': 'gevşeder'
+            ,'sabret': 'sabreder'
         }
     }
 
