@@ -1112,7 +1112,6 @@ beraber	together	adv
 beraber	with	prep
 beraberlik	unity	noun
 beraberlik	unity; tie, draw	noun
-berbat	awful	adj
 berbat	awful, horrible	adj
 berbat	bad	adj
 berber	barber, hairdresser	noun
@@ -1628,7 +1627,6 @@ cumhurbaşkanı	president	noun
 cumhuriyet	republic	noun
 cumhuriyetçi	republican	noun
 cömert	generous (liberal, lavish)	adj
-cömert	generous	adj
 cübbe	robe	noun
 cüce	dwarf, midget	noun
 cümbüş	revel, revelry, riot	noun
@@ -3227,7 +3225,8 @@ harbi	real, honest	adj
 harbiye	military academy	noun
 harcamak	to spend	verb
 hardal	mustard	noun
-harekat	operation	noun
+harekat	operation, invasion	noun
+harekât	operation, invasion	noun
 hareket	action	noun	harekete geçmek: to take action
 hareket	move	noun	hareket etmek: to move (self)	hareket ettirmek: to move/motivate (s.one else)
 hareket	movement, motion	noun
@@ -3261,9 +3260,7 @@ hasır	wicker, straw	noun
 hasret	longing	noun
 hassas	sensitive	adj
 hassasiyet	sensitivity	noun
-hasta	ill	adj
 hasta	patient	noun
-hasta	sick	adj
 hasta	sick, ill	adj
 hastalanma	disease	noun
 hastalanmak	to get ill	verb
@@ -3276,7 +3273,6 @@ hasım	inimical	adj
 hat	line	noun
 hata	error	noun
 hata	fault	noun
-hata	mistake	noun
 hata	mistake, error, fault	noun
 hatalı	false, wrong	adj
 hatalı	faulty, flawed	adj
@@ -3574,7 +3570,7 @@ ihtiyar	old	adj
 ihtiyaç	necessity	noun
 ihtiyaç	need	noun	ihtiyaç duymak: to need	ihtiyacı olmak: to be in need of
 ikame	replacement	noun
-ikamet	residing	noun
+ikamet	residence, residing	noun
 ikdam	work with effort and perseverance	noun
 iken	during	prep
 iki	two	noun
@@ -3599,7 +3595,6 @@ ilan	announcement; advertisement	noun
 ilave	addition	noun
 ilave	additional	adj
 ilaveten	in addition	adv
-ilaç	medicine	noun
 ilaç	medicine, drug	noun
 ilaçlamak	to apply medicine or pesticides	verb
 ile	with	prep
@@ -4590,7 +4585,6 @@ koşullamak	to condition	verb
 kral	king	noun
 kraliçe	queen	noun
 krallık	kingdom	noun
-kravat	tie	noun
 kravat	tie, necktie	noun
 kredi	credit	noun
 krem	cream	noun
@@ -4754,7 +4748,7 @@ küllük	ashtray	noun
 kültür	culture	noun
 kültürel	cultural	adj
 kültürlü	cultured	adj
-kümbet	cupola (dome)	noun
+kümbet	cupola	noun
 kümbet	dome	noun
 küme	heap, pile, stack	noun
 kümes	coop	noun
@@ -4851,7 +4845,6 @@ kıyasla	beside	posp
 kıyasla	in comparison with, beside	posp
 kıyaslamak	to compare	verb
 kıyma	mincemeat	noun
-kıymet	value	noun
 kıymet	value, worth	noun
 kıymetli	precious (valuable)	adj
 kıymetli	substantial (valuable)	adj
@@ -4983,7 +4976,6 @@ mahrem	secret	adj
 mahrum	deprived	adj
 mahsus	special to, unique to	posp
 mahvetmek	to destroy, to ruin	verb
-mahvetmek	to ruin	verb
 mahçup	shy	adj
 makale	article	noun
 makam	position, office	noun
@@ -5087,13 +5079,13 @@ melodi	melody	noun
 meltem	breeze	noun
 meme	breast, nipple	noun
 memleket	country, homeland	noun
-memleket	home land	noun
-memleket	home town	noun
+memleket	hometown	noun
 memnun	glad	adj
 memnun	pleased	adj
 memnun	pleased, content	adj
 memnun	satisfied	adj
-memnuniyet	pleasure, contentment	noun
+memnuniyet	pleasure, contentment, satisfaction	noun
+memnuniyetsiz	dissatisfied	adj
 memur	civil servant, bureaucrat	noun
 mendil	handkerchief	noun
 menenjit	meningitis	noun
@@ -5112,8 +5104,9 @@ merdiven	stairs	noun
 merdiven	stairway	noun
 merdiven	steps	noun
 merhamet	pity, affection	noun
+merhametli	merciful, compassionate	adj
+merhametsiz	ruthless, mercyless, cruel	adj
 merkez	center	noun
-merkez	centre (Br.)	noun
 merkezi	central	adj
 merkezî	central	adj
 mermer	marble	noun
@@ -5176,9 +5169,10 @@ meşgul	occupied	adj
 meşhur	famous; well-known	adj
 meşhur	renowned	adj
 meşru	lawful, legal, legitimate	adj
-meşruiyet	legality	noun
+meşruiyet	legality, legitimacy	noun
+meşruluk	legitimacy	noun
 meşrulaşmak	to legitimize	verb
-meşrutiyet	constitutional monarchy	noun
+meşrutiyet	constitutional monarchy, constitutionalism	noun
 mide	stomach; belly	noun
 midye	shell	noun
 mikrobiyoloji	microbiology	noun
@@ -6101,7 +6095,6 @@ saltanat	sultanate	noun
 salı	Tuesday	noun
 saman	hay	noun
 samimi	sincere	adj
-samimiyet	intimacy	noun
 samimiyet	sincerity, warmth, intimacy	noun
 sanal	imaginary, virtual	adj
 sanat	art	noun	sanat eseri: artwork
@@ -6257,7 +6250,7 @@ sendika	union	noun
 sendikal	trade union	adj
 sendrom	syndrome	noun
 sene	year	noun
-senet	voucher	noun
+senet	voucher	noun	hisse senedi: stock, share
 senkretizm	syncretism	noun
 sentez	synthesis	noun
 sepet	basket	noun
@@ -6291,10 +6284,7 @@ servet	wealth, fortune	noun
 servis	service	noun
 serçe	sparrow	noun
 serüven	adventure	noun
-ses	noise	noun
-ses	sound	noun
-ses	sound; noise; voice	noun
-ses	voice	noun
+ses	sound, noise, voice	noun
 seslenmek	to call out	verb
 seslenmek	to address	verb
 seslenmek	to call	verb
@@ -6599,6 +6589,7 @@ süprematizm	Suprematism (also: suprematism)	noun
 süpürge	broom	noun
 süpürmek	to sweep	verb
 sürat	speed	noun
+süratli	fast, quick	adj
 süre	duration	noun	bir süre (için): for a while
 süre	period	noun
 süre	time	noun
@@ -7184,7 +7175,6 @@ tutuklu	arrested	noun
 tutum	manner, attitude	noun
 tuvalet	lavatory	noun
 tuvalet	restroom (Am.)	noun
-tuvalet	toilet (Br.)	noun
 tuvalet	toilet	noun
 tuz	salt	noun	tuzağa düşmüş: trapped
 tuzak	trap, snare	noun
@@ -7994,7 +7984,6 @@ zan	supposition	noun	zannetmek: to suppose
 zanaat	trade	noun
 zanlı	culprit	noun
 zannetmek	to suppose, to guess	verb
-zar	dice	noun
 zar	dice; membrane	noun
 zarar	damage	noun
 zararlı	harmful	adj
@@ -8625,7 +8614,6 @@ cebir	algebra	noun
 ırkçılık	racism	noun
 ırmak	river	noun
 ıslah	reform, improvement	noun
-ıslak	wet	adj
 ıslak	wet, damp	adj
 ıslanmak	to get wet	verb
 ısmarlamak	to order, to request	verb
