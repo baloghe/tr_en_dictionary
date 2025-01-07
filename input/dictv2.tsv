@@ -615,7 +615,7 @@ atlamak	to jump	verb
 atlamak	to skip	verb
 atlatmak	to bypass, to overcome sg.	verb
 atlı	horseman	noun
-atmak	to throw	verb
+atmak	to throw	verb	bacak bacak üzerine atmak: to cross one's legs
 atmosfer	atmosphere	noun
 altmış	sixty	noun
 atom	atom	noun
@@ -835,7 +835,7 @@ baba	father	noun	ana baba: parents
 babaanne	grandmother (father’s mother)	noun
 babacan	friendly, fatherly	adj
 baca	chimney	noun
-bacak	leg	noun
+bacak	leg	noun	bacak bacak üzerine atmak: to cross one's legs
 bacaklar	legs	noun
 bacaksız	legless	adj	
 bacı	sister	noun
@@ -1537,9 +1537,12 @@ can	soul; life	noun
 canavar	monster	noun
 candan	sincere	adj
 canlanmak	to light up; to be refreshed	verb
-canlı	living; animate	adj
+canlandırmak	to revive, to bring to life	verb
+canlandırmak	to stimulate, to animate	verb
+canlı	live, living; animate	adj
 canlılık	liveliness, vigor	noun
-cansız	inanimate, lifeless	adj
+cansız	inanimate, lifeless, dead	adj
+cansızlık	stagnation, inertness	noun
 caymak	to change one's mind, to back down	verb
 cayılmak	to change one's mind, to back down	verb
 cari	current	adj
@@ -2424,6 +2427,7 @@ espri	humor, joke	noun
 esrar	mystery; marijuana	noun
 esrarengiz	mysterious, weird	adj
 esrarlı	mysterious	adj
+estağfurullah	may Allah forgive me	phrase
 estetik	aesthetics	noun
 estirmek	to blow	verb
 et	flesh	noun
@@ -2603,7 +2607,7 @@ feminist	feminist	noun
 femtokimya	femtochemistry	noun
 fen	natural science	noun
 fena	bad	adj
-fena	bad; terrible	adj
+fena	terrible	adj
 fena	evil	adj
 fener	lantern, flashlight	noun
 fener	torch	noun
@@ -3584,7 +3588,7 @@ ikiz	twin	noun
 iklim	climate	noun
 ikna	convincing	noun
 ikon	icon	noun
-ikram	offering	noun
+ikram	offering	noun	ikram etmek: to offer
 iktidar	ruling body, power	noun
 iktisadi	economic, financial	adj
 iktisat	economics	noun
@@ -3790,6 +3794,7 @@ istikrar	stability	noun
 istikrarlı	steady, stable	adj
 istikrarsızlık	instability	noun
 istila	invasion	noun
+istirahat	rest	noun
 istismar	exploit, abuse	noun
 istisna	exception	noun
 isyan	rebellion	noun
@@ -3903,7 +3908,7 @@ jest	favor, gesture	noun
 jilet	razor blade	noun
 jinekoloji	gynaecology	noun
 jüri	jury	noun
-kaba	rough, rude	adj
+kaba	rough, rude	adj	kaba şaka: rag
 kaba	unfriendly	adj
 kabahat	fault	noun
 kabak	courgette	noun
@@ -4161,7 +4166,7 @@ karşılanmak	to be met	verb	hoş karşılanmak: to welcome
 karşılaşmak	to meet, to encounter	verb
 karşılaştırma	comparison	noun
 karşılaştırmak	to compare	verb
-karşılık	response	noun	gelen karşılık: the response received
+karşılık	response, reply	noun	gelen karşılık: the response received
 karşılık	provision, remuneration	noun
 karşılıklı	mutual, reciprocal	adj
 karşılıksız	unreciprocated, complimentary	adj
@@ -5341,6 +5346,7 @@ müsait	free, available, suitable, convenient	adj
 müsamere	show (at school)	noun
 müsli	muesli	noun
 müstahak	deserved	adj
+müsterih	good cheer	phrase
 müsteşar	undersecretary	noun
 müsteşarlık	undersecretariat	noun
 müteahhit	contractor	noun
@@ -6349,6 +6355,7 @@ seğirtmek	to rush after s.one	verb
 sicil	register, record	noun	adli sicil: criminal record
 sideroz	siderosis	noun
 sigara	cigarette	noun
+sigaralık	cigarette case	noun
 sigorta	insurance	noun
 sihirli	magical, bewitched	adj
 sik	penis	noun
@@ -6815,7 +6822,7 @@ tanıdık	familiar	adj
 tanık	witness	noun
 tanıklık	testimony	noun
 tanım	definition	noun
-tanımak	to be acquainted	verb
+tanımak	to be acquainted	verb	bu hakkı bana tanımıştı: s/he gave me this right
 tanımak	to recognize	verb
 tanımlamak	to define	verb
 tanınmış	famous	adj
@@ -6859,7 +6866,7 @@ tarım	agriculture	noun
 tarımsal	agricultural	adj
 tas	bowl	noun
 tasarlamak	to intend	verb
-tasarlamak	to plan	verb
+tasarlamak	to plan, to design	verb
 tasarruf	saving	noun
 tasarı	proposal; bill	noun
 tasarım	design	noun
@@ -6931,8 +6938,8 @@ tedirgin	anxious	adj	tedirgin etmek: to trouble
 tedirgin	uneasy, worried	adj
 tedirginlik	uneasiness	noun
 teftiş	inspection	noun
-tehdit	threat	noun
 tehdit	threat, menace	noun
+tehditname	menacing letter	noun
 tehir	delay	noun
 tehlike	danger	noun
 tehlikeli	dangerous	adj
@@ -6960,7 +6967,8 @@ telaffuz	pronunciation	noun
 telafi	compensation	noun
 telaş	hurry	noun
 telaş	trepidation (worry)	noun
-telaş	worry	noun
+telaş	worry	noun	hiç telaş göstermeden: without any fuss
+telaşlanmak	to be worried, to be alarmed	verb
 telaşlı	fussing	adj
 telefon	phone	noun	telefon etmek: to call on the phone	telefon numarası: phone number
 telefon	telephone	noun
@@ -7071,6 +7079,7 @@ teşhir	exposition, exhibition, display	noun
 teşhircilik	exhibitionism	noun
 teşhis	diagnosis	noun
 teşkilat	organization	noun
+teşkil	constitute	noun	teşkil etmek: to constitute, to create
 teşvik	encouragement; motivation	noun
 theofani	theophany	noun
 ticaret	trade, commerce	noun	ticaret yapmak: to deal
@@ -7501,6 +7510,7 @@ yakından	closely; intimate	adv
 yakınlaşmak	to become closer	verb
 yakınlık	closeness; proximity	noun
 yakınmak	to complain	verb
+yakını	close	adj
 yakınında	at	prep
 yakınında	nearby	prep
 yakıt	fuel	noun
@@ -8579,7 +8589,7 @@ cebir	algebra	noun
 üzgün	unhappy, sad	adj
 üzmek	to trouble	verb
 üzmek	to upset; to sadden	verb
-üzücü	saddening, sober	adj
+üzücü	sad, distressing, vexing	adj
 üzülerek	sadly	adv
 üzülmek	to be upset	verb
 üzülmek	to worry	verb
