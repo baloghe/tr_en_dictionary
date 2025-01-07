@@ -27,16 +27,45 @@ EXCEPTIONS = {
             'saat':'saatler',
             'hal':'haller'
         },
-        'ALTERNATE': ['sap','at','kek','saç','saat','kat','adet','cesaret','fiyat','dikkat','ip'],
+        'ALTERNATE': ['sap','et','at','kek','saç','saat','kat','adet','cesaret','fiyat','dikkat','ip','ameliyat','anket','cinayet','ceket'
+                     ,'akrobat','aparat','avukat','baharat','bürokrat','cemaat','cennet','cemiyet','cehalet','ciddiyet'
+                     ,'cinsiyet','davet','dehşet','demet','devlet','diyet','ebediyet','edebiyat','ehliyet','emanet','emniyet','etiket'
+                     ,'eyalet','eziyet','faaliyet','fazilet','felaket','ganimet','gayret','gurbet','hareket','hakaret','hakimiyet'
+                     ,'hasret','hassasiyet','hayalet','hayret','hazret','heybet','heyet','hiddet','hikmet','hizmet','hükumet','hükümet'
+                     ,'hürmet','hürriyet','hüviyet','ibadet','ibret','icraat','ihanet','ikamet','illet','internet','inşaat','isabet'
+                     ,'iskelet','istikamet','işaret','jilet','kabiliyet','kamyonet','kanaat','kaset','kastanyet','kasvet','klarnet'
+                     ,'kriket','kravat','kudret','kuvvet','kümbet','küvet','kısmet','kıyafet','kıyamet','kıymet','lanet','lezzet'
+                     ,'lânet','mahiyet','maliyet','manşet','marifet','market','mazeret','mecburiyet','medeniyet','medet','memleket'
+                     ,'memnuniyet','meşruiyet','meşrutiyet','millet','milliyet','misket','motosiklet','muhabbet','muhalefet'
+                     ,'mukavemet','muvaffakiyet','müddet','mülkiyet','münasebet','müracaat','nefret','net','nezaket','nimet','nispet'
+                     ,'niyet','nöbet','paket','poşet','rahmet','rağbet','rekabet','rivayet','rüşvet','saadet','samimiyet','sefalet'
+                     ,'sefaret','sepet','servet','set','siyaset','sohbet','suret','surat','sünnet','sürat','ticaret','trompet'
+                     ,'tuvalet','ücret','vahşet','vasiyet','vaziyet','vekalet','vilayet','zahmet','zanaat','zihniyet','ziyafet'
+                     ,'çiklet','ümmet','şahsiyet','şiddet','şikayet','şikâyet','şöhret'
+                     ,'azat','cellat','cellât','diplomat','format','fırsat','hakikat','harekat','harekât','hayat','ihracat'
+                     ,'iktisat','iltifat','imalat','inat','inşaat','irtibat','ispat','istihbarat','istirahat','ithalat'
+                     ,'itikat','kabahat','karbonhidrat','karbondioksit','menfaat','mevduat','mevzuat','muhaberat','mutabakat'
+                     ,'mülakat','müracaat','nasihat','olimpiyat','rahat','ruhsat','saltanat','sanat','seyahat','stat','surat'
+                     ,'sıfat','tabiat','tahribat','talimat','tarikat','tatbikat','tazminat','teminat','teribat','tezat','teşkilat'
+                     ,'vaat','vefat','yat','zat','ziraat','çat','üstat','şefkat','şeriat','şubat'],
         'ALTERNATE_POSS': ['kek','saç','ip'],
         'ACCUSATIVE': {
              'saat':'saati'
             ,'gol':'golü'
             ,'kontrol':'kontrolü'
             ,'hal':'hali'
+            ,'menfaat':'menfaati'
+            ,'ziraat':'ziraati'
+            ,'şefkat':'şefkati'
         },
         'DATIVE': {
              'saat':'saate'
+            ,'hal':'hale'
+            ,'cemaat':'cemaate'
+            ,'kanaat':'kanaate'
+            ,'hakikat':'hakikate'
+            ,'menfaat':'menfaate'
+            ,'şefkat':'şefkate'
         },
         'LOCATIVE': {
              'hal':'halde'
@@ -65,7 +94,9 @@ EXCEPTIONS = {
              'halk': ['halkım','halkın','halkı','halkımız','halkınız','halkı'],
              'keşif': ['keşfim','keşfin','keşfi','keşfimiz','keşfiniz','keşfi'],
              'keyif': ['keyfim','keyfin','keyfi','keyfimiz','keyfiniz','keyfi'],
-             'beyin': ['beynim','beynin','beyni','beynimiz','beyniz','beyni']
+             'beyin': ['beynim','beynin','beyni','beynimiz','beyniz','beyni'],
+             'menfaat': ['menfaatim','menfaatin','menfaati','menfaatimiz','menfaatiniz','menfaati'],
+             'saat': ['saatim','saatin','saati','saatimiz','saatiniz','saati']
         },
         'GENITIVE': {
         },
