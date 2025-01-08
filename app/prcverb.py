@@ -821,7 +821,7 @@ def processNeg(w):
     
     #Optative
     optnegstem = negstem1
-    optneg = getOptative({'infl': optnegstem, 'src': None}, None)
+    optneg = getOptative({'infl': optnegstem, 'src': 'Neg'}, None)
     optnegpm = getPersonMarker(optneg, 'm-opt')
     
     infl = infl + optnegpm
@@ -1134,6 +1134,12 @@ def processPot(w):
     potcndpm = getPersonMarker(potcnd, 'k-pr')
     
     infl = infl + potcndpm
+
+    #Potential +Optative
+    potopt = getOptative({'infl': potaorstem, 'src': potdf['src']}, potaorstemout)
+    potoptpm = getPersonMarker(potopt, 'm-opt')
+    
+    infl = infl + potoptpm
     
     return infl
 
