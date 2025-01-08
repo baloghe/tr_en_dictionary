@@ -32,7 +32,7 @@ EXCEPTIONS = {
                      ,'cinsiyet','davet','dehşet','demet','devlet','diyet','ebediyet','edebiyat','ehliyet','emanet','emniyet','etiket'
                      ,'eyalet','eziyet','faaliyet','fazilet','felaket','ganimet','gayret','gurbet','hareket','hakaret','hakimiyet'
                      ,'hasret','hassasiyet','hayalet','hayret','hazret','heybet','heyet','hiddet','hikmet','hizmet','hükumet','hükümet'
-                     ,'hürmet','hürriyet','hüviyet','ibadet','ibret','icraat','ihanet','ikamet','illet','internet','inşaat','isabet'
+                     ,'hürmet','cumhuriyet','hürriyet','hüviyet','ibadet','ibret','icraat','ihanet','ikamet','illet','internet','inşaat','isabet'
                      ,'iskelet','istikamet','işaret','jilet','kabiliyet','kamyonet','kanaat','kaset','kastanyet','kasvet','klarnet'
                      ,'kriket','kravat','kudret','kuvvet','kümbet','küvet','kısmet','kıyafet','kıyamet','kıymet','lanet','lezzet'
                      ,'lânet','mahiyet','maliyet','manşet','marifet','market','mazeret','mecburiyet','medeniyet','medet','memleket'
@@ -57,6 +57,7 @@ EXCEPTIONS = {
             ,'menfaat':'menfaati'
             ,'ziraat':'ziraati'
             ,'şefkat':'şefkati'
+            ,'dikkat':'dikkati'
         },
         'DATIVE': {
              'saat':'saate'
@@ -66,12 +67,15 @@ EXCEPTIONS = {
             ,'hakikat':'hakikate'
             ,'menfaat':'menfaate'
             ,'şefkat':'şefkate'
+            ,'dikkat':'dikkate'
         },
         'LOCATIVE': {
              'hal':'halde'
+            ,'dikkat':'dikkatte'
         },
         'ABLATIVE': {
              'hal':'halden'
+            ,'dikkat':'dikkatten'
         },
         'POSSESSIVE': {
              'su': ['suyum','suyun','suyu','suyumuz','suyunuz','suyu'],
@@ -96,7 +100,8 @@ EXCEPTIONS = {
              'keyif': ['keyfim','keyfin','keyfi','keyfimiz','keyfiniz','keyfi'],
              'beyin': ['beynim','beynin','beyni','beynimiz','beyniz','beyni'],
              'menfaat': ['menfaatim','menfaatin','menfaati','menfaatimiz','menfaatiniz','menfaati'],
-             'saat': ['saatim','saatin','saati','saatimiz','saatiniz','saati']
+             'saat': ['saatim','saatin','saati','saatimiz','saatiniz','saati'],
+             'sadikkatat': ['dikkatim','dikkatin','dikkati','dikkatimiz','dikkatiniz','dikkati']
         },
         'GENITIVE': {
         },
@@ -240,7 +245,7 @@ rp_all_vows = regex.compile(r'[aeoöuüıi]')
 
 INFLECTION_GROUPS = {
     "noun": ['Pl','Poss','OTH'],
-    "verb": ['Can.Neg.Ing','Can.Poss','Can','Fut.Poss','Fut','Ing','Neg.Fut.Poss','Neg.Fut','Neg.Ing','Neg.Pt','Neg.Poss','Neg','Pt','Poss','Pl','OTH'],
+    "verb": ['Can.Neg.Ing','Can','Fut.Poss','Fut','Ing','Neg.Fut.Poss','Neg.Fut','Neg.Ing','Neg.Pt','Neg.Poss','Neg','Pt','Poss','Pl','Pot.Fut','OTH'],
     "adj" : ['OTH']
 }
 
