@@ -330,6 +330,8 @@ def getPersonMarker(word, mx, paradigm):
     ret = []
     for p in pm:
         stem = word['infl']
+        # alternate when needed
+        stem = getAlternate(stem, mx)
         if mx['ends_vow'] and paradigm == 'z-ind' and p != '':
             stem = stem + 'y'
         
