@@ -1751,6 +1751,7 @@ deli	crazy	adj
 deli	insane	adj
 deli	mad	adj
 deli	madman	noun
+delici	piercing, poignant	adj
 delik	hole	noun
 delikanlı	young (man), juvenile	adj
 delil	evidence	noun
@@ -2088,7 +2089,7 @@ durdurmak	to stop	verb
 durgun	calm	adj
 durgunluk	serenity; stagnation	noun
 durma	stop, halt, standstill, pause	noun
-durmak	to stop	verb
+durmak	to stop	verb	durun bakayım: wait, let me see
 duru	clear	adj
 durum	occasion	noun
 durum	situation	noun	bizim durumumuz ne olur: what will happen to us
@@ -3920,7 +3921,7 @@ kabine	cabinet	noun
 kabir	grave	noun
 kablo	cable, wire	noun
 kabuk	peel, shell, bark	noun
-kabul	acceptance	noun
+kabul	acceptance	noun	kabul etmek: to accept, to approve
 kabullenmek	to accept	verb
 kaburga	rib	noun
 kabza	handle	noun
@@ -3996,7 +3997,7 @@ kalp	heart	noun	kalbimde: in my heart
 kalpli	-hearted	posp
 kalsit	calcite	noun
 kalsiyum	calcium	noun
-kalça	hip	noun
+kalça	hip, buttocksv	noun
 kalıcı	permanent	adj
 kalıcı	residual	adj
 kalıcılık	permanence	noun
@@ -4227,6 +4228,8 @@ kavga	quarrel, struggle	noun
 kavgacı	quarrelsome, combatant	adj
 kavgacı	fighter, wrangler	noun
 kavim	tribe	noun
+kavis	curve, arch, loop	noun
+kavisli	curved, arched	adj
 kavram	concept	noun
 kavram	notion	noun
 kavramak	to comprehend; to grasp	verb
@@ -4327,6 +4330,7 @@ kelepçe	handcuff	noun
 kelime	word	noun
 keman	violin	noun
 kemer	belt	noun
+kemerli	arched, belted	adj
 kemik	bone	noun
 kemirmek	to gnaw	verb
 kemoterapi	chemotherapy	noun
@@ -4370,7 +4374,7 @@ kesinti	interruption, cut	noun
 kesintisiz	uninterrupted	adj
 kesit	cross section	noun
 keskin	sharp	adj
-kesmek	to cut	verb
+kesmek	to cut	verb	işi kestirip atmışlar: they cut the job short
 kesmek	to turn off	verb	Kes şunu! Drop it!
 kestane	chestnut (tree)	noun	at kestanesi ağacı: horse (wild) chestnut tree, buckeye
 kestane	chestnut brown	adj
@@ -4550,8 +4554,11 @@ korsan	pirate	noun
 koru	grove	noun
 koru	small wood	noun
 koru	woods	noun
-koruma	bodyguard	noun
+koruma	bodyguard, protection	noun
 korumak	to protect	verb
+korunması	protection	noun
+korumasız	unprotected	adj
+korunmasız	unprotected	adj
 koruyucu	protective	adj
 koskoca	huge	adj
 kostüm	costume, suit	noun
@@ -4835,9 +4842,10 @@ kıtlık	shortage	noun
 kıvam	consistency	noun
 kıvam	temper	noun
 kıvranmak	to agonize	verb
+kıvrık	folded, bent, twisted	adj
 kıvrım	curl, twist	noun
 kıvılcım	spark	noun
-kıvırmak	to curl	verb
+kıvırmak	to curl, to sway	verb
 kıyafet	dress	noun
 kıyamet	doomsday	noun
 kıyas	comparison, comparing	noun
@@ -5502,6 +5510,7 @@ odak	focus	noun
 odaklanmak	to focus on	verb
 odun	firewood	noun
 ofis	office	noun
+oje	lacquer	noun
 okey	okay	noun
 oklokrasi	ochlocracy	noun
 oksijen	oxygen	noun
@@ -5582,6 +5591,7 @@ orada	over there	adv
 orada	there	adv
 oradan	from there	adv
 oral	oral	adj
+oralı	from there	phrase	hiç oralı olmadım: I didn't pay attention
 oran	ratio; proportion	noun
 orantılı	proportional, balanced	adj
 ordu	army	noun
@@ -6274,7 +6284,6 @@ serpmek	to sprinkle	verb
 sersem	silly	adj
 sersemlik	​dizziness, silliness, stupor, stupidity	noun
 serseri	vagabond, drifter	adj
-sert	hard	adj
 sert	hard, tough; strong	adj
 sertifika	certificate	noun
 sertleşmek	to get harder	verb
@@ -6833,7 +6842,7 @@ tarak	comb	noun
 tarakdiş	red-breasted merganser	noun
 taramak	to comb	verb
 taramak	to scan	verb
-tarif	description; definition	noun
+tarif	description; definition	noun	tarif etmek: to describe
 tarife	schedule	noun
 tarife	tariff	noun
 tarife	timetable	noun
@@ -7041,7 +7050,7 @@ teselli	consolation, comfort	noun
 tesettürlü	hijab	noun
 tesir	effect, influence	noun
 tesis	establishment; facility	noun
-teslim	delivery; submission	noun
+teslim	delivery; submission	noun	teslim etmek: to submit
 teslim	surrender	noun	teslim olmak: to give up (surrender, relinquish)
 tespit	conclusion	noun
 tespit	detection	noun	iyi tespit: well spotted	tespit etmek: to determine
@@ -7600,7 +7609,7 @@ yaramaz	useless	adj
 yaramazlık	mischief	noun	yaramazlık yapmak: to misbehave
 yarar	benefit	noun
 yararlanmak	to benefit from, to take advantage of	verb
-yararlı	useful, helpful	adj
+yararlı	useful, helpful, beneficial	adj
 yaratmak	to create	verb
 yaratıcı	creative	noun
 yaratıcılık	creativity	noun
