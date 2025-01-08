@@ -776,6 +776,13 @@ def processNeg(w):
     aornegpm = getPersonMarker(aorneg, 'z-aor-neg')
     kenneg = getKen(aorneg, mode='negative')
     infl = infl + aornegpm + [kenneg]
+
+    ##Aorist +Conditional
+    aornegcondstem = negstem1 + 'z'
+    aornegcondout = getMx(aornegcondstem, rp_stem)
+    aornegcond = getConditional({'infl': aornegcondstem, 'src': 'Neg.Aor'}, aornegcondout)
+    aornegcondpm = getPersonMarker(aornegcond, 'k-pr')
+    infl = infl + aornegcondpm
     
     #Progressive mAktA
     maktanegstem = negstem1
