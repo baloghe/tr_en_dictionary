@@ -371,6 +371,12 @@ def processNoun(w):
     infl.append(plrloc)
     infl = infl + getLocativePersonals(wloc)
     infl = infl + getLocativePersonals(plrloc)
+
+    #Predicative on Locative
+    wlocout = getMx(wloc['infl'], rps)
+    plrlocout = getMx(plrloc['infl'], rps)
+    infl.append(getPredicative(wloc,wlocout))
+    infl.append(getPredicative(plrloc,plrlocout))
     
     infl.append(getKi(wloc))
     infl.append(getKi(plrloc))
