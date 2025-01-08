@@ -655,6 +655,14 @@ def processCont(w):
     icontpm = getPersonMarker(icont, 'cont-z-pr')
 
     infl = infl + icontpm
+
+    #Conditional
+    contstem = cont['infl']
+    contstemout = getMx(contstem, rp_stem)
+    contcond = getConditional(cont, contstemout)
+    contcondpm = getPersonMarker(contcond, 'k-pt')
+
+    infl = infl + contcondpm
     
     return infl
 
