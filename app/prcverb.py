@@ -504,13 +504,13 @@ def getPersonMarker(word, paradigm):
     elif paradigm == 'z-aor':
         pm = []
         if mx['last_syl_ai']:
-            pm = ['ım','sın','','ız','sınız','ılar']
+            pm = ['ım','sın','','ız','sınız','lar']
         elif mx['last_syl_ei']:
-            pm = ['im','sin','','iz','siniz','iler']
+            pm = ['im','sin','','iz','siniz','ler']
         elif mx['last_syl_ou']:
-            pm = ['um','sun','','uz','sunuz','ular']
+            pm = ['um','sun','','uz','sunuz','lar']
         elif mx['last_syl_öü']:
-            pm = ['üm','sün','','üz','sünüz','üler']
+            pm = ['üm','sün','','üz','sünüz','ler']
         stem = word['infl']
         for p in pm:
             ret.append({'infl': stem + p , 'src': word['src']})
