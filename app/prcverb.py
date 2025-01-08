@@ -696,7 +696,7 @@ def processFut(w):
     relfut = getFuture({'infl': fustem, 'src': None},fustemout)
     relfutout = getMx(relfut['infl'], noun.rps)
     infl = infl + getRelClauses(relfut, relfutout)
-
+    
     ###Noun Possessives
     infl = infl + getNounPossessives(relfut,relfutout)
     
@@ -1068,7 +1068,7 @@ def processCannot(w):
     bycanting = getByIng({'infl': cantingstem, 'src': cantdf['src']}, cantingstemout)
     
     infl = infl + [canting, bycanting]
-
+    
     ##Relative clauses and Noun Possessives for -(y)An
     cantingout = getMx(canting['infl'], noun.rps)
     cantingacc = noun.getAccusative(canting, cantingout)
@@ -1111,7 +1111,17 @@ def processPot(w):
     potfutptpm = getPersonMarker(potfutpt, 'k-pt')
     
     infl = infl + potfutpm + potfutptpm
+
+    ##Relative clauses and Noun Possessives
+    potfutrcstem = getStem(potdf['infl'], 'Fut')
+    potfutrcstemout = getMx(potfutrcstem, rp_stem)
+    potfutrc = getFuture({'infl': potfutrcstem, 'src': potdf['src']},potfutrcstemout)
+    potfutrcout = getMx(potfutrc['infl'], noun.rps)
     
+    infl = infl + getRelClauses(potfutrc, potfutrcout)
+    infl = infl + getNounPossessives(potfutrc, potfutrcout)
+    
+    #Potential +Indirect
     potindstem = getStem(potdf['infl'])
     potindstemout = getMx(potindstem, rp_stem)
     potind = getIndirect({'infl': potindstem, 'src': potdf['src']},potindstemout)
