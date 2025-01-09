@@ -47,7 +47,8 @@ EXCEPTIONS = {
                      ,'itikat','kabahat','karbonhidrat','karbondioksit','menfaat','mevduat','mevzuat','muhaberat','mutabakat'
                      ,'mülakat','müracaat','nasihat','olimpiyat','rahat','ruhsat','saltanat','sanat','seyahat','stat','surat'
                      ,'sıfat','tabiat','tahribat','talimat','tarikat','tatbikat','tazminat','teminat','teribat','tezat','teşkilat'
-                     ,'vaat','vefat','yat','zat','ziraat','çat','üstat','şefkat','şeriat','şubat'],
+                     ,'vaat','vefat','yat','zat','ziraat','çat','üstat','şefkat','şeriat','şubat'
+                     ,'kart'],
         'ALTERNATE_POSS': ['kek','saç','ip'],
         'ACCUSATIVE': {
              'saat':'saati'
