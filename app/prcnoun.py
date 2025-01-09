@@ -169,15 +169,23 @@ def getPossessive(word, mx):
 
     vow_lo = ['m','n','sı','mız','nız','sı']
     vow_hi = ['m','n','si','miz','niz','si']
+    vow_ou = ['m','n','su','muz','nuz','su']
+    vow_oouu = ['m','n','sü','müz','nüz','sü']
     
     con_ai = ['ım','ın','ı','ımız','ınız','ı']
     con_ei = ['im','in','i','imiz','iniz','i']
     con_ou = ['um','un','u','umuz','unuz','u']
     con_oouu = ['üm','ün','ü','ümüz','ünüz','ü']
-        
+    
     ret = []
     if mx['ends_vow']:
-        if mx['last_syl_low']:
+        if mx['last_syl_ou']:
+            for p in vow_ou:
+                ret.append(stem+p)
+        elif mx['last_syl_öü']:
+            for p in vow_oouu:
+                ret.append(stem+p)
+        elif mx['last_syl_low']:
             for p in vow_lo:
                 ret.append(stem+p)
         else:
