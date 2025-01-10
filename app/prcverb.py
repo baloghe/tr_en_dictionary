@@ -1096,11 +1096,19 @@ def processPot(w):
     potcont = getContinuous({'infl': potcontstem, 'src': potdf['src']},potcontstemout)
     potcontpt = getPast(potcont, None)
     potcont['src'] = getSrc(potcont, 'Pr')
-    
+
     potcontpm = getPersonMarker(potcont, 'cont-z-pr')
     potcontptpm = getPersonMarker(potcontpt, 'cont-k-pt')
+
+    ##Ing :: -An and -ArAk
+    potingstem = getStem(potdf['infl'], 'Ing')
+    potingstemout = getMx(potingstem, rp_stem)
+    poting = getIng({'infl': potingstem, 'src': 'Pot'}, potingstemout)
+    potingout = getMx(poting['infl'], noun.rps)   
+    potingplr = noun.getPlural(poting, potingout)
+    potbying = getByIng({'infl': potingstem, 'src': 'Pot'}, potingstemout)
     
-    infl = infl + [potdf] + potcontpm + potcontptpm
+    infl = infl + [potdf,poting,potingplr,potbying] + potcontpm + potcontptpm
     
     potfutstem = getStem(potdf['infl'], 'Fut')
     potfutstemout = getMx(potfutstem, rp_stem)
