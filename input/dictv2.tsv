@@ -1493,6 +1493,7 @@ bürokrasi	bureaucracy	noun
 bürokrat	bureaucrat	noun
 bürokratik	bureaucratic	adj
 bürümek	to cover up	verb
+bürümcük	crepe (textile)	noun
 büsbütün	altogether, completely	adv
 bütçe	budget	noun
 bütün	all	adj
@@ -1718,6 +1719,7 @@ davet	invitation	noun
 davetiye	invitation card	noun
 davetli	invited	adj
 davranmak	to treat	verb
+davranmak	to behave, to act	verb
 davranış	behavior	noun
 davranılmak	to be treated	verb
 davul	drum	noun
@@ -3777,7 +3779,9 @@ inletmek	to moan	verb
 inmek	to descend	verb
 inmek	to get off	verb
 inmek	to land	verb
+insaf	mercy	noun
 insaflı	fair	adj
+insafsız	ruthless	adj
 insan	human being	noun
 insan	human	noun
 insan	person	noun	insan onuru: human dignity	insanlar: people
@@ -4344,6 +4348,7 @@ kaynaklanmak	to originate from	verb
 kaynamak	to boil	verb
 kaynana	mother-in-law	noun
 kaynata	father-in-law	noun
+kaynatmak	to boil sg	verb
 kayık	boat	noun
 kayınpeder	father-in-law	noun
 kayınvalide	mother-in-law	noun
@@ -5119,7 +5124,8 @@ makarna	noodles	noun
 makarna	pasta	noun
 makas	scissors	noun
 makbul	appropriate	adj
-makine	machine	noun
+makbuz	receipt	noun
+makine	machine	noun	makineli tüfek: machine gun
 maksat	purpose, aim	noun
 maksimum	maximum	adj
 makul	reasonable, sensible	adj
@@ -5169,11 +5175,14 @@ maruz	exposed to	adj
 marş	march	noun
 masa	table	noun
 masal	fairy tale	noun
+maskaralık	farce	noun
 maske	mask	noun
 masraf	expense	noun
 masum	innocent	adj
+masura bobbin	noun	masura ipliği: bobbin thread
 matbaa	printing house	noun
 matematik	mathematics	noun
+matematikçi	mathematician	noun
 matematiksel	mathematical	adj
 materyal	material	noun
 matkap	drill (tool), borer	noun
@@ -5210,7 +5219,9 @@ mekan	space	noun
 mekanik	mechanical	adj
 mekanizma	mechanism	noun
 mektep	school	noun
-mektup	letter	noun
+mektup	letter	
+mektuplaşma	 correspondence	noun
+mektuplaşmak	 to correspond	verb
 melek	angel	noun
 melodi	melody	noun
 meltem	breeze	noun
@@ -5232,6 +5243,7 @@ menü	menu	noun
 merak	concern	noun
 merak	curiosity	noun
 merak	worry	noun	merak etme: don't worry
+merak	interest, concern	noun
 meraklı	curious	adj
 meraklı	nosy	adj
 meram	purpose, purport	noun
@@ -5362,6 +5374,7 @@ mit	myth, legend	noun
 miting	meeting, demonstration	noun
 miyozin	myosin	noun
 mizah	humor	noun
+mizahçı	humorist	noun
 mizofobi	mysophobia	noun
 mobil	mobile	adj
 mobilya	furniture	noun
@@ -5403,6 +5416,7 @@ muhalif	opponent	noun
 muharebe	battle, fight	noun
 muhasebe	accounting	noun
 muhatap	interlocutor	noun
+muhayyile	imagination	noun
 muhit	neighborhood	noun
 muhtar	mukhtar, neighborhood governor	noun
 muhtaç	in need of, needy	adj
@@ -5417,6 +5431,7 @@ muhteşem	superb	adj
 muhteşem	wonderful	adj
 mukavemet	strength	noun
 mum	candle	noun
+mümessil	representative	noun
 mumluk	candle holder	noun
 musevi	Jewish	noun
 musiki	music	noun
@@ -5499,6 +5514,7 @@ müşavir	advisor, councillor	noun
 müşter	customer	noun
 müşterek	common	adj
 müşteri	customer	noun
+mırıltı	murmur, mumble	noun
 mırıldamak	to murmur, to mumble	verb
 mırıldanmak	to murmur, to hum	verb
 mısra	line	noun
@@ -5527,6 +5543,7 @@ nasıl	how	adv
 nasılsa	somehow	adv
 naylon	nylon	noun
 naz	affectation	noun
+nazlanmak	to be coy/shy	verb
 nazar	point of view; the evil eye	noun
 nazaran	in comparison to	posp
 nazik	polite, gentle, kind	adj
@@ -5575,6 +5592,7 @@ neyse	whatever	adv
 nezaket	politeness, courtesy, civility	noun
 nezaketsiz	rude	adj
 nezaret	supervision; prison	noun
+nezle	cold	noun
 neşe	joy	noun
 neşelenmek	to cheer up	verb
 neşeli	merry, cheerful, joyful	adj
@@ -5604,6 +5622,8 @@ nizam	order	noun
 niçin	what for	adv
 niçin	why?, what for?	adv
 nişan	aim, mark; engagement	noun
+nişanlamak	to engage, to betroth	verb
+nişanlanmak	to be engaged	verb
 nişancı	shooter, gunner	noun
 nişanlı	engaged	adj
 nişanlı	fiancé	noun
@@ -5620,6 +5640,7 @@ noter	notary	noun
 numara	number	noun
 numaralı	numbered	adj
 numune	sample	noun
+nur	light, radiance, glory	noun
 nutuk	speech	noun
 nöbet	shift	noun
 nöbet	watch, sentry	noun
@@ -5640,6 +5661,7 @@ odacı	servant	noun
 odacık	chamber, cubicle	noun
 odak	focus	noun
 odaklanmak	to focus on	verb
+odalı	-roomed, -chambered	adj
 odun	firewood	noun
 ofis	office	noun
 oje	lacquer	noun
@@ -5650,6 +5672,8 @@ okul	school	noun
 okuma	reading	noun	okumayı bitirince: after having read
 okumak	to read	verb
 okumak	to study	verb
+okunmak	to be read	verb
+okutmak	to teach	verb
 okur	reader	noun
 okuyucu	reader	noun
 okyanus	ocean	noun
@@ -5748,6 +5772,8 @@ ortaklık	partnership	noun
 ortalama	average, mean	noun
 ortalık	surroundings	noun
 ortam	milieu, medium	noun
+ortam	environment	noun
+ortam	occasion, ambiance	noun
 ortanca	middle	noun
 ortaokul	middle school	noun
 ortasından	through	adv
@@ -5785,6 +5811,7 @@ oylamak	to vote	verb
 oymak	to carve	verb
 oynamak	to play	verb	istediği gibi at oynatmak: to act according to one's own whims
 oynatmak	to move	verb
+oynatılmak	to be played (e.g. movie)	verb
 oysa	although, whereas, however, yet	conj
 oyuk	hollow	adj
 oyun	game	noun
@@ -5807,7 +5834,8 @@ paket	package, parcel	noun
 paketlemek	to pack, to wrap up	verb
 palamar	mooring	noun
 paleoklimatoloji	palaeoclimatology	noun
-palto	coat	noun
+palto	coat, overcoat	noun
+palyaço	clown	noun
 pamuk	cotton	noun	pamuk şeker: cotton candy
 pancar	beet	noun
 panel	panel	noun
@@ -5818,6 +5846,7 @@ pansiyon	pension, guesthouse	noun
 panteizm	pantheism	noun
 pantolon	pants	noun
 papa	pope	noun
+papalık	papacy	noun
 papatya	daisy	noun
 papaz	priest	noun
 papağan	parrot	noun
@@ -5831,6 +5860,7 @@ paralel	parallel	adj
 paralellik	parallelism	noun
 paralı	paid; rich	adj
 parametre	parameter	noun
+paramparça	shattered	adj
 paranoya	paranoia	noun
 paranoyak	paranoid	adj
 paranoyak	paranoidal	adj
@@ -5864,6 +5894,8 @@ parçalı	fragmented	adj
 parıldamak	to glint	verb
 parıltı	glow, glare	noun
 pasaj	passage; arcade	noun
+pasaklı	dowdy (unfashionable and unstylish in appearance)	adj
+pasaklık	dowdiness (unfashionable and unstylish in appearance)	noun
 pasaport	passport	noun
 pasif	passive	adj
 pasifizm	pacifism	noun
@@ -5871,7 +5903,10 @@ pas	rust	noun
 paslı	rusty	adj
 pasta	cake	noun
 pasta	tart	noun
+pat	pop, thud	noun
 patates	potato	noun
+patavatsız	gauche, tactless, blunt	adj
+patavatsızlık	indiscretion	noun
 patent	patent	noun
 patinaj	ice skating	noun
 patlak	burst, punctured	adj
@@ -5883,6 +5918,7 @@ patron	boss, employer	noun
 patırtı	noise	noun
 pavyon	pavilion	noun
 pay	share, lot	noun
+paydos	break	noun	paydos etmek: to break up
 paylaşmak	to share	verb
 paylaşım	sharing	noun
 pazar	Sunday	noun
@@ -5950,6 +5986,7 @@ pişmek	to be cooked	verb
 pişmek	to cook	verb
 plaj	beach	noun
 plak	record	noun
+plaka	license plate	noun
 plan	plan	noun
 planlamak	to plan	verb
 planlı	planned	adj
@@ -6022,6 +6059,7 @@ püre	puree	noun
 pürüzsüzce	fluently (of movement)	adv
 püsküllü	fringed	adj
 püskürmek	to spew	verb
+püskürmek	to spout, to erupt	verb
 pırasa	leek	noun
 pırazvana	tang, shank	noun	back portion of the blade component of a tool where it extends into stock material or connects to a handle
 pıtırtı	patter	noun
@@ -6320,6 +6358,7 @@ savunma	defence	noun
 savunmak	to defend	verb
 savunucu	defender, champion	noun
 savurmak	to hurl	verb
+savuşturmak	to parry, to fend off	verb
 saydam	transparent	adj
 sayesinde	thanks to	posp
 sayfa	page	noun
@@ -6726,6 +6765,7 @@ sözcük	word	noun
 sözde	allegedly	adj
 sözel	verbal, oral	adj
 sözgelimi	for example, for instance	conj
+sözgelişi	for example, for instance	conj
 sözleşme	agreement	noun
 sözleşmek	to make an appointment; to agree	verb
 sözlü	oral	adj
@@ -6848,9 +6888,11 @@ sırf	merely	adv
 sırf	only	adv
 sırf	sheer	adj
 sırf	solely	adv
+sırt	hill	noun
 sırt	back, dorsal side (of a person or animal)	noun
 sırıtmak	to grin, to smirk	verb
 sıva	plaster, stucco	noun
+sıvalmak	to be plastered	verb
 sıvamak	to plaster	verb
 sıvı	liquid	noun
 sıyrılmak	to elude, to slip away	verb
@@ -7351,7 +7393,7 @@ töre	moral laws, custom	noun
 tören	ceremony	noun
 tövbe	repentance	noun
 tüccar	merchant	noun
-tüfek	rifle, gun	noun	hava tüfeği: air rifle
+tüfek	rifle, gun	noun	hava tüfeği: air rifle	makineli tüfek: machine gun
 tükenmek	to be exhausted; to be consumed	verb
 tüketen	consuming	adj
 tüketici	consumer	noun
@@ -7461,6 +7503,7 @@ uygulamak	to apply	verb
 uygun	appropriate	adj
 uygun	suitable	adj
 uygunluk	appropriateness, compatibility	noun
+uygunsuz	inappropriate, improper	adj
 uyku	sleep	noun
 uyku	sleepy	noun
 uykulu	sleepy	adj
@@ -7831,6 +7874,7 @@ yatırım	investment	noun
 yatırımcı	investor, depositor	noun
 yatışmak	to calm down	verb
 yatıştırmak	to placate	verb
+yatıştırmak	to soothe, to appease, to calm	verb
 yavaş	slow	adj
 yavaşlamak	to slow down	verb
 yavru	young animal; child	noun
@@ -8289,6 +8333,7 @@ zıt	opposite, contrary	adj
 çanta	handbag	noun
 çap	diameter	noun
 çapkın	rogue	noun
+çapkın	womanizer	noun
 çapraz	cross	adj
 çare	cure, remedy	noun	çaresine bakmak: to take care of it, to find a solution
 çare	solution	noun
@@ -8539,6 +8584,7 @@ cebir	algebra	noun
 öfkeli	angry, outraged	adj
 öfkeyle	angrily	adv
 öksürmek	to cough	verb
+öksürülmek	to cough	verb
 öksürük	cough	noun
 öküz	ox	noun
 öldürmek	to kill	verb
@@ -8631,6 +8677,8 @@ cebir	algebra	noun
 ötürü	because of	posp
 övgü	praise	noun
 övmek	to praise	verb
+övülmek	to be praised	verb
+övünmek	to brag	verb
 öykü	story	noun
 öykülemek	to narrate	verb
 öyle	like that	adv	öyle de oldu: so it did
@@ -8653,6 +8701,7 @@ cebir	algebra	noun
 özellikle	particularly	adv
 özen	care	noun
 özenmek	to imitate	verb
+özenli	attentive	adj
 özerk	autonomous	adj
 özerklik	autonomy	noun
 özet	summary	noun
@@ -8660,9 +8709,9 @@ cebir	algebra	noun
 özgü	peculiar	adj
 özgül	specific	adj
 özgün	genuine	adj
+özgünlük	originality, individuality	noun
 özgür	free	adj
 özgürleşmek	to liberate	verb
-özgürlük	freedom	noun
 özgürlük	freedom, liberty	noun
 özgüven	self-confidence	noun
 özlem	hunger (longing)	noun
