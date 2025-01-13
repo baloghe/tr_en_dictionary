@@ -461,6 +461,7 @@ aperitif	aperitive	noun
 aptal	fool	noun
 aptal	idiotic	adj
 aptal	silly, stupid	adj
+aptalca	stupid, silly, foolish	adj
 aptallık	stupidity, foolishness	noun
 ara	break	noun	bir ara: for a while	bu arada: meanwhile, by the way	ara sıra: sometimes	ara vermek: to adjourn	arada bir: every now and then, once in a while
 ara	intermediate	adj	aranızda: among you
@@ -949,6 +950,7 @@ bayağı	coarse; considerably, extremely	adj
 bayağı	pretty	adv
 baygın	unconscious	adj
 bayi	franchiser, distributor	noun
+bayıltıcı	sweltering	adj
 baykuş	owl	noun
 bayrak	flag	noun
 bayraktar	flag bearer, ensign, standard bearer	noun
@@ -963,7 +965,7 @@ bazen	sometimes	adv
 bazen	every now and then	adv
 bazı	some	adj
 bazı	some	det
-bağ	tie	noun
+bağ	bond, tie	noun
 bağdaşmak	to be compatible	verb
 bağdaştırmak	to reconcile	verb
 bağlam	context	noun
@@ -1042,7 +1044,8 @@ becerikli	skilled, resourceful, clever	adj
 beceriksiz	incompetent	adj
 beceriksizlik	incompetence, clumsiness	noun
 becermek	to accomplish, to do	verb
-becermek	to get things done	verb
+becermek	to get things done, to manage	verb
+becermek	to fuck, to screw	verb
 bedava	gratis, free	adj
 bedbahtlık	misery	noun
 bedbinlik	pessimism	noun
@@ -2205,7 +2208,9 @@ düzey	level, rank	noun
 düzgün	smooth	adj
 düzgün	straight	adj
 düzlem	plane (geometry)	noun
+düzmek	to knock off	verb
 düzlük	flatness, straightness	noun
+düzüşmek	to fuck	verb
 düğme	button	noun
 düğme	switch	noun
 düğüm	knot	noun
@@ -2552,7 +2557,7 @@ eğlenceli	enjoyable	adj
 eğlenceli	entertaining, amusing	adj
 eğlendirmek	to entertain	verb
 eğlenmek	to have fun	verb
-eğmek	to bend	verb
+eğmek	to tilt, to bend	verb
 eğmek	to bow	verb	boyun eğmek: to bow, to submit, to surrender
 eğmek	to lean, to bend	verb
 eğri	curved, crooked	adj
@@ -2580,9 +2585,8 @@ eşmek	to dig	verb
 eşsiz	unique	adj
 eşya	item	noun
 eşya	things, belongings	noun
-faaliyet	activity	noun
+faaliyet	activity, business	noun
 fabrika	factory, plant	noun
-fabrika	plant (factory)	noun
 facia	disaster	noun
 fahişe	prostitute	noun
 fahri	honorary	adj
@@ -2620,6 +2624,7 @@ favori	favourite	adj
 fay	fault line	noun
 fayda	use, benefit, advantage	noun
 faydalanmak	to benefit from, to take advantage of	verb
+faydalanmak	to use	verb
 faydalı	useful	adj
 faz	phase	noun
 fazilet	virtue	noun
@@ -2896,6 +2901,7 @@ getiri	return, profit	noun
 getirmek	to bring	verb
 getirmek	to get	verb
 getirilmek	to be brought	verb
+gevelemek	to babble, to mumble	verb
 geveze	chatty, talky, indiscreet	adj
 gevezelik	chitchat	noun
 gevezelik	babbling	noun
@@ -3645,7 +3651,7 @@ ikiz	twin	noun
 iklim	climate	noun
 ikna	convincing	noun
 ikon	icon	noun
-ikram	offering	noun	ikram etmek: to offer
+ikram	offering, treat	noun	ikram etmek: to offer
 iktidar	ruling body, power	noun
 iktisadi	economic, financial	adj
 iktisat	economics	noun
@@ -3950,6 +3956,7 @@ işletme	enterprise; management	noun
 işlev	function	noun
 işlevsel	functional	adj
 işleyiş	procedure	noun
+işleyiş	operation, mechanism	noun	size bunun işleyişini göstereyim: let me show you how it works
 işsiz	unemployed	adj
 işsizlik	unemployment	noun
 iştah	appetite	noun
@@ -4343,6 +4350,7 @@ kayınvalide	mother-in-law	noun
 kayıp	loss, missing	noun
 kayıp	lost	adj
 kayısı	apricot	noun
+kayış	strap, belt, band	noun
 kayıt	record	noun	kayıt altına almak: to record
 kayıtlı	enrolled, registered	adj
 kayıtsız	indifferent; unregistered	adj
@@ -4725,6 +4733,7 @@ kumarbaz	gambler	noun
 kumaş	cloth, fabric	noun
 kumbara	piggy bank	noun
 kumpas	plot, ambush	noun
+kumral	auburn	adj
 kumsal	beach, shore	noun
 kundak	swaddle	noun
 kundaklı	swaddled	adj
@@ -5076,6 +5085,7 @@ maalesef	unfortunately	conj
 maaş	salary	noun
 maaş	salary, payment	noun
 macera	adventure	noun
+macun	paste, putty	noun
 madalya	medal	noun
 madam	madam	noun
 madde	item	noun
@@ -5091,6 +5101,7 @@ madensuyu	mineral water	noun
 madik	trick	noun
 mafya	mafia	noun
 magazin	magazine	noun
+mahal	place, location	noun
 mahalle	neighborhood; quarter	noun
 mahalli	local	adj
 mahcup	shy	adj
@@ -5583,7 +5594,7 @@ nispi	relative	adj
 nitekim	likewise; thus, hence, indeed	conj
 nitelemek	to modify; to characterize	verb
 nitelenmek	to be modified, to be called, to term	verb
-nitelik	quality	noun
+nitelik	quality, character	noun	nitelikte olmak: to be qualified to, to be capable of
 nitelikli	high quality	adj
 niye	why	adv
 niyet	intent	noun	hiç niyetim yok: I have no intention
@@ -5763,6 +5774,7 @@ oturan	inhabitant	noun
 oturmak	to live	verb
 oturmak	to reside	verb	cuk oturdu: fits perfectly
 oturmak	to sit	verb
+oturtmak	to sit sy down, to seat sy	verb
 oturum	session	noun
 otuz	thirty	noun
 ova	plain	noun
@@ -6411,6 +6423,7 @@ sersem	silly	adj
 sersemlik	​dizziness, silliness, stupor, stupidity	noun
 serseri	vagabond, drifter	adj
 sert	hard, tough; strong	adj
+sert	rigid	adj
 sertifika	certificate	noun
 sertleşmek	to get harder	verb
 sertlik	hardness, toughness	noun
@@ -6487,6 +6500,7 @@ sihirli	magical, bewitched	adj
 sik	penis	noun
 sikke	coin	noun
 sikmek	to make love	verb
+sikmek	to fuck, to screw	verb
 silah	arm, weapon	noun
 silah	weapon	noun
 silahlı	armed	adj
@@ -6781,10 +6795,10 @@ sıfat	adjective	noun
 sıfat	title	noun
 sıhhat	health	noun
 sıhhiyeci	paramedic	noun
-sık	frequent	adv	sık sık: often
+sık	frequent, dense, thick	adv	sık sık: often
 sıklık	frequency	noun
 sıklaşmak	to become more frequent, to be more often	verb
-sıkmak	to squeeze	verb
+sıkmak	to squeeze, to clench, to hold tight	verb
 sıkça	frequently	adv
 sıkı	firm	adj
 sıkı	firmly	adv
@@ -7426,6 +7440,7 @@ usta	master; expert; artist	noun
 ustaca	on the sly	adj
 ustalaşmak	to master	verb
 ustalık	proficiency, mastery	noun
+ustura	razor	noun
 usul	method, procedure	noun
 utangaç	shy	adj
 utanmak	to be ashamed	verb
@@ -7581,6 +7596,7 @@ veli	parent of a student	noun
 vergi	fee	noun
 vergi	tax	noun
 veri	data	noun
+verici	transmitter	noun
 verim	output; productivity	noun
 verimli	productive, fruitful	adj
 verimlilik	productivity	noun
@@ -7734,6 +7750,7 @@ yapım	construction	noun
 yapımcı	producer	noun
 yapısal	structural	adj
 yapıt	work	noun
+yapışkan	adhesive, sticky	adj
 yapışkan	coherent	adj
 yapışmak	to stick to	verb
 yapışmak	to stick, to cling	verb
