@@ -102,7 +102,8 @@ EXCEPTIONS = {
              'beyin': ['beynim','beynin','beyni','beynimiz','beyniz','beyni'],
              'menfaat': ['menfaatim','menfaatin','menfaati','menfaatimiz','menfaatiniz','menfaati'],
              'saat': ['saatim','saatin','saati','saatimiz','saatiniz','saati'],
-             'sadikkatat': ['dikkatim','dikkatin','dikkati','dikkatimiz','dikkatiniz','dikkati']
+             'sadikkatat': ['dikkatim','dikkatin','dikkati','dikkatimiz','dikkatiniz','dikkati'],
+             'oğul': ['oğlum','oğlun','oğlu','oğlumuz','oğlunuz','oğlu']
         },
         'GENITIVE': {
         },
