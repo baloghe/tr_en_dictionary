@@ -2198,11 +2198,11 @@ düzeltmek	to fix	verb
 düzeltmek	to improve	verb
 düzeltmek	to tidy up	verb
 düzen	order	noun
-düzenlemek	to arrange; to organize	verb
+düzenlemek	to arrange	verb
 düzenlemek	to organize	verb
 düzenlenmek	to be arranged	verb
 düzenleyici	regulator	noun
-düzenli	regular	adj
+düzenli	organized	adj
 düzenli	regular, tidy	adj
 düzensiz	unsystematic	adj
 düzensizlik	disorder; irregularity	noun
@@ -4268,6 +4268,7 @@ kastanyet	castanet	noun
 kasten	on purpose	adv
 kastetmek	to mean, to imply	verb
 kasvet	gloom	noun
+kasık	groin	noun
 kasım	November	noun
 kasıntı	itching, swaggering	adj
 kasıntı	swaggerer, s.one with confident and arrogant manner	noun
@@ -5015,7 +5016,7 @@ lahza	instant	noun
 lahza	moment	noun
 laik	secular	adj
 laiklik	secularism	noun
-lakabı	nickname	nouon
+lakabı	nickname	noun
 lakin	but	conj
 lakin	however	conj
 lakin	however, but	conj
@@ -5179,7 +5180,7 @@ maskaralık	farce	noun
 maske	mask	noun
 masraf	expense	noun
 masum	innocent	adj
-masura bobbin	noun	masura ipliği: bobbin thread
+masura	bobbin	noun	masura ipliği: bobbin thread
 matbaa	printing house	noun
 matematik	mathematics	noun
 matematikçi	mathematician	noun
@@ -5219,7 +5220,7 @@ mekan	space	noun
 mekanik	mechanical	adj
 mekanizma	mechanism	noun
 mektep	school	noun
-mektup	letter	
+mektup	letter	noun
 mektuplaşma	 correspondence	noun
 mektuplaşmak	 to correspond	verb
 melek	angel	noun
@@ -5443,9 +5444,7 @@ mutlak	absolute	adj
 mutlaka	absolutely, definitely	adv
 mutlu	glad	adj
 mutlu	happy	adj
-mutluluk	happiness	noun
 mutluluk	happiness, joy	noun
-mutsuz	unhappy	adj
 mutsuz	unhappy, sad	adj
 mutsuzluk	misery	noun
 mutsuzluk	sadness, unhappiness	noun
@@ -5967,6 +5966,7 @@ pil	battery	noun	AAA pil: AAA battery
 pilav	rice dish, pilaf	noun
 piliç	chick	noun
 pilot	pilot	noun
+pineklemek	to slumber, to doze	verb
 pire	flea	noun
 pirinç	brass	noun
 pirinç	rice	noun
@@ -5976,8 +5976,10 @@ pirzola	chop	noun
 pis	dirty, filthy	adj
 pislik	dirt, filth	noun
 pist	landing field, track	noun
+piyango	raffle, lottery	noun
 piyano	piano	noun
 piyasa	market	noun
+piyes	piece, stage play	noun
 pizza	pizza	noun
 pişirmek	to cook	verb
 pişman	regretful, sorry	adj
@@ -6003,6 +6005,7 @@ politikacı	politician	noun
 politoloji	political science	noun
 politoloji	politology	noun
 pop	pop	noun
+popo	butt	noun
 popüler	popular	adj
 pornografi	pornography	noun
 porselen	china	noun
@@ -6012,9 +6015,13 @@ portföy	portfolio; wallet	noun
 portre	portrait	noun
 posta	mail, post	noun
 postabaşı	foreman, gang boss	noun
+postacı	postman, mailman	noun
 postahane	post office	noun
+postalamak	to post, to mail	verb
 postane	post office	noun
 postmodern	postmodern	adj
+pot	pot	noun
+pot	faux pas	noun	pot kırmak: to make a blunder
 potansiyel	potential	noun
 potasyum	potassium	noun
 poyraz	northeaster	noun
@@ -6040,6 +6047,7 @@ profil	profile	noun
 program	program; schedule	noun
 programlamak	to program	verb
 proje	project	noun
+projektör	projector	noun
 propaganda	propaganda	noun
 prosedür	procedure	noun
 protein	protein	noun
@@ -6052,9 +6060,11 @@ psikoloji	psychology	noun
 psikolojik	psychological	adj
 puan	point; score	noun
 pudra	powder	noun
+pufböreği	puff pastry	noun
 pul	stamp	noun
 pusu	ambush	noun
 pusula	compass; memorandum, note	noun
+püklüm	süklüm püklüm: sheepishly	phrase
 püre	puree	noun
 pürüzsüzce	fluently (of movement)	adv
 püsküllü	fringed	adj
@@ -6062,6 +6072,8 @@ püskürmek	to spew	verb
 püskürmek	to spout, to erupt	verb
 pırasa	leek	noun
 pırazvana	tang, shank	noun	back portion of the blade component of a tool where it extends into stock material or connects to a handle
+pırıl	bright	adj
+pırıltı	twinkle, shimmer	noun
 pıtırtı	patter	noun
 radikal	radical	adj
 radyasyon	radiation	noun
@@ -6074,6 +6086,7 @@ rahat	comfortable	adj
 rahat	convenient	adj
 rahat	easy	adj
 rahat	relaxed	adj
+rahatça	easily	adv
 rahatlamak	to feel better	verb
 rahatlık	comfort	noun
 rahatlık	convenience	noun
@@ -6094,6 +6107,7 @@ ranza	bunk	noun
 rapor	report	noun
 rasgele	randomly	adv
 rastlamak	to run into	verb
+rastlanmak	to come across	verb
 rastlantı	chance, accident, coincidence	noun
 rasyonel	rational	adj
 ray	rail	noun
@@ -6164,6 +6178,10 @@ ruhsal	psychological	adj
 ruhsat	certificate	noun
 ruhsat	license	noun
 ruhsat	permit	noun
+ruj	rouge	noun
+rum	Greek	adj
+rumuz	nickname	noun
+rumuzlu	nicknamed	adj
 rutin	routine	adj
 rönesans	Renaissance	noun
 röportaj	interview	noun
@@ -6178,6 +6196,7 @@ rüzgâr	wind	noun
 rüzgâr	breeze	noun
 rüzgârlı	windy	adj
 rüşvet	bribe, bribery	noun
+rıza	consent	noun
 saadet	bliss, happiness	noun
 saat	clock	noun
 saat	hour	noun	mesai saati: working/business hours
@@ -6206,6 +6225,7 @@ sade	plain	adj
 sade	simple	adj
 sadece	only	adv
 sadece	merely	adv
+sadelik	simplicity	noun
 sadrazam	grand vizier	noun
 sadık	loyal	adj
 saf	naive	adj	saf olmama: impurity
@@ -6260,6 +6280,7 @@ salak	fool, idiot, stupid	adj
 salak	idiot	adj
 salak	idiotic	adj
 salak	stupid	adj
+salak	fool, idiot	noun
 salata	salad	noun
 saldırgan	aggressive	adj
 saldırgan	assailant	adj
@@ -6269,6 +6290,9 @@ saldırı	attack	noun
 salgı	secretion	noun
 salgılamak	to excrete	verb
 salgın	epidemic	noun
+salıncak	swing	noun
+salıverme	release	noun
+salıvermek	to release, to free	verb
 salkım	bunch	noun
 sallamak	to shake	verb
 sallamak	to wave	verb
@@ -6278,6 +6302,8 @@ salmonelloz	salmonellosis	noun
 salon	living room, hall	noun
 salt	solely; absolute	adv
 saltanat	sultanate	noun
+salya	saliva	noun
+salyangoz	snail	noun
 salı	Tuesday	noun
 saman	hay	noun
 samimi	sincere	adj
@@ -6304,9 +6330,12 @@ sanki	so to speak	adv
 sanmak	to suppose; to imagine	verb
 sanmak	to think	verb
 sansür	censorship	noun
+şanssız	unlucky, unfortunate	adj
+şanssızlık	misfortune, bad luck	noun
 santral	telephone exchange; power plant	noun
 sanı	thought	noun
 sanık	suspect	noun
+sanılmak	to be thought	verb
 sap	handle, stem	noun	(hiç) ipe sapa gelmemek: makes no sense (at all)
 sapan	slingshot, sling	noun
 saplamak	to stick	verb
@@ -6314,6 +6343,7 @@ saplanmak	to get stuck	verb
 sapma	deviation	noun
 sapmak	to deviate	verb
 sapmak	to turn to	verb
+sapsarı		bright yellow	adj
 saptamak	to determine	verb
 sapık	pervert	adj
 sara	epilepsy	noun
@@ -6322,7 +6352,9 @@ saray	castle	noun
 saray	palace	noun
 sarf	expenditure	noun
 sarfetmek	to spend	verb
+sargı	dressing, wrap, bandage	noun
 sarhoş	drunk	adj
+sarkık	drooping, pendant	adj
 sarkmak	to hang down, to hang out	verb
 sarkoidoz	sarcoidosis	noun
 sarmak	to wrap, to roll	verb
@@ -6341,6 +6373,7 @@ satmak	to sell	verb
 satranç	chess	noun
 satıcı	salesman	noun
 satım	sale	noun
+satın	satın almak: to buy	phrase
 satır	line	noun
 satış	sale	noun
 sav	claim	noun
@@ -6353,11 +6386,15 @@ savcı	prosecutor	noun
 savcı	public prosecutor	noun
 savcılık	attorney general	noun
 savmak	to get rid of	verb
+savruk	untidy	adj
+savrukluk	untidiness	noun
 savrulmak	to be thrown away	verb
 savunma	defence	noun
 savunmak	to defend	verb
 savunucu	defender, champion	noun
 savurmak	to hurl	verb
+savurgan	wasteful	adj
+savurganlık	splurge, extravagance, squandering	noun
 savuşturmak	to parry, to fend off	verb
 saydam	transparent	adj
 sayesinde	thanks to	posp
@@ -6372,6 +6409,7 @@ saymak	to count	verb
 sayı	digit	noun
 sayı	figure	noun
 sayı	number	noun
+sayıklamak	to rave	verb
 sayılmak	to be counted	verb
 sayım	count, census	noun
 sayın	dear	phrase
@@ -6380,7 +6418,8 @@ sayısız	countless, innumerable	adj
 saz	a stringed instrument; weed	noun
 saç	hair	noun
 saçaklı	fringed	adj
-saçma	absurd	adj
+saçılmak	to scatter	verb
+saçma	absurd	adj	saçma sapan: foolishly, with nonsense
 saçma	buckshot	noun
 saçma	ridiculous	adj
 saçma	slug	noun
@@ -6397,10 +6436,13 @@ sağlam	healthy	adj
 sağlam	healthy, strong	adj
 sağlamak	to provide	verb
 sağlamlaştırmak	to fortify	verb
+sağlanmak	to be provided	verb
 sağlayıcı	provider, supplier	noun
 sağlık	health	noun	sağlık açısından: for the health
 sağlıklı	healthy	adj
 sağır	deaf	adj
+sağmak	to milk	verb
+sağılmak	to be milked	verb
 seans	session, sitting	noun
 sebebiyle	because of	prep
 sebep	cause, reason	noun	ölüm sebebı: cause of death
@@ -6456,6 +6498,7 @@ serin	cool, chilly	adj
 serinlik	coolness	noun
 sermaye	capital, fund, stock	noun
 sermek	to spread	verb
+serpanti	serpentine	noun
 serpilmek	to sprinkle	verb
 serpmek	to sprinkle	verb
 sersem	silly	adj
@@ -6464,14 +6507,16 @@ serseri	vagabond, drifter	adj
 sert	hard, tough; strong	adj
 sert	rigid	adj
 sertifika	certificate	noun
-sertleşmek	to get harder	verb
+sertleşmek	to get harder, to stiffen	verb
 sertlik	hardness, toughness	noun
 serum	serum	noun
 servet	wealth, fortune	noun
+servi	cypress	noun
 servis	service	noun
 serçe	sparrow	noun
 serüven	adventure	noun
 ses	sound, noise, voice	noun
+seslenme	call, shouting	noun
 seslenmek	to call out	verb
 seslenmek	to address	verb
 seslenmek	to call	verb
@@ -6502,6 +6547,7 @@ seviye	level	noun
 seviye	station (in society)	noun
 sevişmek	to make love	verb
 sevk	shipping	noun
+sevinmek	to be happy, to rejoice	verb
 sevmek	to love	verb
 sevmek	to love, to like	verb
 seyahat	journey, travel, voyage	noun
@@ -6513,6 +6559,7 @@ seyretmek	to watch	verb
 sezgi	intuition	noun
 sezdirmek	to make feel, to suggest	verb
 sezdirmek	to make understand	verb
+sezinlemek	to sense	verb
 sezmek	to feel	verb
 sezmek	to guess	verb
 sezmek	to sense, to perceive	verb
@@ -6521,6 +6568,7 @@ seçebilirmek	to be able to make out	verb
 seçenek	option	noun
 seçici	selector, choosy	noun
 seçilebilir	selectable	adj
+seçilmek	to be selected	verb
 seçim	choice	noun	bir seçim yapmak: to make a choice
 seçim	election; selection	noun
 seçmek	to choose	verb
@@ -6543,6 +6591,8 @@ sikmek	to fuck, to screw	verb
 silah	arm, weapon	noun
 silah	weapon	noun
 silahlı	armed	adj
+silik	meek	adj
+silkelemek	to shake	verb
 silkmek	to shake out, to shrug	verb
 silmek	to clean	verb
 silmek	to delete	verb	sil almak: to get a delete
@@ -6554,7 +6604,10 @@ simit	bagel	noun
 simitçi	bagel seller	noun
 simsiyah	black as coal, jet black	adj
 simsiyah	ebony, raven (color)	adj
+sınamak	test, try	verb
 sincap	squirrel	noun
+sindirim	digestive	adj
+sindirim	digestion	noun
 sinek	fly, mosquito	noun
 sinema	cinema	noun
 sinir	nerve	noun
@@ -6569,6 +6622,7 @@ sinsi	sly	adj
 sinsice	furtive	adj
 sinyal	signal	noun
 sipariş	order	noun
+siper	shield, shelter, barricade	noun
 sirk	circus	noun
 sirke	vinegar	noun
 sis	fog	noun
@@ -6648,6 +6702,7 @@ sorgu	interrogation	noun
 sorgulamak	to interrogate	verb
 sormak	to ask	verb
 soru	question	noun
+sorulmak	to be asked	verb
 sorum	responsibility	noun
 sorumlu	responsible	adj
 sorumluluk	responsibility, accountability	noun
@@ -6679,6 +6734,7 @@ soyut	abstract	adj
 soyutlamak	to abstract	verb
 soğan	onion	noun
 soğuk	cold	adj
+soğukluk	cold, coldness	noun
 soğumak	to cool	verb
 soğutmak	to cool down	verb
 spagetti	spaghetti	noun
@@ -6740,6 +6796,7 @@ suçlamak	to blame	verb
 suçlu	guilty	adj
 suçluluk	guilt	noun
 sökmek	to pull out, to undo, to tear down	verb
+sökük	rip	noun
 sömürge	colony	noun
 sömürmek	to exploit	verb
 sömürü	exploitation	noun
@@ -6749,13 +6806,13 @@ sönmek	to die down	verb
 sönmek	to go out (light, fire)	verb
 söylem	discourse	noun
 söylemek	to pronounce	verb
-söylemek	to say	verb
-söylemek	to say; to tell	verb
+söylemek	to say, to tell	verb
 söylemek	to sing	verb
 söylemek	to speak	verb	şöyle söyleyeyim: let me tell you
 söylemek	to talk	verb
 söylenilen	said	adj
 söyleniş	pronunciation	noun
+söylenmek	to complain, to grumble	verb
 söylenti	rumor	noun
 söyleşi	conversation, interview	noun
 söz	promise	noun	sözüm ona denirse: so to speak
@@ -6773,9 +6830,12 @@ sözlük	dictionary	noun
 söğüt	willow	noun
 söğütbülbülü	willow warbler	noun
 sübvansiyon	subsidy	noun
+süklüm	süklüm püklüm: sheepishly	phrase
 sükunet	tranquility	noun
 sümen	notepad	noun
 sümkürmek	to blow one's nose	verb
+sümük	snot, slime	noun
+sümüklüböcek	slug	noun
 sünger	sponge	noun	üzerine sünger çekmek: to bury (figurative)
 sünnet	circumcision	noun
 süper	super	adj
@@ -6846,10 +6906,13 @@ sıkı	tight	adj
 sıkı	tightly	adv
 sıkıcı	boring	adj
 sıkılgan	shy, timid, bashful	adj
+sıkılmek	to be bored	verb
 sıkılmış	bored	adj
 sıkıntı	distress, trouble	noun
 sıkıntı	trouble	noun
 sıkıntılı	distressed, worried	adj
+sıkışma	squeeze, pressure	noun	el sıkışma: handshake
+sıkışmak	to jam, to squeeze	verb	el sıkışmak: to shake hands
 sıkıştırma	push, pressing, pressure, compression	noun
 sıkıştırmak	to compress, to squeeze, to push	verb
 sıkışıklık	congestion, jam	noun	trafik sıkışıklık: traffic jam
@@ -6881,6 +6944,7 @@ sıra	sequence	noun	arasıra: occasionally	sıradan: ordinary	sıralarında: aro
 sıradan	common, ordinary	adj
 sıradan	ordinary	adj
 sıralamak	to line up; to arrange	verb
+sıralanmak	to line up, to align	verb
 sıralarında	around	adv
 sırasında	at	prep
 sırasında	during	posp
@@ -6890,7 +6954,10 @@ sırf	sheer	adj
 sırf	solely	adv
 sırt	hill	noun
 sırt	back, dorsal side (of a person or animal)	noun
+sırık	pole, stick, rod	noun
 sırıtmak	to grin, to smirk	verb
+sırıtış	grin	noun
+sıska	skinny	adj
 sıva	plaster, stucco	noun
 sıvalmak	to be plastered	verb
 sıvamak	to plaster	verb
@@ -8678,6 +8745,8 @@ cebir	algebra	noun
 övgü	praise	noun
 övmek	to praise	verb
 övülmek	to be praised	verb
+övüngen	boastful	adj
+övüngenlik	boastfulness	noun
 övünmek	to brag	verb
 öykü	story	noun
 öykülemek	to narrate	verb
@@ -8700,6 +8769,7 @@ cebir	algebra	noun
 özellikle	especially	adv
 özellikle	particularly	adv
 özen	care	noun
+özendirmek	to encourage	verb
 özenmek	to imitate	verb
 özenli	attentive	adj
 özerk	autonomous	adj
@@ -8828,19 +8898,19 @@ cebir	algebra	noun
 üşengeçlik	ease	noun
 üşümek	to feel cold	verb
 üşütme	cold	noun
-İbranice	Hebrew	noun
-İngiliz	English	adj
-İngiltere	England	noun
-İrlanda	Ireland	noun
-İskoçya	Scotland	noun
-İslam	Islam	noun
-İspanya	Spain	noun
-İspanya	Spanish	adj
-İspanyol	Spanish	adj
-İsviçre	Switzerland	noun
-İtalya	Italy	noun
-İtalyan	Italian	adj
-İyiyim	I am OK	phrase
+ibranice	Hebrew	noun
+ingiliz	English	adj
+ingiltere	England	noun
+irlanda	Ireland	noun
+iskoçya	Scotland	noun
+islam	Islam	noun
+ispanya	Spain	noun
+ispanya	Spanish	adj
+ispanyol	Spanish	adj
+isviçre	Switzerland	noun
+italya	Italy	noun
+italyan	Italian	adj
+iyiyim	I am OK	phrase
 ılık	tepid, lukewarm	adj
 ılımlı	moderate	adj
 ırgalamak	to shake, to rock	verb
@@ -8889,6 +8959,7 @@ cebir	algebra	noun
 şair	poet	noun
 şaka	joke	noun
 şakacı	playful	adj
+şaklatmak	to snap	verb
 şalter	switch	noun
 şamaroğlanı	stooge	noun
 şamdan	candlestick	noun
@@ -8904,12 +8975,13 @@ cebir	algebra	noun
 şarjör	magazine, drum (gun)	noun
 şarkı	song	noun
 şarkıcı	singer	noun
-şart	condition	noun	bir şartla: on one condition
+şart	condition, circumstance	noun	bir şartla: on one condition
 şasi	chassis	noun
 şayet	if by chance	conj
 şaşkın	confused; silly	adj
 şaşkınlık	surprise, confusion	noun
 şaşmak	to amaze	verb
+şaşı	squint, cross-eyed, cockeyed	adj
 şaşırmak	to be surprised	verb
 şaşırmış	surprised	adj
 şaşırtmak	to surprise	verb
@@ -8927,6 +8999,8 @@ cebir	algebra	noun
 şeker	candy	noun
 şeker	sugar	noun
 şeker	sweet	noun
+şekerleme	confectionery, candy, sweets	noun
+şekerleme	nap, doze	noun
 şekerli	sweet	adj	şekerli bir tat: a sweet taste
 şekil	shape	noun	basit bir şekilde: in a simple way
 şekil	figure	noun
@@ -8938,6 +9012,7 @@ cebir	algebra	noun
 şenlik	celebration	noun
 şenlik	festival	noun
 şer	evil	noun
+şerbet	sorbet	noun
 şeref	honor	noun
 şerefe	Cheers!	phrase
 şerefine	for the/in honor of	posp
@@ -8966,6 +9041,8 @@ cebir	algebra	noun
 şikayetçi	complainer	noun
 şikâyet	complaint	noun
 şili	Chile	noun
+şımarık	spoilt, wayward	adj
+şımarıklık	waywardness	noun
 şimdi	just	adv
 şimdi	now	adv	asıl şimdi: right now	şimdiden: already
 şimdiden	already	adv
@@ -8983,10 +9060,13 @@ cebir	algebra	noun
 şiş	knitting needle	noun
 şiş	skewer	noun
 şişe	bottle	noun
+şişinmek	to be inflated, to swell	verb
 şişirmek	to inflate	verb
+şişkin	swollen, bulging	adj
 şişkinlik	swelling	noun
 şişman	fat	adj
 şişman	obese	adj
+şişmanlık	obesity	noun
 şişmek	to be puffed up	verb
 şişmek	to swell	verb
 şoför	chauffeur	noun
