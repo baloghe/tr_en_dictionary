@@ -1001,12 +1001,17 @@ def processAor(w):
     infl = infl + wouldpm
 
     #Aorist + Conditional == Realis condition
-    aorstem = aor['infl']
     aorcond = getConditional(aor, wouldstemout)
     aorcondpm = getPersonMarker(aorcond, 'k-pr')
     
     infl = infl + aorcondpm
     
+    #Aorist + Indirect == allegedly used to
+    aorind = getIndirect(aor, wouldstemout)
+    aorindpm = getPersonMarker(aorind, 'z-ind')
+    
+    infl = infl + aorindpm
+
     return infl
 
 def processCannot(w):
