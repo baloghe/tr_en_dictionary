@@ -48,7 +48,7 @@ EXCEPTIONS = {
                      ,'mülakat','müracaat','nasihat','olimpiyat','rahat','ruhsat','saltanat','sanat','seyahat','stat','surat'
                      ,'sıfat','tabiat','tahribat','talimat','tarikat','tatbikat','tazminat','teminat','teribat','tezat','teşkilat'
                      ,'vaat','vefat','yat','zat','ziraat','çat','üstat','şefkat','şeriat','şubat','maç'
-                     ,'kart'],
+                     ,'kart','özet','şerbet','sırt'],
         'ALTERNATE_POSS': ['kek','saç','ip'],
         'ACCUSATIVE': {
              'saat':'saati'
@@ -59,6 +59,10 @@ EXCEPTIONS = {
             ,'ziraat':'ziraati'
             ,'şefkat':'şefkati'
             ,'dikkat':'dikkati'
+            ,'resim':'resmi'
+            ,'rol':'rolü'
+            ,'şekil':'şekli'
+            ,'sır':'sırrı'
         },
         'DATIVE': {
              'saat':'saate'
@@ -69,14 +73,22 @@ EXCEPTIONS = {
             ,'menfaat':'menfaate'
             ,'şefkat':'şefkate'
             ,'dikkat':'dikkate'
+            ,'resim':'resme'
+            ,'rol':'role'
+            ,'şekil':'şekle'
+            ,'sır':'sırra'
         },
         'LOCATIVE': {
              'hal':'halde'
             ,'dikkat':'dikkatte'
+            ,'rol':'rolde'
+            ,'saat':'saatte'
         },
         'ABLATIVE': {
              'hal':'halden'
             ,'dikkat':'dikkatten'
+            ,'rol':'rolden'
+            ,'saat':'saatten'
         },
         'POSSESSIVE': {
              'su': ['suyum','suyun','suyu','suyumuz','suyunuz','suyu'],
@@ -103,7 +115,12 @@ EXCEPTIONS = {
              'menfaat': ['menfaatim','menfaatin','menfaati','menfaatimiz','menfaatiniz','menfaati'],
              'saat': ['saatim','saatin','saati','saatimiz','saatiniz','saati'],
              'sadikkatat': ['dikkatim','dikkatin','dikkati','dikkatimiz','dikkatiniz','dikkati'],
-             'oğul': ['oğlum','oğlun','oğlu','oğlumuz','oğlunuz','oğlu']
+             'oğul': ['oğlum','oğlun','oğlu','oğlumuz','oğlunuz','oğlu'],
+             'resim': ['resmim','resmin','resmi','resmimiz','resminiz','resmi'],
+             'rol': ['rolüm','rolün','rolü','rolümüz','rolünüz','rolü'],
+             'şahıs': ['şahsım','şahsın','şahsı','şahsımız','şahsınız','şahsı'],
+             'şekil': ['şeklim','şeklin','şekli','şeklimiz','şekliniz','şekli'],
+             'sır': ['sırrım','sırrın','sırrı','sırrımız','sırrınız','sırrı']
         },
         'GENITIVE': {
         },
