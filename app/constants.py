@@ -27,7 +27,7 @@ EXCEPTIONS = {
             'saat':'saatler',
             'hal':'haller'
         },
-        'ALTERNATE': ['sap','et','at','kek','saç','saat','kat','adet','cesaret','fiyat','dikkat','ip','ameliyat','anket','cinayet','ceket'
+        'ALTERNATE': ['süt','sap','et','at','kek','saç','suç','saat','kat','adet','cesaret','fiyat','dikkat','ip','ameliyat','anket','cinayet','ceket'
                      ,'akrobat','aparat','avukat','baharat','bürokrat','cemaat','cennet','cemiyet','cehalet','ciddiyet'
                      ,'cinsiyet','davet','dehşet','demet','devlet','diyet','ebediyet','edebiyat','ehliyet','emanet','emniyet','etiket'
                      ,'eyalet','eziyet','faaliyet','fazilet','felaket','ganimet','gayret','gurbet','hareket','hakaret','hakimiyet'
@@ -48,8 +48,8 @@ EXCEPTIONS = {
                      ,'mülakat','müracaat','nasihat','olimpiyat','rahat','ruhsat','saltanat','sanat','seyahat','stat','surat'
                      ,'sıfat','tabiat','tahribat','talimat','tarikat','tatbikat','tazminat','teminat','teribat','tezat','teşkilat'
                      ,'vaat','vefat','yat','zat','ziraat','çat','üstat','şefkat','şeriat','şubat','maç'
-                     ,'kart','özet','şerbet','sırt'],
-        'ALTERNATE_POSS': ['kek','saç','ip'],
+                     ,'kart','özet','şerbet','sırt','tüvist','yanıt','yapıt','zevk'],
+        'ALTERNATE_POSS': ['kek','saç','ip','suç'],
         'ACCUSATIVE': {
              'saat':'saati'
             ,'gol':'golü'
@@ -63,6 +63,9 @@ EXCEPTIONS = {
             ,'rol':'rolü'
             ,'şekil':'şekli'
             ,'sır':'sırrı'
+            ,'sual':'suali'
+            ,'tavır':'tavrı'
+            ,'vakıf':'vakfı'
         },
         'DATIVE': {
              'saat':'saate'
@@ -77,24 +80,29 @@ EXCEPTIONS = {
             ,'rol':'role'
             ,'şekil':'şekle'
             ,'sır':'sırra'
+            ,'sual':'suale'
+            ,'tavır':'tavra'
+            ,'vakıf':'vakfa'
         },
         'LOCATIVE': {
              'hal':'halde'
             ,'dikkat':'dikkatte'
             ,'rol':'rolde'
             ,'saat':'saatte'
+            ,'sual':'sualde'
         },
         'ABLATIVE': {
              'hal':'halden'
             ,'dikkat':'dikkatten'
             ,'rol':'rolden'
             ,'saat':'saatten'
+            ,'sual':'sualden'
         },
         'POSSESSIVE': {
              'su': ['suyum','suyun','suyu','suyumuz','suyunuz','suyu'],
              'akıl': ['aklım','aklın','aklı','aklımız','aklınız','aklı'],
              'ömür': ['ömrüm','ömrün','ömrü','ömrümüz','ömrünüz','ömrü'],
-             'vakif': ['vakfım','vakfın','vakfı','vakfımız','vakfınız','vakfı'],
+             'vakıf': ['vakfım','vakfın','vakfı','vakfımız','vakfınız','vakfı'],
              'vakit': ['vaktim','vaktin','vakti','vaktimiz','vaktiniz','vakti'],
              'zihin': ['zihnim','zihnin','zihni','zihnimiz','zihniniz','zihni'],
              'isim': ['ismim','ismin','ismi','ismimiz','isminiz','ismi'],
@@ -120,7 +128,9 @@ EXCEPTIONS = {
              'rol': ['rolüm','rolün','rolü','rolümüz','rolünüz','rolü'],
              'şahıs': ['şahsım','şahsın','şahsı','şahsımız','şahsınız','şahsı'],
              'şekil': ['şeklim','şeklin','şekli','şeklimiz','şekliniz','şekli'],
-             'sır': ['sırrım','sırrın','sırrı','sırrımız','sırrınız','sırrı']
+             'sır': ['sırrım','sırrın','sırrı','sırrımız','sırrınız','sırrı'],
+             'sual': ['sualim','sualin','suali','sualimiz','sualiniz','suali'],
+             'tavır': ['tavrım','tavrın','tavrı','tavrımız','tavrınız','tavrı']
         },
         'GENITIVE': {
         },
@@ -175,6 +185,7 @@ EXCEPTIONS = {
             ,'öğret': 'öğred'
             ,'üret': 'üred'
             ,'şükret': 'şükred'
+            ,'titret': 'titred'
         },
         'CONTINUOUS': {
         },
@@ -195,6 +206,7 @@ EXCEPTIONS = {
             ,'san': 'sanır'
             ,'tat': 'tader'
             ,'var': 'varır'
+            ,'ver': 'verir'
             ,'vur': 'vurur'
             ,'affet': 'affeder'
             ,'seyret': 'seyreder'
@@ -241,6 +253,7 @@ EXCEPTIONS = {
             ,'öğret': 'öğreder'
             ,'üret': 'üreder'
             ,'şükret': 'şükreder'
+            ,'titret': 'titreder'
         }
     }
 
