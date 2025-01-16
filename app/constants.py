@@ -48,7 +48,7 @@ EXCEPTIONS = {
                      ,'mülakat','müracaat','nasihat','olimpiyat','rahat','ruhsat','saltanat','sanat','seyahat','stat','surat'
                      ,'sıfat','tabiat','tahribat','talimat','tarikat','tatbikat','tazminat','teminat','teribat','tezat','teşkilat'
                      ,'vaat','vefat','yat','zat','ziraat','çat','üstat','şefkat','şeriat','şubat','maç'
-                     ,'kart','özet','şerbet','sırt','tüvist','yanıt','yapıt','zevk','çark'],
+                     ,'kart','özet','şerbet','sırt','tüvist','yanıt','yapıt','zevk','çark','bulut'],
         'ALTERNATE_POSS': ['kek','saç','ip','suç'],
         'ACCUSATIVE': {
              'saat':'saati'
@@ -66,6 +66,7 @@ EXCEPTIONS = {
             ,'sual':'suali'
             ,'tavır':'tavrı'
             ,'vakıf':'vakfı'
+            ,'alın':'alnı'
         },
         'DATIVE': {
              'saat':'saate'
@@ -83,6 +84,7 @@ EXCEPTIONS = {
             ,'sual':'suale'
             ,'tavır':'tavra'
             ,'vakıf':'vakfa'
+            ,'alın':'alna'
         },
         'LOCATIVE': {
              'hal':'halde'
@@ -122,7 +124,7 @@ EXCEPTIONS = {
              'beyin': ['beynim','beynin','beyni','beynimiz','beyniz','beyni'],
              'menfaat': ['menfaatim','menfaatin','menfaati','menfaatimiz','menfaatiniz','menfaati'],
              'saat': ['saatim','saatin','saati','saatimiz','saatiniz','saati'],
-             'sadikkatat': ['dikkatim','dikkatin','dikkati','dikkatimiz','dikkatiniz','dikkati'],
+             'dikkat': ['dikkatim','dikkatin','dikkati','dikkatimiz','dikkatiniz','dikkati'],
              'oğul': ['oğlum','oğlun','oğlu','oğlumuz','oğlunuz','oğlu'],
              'resim': ['resmim','resmin','resmi','resmimiz','resminiz','resmi'],
              'rol': ['rolüm','rolün','rolü','rolümüz','rolünüz','rolü'],
@@ -131,7 +133,9 @@ EXCEPTIONS = {
              'sır': ['sırrım','sırrın','sırrı','sırrımız','sırrınız','sırrı'],
              'sual': ['sualim','sualin','suali','sualimiz','sualiniz','suali'],
              'tavır': ['tavrım','tavrın','tavrı','tavrımız','tavrınız','tavrı'],
-             'burun': ['burnum','burnun','burnu','burnumuz','burnunuz','burnu']
+             'burun': ['burnum','burnun','burnu','burnumuz','burnunuz','burnu'],
+             'alın': ['alnım','alnın','alnı','valnımız','alnınız','alnı'],
+             'fikir': ['fikrim','fikrin','fikri','fikrimiz','fikriniz','fikri']
         },
         'GENITIVE': {
         },
