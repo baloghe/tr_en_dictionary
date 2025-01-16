@@ -14,15 +14,32 @@ def rearrInflections(inEntries, inInflection2Head, inSharedInflections, inShared
             inSharedInflections[k] = {'heads': v , 'groupID': groupID}
             if groupID not in inSharedGroups.keys():
                 inSharedGroups[groupID] = [k]
+                # if k=="ekmek":
+                #     print(f"inSharedGroups :: {groupID} created with {k} ")
             else:
                 inSharedGroups[groupID].append(k)
+                # if k=="ekmek":
+                #     print(f"inSharedGroups :: {k} added to {groupID}")
         else:
             #single head goes back to where it was
             inInflection2Head[k] = v
+            # if k=="ekmek":
+            #     print(f"inSharedGroups :: {k} single head goes back to where it was: {v} ")
     #remove items from inInflection2Head pointing to more than one Entry
     keysToDel = list(set(keysToDel))
     for k in keysToDel:
         rem = inInflection2Head.pop(k, None)
+        # if k=="ekmek":
+        #     print(f"remove items from inInflection2Head :: {k} removed ")
+
+    # if "ekmek" in inInflection2Head:
+    #     print(f"inInflection2Head contains ekmek")
+    # if "ekmek" in inSharedInflections:
+    #     print(f"inSharedInflections contains ekmek")
+    # if "ekmek" in inSharedGroups:
+    #     print(f"inSharedGroups contains ekmek")
+    # if "ekmek" in inHead2Entry:
+    #     print(f"inHead2Entry contains ekmek, no. entries: {len(list(inHead2Entry['ekmek'].items()))}")
 
     #identify groups
     simpleCnt = 0
@@ -33,31 +50,48 @@ def rearrInflections(inEntries, inInflection2Head, inSharedInflections, inShared
     # Single (simple) groups from Head->Entry mapping
     for (h,e) in inHead2Entry.items():
         if len(list(e.items())) ==1:
-            for (ent, gg) in e.items():    
+            for (ent, gg) in e.items():
                 origtext = inEntries[ent].getOrig()
                 actgrp = {'id': h, 'head': '', 'page': [{'orig': origtext, 'inflGrps': gg, 'mbytp': inEntries[ent].getMeaningsByTypes()}]}
                 ilist = []      # list of inflections
                 exact = []      # exact spelling needed
                 alterhead = ''  # alternative head in case original head is a shared one and has to be dropped
                 for i in inEntries[ent].getInflectionGroup(gg):
+                    # if i=="ekmek":
+                    #     print(f"{i} found in inEntries['{ent}'].getInflectionGroup('{gg}') ")
                     if i not in inSharedInflections:
                         ilist.append(i)
+                        # if i=="ekmek":
+                        #     print(f"{h} found in inEntries['{ent}'].getInflectionGroup('{gg}') , {i} added to ilist")
                         if len(alterhead)==0 or len(alterhead) >= len(i):
                             alterhead = i
                         if i in inExactList:
                             exact.append(i)
+                # if h=="ekmek":
+                #     print(f"ilist({h})={ilist}")
                 if not ilist:
+                    # if h=="ekmek":
+                    #     print(f"no ilist generated for {h} ")
                     if len(inEntries[ent].getInflections()) == 0:
                         actgrp['head'] = origtext
+                        # if h=="ekmek":
+                        #     print(f"no ilist -> {origtext} set as head for a group")
                     else:
                         voidheads.append('.'.join([origtext,h]))
-                elif h in ilist:
+                #elif h in ilist:
+                elif h not in inSharedInflections:
                     actgrp['head'] = h
-                else:
+                    # if h=="ekmek":
+                    #     print(f"{h} is not -> {h} set as head for a group")
+                elif h in inSharedInflections:
                     actgrp['head'] = alterhead
+                    # if h=="ekmek":
+                    #     print(f"head {alterhead} chosen instead of {h} ::  ilist.len={len(ilist)}")
                 #in case we found a head, it should be removed from the inflection list
                 if actgrp['head'] and actgrp['head'] in ilist:
                     ilist.remove(actgrp['head'])
+                    # if actgrp['head']=="ekmek":
+                    #     print(f"{actgrp['head']} removed from ilist ")
                 
                 # more than <constants.MOBI_MAX_INFLECTIONS> inflections => create new group and limit ilist in <constants.MOBI_MAX_INFLECTIONS>
                 if(len(ilist) > MOBI_MAX_INFLECTIONS):
@@ -151,8 +185,12 @@ def rearrInflections(inEntries, inInflection2Head, inSharedInflections, inShared
 def addHeadToInflection(inInflection2Head, infl, head):
     if infl in inInflection2Head.keys():
         inInflection2Head[infl].append(head)
+        # if infl=="ekmek":
+        #     print(f"addHeadToInflection :: new {infl} appended to {head}")
     else:
         inInflection2Head[infl] = [head]
+        # if infl=="ekmek":
+        #     print(f"addHeadToInflection :: new {infl} points to {head}")
 
 def addEntryToHead(inHead2Entry, head, src, orig):
     if head in inHead2Entry:
@@ -161,10 +199,16 @@ def addEntryToHead(inHead2Entry, head, src, orig):
         if orig in inHead2Entry[head]:
             if src not in inHead2Entry[head][orig]:
                 inHead2Entry[head][orig].append(src)
+                # if orig=="ekmek":
+                #     print(f"addEntryToHead :: new {src} created under {head}")
         else:
             inHead2Entry[head][orig] = [src]
+            # if head=="ekmek":
+            #     print(f"addEntryToHead :: {src} added under {head}.{orig}")
     else:
         inHead2Entry[head] = {orig:[src]}
+        # if head=="ekmek":
+        #     print(f"addEntryToHead :: new head {head} created, orig={orig}, src={src}")
 
 def updateExact(inExacts, infl):
     infl_coded = getCodedWord(infl)
