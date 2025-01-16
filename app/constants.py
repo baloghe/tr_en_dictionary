@@ -48,7 +48,7 @@ EXCEPTIONS = {
                      ,'mülakat','müracaat','nasihat','olimpiyat','rahat','ruhsat','saltanat','sanat','seyahat','stat','surat'
                      ,'sıfat','tabiat','tahribat','talimat','tarikat','tatbikat','tazminat','teminat','teribat','tezat','teşkilat'
                      ,'vaat','vefat','yat','zat','ziraat','çat','üstat','şefkat','şeriat','şubat','maç'
-                     ,'kart','özet','şerbet','sırt','tüvist','yanıt','yapıt','zevk'],
+                     ,'kart','özet','şerbet','sırt','tüvist','yanıt','yapıt','zevk','çark'],
         'ALTERNATE_POSS': ['kek','saç','ip','suç'],
         'ACCUSATIVE': {
              'saat':'saati'
@@ -130,7 +130,8 @@ EXCEPTIONS = {
              'şekil': ['şeklim','şeklin','şekli','şeklimiz','şekliniz','şekli'],
              'sır': ['sırrım','sırrın','sırrı','sırrımız','sırrınız','sırrı'],
              'sual': ['sualim','sualin','suali','sualimiz','sualiniz','suali'],
-             'tavır': ['tavrım','tavrın','tavrı','tavrımız','tavrınız','tavrı']
+             'tavır': ['tavrım','tavrın','tavrı','tavrımız','tavrınız','tavrı'],
+             'burun': ['burnum','burnun','burnu','burnumuz','burnunuz','burnu']
         },
         'GENITIVE': {
         },
