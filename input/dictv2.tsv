@@ -429,7 +429,7 @@ arabesk	arabesque	noun
 ara	break	noun	bir ara: for a while	bu arada: meanwhile, by the way	ara sıra: sometimes	ara vermek: to adjourn	arada bir: every now and then, once in a while
 aracılığıyla	by (via: using the means of)	adv
 aracılığıyla	through	adv
-aracılık	mediation	noun
+aracılık	mediation	noun	aracılık etmek: to mediate
 araç	tool, vehicle	noun
 araç	vehicle	noun
 arada	between	adv	arada bir: every now and then, once in a while
@@ -1348,7 +1348,8 @@ bozuk	broke	adj
 bozuk	broken	adj
 bozuk	damaged	adj
 bozuk	faulty	adj
-bozukluk	defect; small change	noun
+bozukluk	defect, disorder	noun
+bozukluk	disturbance, small change, irregularity	noun
 bozulma	corruption, breakdown	noun
 bozulmak	to break down	verb
 böbrek	kidney	noun
@@ -2311,7 +2312,7 @@ doğrultu	direction	noun
 doğrultusunda	in line with	phrase
 doğruluk	truth; straightness	noun
 doğru	right	adv
-doğru	straight	adv	doğru akım: direct current
+doğru	straight	adv	doğru akım: direct current	doğru dürüst: properly
 doğrusu	actually, really	adv
 doğrusu	frankly speaking	adv
 doğrusu	indeed	adv
@@ -2483,7 +2484,7 @@ dürtü	instinct	noun
 dürtü	urge	noun
 dürüstçe	faithfully	adv
 dürüstçe	to be honest	adv
-dürüst	honest	adj
+dürüst	honest	adj	doğru dürüst: properly
 dürüstlük	honesty, integrity, fairness	noun
 düş	dream	noun
 düşen	falling	adj
@@ -3273,8 +3274,7 @@ girişim	attempt	noun
 girişimci	entrepreneur	noun
 girişimcilik	entrepreneurship	noun
 girmek	to enter	verb
-gırtlak	eating	noun
-gırtlak	throat	noun
+gırtlak	throat, larynx	noun
 gitar	guitar	noun
 gitgide	gradually, more and more	adv
 gitmek	to go	verb
@@ -3817,6 +3817,7 @@ hipotez	hypothesis	noun
 hırçın	combative, gruff, irritable	adj
 hırçınlaşmak	to become irritable	verb
 hırçınlık	bad temper, sourness	noun
+hırlamak	to growl	verb
 hırpalamak	to treat roughly, to misuse	verb
 hırs	ambition, passion	noun
 hırsız	burglar	noun
@@ -3831,7 +3832,7 @@ hissetmek	to feel	verb
 hissetmek	to perceive	verb
 histoloji	histology	noun
 hitap	addressing	noun
-hıyar	cucumber	noun
+hıyar	cucumber	noun	hıyarlık etmek: to be a jerk
 hiyerarşi	hierarchy	noun
 hiyerarşik	hierarchical	adj
 hiza	line	noun
@@ -3958,7 +3959,7 @@ ideolojik	ideological	adj
 idrak	perception, intelligence	noun
 idrar	urine	noun
 ifade	expression, testimony	noun
-iflas	bankruptcy	noun
+iflas	bankruptcy, failure	noun
 iftar	breaking of a fast (during Ramadan)	noun
 iftira	slander	noun
 iğnelemek	to pin	verb
@@ -4003,6 +4004,7 @@ iklim	climate	noun
 ikna	convincing	noun
 ikon	icon	noun
 ikram	offering, treat	noun	ikram etmek: to offer
+ikramiye	bonus, premium	noun
 iktidar	ruling body, power	noun
 iktisadi	economic, financial	adj
 iktisatçı	economist	noun
@@ -4347,7 +4349,7 @@ jest	favor, gesture	noun
 jilet	razor blade	noun
 jinekoloji	gynaecology	noun
 jüri	jury	noun
-kabadayılık	hooliganism, rowdiness	noun
+kabadayılık	hooliganism, rowdiness, bravado	noun
 kabahat	fault	noun
 kabak	courgette	noun
 kabak	zucchini, pumpkin, squash	noun
@@ -4614,7 +4616,7 @@ karne	school report	noun
 kar	profit	noun
 karpuz	melon	noun
 karpuz	watermelon	noun
-karşı	against	adv	bu suale karşı: against this question
+karşı	against	adv	bu suale karşı: against this question	karşı koymak: to resist, to withstand
 karşılamak	to meet	verb
 karşılamak	to welcome	verb
 karşılanmak	to be met	verb	hoş karşılanmak: to welcome
@@ -5159,7 +5161,7 @@ kovulmak	to be fired, to get the sack	verb
 koy	cove	noun
 koymak	to place	verb
 koymak	to pour	verb	misafire çay koymak: pour tea for the guest
-koymak	to put	verb	ortaya koymak: to put forth
+koymak	to put	verb	ortaya koymak: to put forth	karşı koymak: to resist, to withstand
 koymak	to set down	verb
 koyu	dark	adj
 koyulaşmak	to darken	verb
@@ -6457,6 +6459,7 @@ parçacık	particle	noun
 parça	component	noun
 parça	fragment	noun
 parçalamak	to smash up, to tear	verb
+parçalanmak	to fall to pieces	verb
 parçalı	fragmented	adj
 parça	morsel	noun
 parça	part	noun
@@ -7323,7 +7326,7 @@ sıkıyönetim	martial law	noun
 sikke	coin	noun
 sıklaşmak	to become more frequent, to be more often	verb
 sıklık	frequency	noun
-sıkmak	to squeeze, to clench, to hold tight	verb
+sıkmak	to squeeze, to clench, to hold tight	verb	sık dişini: grit your teeth
 sikmek	to fuck, to screw	verb
 sikmek	to make love	verb
 şık	option	noun
@@ -7975,7 +7978,7 @@ taziye	condolence	noun
 tazminat	compensation	noun
 tebessüm	smile	noun
 tebliğ	verdict, decree	noun
-tebrik	congratulation, congratulating	noun
+tebrik	congratulation, congratulating	noun	tebrik etmek: to congratulate
 tecavüz	aggression; rape	noun
 tecil	postponement	noun
 tecrübe	experience	noun
@@ -8047,7 +8050,7 @@ temellenmek	to gain ground, establish	verb
 temenni	wish	noun
 temettü	dividend	noun
 teminat	guarantee	noun
-temin	supply; assurance	noun
+temin	supply; assurance	noun	temin etmek: to provide
 temiz	clean; fresh	adj
 temiz	clean	adj	temiz hava: fresh air
 temizlemek	to clean	verb
@@ -9074,6 +9077,8 @@ yoğun	busy	adj	çok yoğun bir gün: a very busy day
 yoğun	intense, dense	adj
 yoğunlaşmak	to become dense, to thicken	verb
 yoğunluk	density, intensity	noun
+yoğurmak	to knead	verb
+yoğrulmak	to be kneaded	verb
 yoğurt	yoghurt	noun
 yok	away	adv
 yoklamak	to examine	verb
@@ -9268,6 +9273,7 @@ zeki	clever	adj
 zeki	intelligent	adj
 zeki	smart (intelligent)	adj
 zelzele	earthquake	noun
+zemberek	spring	noun
 zemin	floor	noun
 zemin	ground	noun	zemin kat: ground floor
 zenginleşmek	to become wealthy	verb
