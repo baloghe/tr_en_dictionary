@@ -524,7 +524,7 @@ artmak	to remain	verb
 arzetmek	to present	verb
 arz	offer; supply	noun
 arzu	desire	noun	ne arzu edersiniz? what would you like?
-arzulamak	to wish, to desire	verb
+arzulamak	to wish, to desire, to long for	verb
 arzu	wish, desire, longing	noun
 asabi	irritable	adj
 asabiyet	nervousness, short temper	noun
@@ -1033,7 +1033,7 @@ belirli	definite, specific, certain	adj
 belirmek	to appear	verb
 belirsiz	ambiguous	adj	belirsiz bir tarihe ertelemek: to postpone to an indefinite date
 belirsizlik	indefiniteness; uncertainty	noun
-belirsiz	uncertain	adj
+belirsiz	uncertain	adj	belli belirsiz: vaguely
 belirsizleşmek	to become uncertain	verb
 belirteç	adverb	noun
 belirtim	annotation	noun
@@ -1046,7 +1046,7 @@ belki	probably	adv
 bellek	memory	noun
 bellemek	to memorize	verb
 belli	certain, obvious	adj
-belli	clear	adj	belli etmek: to make clear, to reveal
+belli	clear	adj	belli etmek: to make clear, to reveal	belli belirsiz: vaguely
 bel	lower back	noun
 bel	waist	noun
 bembeyaz	snow-white	adj
@@ -1091,7 +1091,7 @@ besbelli	obvious	adj
 beşer	human being	noun
 beşeri	human	adj
 beş	five	noun
-beşik	cradle	noun
+beşik	cradle	noun	beşikten mezara kadar: from the cradle to the grave
 beşinci	fifth	adj
 besin	food	noun
 besin	nourishment	noun
@@ -1126,13 +1126,14 @@ biber	pepper	noun
 biblo	nick-nack	noun
 bıçak	knife	noun	kelebek bıçağı: balisong, butterfly knife
 bıçaklamak	to stab	verb
+biçare	helpless, wretched	adj
 biçerdöver	harvester, reaper	noun
 biçim	form	noun
+biçim	shape	noun
 biçimlemek	to format	verb
 biçimlendirmek	to form, to shape	verb
 biçimli	well-shaped, beautiful	adj
 biçimsel	formal	adj
-biçim	shape	noun
 biçmek	to cut into shape, to harvest	verb
 bifobi	biphobia	noun
 biftek	steak	noun
@@ -1713,7 +1714,6 @@ ceset	corpse, cadaver, dead body	noun
 çeşitlilik	variety, diversity	noun
 çeşitli	miscellaneous	adj
 çeşitli	varied, various	adj
-çeşit	sort	noun
 çeşme	fountain	noun
 cesur	brave	adj
 cesur	courageous, brave	adj
@@ -1728,7 +1728,7 @@ cevaplanmak	to be answered	verb
 cevap	reply	noun
 cevher	ore, essence	noun
 çevik	agile, nimble, swift	adj
-çeviklik	agility	noun
+çeviklik	agility, nimbleness	noun
 çeviri	translation	noun
 çevirmek	to dial	verb
 çevirmek	to rotate, to turn	verb	içini dışına çevirmek: to turn inside out
@@ -2182,6 +2182,7 @@ dert	trouble, sorrow, pain	noun	ellerin dert görmesin: kind of thank you for a 
 derya	sea, ocean	noun
 desen	pattern	noun
 deser	dessert	noun
+deşmek	to dig, to open up	verb
 destan	epic, saga	noun
 destek	help	noun
 desteklemek	to support	verb
@@ -2300,6 +2301,7 @@ dışarıya	out	adv
 dişçi	dentist	noun
 dış	external, outer, outward	adj
 dişi	female	noun
+dişilik	femininity	noun
 disiplin	discipline	noun
 dışişleri	foreign affairs	noun
 disk	disk	noun
@@ -2833,7 +2835,7 @@ esnasında	during	prep
 esnek	elastic, flexible	adj
 esneklik	elasticity, flexibility	noun
 esnemek	to yawn; to stretch	verb
-espri	humor, joke	noun
+espri	humor, joke, wisecrack	noun
 esrarengiz	mysterious, weird	adj
 esrarlı	mysterious	adj
 esrar	mystery; marijuana	noun
@@ -3730,6 +3732,7 @@ havşa	countersink	noun
 havuç	carrot	noun
 havuz	pool	noun
 havva	Eve	noun
+havyar	caviar	noun
 havza	basin	noun
 hayal	dream	noun
 hayalet	ghost	noun
@@ -4024,7 +4027,7 @@ ihraç	exportation	noun
 ihtar	warning	noun
 ihtilal	revolution	noun
 ihtimali	possibility of	adv
-ihtimal	possibility	noun
+ihtimal	possibility	noun	her ihtimale karşı: just in case
 ihtimal	probability	noun
 ihtişam	magnificience, splendor	noun
 ihtiva	contents	noun
@@ -4296,6 +4299,7 @@ işsizlik	unemployment	noun
 işsiz	unemployed	adj
 ıssız	uninhabited	adj
 iştah	appetite	noun	iştah açıcı: appetizing
+ıstakoz	lobster	noun
 istasyon	station	noun
 istasyon	train station	noun
 istatistiksel	statistical	adj
@@ -4463,6 +4467,8 @@ kafatası	skull	noun
 kafe	cafe	noun
 kafes	cage	noun
 kağıt	paper	noun
+kah	sometimes	adv
+kâh	sometimes	adv
 kahır	wrath	noun
 kahkaha	laughter	noun
 kahraman	hero, heroine	noun
@@ -4473,6 +4479,7 @@ kahve	café	noun
 kahve	coffee	noun
 kahvehane	cafe	noun
 kahverengi	brown	adj
+kâhya	butler	noun
 kaide	bottom	noun
 kaide	rule, base	noun
 kakışmak	to mess with	verb	itişip kakışmak: to jostle
@@ -4828,7 +4835,8 @@ kazanmak	to win	verb
 kazarmak	to dig	verb
 kaz	goose	noun	kaz ayaklar: crow's feet (around one's eyes)
 kazı	excavation	noun
-kazık	stake	noun
+kazık	stake, picket	noun	kazığa oturtmak: to impale
+kazık	deceit	noun
 kazımak	to scrape	verb
 kazmak	to dig	verb
 kazmak	to excavate	verb
@@ -4987,6 +4995,7 @@ kırıntı	crumb, chip, debris	noun	ekmek kırıntı: bread crumb
 kiriş	beam	noun
 kırışık	wrinkle	noun
 kırışmak	to wrinkle	verb
+kırıt	bit	noun	kırıta kırıta ilerdi: s/he progressed bit by bit
 kırıtmak	to break, to mince	verb
 kırk	forty	noun
 kırlangıç	swallow	noun
@@ -4999,6 +5008,7 @@ kırmak	to hurt	verb
 kırmızı	red	adj
 kirpi	hedgehog	noun
 kirpik	eyelash	noun
+kırpmak	to blink, to wink	verb
 kırsal	rural	adj
 kısaca	briefly	adv
 kısacası	in short	conj
@@ -5526,8 +5536,8 @@ lokal	local	adj
 lokanta	restaurant	noun
 lokatif	locative	noun
 lokma	bite	noun
-loş	dim	adj
-loş	shady	adj
+loş	dim, obscure	adj
+loş	shady, dark	adj
 lüks	luxurious	adj
 lütfen	Please!	phrase
 lütuf	grace, favor, kindness	noun
@@ -5571,6 +5581,7 @@ mâhirâne	subtle	adj
 mahiyet	content	noun
 mahkeme	law court, tribunal	noun
 mahkum	prisoner, convict	noun	mahkum etmek: to convict, to condemn
+mahluk	creature	noun
 mahrem	secret	adj
 mahrum	deprived	adj
 mahsus	special to, unique to	posp
@@ -5779,7 +5790,7 @@ mevzu	subject, topic	noun
 meydan	square	noun	meydana gelmek: to happen
 meyhane	pub	noun
 meyve	fruit	noun
-mezar	grave	noun
+mezar	grave	noun	beşikten mezara kadar: from the cradle to the grave
 mezarlık	graveyard, cemetery	noun
 meze	appetizer	noun
 mezhep	sect	noun
@@ -6339,7 +6350,8 @@ ozan	poet	noun
 öküz	ox	noun
 ölçek	scale; measure	noun
 ölçmek	to measure; to evaluate	verb
-ölçü	measurement	noun
+ölçü	measurement, dimension	noun
+ölçü	extent	noun	bir ölçüde: to some degree
 ölçüm	measure	noun
 ölçüt	criterion	noun
 öldürmek	to kill	verb
@@ -6498,6 +6510,7 @@ pancar	beet	noun
 panel	panel	noun
 panik	panic	noun
 panjur	shutter, blinds, jalousie	noun
+pancur	shutter, blinds, jalousie	noun
 pankart	banner	noun
 pano	board	noun
 pansiyon	pension, guesthouse	noun
@@ -6774,7 +6787,7 @@ rahatsızlık	disease	noun
 rahatsız	uncomfortable; uneasy	adj	rahatsız etmek: to disturb
 rahip	pastor	noun
 rahle	lectern, book stand	noun
-rahmet	God’s mercy, God’s compassion	noun
+rahmet	God’s mercy, God’s compassion	noun	ona rahmet okutmak: have mercy on him/her
 rahmetli	deceased, late	adj
 rahmetlik	deceased	adj
 rakam	digit, numeral	noun
@@ -7112,6 +7125,7 @@ sarkoidoz	sarcoidosis	noun
 sarmak	to wrap, to roll	verb
 sarmak	wind up	verb
 sarmalamak	to wrap	verb
+sarmaşık	ivy	noun
 sarsılmak	to shake	verb
 sarsılmış	shocked	adj
 sarsıntı	quake, shake	noun
@@ -7905,7 +7919,7 @@ takım	team	noun	bir takım: some
 takip	follow-up, pursuit, chase	noun
 takırdamak	to rattle	verb
 takke	cap	noun
-taklit	imitation	noun
+taklit	imitation, simulation	noun
 takma	fake	adj
 takmak	to attach, to stick	verb
 takmak	to wear	verb
@@ -7920,7 +7934,6 @@ talebe	student, pupil	noun
 talep	demand	noun
 talih	fortune, luck	noun
 talimat	directive; instruction	noun
-talimat	instruction	noun
 talim	excercise, drill	noun
 talimhane	training center	noun
 talip	suitor, candidate	noun
@@ -8877,6 +8890,7 @@ yalnız	lonely	adj
 yalnız	only	adv
 yaltakçı	sycophant	noun
 yalvarmak	to beg	verb
+yaman	egregious, terrible, dandy	adj
 yamaç	slope	noun
 yamamak	to patch	verb
 yanak	cheek	noun
@@ -9284,6 +9298,7 @@ yutmak	to swallow	verb
 yuva	nest, home, seat	noun
 yuvar	ball, sphere	noun
 yuvarlak	circular, round	adj
+yusyuvarlak	circular, round	adj
 yuvarlamak	to roll	verb
 yuvarlanmak	to roll	verb
 yüce	great, sublime	adj
