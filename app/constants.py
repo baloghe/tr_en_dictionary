@@ -49,7 +49,7 @@ EXCEPTIONS = {
                      ,'sıfat','tabiat','tahribat','talimat','tarikat','tatbikat','tazminat','teminat','teribat','tezat','teşkilat'
                      ,'vaat','vefat','yat','zat','ziraat','çat','üstat','şefkat','şeriat','şubat','maç'
                      ,'kart','özet','şerbet','sırt','tüvist','yanıt','yapıt','zevk','çark','bulut'],
-        'ALTERNATE_POSS': ['kek','saç','ip','suç'],
+        'ALTERNATE_POSS': ['kek','saç','ip','suç','hap','sap'],
         'ACCUSATIVE': {
              'saat':'saati'
             ,'gol':'golü'

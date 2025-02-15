@@ -129,7 +129,7 @@ ağlamak	to weep	verb
 ağlanmak	to cry	verb
 ağlaşmak	to cry to each other	verb
 ağlatmak	to make s.one cry	verb
-ağ	net	noun
+ağ	net	noun	örümcek ağı: cobweb
 ağ	network	noun
 agnozi	agnosia	noun
 agresif	aggressive	adj
@@ -1161,8 +1161,7 @@ bilezik	bracelet	noun
 bilgelik	wisdom	noun
 bilgiçlik	pedantry	noun
 bilgiç	pedant, pragmatist, know-all, prig	noun
-bilgi	knowledge; information	noun
-bilgi	knowledge	noun
+bilgi	knowledge, information	noun
 bilgilenmek	to be informed	verb
 bilgili	well-informed, learned	adj
 bilgin	scholar, scientist	noun
@@ -1436,9 +1435,9 @@ bulut	cloud	noun
 bulutlu	cloudy	adj
 bunalım	depression, crisis	noun
 bunalmak	to be distressed	verb
+bunalmak	to be overwhelmed, to suffocate	verb
 bunca	this much	det
-bunlar	these	pron
-bunlar	those	pron
+bunlar	these, those 	pron
 burada	here	adv
 buradan	from here	adv
 bura	this place	noun
@@ -1450,14 +1449,13 @@ burmak	to twist, to twirl	verb
 burs	scholarship, grant	noun
 burulmak	to be twisted, to be twirled	verb
 burulma	torsion, twisting	noun
-burun	nose	noun	burun kıvırmak: to turn up one's nose
+burun	nose	noun	burun kıvırmak: to turn up one's nose	burnundan solumak: to huff and puff
 buruşmak	to wrinkle, to crease, to crush	verb
 buruşturmak	to wrinkle, to crease, to crush	verb
 buruşuk	wrinkled	noun
 buruş	wrinkled	noun
 buse	kiss	noun
-bu	this	pron
-bu	those	pron
+bu	this, those	pron
 buton	button	noun
 buyruk	command, decree	noun
 buyrun	Here you are	phrase
@@ -1653,7 +1651,7 @@ cayılmak	to change one's mind, to back down	verb
 çayır	meadow	noun
 çaydanlık	tea kettle	noun
 caydırmak	to deter, to dissuade	verb
-caymak	to change one's mind, to back down	verb
+caymak	to change one's mind, to back down, to give up	verb
 çay	tea	noun	çay kaşığı: teaspoon
 cazibe	charm, attraction	noun
 cazip	attractive	adj
@@ -1676,6 +1674,7 @@ ceket	jacket	noun
 çekirdek	seed; core	noun
 çekiş	traction, pull, draw	noun
 çekişme	contention, conflict, competition	noun
+çekişmek	to quarrel, to bicker	verb	can çekişmek: to agonize
 çekiştirmek	to criticize maliciously	verb
 çekmece	drawer	noun	çekmeceli dolap: chest of drawers
 çekmek	to bear	verb
@@ -2030,6 +2029,7 @@ dargın	cross, angry with, resentful	adj
 darılmak	to be offended	verb
 darı	millet	noun
 dar	narrow	adj	dar kafalı: narrow-minded, borne
+darlık	shortness	noun	nefes darlık: shortness of breath
 dar	tight	adj
 darmadağın	cluttered, crabby	adj
 datif	dative	noun
@@ -2803,7 +2803,7 @@ er	private, private soldier	noun
 ertelemek	adjourn	verb
 ertelemek	to postpone	verb	(belirsiz bir tarihe / süresiz olarak) ertelemek: to postpone to an indefinite date
 ertesi	following	adj
-ertesi	next	adj	ertesi sabah: next morning
+ertesi	next	adj	ertesi sabah: next morning	ertesi gün: the next day
 eşarp	scarf, shawl	noun
 esasen	basically	adv
 esasen	essentially	adv
@@ -3069,6 +3069,7 @@ fişek	cartridge	noun
 fısıldamak	to whisper	verb
 fısıldaşmak	to whisper to each other	verb
 fısıltı	whisper	noun
+fiske	flick	noun
 fışkırmak	to gush out	verb
 fışkırmak	to spew	verb
 fiş	plug; tag	noun
@@ -3186,7 +3187,7 @@ geçiş	passing, crossing; transition	noun
 geçit	gateway, passage	noun
 geç	late	adj	er geç: sooner or later	sözü geçen: mentioned, aforementioned
 geçmek	to exceed	verb
-geçmek	to pass by	verb	gelip geçici: passing	temasa geçmek: to get in touch, to contact	her geçen gün: every passing day
+geçmek	to pass by	verb	gelip geçici: passing	temasa geçmek: to get in touch, to contact	her geçen gün: every passing day	saldırıya geçmek: to go on the offensive
 geçmiş	past	adj
 geçmiş	past	noun
 gelecek	future, next	noun
@@ -3651,6 +3652,7 @@ hapis	imprisonment	noun
 hap	pill, tablet	noun
 hapsetmek	to imprison, to jail	verb
 hapşırmak	to sneeze	verb
+hapsolmak	to be imprisoned	verb
 haraç	extortion, tax, racketeering	noun
 haram	wrong, unlawful	noun
 hara	stud farm	noun
@@ -4828,7 +4830,7 @@ kayıp	lost	adj
 kayısı	apricot	noun
 kayış	strap, belt, band	noun
 kayıtlı	enrolled, registered	adj
-kayıt	record	noun	kayıt altına almak: to record
+kayıt	record	noun	kayıt altına almak: to record	kayıt memuru: registrar
 kayıtsızca	indifferently	adv
 kayıtsız	indifferent; unregistered	adj
 kaymakam	county governor	noun
@@ -4877,6 +4879,7 @@ kel	bald	adj
 kelebek	butterfly	noun	kelebek bıçağı: balisong, butterfly knife
 kelepçe	handcuff	noun
 kelime	word	noun
+kelle	head	noun
 keman	violin	noun
 kemer	belt	noun	su kemeri: aqueduct
 kemerli	arched, belted	adj
@@ -5729,7 +5732,7 @@ memnuniyetsiz	dissatisfied	adj
 memnun	pleased, content	adj
 memnun	pleased	adj
 memnun	satisfied	adj
-memur	civil servant, bureaucrat	noun
+memur	civil servant, bureaucrat	noun	kayıt memuru: registrar
 mendil	handkerchief	noun
 menenjit	meningitis	noun
 menfaat	benefit	noun
@@ -5907,6 +5910,7 @@ motor	motor	noun
 motosiklet	motorcycle	noun
 muallim	teacher	noun
 muamele	treatment, procedure	noun
+muavin	assistant	noun
 muayene	examination	noun
 muazzam	enormous	adj
 muazzam	gigantic	adj
@@ -6002,12 +6006,13 @@ müsli	muesli	noun
 müslüman	Islamic	adj
 müslüman	Muslim	noun
 müstahak	deserved	adj
+müstakil	private, separated	adj		müstakil ev: family house
 müşter	customer	noun
 müşterek	common	adj
 müşteri	customer	noun
 müsterih	good cheer	phrase
 müsteşarlık	undersecretariat	noun
-müsteşar	undersecretary	noun
+müsteşar	undersecretary, permanent secretary	noun
 müsvedde	draft, rough copy	noun
 müteahhit	contractor	noun
 müteşekkir	thankful	adj
@@ -6136,7 +6141,7 @@ niye	why	adv
 nizam	order	noun
 nokta	dot	noun
 noktalamak	to end; to punctuate	verb
-nokta	point	noun	hareket noktası: starting point
+nokta	point	noun	hareket noktası: starting point	püf noktası: trick, tip
 nominatif	nominative	noun
 normal	normal	adj
 norm	norm	noun
@@ -6455,7 +6460,7 @@ ozan	poet	noun
 örtülmek	to be covered	verb	perde örtülmüştü: the curtain was drawn
 örtülü	covered	adj
 örtünmek	to cover himself	verb
-örümcek	spider	noun
+örümcek	spider	noun	örümcek ağı: cobweb
 öte	beyond	adv	öte yandan: on the other hand
 ötede	over there	adv
 öte	further	noun
@@ -6987,7 +6992,7 @@ sağolun	Thank you!	phrase
 saha	area, region	noun
 saha	field, range	noun
 şahane	magnificent, wonderful	adj
-sahanlık	landing	noun
+sahanlık	landing, stairhead	noun
 sahibi	owner	noun
 sahiden	actually	adv
 sahiden	really	adv
@@ -7448,9 +7453,8 @@ sıkı	firmly	adv
 sıkılgan	shy, timid, bashful	adj
 sıkılmek	to be bored	verb
 sıkılmış	bored	adj
-sıkıntı	distress, trouble	noun
+sıkıntı	distress, trouble	noun	can sıkıntısı: boredom; sadness
 sıkıntılı	distressed, worried	adj
-sıkıntı	trouble	noun
 sıkışıklık	congestion, jam	noun	trafik sıkışıklık: traffic jam
 sıkışmak	to jam, to squeeze	verb	el sıkışmak: to shake hands
 sıkışma	squeeze, pressure	noun	el sıkışma: handshake
@@ -7641,7 +7645,7 @@ sol	left	noun	sol tarafa: to the left
 solmak	to become pale	verb
 solmak	to fade	verb
 soluk	breath	noun	bir solukta içmek: drink in one gulp
-solumak	to breathe	verb
+solumak	to breathe	verb	burnundan solumak: to huff and puff
 solunum	breathing	noun
 somun	loaf (bread, wood)	noun
 somun	nut	noun
@@ -7721,7 +7725,7 @@ sömürü	exploitation	noun
 söndürmek	to turn off, to extinguish	verb
 söndürülmek	to be extinguishe	verb
 sönmek	to die down	verb
-sönmek	to go out (light, fire)	verb
+sönmek	to go out (light, fire), to be extinguished	verb
 şövalye	knight (Middle Ages warrior)	noun
 söylem	discourse	noun
 söylemek	to pronounce	verb
@@ -8072,6 +8076,7 @@ tasnif	classification	noun
 taşra	countryside	noun
 taş	rock	noun
 taş	stone	noun	taş devri: stone age
+tastamam	exactly	adv
 tasvir	portraying, description	noun
 tatar	Tatar	noun
 tatbik	application	noun
@@ -8544,7 +8549,7 @@ ummak	to hope	verb
 umulmadık	unexpected, unforseen	adj
 umulmak	to be hoped	verb
 umumi	general, public	adj
-umur	hope	noun	kimin umurunda: who cares!
+umur	hope	noun	kimin umurunda: who cares!	umurumda değil: I don't care
 umursamak	to care, to mind	verb
 umursamayan	indifferent	adj
 umursamaz	unconcerned	adj	umursamaz bir şekilde: indifferently
@@ -8873,6 +8878,8 @@ yaka	collar, side	noun
 yakalama	catch	noun	yakalama kararı: arrest warrant
 yakalamak	to catch	verb
 yakalanmak	to be catched	verb
+yakalık	collar	noun
+yakalıksız	collarless	noun
 yakıcı	burning	adj
 yakın	close, near	adj
 yakından	closely; intimate	adv
@@ -9381,7 +9388,7 @@ zabıta	police	noun
 zafer	victory, triumph	noun
 zahmet	inconvenience	noun	zahmet olmazsa: if you don't mind
 zahmetli	exhaustive	adj
-zahmet	trouble, bother	noun	zahmet etmek: to bother, to take trouble
+zahmet	trouble, bother	noun	zahmet etmek: to bother, to take trouble	zahmet olacak: it will be a hassle
 zalim	cruel	adj
 zamanında	on time	adv
 zamanla	in time	adv
