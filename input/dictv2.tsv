@@ -168,6 +168,7 @@ akarsu	stream, river	noun
 akaryakıt	fuel	noun
 akaryakıt	liquid fuel	noun	akaryakıt istasyonu: gas station
 akasya	acacia	noun
+akbaba	vulture	noun
 akçe	money, coin	noun
 akciğer	lung	noun
 akdeniz	Mediterranean Sea	noun
@@ -756,6 +757,7 @@ azat	liberation	noun	azat etmek: to free
 azdırma	exacerbation	noun
 azdırmak	to exacerbate, to excite, to drive wild	verb
 azgın	horny, fierce	adj
+azgınlık	rage	noun
 az	few	adj
 az	few	det
 azıcık	just a little bit / very small	det
@@ -859,7 +861,7 @@ balerin	ballerina, ballet dancer	noun
 bal	honey	noun
 balıkçı	fisherman, fisher	noun
 balıkçılık	fishery	noun
-balık	fish	noun	köpek balık: shark
+balık	fish	noun	köpek balık: shark	balıklama dalmak: to dive in headfirst, go bald-headed into
 balıklı	fishy	adj
 balıkyağı	fish oil	noun
 balina	whale	noun
@@ -1060,10 +1062,11 @@ bende	I have	phrase	bende yok: I don't have
 benek	dot, spot, speckle	noun
 benekli	dotted, mottled, speckled	adj
 ben	I am	phrase
+ben	I	pron
+ben	mole, freckle	noun
 beni	me (direct object)	pron
 benim	my	pron
 benimsemek	to adopt, to internalize	verb
-ben	I	pron
 benlik	ego; personality	noun
 benzemek	to look alike	verb
 benzemek	to look like	verb
@@ -1546,6 +1549,7 @@ cahil	illiterate, uneducated	adj
 cahillik	ignorance, inexperience	noun
 çakıl	pebble, gravel	noun
 çakı	pocket knife	noun
+çakırkeyif	tipsy	adj
 çakmak	lighter	noun
 çakmak	to hammer	verb
 çakmak	to nail	verb
@@ -1920,6 +1924,7 @@ cömert	generous (liberal, lavish)	adj
 çukur	hollow	adj
 çukur	pit, hole, cavity	noun	göz çukuru: (eye) socket
 çul	gunny (ard-wearing fabric used for sacks)	noun
+çullanmak	to swoop down	verb
 cuma	Friday	noun
 cumartesi	Saturday	noun
 cumhurbaşkanı	president	noun
@@ -1943,6 +1948,7 @@ cüret	courage, boldness	noun
 cüsse	bulk	noun
 cüzdan	purse	noun
 cüzdan	wallet	noun
+cüzi	insignificant	adj
 da	also	adv
 dağcı	climber	noun
 dağcılık	climbing, alpinism	noun
@@ -1992,7 +1998,7 @@ dalgınlıkla	absentmindedly	adv
 dalgınlık	toughtfulness, abstraction, absence	noun
 dalgın	preoccupied; absentminded, pensive	adj
 dalış	dive, plunge	noun
-dalmak	to dive, to plunge	verb
+dalmak	to dive, to plunge	verb	balıklama dalmak: to dive in headfirst, go bald-headed into
 dalmak	to lose oneself in, to get distracted	verb
 damar	vein	noun
 damak	palate	noun
@@ -2303,6 +2309,7 @@ direnç	resistance	noun
 direniş	resistance, opposition	noun
 direniş	resistance	noun
 direnmek	to resist	verb
+dirhem	drachma	noun	iki dirhem bir çekirdek: as if came out of a bandbox
 diri	alive; fresh	adj
 dirilmek	to revive, to be refreshed	verb
 dirlik	liveliness	noun
@@ -2525,6 +2532,7 @@ dünya	the world, the earth	noun
 dünya	world	noun
 dün	yesterday	adv
 düpedüz	sheer, absolutely	adv
+dürbün	binoculars, telescope	noun
 dürtü	instinct	noun
 dürtü	urge	noun
 dürüstçe	faithfully	adv
@@ -2995,7 +3003,7 @@ feda	sacrifice, sacrificing	noun
 federal	federal	adj
 federasyon	federation	noun
 felaket	disaster, catastrophe	noun
-felç	paralysis, stroke	noun
+felç	paralysis, stroke	noun	felce uğratmak: to paralyze
 felsefe	philosophy	noun
 felsefi	philosophical	adj
 feminist	feminist	noun
@@ -3961,7 +3969,7 @@ hücum	attack	noun	hücum etmek: to attack
 hükmetmek	to rule, to govern	verb
 hükumet	government	noun
 hükümdar	ruler, monarch	noun
-hükümet	government	noun
+hükümet	government	noun	hükümet reisi: head of government
 hüküm	verdict	noun
 hür	free	adj
 hürmet	respect	noun	hürmet etmek: to respect
@@ -4509,6 +4517,7 @@ kalabalık	crowd	noun
 kalakalmak	to be left stranded	verb
 kalan	left (remaining)	adj
 kalan	residual	adj
+kalay	tin	noun
 kalaylamak	to (coat with) tin	verb
 kalaylamak	to swear at sb. (sl.)	verb
 kalça	hip, buttocksv	noun
@@ -4986,6 +4995,7 @@ kimsesiz	orphan	adj
 kim	who	pron	Kim var orada? Who is there?
 kimya	chemistry	noun
 kimyasal	chemical	adj
+kın	(sword) scabbard, sheath	noun
 kına	henna	noun
 kınama	condemnation	noun
 kınamak	to condemn	verb
@@ -5679,6 +5689,7 @@ masraf	expense	noun
 masum	innocent	adj
 masura	bobbin	noun	masura ipliği: bobbin thread
 matbaa	printing house	noun
+matem	mourning	noun
 matematikçi	mathematician	noun
 matematik	mathematics	noun
 matematiksel	mathematical	adj
@@ -5943,6 +5954,7 @@ muhteşem	wonderful	adj
 mukavemet	strength	noun
 mum	candle	noun
 mumluk	candle holder	noun
+murdar	dirty	adj
 musevi	Jewish	noun
 musiki	music	noun
 muska	amulet	noun
@@ -6177,6 +6189,7 @@ odalı	-roomed, -chambered	adj
 oda	room	noun
 odun	firewood	noun
 ofis	office	noun
+oğlak	(goat) kid	noun
 oğlan	boy	noun
 oğul	son	noun
 o	he,it,she,that	pron
@@ -6898,6 +6911,8 @@ rönesans	Renaissance	noun
 röportaj	interview	noun
 rötar	delay	noun
 rötüş	retouching	noun
+rugan	patent leather	noun
+ruganlı	made of patent leather	adj
 ruhsal	psychological	adj
 ruhsat	certificate	noun
 ruhsat	license	noun
@@ -7553,6 +7568,7 @@ sırf	merely	adv
 sırf	only	adv
 sırf	sheer	adj
 sırf	solely	adv
+şırfıntı	whore	noun
 sırık	pole, stick, rod	noun
 şirin	pleasant	adj
 şirin	pretty	adj
@@ -7588,6 +7604,7 @@ site	building complex; site	noun
 sitem	reproach	noun
 sıvalmak	to be plastered	verb
 sıvamak	to plaster	verb
+sıvamak	to roll up	verb	kollarını sıvamak: to roll up one's sleeves
 sıva	plaster, stucco	noun
 sivil	civil	adj
 sivil	civilian	noun
@@ -8185,8 +8202,9 @@ telve	coffee grounds	noun	kahve telvesi: coffee grounds
 tel	wire, string	noun
 telsiz	radio	noun
 telsiz	wireless	adj
-temas	contact, touch	noun
-tema	theme	noun	temasa geçmek: to get in touch, to contact
+temas	contact, touch	noun	temasa geçmek: to get in touch, to contact
+tema	theme	noun
+temassız	contactless	adj
 tembel	lazy	adj
 temel	basic	adj
 temel	foundation	noun
@@ -8926,6 +8944,7 @@ yalnız	lonely	adj
 yalnız	only	adv
 yaltakçı	sycophant	noun
 yalvarmak	to beg	verb
+yama	patch	noun	yama yapmak: to patch up
 yaman	egregious, terrible, dandy	adj
 yamaç	slope	noun
 yamamak	to patch	verb
@@ -8987,6 +9006,7 @@ yaprak	leaf	noun	yaprak dökümü: fall of the leaves
 yaptırım	sanction	noun
 yaptırmak	to get done	verb
 yara	injury	noun
+yarabbi	Oh my God	phrase
 yaralamak	to injure	verb
 yaralanma	injury	noun
 yaralanmak	to get hurt	verb
@@ -9104,6 +9124,7 @@ yaymak	to spread	verb
 yazarlık	authorship	noun
 yazar	writer, author	noun
 yazgı	fate	noun
+yazıhane	office, bureau	noun
 yazık	pity, shame	noun	Yazık! What a pity!	ne yazık ki: unfortunately, unluckily
 yazılı	inscribed; written; registered	adj
 yazılım	software	noun
