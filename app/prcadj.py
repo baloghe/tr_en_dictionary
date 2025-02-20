@@ -30,7 +30,12 @@ def getAlternate(word, mx):
             ret = ret[:len(ret)-1] + ALTERNATING_CONSONANTS[last]
     return ret
 
-
+def getKen(word):
+    ret = word['infl']
+    
+    ret = ret + 'ken'
+        
+    return {'infl': ret, 'src': getSrc(word, 'Ing')}
 
 def getIndirect(word, mx):
     ret = word['infl']
@@ -152,6 +157,10 @@ def processAdj(w):
     windptpm = getPersonMarker(windpt,windptout,'k-pt')
     
     infl= infl + windptpm
+
+    ken = getKen({'infl': w, 'src': None})
+
+    infl= infl + [ken]
     
     #wtype = adj in all cases
     for i in infl:
