@@ -242,6 +242,8 @@ def getGenitive(word, mx):
     return {'infl': ret , 'src': getSrc(word, 'Gen')}
     
 def getWith(word, mx):
+    if word['infl'] in EXCEPTIONS['WITH']:
+        return {'infl': EXCEPTIONS['WITH'][word['infl']] , 'src': getSrc(word, 'With')}
     
     ret = word['infl']
     if mx['ends_vow']:
