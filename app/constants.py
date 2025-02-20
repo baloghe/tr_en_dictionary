@@ -48,8 +48,8 @@ EXCEPTIONS = {
                      ,'mülakat','müracaat','nasihat','olimpiyat','rahat','ruhsat','saltanat','sanat','seyahat','stat','surat'
                      ,'sıfat','tabiat','tahribat','talimat','tarikat','tatbikat','tazminat','teminat','teribat','tezat','teşkilat'
                      ,'vaat','vefat','yat','zat','ziraat','çat','üstat','şefkat','şeriat','şubat','maç'
-                     ,'kart','özet','şerbet','sırt','tüvist','yanıt','yapıt','zevk','çark','bulut'],
-        'ALTERNATE_POSS': ['kek','saç','ip','suç','hap','sap'],
+                     ,'kart','özet','şerbet','sırt','tüvist','yanıt','yapıt','zevk','çark','bulut','hap','asfalt','jip','dost'],
+        'ALTERNATE_POSS': ['kek','saç','ip','suç','hap','jip'],
         'ACCUSATIVE': {
              'saat':'saati'
             ,'gol':'golü'
@@ -135,9 +135,14 @@ EXCEPTIONS = {
              'tavır': ['tavrım','tavrın','tavrı','tavrımız','tavrınız','tavrı'],
              'burun': ['burnum','burnun','burnu','burnumuz','burnunuz','burnu'],
              'alın': ['alnım','alnın','alnı','valnımız','alnınız','alnı'],
-             'fikir': ['fikrim','fikrin','fikri','fikrimiz','fikriniz','fikri']
+             'fikir': ['fikrim','fikrin','fikri','fikrimiz','fikriniz','fikri'],
+             'devir': ['devrim','devrin','devri','devrimiz','devriniz','devri'],
+             'hat': ['hattım','hattın','hattı','hattımız','hattınız','hattın']
         },
         'GENITIVE': {
+        },
+        'WITH': {
+             'dikkat':'dikkatle'
         },
         'GENERAL_STEM': {
              'ye': 'yi'
