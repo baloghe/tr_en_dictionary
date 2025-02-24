@@ -1010,6 +1010,7 @@ bedava	gratis, free	adj
 bedbaht	miserable	adj
 bedbahtlık	misery	noun
 bedbinlik	pessimism	noun
+beddua	curse	noun
 bedel	cost	noun
 bedel	value, worth	noun
 beden	body size	noun
@@ -1449,6 +1450,7 @@ buluşma	meeting, date, appointment	noun	buluşma yeri: meeting place
 bulut	cloud	noun
 bulutlu	cloudy	adj
 bulvar	boulevard, avenue	noun
+bunak	senile	adj
 bunalım	depression, crisis	noun
 bunalmak	to be distressed	verb
 bunalmak	to be overwhelmed, to suffocate	verb
@@ -1801,6 +1803,7 @@ ciğer	liver; lungs	noun
 çiğnemek	to chew	verb
 çiğ	raw, uncooked	adj
 cihaz	gadget, device	noun
+cihet	direction	noun
 çıkar	benefit	noun
 çıkarcılık	sordidness	noun
 çıkarcı	profiteer, self-seeker	noun
@@ -4529,6 +4532,7 @@ kah	sometimes	adv
 kâh	sometimes	adv
 kahır	wrath	noun
 kahkaha	laughter	noun
+kahpe	bitch	noun
 kahraman	hero, heroine	noun
 kahramanlık	heroism	noun
 kahretsin	damn it!	phrase
@@ -5393,6 +5397,7 @@ kumar	gambling	noun
 kumaş	cloth, fabric	noun
 kumbara	piggy bank	noun
 kumpas	plot, ambush	noun
+kumpas	caliper (measurement tool)	noun
 kumral	auburn, brown-haired	adj
 kumsal	beach, shore	noun
 kum	sand	noun
@@ -5543,6 +5548,7 @@ lakin	but	conj
 lakin	however, but	conj
 lakin	however	conj
 lâkin	nevertheless	adv
+lakırdı	word	noun
 laktoz	lactose	noun
 lale	tulip	noun
 lamba	lamp	noun
@@ -6131,6 +6137,8 @@ neredeyse	almost	adv
 neredeyse	nearly	adv
 neredeyse	soon	adv
 nere	where	noun
+nerelisin	where are you from	phrase
+nerelisiniz	where are you from (plural)	phrase
 neşe	joy	noun
 neşelenmek	to cheer up	verb
 neşeli	merry, cheerful, joyful	adj
@@ -6702,6 +6710,7 @@ pentekost	Pentecost	noun
 perçem	frufru	noun
 perde	curtain	noun	esrar perdesi: smoke screen (sg. that makes a situation difficult to understand)
 performans	performance	noun
+pergel	compass (drawing tool)	noun
 peri	fairy	adj
 peri	fairy	noun
 perişan	distraught	adj
@@ -6714,6 +6723,7 @@ perspektif	perspective	noun
 pervane	propeller	noun
 pervasız	reckless	adj
 pervaz	cornice	noun
+pes	bass, low	adj
 peş	groin, behind	noun	peşine düşmek: to pursue, to chase	adamın peşine: after the man
 peşin	in advance	adv
 petrol	petrol, oil	noun
@@ -6833,7 +6843,7 @@ pufböreği	puff pastry	noun
 puglia	Apulia	noun
 pul	stamp	noun
 pusu	ambush	noun
-pusula	compass; memorandum, note	noun
+pusula	compass (navigation device); memorandum, note	noun
 putinizm	Putinism	noun
 püklüm	süklüm püklüm: sheepishly	phrase
 püre	puree	noun
@@ -6927,7 +6937,7 @@ ressam	painter	noun
 restoran	restaurant	noun
 rezene	fennel (Foeniculum vulgare)	noun
 rezerv	reserve	noun
-rezil	vile	adj
+rezil	vile, infamous, outrageous	adj
 rica	request	noun
 rinoplasti	rhinoplasty	noun
 riskli	dangerous	adj
@@ -7524,6 +7534,7 @@ sik	penis	noun
 silah	arm, weapon	noun
 silahlı	armed	adj
 silah	weapon	noun
+silgi	eraser, rubber	noun
 şili	Chile	noun
 silik	meek	adj
 silkelemek	to shake	verb
@@ -7603,7 +7614,7 @@ sırf	merely	adv
 sırf	only	adv
 sırf	sheer	adj
 sırf	solely	adv
-şırfıntı	whore	noun
+şırfıntı	whore, slut, hussy	noun
 sırık	pole, stick, rod	noun
 şirin	pleasant	adj
 şirin	pretty	adj
@@ -8405,6 +8416,7 @@ titreşim	vibration	noun
 titreşmek	to shake	verb
 titretmek	to shake	verb
 tiyatro	theater, drama as an art	noun
+tiz	shrill	noun
 tohum	seed	noun
 toka	buckle, hairgrip, bobby pin	noun
 tokat	slap	noun
@@ -8981,7 +8993,8 @@ yalnız	lonely	adj
 yalnız	only	adv
 yaltakçı	sycophant	noun
 yalvarmak	to beg	verb
-yama	patch	noun	yama yapmak: to patch up
+yama	patch, darn	noun	yama yapmak: to patch up
+yamamak	to patch (up), to darn	verb
 yaman	egregious, terrible, dandy	adj
 yamaç	slope	noun
 yamamak	to patch	verb
@@ -9537,8 +9550,9 @@ ziyan	waste	noun
 ziyaretçi	visitor	noun
 ziyaret	visit, call	noun
 zooloji	zoology	noun
-zor	difficult	adj
 zor	hard, difficult	adj
+zorba	despot, tyrant, bully	noun
+zorba	rowdy	adj
 zorla	forcefully 	adv
 zorlamak	to force	verb	Zorlanma! Don't bother!
 zorlaşmak	to get difficult	verb
