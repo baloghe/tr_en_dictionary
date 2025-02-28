@@ -48,7 +48,8 @@ EXCEPTIONS = {
                      ,'mülakat','müracaat','nasihat','olimpiyat','rahat','ruhsat','saltanat','sanat','seyahat','stat','surat'
                      ,'sıfat','tabiat','tahribat','talimat','tarikat','tatbikat','tazminat','teminat','teribat','tezat','teşkilat'
                      ,'vaat','vefat','yat','zat','ziraat','çat','üstat','şefkat','şeriat','şubat','maç'
-                     ,'kart','özet','şerbet','sırt','tüvist','yanıt','yapıt','zevk','çark','bulut','hap','asfalt','jip','dost'],
+                     ,'kart','özet','şerbet','sırt','tüvist','yanıt','yapıt','zevk','çark','bulut','hap','asfalt','jip','dost'
+                     ,'akıbet'],
         'ALTERNATE_POSS': ['kek','saç','ip','suç','hap','jip'],
         'ACCUSATIVE': {
              'saat':'saati'
@@ -67,6 +68,7 @@ EXCEPTIONS = {
             ,'tavır':'tavrı'
             ,'vakıf':'vakfı'
             ,'alın':'alnı'
+            ,'alkol':'alkolü'
         },
         'DATIVE': {
              'saat':'saate'
@@ -85,6 +87,7 @@ EXCEPTIONS = {
             ,'tavır':'tavra'
             ,'vakıf':'vakfa'
             ,'alın':'alna'
+            ,'alkol':'alkole'
         },
         'LOCATIVE': {
              'hal':'halde'
@@ -92,6 +95,7 @@ EXCEPTIONS = {
             ,'rol':'rolde'
             ,'saat':'saatte'
             ,'sual':'sualde'
+            ,'alkol':'alkolde'
         },
         'ABLATIVE': {
              'hal':'halden'
@@ -99,6 +103,7 @@ EXCEPTIONS = {
             ,'rol':'rolden'
             ,'saat':'saatten'
             ,'sual':'sualden'
+            ,'alkol':'alkolden'
         },
         'POSSESSIVE': {
              'su': ['suyum','suyun','suyu','suyumuz','suyunuz','suyu'],
