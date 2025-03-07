@@ -3253,6 +3253,7 @@ geçmiş	past	noun
 gelecek	future, next	noun
 gelecekte	hereinafter	adv
 geleneksel	traditional	adj
+geleneksellik	conventionalism	noun
 gelenek	tradition, custom	noun
 gelen	incoming	adj
 gelgelelim	but, however	conj
@@ -4191,7 +4192,7 @@ ilişki	relationship	noun	uluslararası ilişkiler: international affairs
 ilişmek	to catch on	verb
 ilkbahar	spring (season)	noun
 ilkel	primitive	adj
-ilke	principle	noun
+ilke	principle	noun	ilke meselesi: matter of principle
 ilk	first	adv
 ilk	first	det
 ilkin	at first, firstly	adv
@@ -5266,7 +5267,7 @@ konum	location	noun
 konum	place	noun
 konum	position	noun
 konum	status	noun
-konuşmacı	speaker, announcer	noun
+konuşmacı	lecturer, speaker, announcer	noun
 konuşmak	to talk, to speak	verb
 konuşma	speech	noun
 konu	subject matter, topic	noun
@@ -5405,7 +5406,7 @@ kudret	force, power	noun
 kudüs	Jerusalem	noun
 kukla	puppet	noun
 kukumav	little owl	noun
-kulak	ear	noun
+kulak	ear	noun	kulağa hoş geliyor: sounds good
 kulaklık	earphone	noun
 kulaklık	headphone	noun
 kule	tower	noun
@@ -5963,6 +5964,9 @@ miyozin	myosin	noun
 mizahçı	humorist	noun
 mizah	humor	noun
 mizansen	scene, decor, mise-en-scène	noun
+mızıka	harmonica	noun
+mızmız	grumpy, grouchy	adj
+mızmızlanmak	to whine	verb
 mizofobi	mysophobia	noun
 mobil	mobile	adj
 mobilya	furniture	noun
@@ -6122,6 +6126,7 @@ nakletmek	to transport, to convey	verb
 nal	horseshoe	noun
 namaz	prayer	noun
 nam	name; reputation	noun
+namlu	barrel (gun)	noun
 namus	honor, integrity	noun
 namuslu	honorable	adj
 namussuz	dishonest	adj
@@ -7802,6 +7807,7 @@ soyad	surname	noun
 soy	breed	noun
 soy	family, lineage	noun
 soygun	robbery	noun
+soyguncu	robber	noun
 soykırım	genocide	noun
 soylu	noble	adj
 soyluluk	nobility	noun
@@ -8140,8 +8146,8 @@ tarla	field	noun
 tartı	bathroom scales	noun
 tartışılmak	to be discussed	verb
 tartışma	argument	noun
-tartışmak	to argue	verb
-tartışmak	to quarrel	verb
+tartışmak	to argue, to quarrel, to dispute	verb
+tartışmak	to discuss	verb
 tartışma	quarrel	noun
 tartmak	to weigh, to measure	verb
 tarumar	wreck	noun
