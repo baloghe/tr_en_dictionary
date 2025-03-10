@@ -1378,6 +1378,7 @@ boyasız	uncoloured	adj
 boy	height; length, size	noun
 boylamak	to end up	verb	hapishaneye boylamak: end up in prison
 boylu	tall	adj	orta boylu: of medium height
+boynuz	horn	noun
 boyuna	continuously, on and on	adv
 boyuna	lengthwise, longitudinally	adv
 boyunbağı	tie	noun
@@ -1613,6 +1614,9 @@ cahillik	ignorance, inexperience	noun
 çalkalama	rinsing	noun
 çalkantı	swash (the rush of seawater)	noun
 çalkantılı	turbulent, tempestuous	adj
+çalma	stealing, theft	noun
+çalma	blow, strike	noun
+çalma	playing (instrument)	noun
 çalmak	to play an instrument	verb
 çalmak	to ring	verb	zil çalmak: to ring	kapıyı çalmak: to knock on the door
 çalmak	to steal	verb
@@ -1720,6 +1724,7 @@ ceket	jacket	noun
 çekişme	contention, conflict, competition	noun
 çekişmek	to quarrel, to bicker	verb	can çekişmek: to agonize
 çekiştirmek	to criticize maliciously	verb
+çekme	pull	noun
 çekmece	drawer	noun	çekmeceli dolap: chest of drawers
 çekmek	to bear	verb
 çekmek	to pass through, to go through	verb
@@ -2078,6 +2083,7 @@ darbe	blow	noun
 darbe	hit	noun
 darbuka	tambourine	noun
 dargın	cross, angry with, resentful	adj
+dargınlık	resentment	noun
 darılmak	to be offended	verb
 darı	millet	noun
 dar	narrow	adj	dar kafalı: narrow-minded, borne
@@ -4623,6 +4629,7 @@ kalmak	to stay	verb
 kalorifer	radiator, heater	noun
 kalp	heart	noun	kalbimde: in my heart	kalp sektesi: heart attack
 kalpli	-hearted	posp
+kalsın	az kalsın: almost	phrase
 kalsit	calcite	noun
 kalsiyum	calcium	noun
 kaltak	bitch	noun
@@ -5317,6 +5324,7 @@ koru	woods	noun
 koruyucu	protective	adj
 koşan	running	adj
 koskoca	huge	adj
+koşma	running	noun
 koşmak	to run	verb	dörtnala koşmak: to gallop
 kostüm	costume, suit	noun
 koşul	condition	noun
@@ -5453,7 +5461,8 @@ kurdele	ribbon	noun
 kur	exchange rate	noun
 kurgu	fiction	noun
 kurgulamak	to envisage	verb
-kurmak	to set up	verb
+kurma	establishment, foundation	noun
+kurmak	to set up, to establish	verb
 kurmay	general staff officer (military)	noun
 kurnazca	on the sly	adv
 kurnaz	cunning	adj
@@ -6453,6 +6462,7 @@ ozan	poet	noun
 öğleyin	at midday	adv
 öğrenci	student	noun
 öğrenim	education; schooling	noun
+öğrenme	learning	noun
 öğrenmek	to elicit	verb
 öğrenmek	to find out	verb
 öğrenmek	to learn	verb
@@ -8021,7 +8031,7 @@ tabu	taboo	noun
 tabut	coffin	noun
 taciz	abuse	noun	taciz etmek: to abuse
 taciz	harassment	noun
-tad	taste	noun	tadını çıkarmak: to enjoy
+tad	taste	noun	tadını çıkarmak: to enjoy	tadı tuzu kalmamak: to be tasteless
 tahammül	patience, endurance, tolerance	noun
 tahıl	grain	noun
 tahlil	analysis	noun
@@ -8476,6 +8486,7 @@ tonbalığı	tuna	noun
 ton	tone, shade	noun
 ton	ton	noun
 topal	crippled	adj
+topallamak	to limp, to walk lame	verb
 toparlamak	to gather together; to summarize	verb	kendini toparlamak: to pull oneself together
 toparlanmak	to pull oneself together, to recover	verb
 top	ball	noun
@@ -8572,7 +8583,7 @@ tuzak	trap, snare	noun
 tuzlamak	to salt	verb
 tuzluk	salt shaker	noun
 tuzlu	salty	adj
-tuz	salt	noun	tuzağa düşmüş: trapped
+tuz	salt	noun	tuzağa düşmüş: trapped	tadı tuzu kalmamak: to be tasteless
 tüccar	merchant	noun
 tüfek	rifle, gun	noun	hava tüfeği: air rifle	makineli tüfek: machine gun
 tükenmek	to be exhausted; to be consumed	verb
@@ -9281,6 +9292,7 @@ yerleştirmek	to place	verb
 yerli	local, native	adj
 yer	location	noun	bir yerde: anywhere
 yer	place	noun
+yermek	to criticize	verb
 yersiz	irrelevant	adj
 yeryüzü	earth, world	noun
 yeşermek	to leaf out, to become green	verb
@@ -9481,6 +9493,7 @@ yürek	heart; courage	noun
 yüreklemek	to encourage	verb
 yürekli	brave	adj
 yüreksiz	coward	noun
+yürüme	walk, walking	noun
 yürümek	to go	verb
 yürümek	to walk	verb
 yürürlük	validity	noun
