@@ -344,7 +344,6 @@ ambalaj	package	noun
 ambargo	embargo	noun
 ambar	storehouse	noun
 ambulans	ambulance	noun
-amca	(paternal) uncle	noun
 amca	uncle (father's brother)	noun
 ameliyat	operation	noun
 ameliyat	surgery	noun
@@ -1423,7 +1422,8 @@ bölmek	to interrupt	verb
 bölük	company	noun
 bölüm	episode	noun
 bölüm	part, portion, section	noun
-bölüşmek	to share	verb
+bölüm	division	noun
+bölüşmek	to share, to divide	verb
 börek	pastry	noun
 börekçi	astry shop
 böylece	in this way	adv
@@ -1871,6 +1871,7 @@ cila	varnish, polish, glaze	noun
 çılgın	mad, crazy, wild	adj
 çılgınca	frantic, wild	adj
 cılız	weak	adj
+çilingir	locksmith	noun
 ciltlemek	to bind (books)	verb
 ciltlenmek	to be bound (books)	verb
 cilt	skin	noun
