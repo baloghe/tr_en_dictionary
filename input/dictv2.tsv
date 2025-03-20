@@ -303,7 +303,7 @@ alkollü	drunk, alcoholic	adj
 allahaısmarladık	goodbye	phrase
 allak	confused	phrase	allak bullak: confused
 almak	to buy	verb
-almak	to get	verb
+almak	to get	verb	işe almak: to hire
 almak	to receive	verb
 almak	to take	verb
 almanca	German	noun
@@ -678,7 +678,7 @@ avar	Avar	noun
 avare	vagabond	noun
 avare	idle	adj
 avaz	shout	noun	avaz avaz ağlamak: to cry out loud
-avcı	hunter	noun
+avcı	hunter	noun	inci avcısı: pearl diver
 av	hunt	noun
 av	prey	noun
 avize	chandelier	noun
@@ -712,8 +712,8 @@ aydın	intellectual	noun
 aydınlanmak	to be enlightened, to become clear	verb
 aydınlatma	clarification	noun
 aydınlatmak	to enlighten, to light up	verb
-aydınlık	bright	adj
-aydınlık	brightness	noun
+aydınlık	bright, luminous	adj
+aydınlık	brightness, illumination	noun
 aydınlık	light	adj
 ayet	verse of the Koran	noun
 aygıt	device	noun
@@ -1373,6 +1373,7 @@ botulizm	botulism	noun
 boyalı	painted, dyed, coloured	adj
 boyamak	to dye	verb
 boyamak	to paint	verb
+boyatmak	to have dyed, to have painted	verb
 boya	paint	noun
 boyasız	uncoloured	adj
 boy	height; length, size	noun
@@ -1402,7 +1403,7 @@ bozmak	to ruin (blight)	verb
 bozmak	to ruin	verb
 bozmak	to spoil (blight)	verb
 bozuk	broke	adj
-bozuk	broken	adj
+bozuk	broken	adj	bozuk para: coin
 bozuk	damaged	adj
 bozuk	faulty	adj
 bozukluk	defect, disorder	noun
@@ -1461,8 +1462,10 @@ bulanmak	to blur	verb
 bulantı	nausea	noun
 bulaşıcı	contagious	adj
 bulaşık	dirty	adj
-bulaşık	dishes	noun
+bulaşık	dishes	noun	bulaşık makinesi: dishwasher
 bulaşık	washing-up	noun
+bulaşıkçı	dishwasher	noun
+bulaşıkçı	pearl diver	noun
 bulaşmak	to smudge; to smear; to infect	verb
 bulgu	finding	noun
 bulmak	to find	verb
@@ -2032,7 +2035,7 @@ daire	apartment	noun
 daire	circle	noun
 daire	flat	noun
 dakika	minute	noun
-dakik	punctual	adj
+dakik	punctual, precise, prompt	adj
 daktilo	typewriter	noun
 dalaşmak	to quarrel, to wrangle	verb
 dalavere	intrigue, deception, trick	noun
@@ -2308,7 +2311,7 @@ dikmek	to sew	verb
 dikmek	to stitch	verb
 dikme	plant, erection	noun
 diksiyon	diction	noun
-dik	steep	adj
+dik	steep, erect	adj
 dik	straight	adj
 diktatörlük	dictatorship	noun
 dikuçar	helicopter	noun
@@ -2702,6 +2705,7 @@ eğmek	to lean, to bend	verb
 eğmek	to tilt, to bend	verb
 ego	ego	noun
 egoist	selfish	adj
+eğri	curve	noun
 eğri	curved, crooked	adj
 egzersiz	exercise	noun
 ehli	tame, domestic	adj	işini ehli: competent	keyif ehli: man of pleasure
@@ -4258,7 +4262,7 @@ incitmek	to hurt	verb
 incitmek	to insult	verb
 indeks	index	noun
 indirgemek	to degrade	verb
-indirim	discount	noun
+indirim	discount, reduction	noun
 indirmek	to download	verb
 indirmek	to lower, to put down	verb
 inek	cow	noun
@@ -4327,10 +4331,10 @@ işaretlemek	to mark	verb
 işaret	sign, indication	noun	işaret etmek: to indicate, to point out
 işbirliği	cooperation, collaboration	noun
 iş	business	noun	iş işten geçmişti: it was too late
-işçi	employee	noun
+işçi	employee, labourer	noun
 işçilik	labor, workmanship	noun
 işçi	worker	noun
-iş	employment	noun
+iş	employment	noun	işe almak: to hire
 işgal	occupation	noun	işgal etti: occupied
 işgücü	workforce	noun
 ishal	diarrhea	noun
@@ -4724,6 +4728,7 @@ kara	land	noun
 karanfil	carnation	noun
 karanfil	cloves (pl)	noun
 karanlık	dark	adj
+karanlık	darkness	noun
 karantina	quarantine	noun
 karar	decision	noun	yakalama kararı: arrest warrant	karar vermek: to decide
 kararlaştırmak	to agree	verb
@@ -5731,6 +5736,7 @@ mamografi	mammography	noun
 mamul	product	noun
 mana	meaning, sense	noun
 manastır	monastery	noun
+manav	greengrocer	noun
 mandalina	tangerine	noun
 mandepsi	ambush, trap	noun	mandepsiye basmak: to lure to a trap, to deceive
 manevi	spiritual, emotional	adj
@@ -5820,7 +5826,7 @@ memnun	glad	adj
 memnuniyet	pleasure, contentment, satisfaction	noun
 memnuniyetsiz	dissatisfied	adj
 memnun	pleased, content	adj
-memnun	pleased	adj
+memnun	delighted	adj
 memnun	satisfied	adj
 memur	civil servant, bureaucrat	noun	kayıt memuru: registrar
 mendil	handkerchief	noun
@@ -6019,6 +6025,7 @@ muhalefet	opposition	noun
 muhalif	opponent	noun
 muharebe	battle, fight	noun
 muhasebe	accounting	noun
+muhasebeci	accountant	noun
 muhatap	interlocutor	noun
 muhayyile	imagination	noun
 muhit	neighborhood	noun
@@ -6141,6 +6148,7 @@ namuslu	honorable	adj
 namussuz	dishonest	adj
 nanoteknoloji	nanotechnology	noun
 nar	pomegranate	noun
+narin	delicate, fragile, slim	adj
 narsisizm	narcissism	noun
 nasihat	advice	noun
 nasıl	how	adv
@@ -6166,7 +6174,7 @@ nede	why	conj	nede olsa: after all
 nefes	breath	noun
 nefesleme	exhalation	noun
 nefis	delicious	adj
-nefret	hate	noun
+nefret	hate	noun	-dAn nefret etmek: to hate sg
 nefret	hatred	noun
 nefroloji	nephrology	noun
 negatif	negative	adj
@@ -6445,6 +6453,7 @@ ozan	poet	noun
 öç	revenge, vengeance	noun	öç almak: to take revenge
 öbek	group, heap	noun
 öbür	other	det
+ödeme	payment	noun	peşin ödeme: advance payement
 ödemek	to pay	verb
 ödenek	allocation	noun
 ödev	duty; assignment, homework	noun
@@ -6665,7 +6674,7 @@ paralellik	parallelism	noun
 paralel	parallel	adj
 paralı	paid; rich	adj
 parametre	parameter	noun
-para	money	noun
+para	money	noun	bozuk para: coin	nakit para: cash	para üstü: change
 paramparça	shattered	adj
 paranoyak	paranoid	adj
 paranoyak	paranoidal	adj
@@ -6773,7 +6782,7 @@ pervane	propeller	noun
 pervasız	reckless	adj
 pervaz	cornice (ornamental moulding round the wall of a room just below the ceiling)	noun
 pes	bass, low	adj
-peş	groin, behind	noun	peşine düşmek: to pursue, to chase	adamın peşine: after the man
+peş	groin, behind	noun	peşine düşmek: to pursue, to chase	adamın peşine: after the man	peşin ödeme: advance payement
 peşin	in advance	adv
 petrol	petrol, oil	noun
 peygamber	prophet	noun
@@ -8422,6 +8431,7 @@ tez	argument	noun
 tezat	contrast, contradiction	noun
 tezene	plectrum	noun
 tezgah	stall, counter; plot	noun
+tezgahtar	clerk, shop assistant, sales(wo)man	noun
 tez	quick	adj
 tez	rapid	adj
 tez	thesis	noun
@@ -8522,6 +8532,7 @@ toy	great bustard	noun
 toy	immature	adj
 toynak	hoof	noun
 toz	dust, powder	noun	tozu dumana katmak: to kick up dust
+tozlu	dusty	adj
 töre	moral laws, custom	noun
 tören	ceremony	noun
 tövbe	repentance	noun
