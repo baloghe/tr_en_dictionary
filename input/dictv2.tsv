@@ -137,10 +137,9 @@ ağ	net	noun	örümcek ağı: cobweb
 ağ	network	noun
 agnozi	agnosia	noun
 agresif	aggressive	adj
-ağrı	ache	noun
 ağrımak	to ache	verb
 ağrımak	to hurt	verb
-ağrı	pain	noun
+ağrı	ache, pain	noun	ağrı kesici: painkiller
 ağustos	August	noun
 ahali	people, inhabitants	noun
 ahbap	buddy	noun
@@ -179,6 +178,7 @@ akbaba	vulture	noun
 akçe	money, coin	noun
 akciğer	lung	noun
 akdeniz	Mediterranean Sea	noun
+akgüren	beech	noun
 akıbet	fate, result	noun
 akılcı	rational	adj
 akıllandırmak	to bring to one's senses, to bring to the right path	verb
@@ -638,7 +638,7 @@ ataşe	attaché	noun
 atasözü	proverb	noun
 ateizm	atheism	noun
 ateşböceği	firefly	noun
-ateş	fever	noun
+ateş	fever	noun	ateş düşürücü: antipyretic
 ateş	fire	noun
 ateşlemek	to ignite	verb
 ateşlemek	to set fire	verb
@@ -810,6 +810,7 @@ baca	chimney	noun
 bacaklar	legs	noun
 bacak	leg	noun	bacak bacak üzerine atmak: to cross one's legs
 bacaksız	legless	adj	
+bacanak	brother-in-law	noun
 bacı	sister	noun
 badem	almond	noun
 badye	bathtub	noun
@@ -889,6 +890,7 @@ baldır	calf (foot)	noun
 bale	ballet	noun
 balerin	ballerina, ballet dancer	noun
 bal	honey	noun
+baldız	sister-in-law	noun
 balıkçı	fisherman, fisher	noun
 balıkçılık	fishery	noun
 balık	fish	noun	köpek balık: shark	balıklama dalmak: to dive in headfirst, go bald-headed into
@@ -1137,6 +1139,7 @@ besin	nourishment	noun
 besin	nutrition	noun
 besi	stock, food	noun
 beslemek	to feed	verb
+beslenmek	to take nourishment	verb	 dengeli beslenmek: to have a balanced diet
 besleyici	feeder	noun
 beştaş	dibs (the right to share or choose something)	noun
 besteci	composer	noun
@@ -1900,6 +1903,7 @@ cinsiyet	gender	noun
 cins	sex	noun
 cins	type, kind; breed	noun
 cip	jeep	noun
+cips	chips	noun
 çıplaklık	nudity	noun
 çıplak	naked, bare	adj	çıplakla göz önüne sermek: to lay bare (some facts)
 çıra	firewood	noun
@@ -1908,7 +1912,6 @@ cip	jeep	noun
 çiriş	asphodel (plant)	noun
 çirkinlik	ugliness	noun
 çirkin	ugly, unattractive	adj
-çirkin	ugly	adj
 çırpınma	struggle, flutter, convulsion	noun
 çırpınmak	to struggle, to flutter	verb
 çırpmak	to scramble, to flap	verb
@@ -2218,7 +2221,7 @@ deneyimli	experienced	adj
 deneysel	experimental	adj
 denge	balance	noun
 dengelemek	to balance	verb
-dengeli	balanced	adj
+dengeli	balanced	adj	dengeli beslenmek: to have a balanced diet
 dengesizlik	imbalance	noun
 dengesiz	unbalanced	adj
 denilen	said	adj
@@ -2716,7 +2719,7 @@ ehliyet	license, driving licence	noun
 ek	appendix	noun
 ekim	October	noun
 ekim	sowing, planting	noun
-ekin	crop; culture	noun
+ekin	crop, corn; culture	noun
 ekip	team, crew	noun
 eklemek	to add	verb
 eklem	joint	noun
@@ -3468,6 +3471,7 @@ görkemli	splendid, magnificent	adj
 görmek	to see	verb	görmüş geçirmiş: seasoned, experienced
 görsel	visual	adj
 görülmek	to be seen, to occur	verb
+görümce	sister-in-law	noun
 görünmek	to appear	verb
 görünmek	to look	verb
 görünmek	to seem	verb
@@ -3698,6 +3702,7 @@ halletmek	to handle, to solve	verb
 hal	situation	noun	aksi halde: otherwise	kendi halinde: simple-minded, composed
 hal	state, condition	noun	-mAsI halinde: in case of	kendi halinde: on its own
 hal	status	noun	hale geldi: has become	haliyle: as it stands
+halsiz	weak, exhausted	adj
 hamallık	porterage (carrying of luggage or other loads)	noun
 hamal	porter, carrier	noun
 hamam	Turkish bath, hammam	noun
@@ -4824,6 +4829,9 @@ kasa	safe, deposit	noun
 kase	bowl	noun
 kaset	cassette	noun
 kaş	eyebrow	noun	kaşlarını çatmak: to frown
+kaşe	stamp, seal	noun
+kâse	bowl	noun
+kase	bowl	noun
 kasık	groin	noun
 kaşık	spoon	noun	çay kaşığı: teaspoon
 kaşımak	to scratch	verb
@@ -4911,6 +4919,9 @@ kaygılı	anxious	adj
 kaygı	solicitude	noun
 kaygı	worry	noun
 kayık	boat	noun
+kayın	beech	noun
+kayın	in law	adj
+kayınbirader	brother-in-law	noun
 kayınpeder	father-in-law	noun
 kayınvalide	mother-in-law	noun
 kayıp	loss, missing	noun
@@ -4964,6 +4975,7 @@ kekeleme	stuttering, stammering	noun
 kekemelik	stuttering, stammering	noun
 kekeme	stammerer	noun
 kekeme	stammering	adj
+kekik	oregano	noun
 kel	bald	adj
 kelebek	butterfly	noun	kelebek bıçağı: balisong, butterfly knife
 kelepçe	handcuff	noun
@@ -5431,7 +5443,7 @@ kullanıcı	user	noun
 kullanılmak	to be used	verb
 kullanım	use, usage	noun
 kullanışlı	convenient	adj
-kullanışlı	handy	adj
+kullanışlı	handy, practical	adj
 kullanmak	to apply	verb
 kullanmak	to drive	verb
 kullanmak	to use	verb
@@ -5506,6 +5518,7 @@ kurutulmak	to be dried	verb
 kuşak	generation	noun
 kuşatmak	to surround	verb
 kuş	bird	noun
+kuşbaşı	flaked	adj
 kuşkonmaz	asparagus (Asparagus officinalis)	noun
 kuşkulanmak	to doubt	verb
 kuşkulanmak	to suspect	verb
@@ -6492,6 +6505,7 @@ ozan	poet	noun
 öküz	ox	noun
 ölçek	scale; measure	noun
 ölçmek	to measure; to evaluate	verb
+ölçtürmek	to have measured	verb
 ölçü	measurement, dimension	noun
 ölçü	extent	noun	bir ölçüde: to some degree
 ölçülmek	to be measured	verb
@@ -6985,6 +6999,8 @@ rekabet	rivalry, competition	noun
 reklam	advertisement	noun
 rekor	record	noun
 rektör	rector	noun
+rende	grate, plane	noun
+rendelemek	to grate	verb
 rengarenk	colorful	adj
 rengârenk	colorful	adj
 renk	colour	noun
@@ -7282,6 +7298,7 @@ sarmak	to wrap, to roll	verb
 sarmak	wind up	verb
 sarmalamak	to wrap	verb
 sarmaşık	ivy	noun
+sarnıç	cistern	noun
 sarsılmak	to shake	verb
 sarsılmış	shocked	adj
 sarsıntı	quake, shake	noun
@@ -7698,7 +7715,7 @@ sis	fog	noun
 sıska	skinny	adj
 şişkinlik	swelling	noun
 şişkin	swollen, bulging	adj
-şiş	knitting needle	noun
+şiş	knitting needle, skewer	noun
 sisli	foggy	adj
 şişman	fat	adj
 şişmanlık	obesity	noun
@@ -8046,7 +8063,7 @@ taciz	harassment	noun
 tad	taste	noun	tadını çıkarmak: to enjoy	tadı tuzu kalmamak: to be tasteless
 tahammül	patience, endurance, tolerance	noun
 tahıl	grain	noun
-tahlil	analysis	noun
+tahlil	analysis, test	noun
 tahliye	discharge, release	noun
 tahmin	estimation	noun
 tahmin	guess	noun	tahmin etmek: to suppose
@@ -8172,6 +8189,7 @@ tartışmak	to argue, to quarrel, to dispute	verb
 tartışmak	to discuss	verb
 tartışma	quarrel	noun
 tartmak	to weigh, to measure	verb
+tartılmak	to weigh, to measure oneself	verb
 tarumar	wreck	noun
 tarz	style; manner	noun
 tasa	concern	noun
@@ -8255,8 +8273,7 @@ tecil	postponement	noun
 tecrübe	experience	noun
 tecrübeli	experienced	adj
 tedarik	supply	noun
-tedavi	cure, treatment	noun
-tedavi	treatment	noun	tedavi etmek: to cure
+tedavi	cure, treatment	noun	tedavi etmek: to cure
 tedbirli	careful	adj
 tedbir	measure, precaution, action	noun
 tedbirsiz	careless, imprudent	adj
@@ -8672,7 +8689,7 @@ uğurlamak	to bid farewell	verb
 uğurlu	happy, lucky, fortunate	adj
 uğursuz	evil	adj
 ulan	damn	phrase
-ulaşım	transportation	noun
+ulaşım	transportation, communication	noun	ulaşım aracı: means of transportation	toplu ulaşım: public transport
 ulaşmak	to reach	verb
 ulaştırmak	to deliver	verb
 ulu	great, grand, sublime	adj	ulu tanrı: God Almighty
@@ -9232,14 +9249,12 @@ yay	bow	noun
 yaygınlaşmak	to become widespread	verb
 yaygınlık	prevalence	noun
 yaygın	usual	adj
-yaygın	widespread; prevalent	adj
-yaygın	widespread	adj
+yaygın	widespread, prevalent	adj
 yayımlamak	to publish; to broadcast	verb
 yayıncılık	publishing	noun
 yayınevi	publishing house	noun
-yayınlamak	to publish; to broadcast	verb
-yayınlamak	to publish	verb
-yayın	publication; broadcast	noun
+yayınlamak	to publish, to broadcast	verb
+yayın	publication, broadcast	noun
 yayla	plateau	noun
 yaymak	to scatter	verb
 yaymak	to spread	verb
