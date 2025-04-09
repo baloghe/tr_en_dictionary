@@ -899,6 +899,7 @@ balık	fish	noun	köpek balık: shark	balıklama dalmak: to dive in headfirst, g
 balıklı	fishy	adj
 balıkyağı	fish oil	noun
 balina	whale	noun
+balkabağı	pumpkin	noun
 balkon	balcony	noun
 ballandıra	in detail	adv	ballandıra ballandıra anlatmak: describe eloborately, in exaggerated details
 balmumu	wax	noun
@@ -1509,6 +1510,7 @@ buruşuk	wrinkled	noun
 buruş	wrinkled	noun
 buse	kiss	noun
 bu	this, those	pron
+but	leg	noun	tavuk budu: chicken leg
 buton	button	noun
 buyruk	command, decree	noun
 buyrun	Here you are	phrase
@@ -2055,8 +2057,8 @@ dalgacı	buffoon, clown	noun
 dalgalanmak	to fluctuate, to wave, to ripple	verb
 dalgalanmak	to ruffle	verb
 dalgalandırmak	to cause to undulate, to wave	verb
-dalgalı	wavy	adj
-dalga	wave	noun	dalgalı akım: alternating current
+dalgalı	wavy, undulated; alternating	adj	dalgalı akım: alternating current
+dalga	wave	noun	dalga geçmek: to make fun, to kid
 dalgıç	diver	noun
 dalgınlıkla	absentmindedly	adv
 dalgınlık	toughtfulness, abstraction, absence	noun
@@ -2136,6 +2138,7 @@ defa	time	noun
 defalarca	repeatedly, again and again	adv
 defin	burial	noun
 defolmak	to go away, to get lost	verb
+defne	bay leaf, laurel	noun
 defterdar	treasurer	noun
 defter	notebook	noun
 değerlendirme	assessment	noun
@@ -2861,6 +2864,7 @@ erimek	to melt, to dissolve	verb
 erişim	access	noun
 erişkin	adult	noun
 erişmek	to reach; to attain	verb
+erişte	noodle	noun
 eriyik	solution, dilution	noun
 erkân	officer, superior, leader	noun
 erkeklik	masculinity	noun
@@ -3858,6 +3862,7 @@ hayret	amazement, surprise	noun
 hayret	surprise	noun	hayret etmek: to marvel
 hayrola	what's up?	phrase
 hayvan	animal	noun
+hayvanat	fauna	noun	hayvanat bahçesi: zoo
 hayvancılık	stock farming	noun
 hazine	treasure	noun
 haziran	June	noun
@@ -5431,6 +5436,7 @@ kriter	criterion	noun
 kritik	critical	adj
 kritik	critique	noun
 kriz	crisis	noun
+kroki	sketch	noun
 kromozom	chromosome	noun
 kronik	chronic	adj
 kuaför	hairdresser	noun
@@ -5524,6 +5530,7 @@ kurusıkı	bluff	noun
 kurutmak	to dry up	verb
 kurutmak	to dry	verb
 kurutulmak	to be dried	verb
+kurutulmuş	dried	adj
 kuşak	generation	noun
 kuşatmak	to surround	verb
 kuş	bird	noun
@@ -6172,6 +6179,7 @@ namlu	barrel (gun)	noun
 namus	honor, integrity	noun
 namuslu	honorable	adj
 namussuz	dishonest	adj
+nane	mint, peppermint	noun
 nanoteknoloji	nanotechnology	noun
 nar	pomegranate	noun
 narin	delicate, fragile, slim	adj
@@ -6270,6 +6278,7 @@ niyet	intent	noun	hiç niyetim yok: I have no intention
 niyet	purpose	noun
 niye	why	adv
 nizam	order	noun
+nohut	chickpea	noun
 nokta	dot	noun
 noktalamak	to end; to punctuate	verb
 nokta	point	noun	hareket noktası: starting point	püf noktası: trick, tip
@@ -6938,6 +6947,7 @@ putinizm	Putinism	noun
 püklüm	süklüm püklüm: sheepishly	phrase
 püre	puree	noun
 pürüz	burr, roughness	noun
+pürüzsüz	smooth	adj
 pürüzsüzce	fluently (of movement)	adv
 püskül	tuft, fringe	noun
 püsküllü	fringed	adj
@@ -7203,9 +7213,7 @@ saksafon	saxophone	noun
 saksı	flowerpot	noun
 salak	fool, idiot, stupid	adj
 salak	fool, idiot	noun
-salak	idiot	adj
 salak	idiotic	adj
-salak	stupid	adj
 salata	salad	noun
 saldırgan	aggressive	adj
 saldırgan	assailant	adj
@@ -7413,6 +7421,7 @@ seğirtmek	to rush after s.one	verb
 şehir	city	noun
 şehir	town	noun
 şehit	martyr	noun
+şehriye	noodle	noun
 şehvet	lust, sensuality, desire	noun
 şehvetli	sensual, voluptuous, lustful, hot	adj
 sehpa	coffee table	noun
@@ -8353,6 +8362,7 @@ temas	contact, touch	noun	temasa geçmek: to get in touch, to contact
 tema	theme	noun
 temassız	contactless	adj
 tembel	lazy	adj
+tembellik	laziness	noun
 temel	basic	adj
 temel	foundation	noun
 temellenmek	to gain ground, establish	verb
@@ -8604,6 +8614,7 @@ tur	tour	noun
 turşu	pickle	noun	turşusu çıkmak: to be very tired
 turuncu	orange (colour)	adj
 tuş	button, key	noun
+tutam	pinch	noun
 tutanak	official report, minutes	noun
 tutar	amount, total, volume	noun
 tutarlı	consistent, coherent	adj
@@ -9634,6 +9645,7 @@ zengin	rich, wealthy	adj
 zerafetle	elegantly	adv
 zerafetle	gracefully	adv
 zerdali	peach	noun
+zerdeçal	turmeric, curcuma	noun
 zerre	bit, particle	noun
 zerzevat	vegetables	noun
 zevkli	enjoyable	adj
