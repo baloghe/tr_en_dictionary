@@ -856,6 +856,7 @@ bahane	excuse	noun	hep bir bahane buluyorsun! you always find an excuse!
 baharat	spice	noun
 baharat	spices	noun
 bahar	spring	noun
+baharlı	spicy, flavoured	adj
 bahçe	garden	noun	bahçe işleri: gardening
 bahçıvan	gardener	noun
 bahis	bet	noun	bahse tutuşmak: to make a bet
@@ -3247,7 +3248,7 @@ geceki	at night	adv
 gecekondu	squatter	noun
 geceleri	at night	adv
 geceleyin	at night	adv
-gecelik	nightdress	noun
+gecelik	nightdress, nightgown	noun
 gece	night	noun	geceleri: at nights
 geçenlerde	lately, recently	adv
 geçerlilik	validity	noun
@@ -3689,7 +3690,7 @@ hakkında	on	prep
 haklı	right; rightful	adj
 hak	right	noun	hak etmek: to deserve
 haksızlık	injustice	noun
-haksız	unjust	adj
+haksız	unjust, unfair	adj
 hala	aunt (father's sister)	noun
 hala	still	adv
 hâlâ	still	noun
@@ -4758,7 +4759,8 @@ karantina	quarantine	noun
 karar	decision	noun	yakalama kararı: arrest warrant	karar vermek: to decide
 kararlaştırmak	to agree	verb
 kararlaştırmak	to be decided, to be agreed on	verb
-kararlı	determined, stable	adj
+kararlı	stable	adj
+kararlı	resolute, determined	adj
 kararlılık	determination	noun
 kararmak	to darken	verb	iç karartmak: to depress
 kararmak	to turn black	verb
@@ -5184,6 +5186,7 @@ kısmet	fortune, destiny	noun
 kısmet	luck	noun
 kısmi	partial	adj
 kış	winter	noun
+kışlık	winterly, of winter	adj	kışlık giysiler: winter clothes
 kıta	continent; military detachment	noun
 kitap	book	noun
 kitaplık	bookcase	noun
@@ -5469,6 +5472,7 @@ kullanmak	to apply	verb
 kullanmak	to drive	verb
 kullanmak	to use	verb
 kul	servant (of God)	noun
+kulp	handle, grip	noun
 kulübe	hut, cabin, shack	noun
 kulüp	club	noun
 kumanda	command	noun
@@ -5916,6 +5920,7 @@ meşgul	busy	adj
 meşgul	occupied	adj
 meşhur	famous; well-known	adj
 meşhur	renowned	adj
+meşk	practice	noun	meşk etmek: to practice
 mesleki	professional	adj
 meslek	job	noun
 meslek	occupation	noun
@@ -6252,7 +6257,7 @@ ne	what	noun
 neyse	anyway	adv
 neyse	whatever	adv
 nezaket	politeness, courtesy, civility	noun
-nezaketsiz	rude	adj
+nezaketsiz	rude, impolite	adj
 nezaret	supervision; prison	noun
 nezle	cold	noun
 nicelik	quantity	noun
@@ -7191,6 +7196,7 @@ sahtekâr	dishonest, fraudulent	adj
 sahtekâr	fraud, impostor	noun
 şair	poet	noun
 şakacı	playful	adj
+şakacı	joker, jester	noun
 şaka	joke	noun
 şakak	temple (temporal bone)	noun
 sakal	beard	noun
@@ -7380,6 +7386,7 @@ saygılı	respectful	adj
 saygınlık	prestige	noun
 saygın	prestigious, respected	adj
 saygı	respect	noun
+saygısız	disrespectful, impudent, insolent	adj
 saygısızlık	disrespect	noun
 sayı	digit	noun
 sayı	figure	noun
@@ -7696,7 +7703,7 @@ sınırlamak	to limit, to restrict, to bond, to confine	verb
 sınırlandırmak	to limit	verb
 sinirlendirmek	to make angry, to irritate	verb
 sinirlenmek	to get angry	verb
-sinirli	angry, irritated	adj
+sinirli	angry, irritated, nervous	adj
 sınırlı	bounded; limited	adj
 sinirlilik	nervousness	noun
 sınırlı	limited	adj
@@ -8264,7 +8271,7 @@ tasvir	portraying, description	noun
 tatar	Tatar	noun
 tatbik	application	noun
 tatbikat	practice	noun
-tat	flavour	noun
+tat	flavour	noun	X'In tadını çıkarmak: to enjoy X
 tatil	holiday	noun	tatile çıkmak: to go on holiday
 tatil	rest, vacation	noun
 tatlı	candy	noun
@@ -9618,6 +9625,7 @@ zarafet	grace, elegance	noun
 zarar	damage	noun
 zararlı	harmful	adj
 zararlı	pernicious	adj
+zararsız	harmless	adj
 zar	dice; membrane	noun
 zarf	adverb	noun
 zarf	envelope	noun
