@@ -779,6 +779,11 @@ def processNeg(w):
     
     infl = infl + negptcondpm
     
+    #-Ip
+    ipneg = getIp({'infl': negstem1, 'src': 'Neg'}, negstem1out)
+    
+    infl = infl + [ipneg]
+    
     #Aorist +ken
     aorneg = {'infl': negstem1, 'src': 'Neg.Aor'}
     aornegpm = getPersonMarker(aorneg, 'z-aor-neg')
