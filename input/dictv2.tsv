@@ -33,6 +33,8 @@ açıkçası	frankly speaking	adv
 açıkçası	frankly	adj
 açıkçası	frankly	conj
 açık	clear	adj
+açık	deficit	noun
+açıktan	openly	adv
 açıkgöz	smart, shrewd	adj
 açıklama	explanation	noun
 açıklamak	to disclose	verb
@@ -62,6 +64,7 @@ açlık	hunger	noun
 açmak	to open	verb
 açmaz	deadlock	noun
 açmaz	impasse	noun
+açtırmak	to open	verb
 ada	island	noun
 adale	muscle	noun
 adaleli	muscular	adj
@@ -97,6 +100,7 @@ adliye	courthouse	noun
 ad	name	noun	adınız ne? what is your name?	ad koymak: to call (name)	adı olmak: to be called
 ad	noun	noun
 adres	address	noun
+afacan	mischievous	adj
 afallamak	to be astonished	verb
 afalli	aphallia	noun
 af	amnesty, forgiveness	noun
@@ -144,6 +148,7 @@ ağustos	August	noun
 ahali	people, inhabitants	noun
 ahbap	buddy	noun
 ahbapça	friendly	adj
+ahbaplık	friendship	noun
 ahçı	chef	noun
 ahenk	harmony	noun
 ahenksiz	discordant	adj
@@ -197,7 +202,9 @@ akıntı	current, flow	noun
 akis	echo, reflection	noun
 akış	flow, passing	noun
 akıtmak	to pour	verb
+akıtılmak	to be poured	verb
 aklamak	to clear	verb
+aklanmak	to be cleared	verb
 akmak	to flow	verb
 akondroplazi	achondroplasia	noun
 akraba	relative	noun
@@ -207,7 +214,7 @@ akromegali	acromegaly	noun
 akrostiş	acrostic (a poem, word puzzle, or other composition in which certain letters in each line form a word or words)	noun
 aksaklık	malfunction	noun
 aksamak	to hamper, to hinder	verb
-akşam	evening	noun
+akşam	evening	noun	akşam üzeri: nightfall
 akşam	in the evening	adv
 akşamki	in the evening, of the evening	prep
 akşamleyin	in the evening	adv
@@ -249,10 +256,12 @@ albay	colonel	noun
 albinizm	albinism	noun
 albüm	album	noun
 alçakgönüllü	humble	adj
-alçakgönüllü	modest	adj
+alçakgönüllü	modest	
+alçakgönüllülük	humility, meekness	noun
 alçak	low	adj
 alçak	sordid	adj
 alçak	scoundrel	noun
+alçaklık	meanness	noun
 alçalmak	to go down, to descend	verb
 alçaltmak	to degrade, to lower	verb
 aldanmak	to be deceived	verb
@@ -261,6 +270,7 @@ aldatmak	to cheat	verb
 aldırış	care, attention	noun	aldırış etme: don't mind
 aldırmak	to mind	verb
 aldırtmak	to take care of	verb	iyi bir işe aldırttı: got a good job
+aldırmazlık	indifference, carelessness	noun
 alelade	ordinary, common	adj
 alem	universe; entertainment	noun
 alengirli	tricky	adj
@@ -280,6 +290,7 @@ algı	perception	noun
 algoloji	algology	noun
 alıcı	client, recipient, addressee	noun	gönül alıcı: conciliatory
 alıklık	stupidity	noun
+alıkonulmak	to be detained, to be kept off (from)	verb
 alıkoymak	to withhold, to detain, to retain, to keep	verb
 alık	simpleton, scatterbrained, dimwitted	adj
 alım	buying, purchase	noun
@@ -289,6 +300,7 @@ alın	forehead, front	noun
 alınmak	to be taken	verb
 alıntı	quotation	noun
 alışık	familiar, accustomed to	adj
+alışkan	habitual	adj
 alışkanlık	habit	noun
 alışkın	accustomed, used to	adj
 alışma	adaptation	noun
@@ -360,6 +372,7 @@ anababa	parent	noun	anababalar: parents
 anabilim	department	noun
 anadil	mother tongue	noun
 anadolu	Anatolia	noun
+anafor	whirlpool, eddy	noun
 anahtar	key	noun
 analitik	analytical	adj
 analiz	analysis	noun
@@ -374,6 +387,7 @@ anatomik	anatomical	adj
 anavatan	motherland	noun
 anayasa	constitution	noun
 anayasal	constitutional	adj
+anayol	highway, main road	noun
 ancak	however	conj
 ancak	not until (next week)	adv
 ancak	though	conj
@@ -430,9 +444,11 @@ ansızın	suddenly, all of a sudden	adv
 ant	oath	noun	ant içmek: to swear/take an oath
 anten	antenna	noun
 antibiyotik	antibiotic	noun
-antika	ancient	adj
 antik	ancient	adj
 antik	antique, old	adj
+antika	ancient	adj
+antika	antique	noun
+antikacı	antique dealer/shop	noun
 antlaşma	agreement; treaty	noun
 antoloji	anthology	noun
 apaçık	wide open; obvious	adj
@@ -449,6 +465,7 @@ aptal	fool	noun
 aptal	idiotic	adj
 aptallık	stupidity, foolishness	noun
 aptal	silly, stupid	adj
+aptes	(ritual) ablution	noun
 araba	car	noun
 arabesk	arabesque	noun
 ara	break	noun	bir ara: for a while	bu arada: meanwhile, by the way	ara sıra: sometimes	ara vermek: to adjourn	arada bir: every now and then, once in a while
@@ -1635,7 +1652,7 @@ cahillik	ignorance, inexperience	noun
 çalmak	to play an instrument	verb
 çalmak	to ring	verb	zil çalmak: to ring	kapıyı çalmak: to knock on the door
 çalmak	to steal	verb
-çamaşır	clothes	noun
+çamaşır	clothes	noun	iç çamaşırı: underwear
 çamaşır	laundry	noun
 çamaşır	washing	noun	çamaşır makinesi: washing machine
 cambaz	acrobat	noun
@@ -2814,6 +2831,8 @@ emperyalizm	imperialism	noun
 emreden	commanding, imperative	adj
 emretmek	to order, to command	verb
 emri	order	noun
+en	most, best, very	adv
+en	breadth, width, diameter	noun
 enayi	fool, sucker	noun
 endeks	index	noun
 ender	rare, unusual	adj
@@ -3159,7 +3178,7 @@ fiske	flick	noun
 fışkırmak	to gush out	verb
 fışkırmak	to spew	verb
 fiş	plug; tag	noun
-fiş	receipt	noun
+fiş	receipt, sales slip	noun
 fistan	dress	noun
 fıstık	peanut	noun	yer fıstığı: peanut
 fiyat	price	noun
@@ -3719,6 +3738,7 @@ hamal	porter, carrier	noun
 hamam	Turkish bath, hammam	noun
 hamilelik	pregnancy	noun
 hamile	pregnant	adj
+haminne	the title given to respected older women in the family (hanım nine: lady granny)	noun
 hamle	move	noun	hamle yapmak: to make a move
 hammadde	raw material	noun
 ham	raw, crude	adj
@@ -4058,8 +4078,8 @@ hücre	cell, cubicle	noun
 hücum	assault, charge	noun
 hücum	attack	noun	hücum etmek: to attack
 hükmetmek	to rule, to govern	verb
-hükumet	government	noun
-hükümdar	ruler, monarch	noun
+hükümdar	ruler, monarch, sovereign	noun
+hükümdarlık	reign, rulership, suzerainty	noun
 hükümet	government	noun	hükümet reisi: head of government
 hüküm	verdict	noun
 hür	free	adj
@@ -4110,7 +4130,7 @@ içtenlik	sincerity	noun
 içten	sincere	adv
 idam	capital punishment	noun
 idare	administration	noun	idare etmek: to manage, to control
-idareci	director	noun
+idareci	manager, director	noun
 idari	administrative	adj
 iddia	argument	noun
 iddia	claim	noun	iddia etmek: to claim
@@ -4351,7 +4371,7 @@ isa	Christ	noun	İsa'dan önce: before Christ
 isabet	hit	noun
 isabetli	exact, well-directed	adj
 işadamı	businessman	noun
-işaretlemek	to mark	verb
+işaretlemek	to mark, to tick	verb
 işaret	sign, indication	noun	işaret etmek: to indicate, to point out
 işbirliği	cooperation, collaboration	noun
 iş	business	noun	iş işten geçmişti: it was too late
@@ -4383,6 +4403,8 @@ isimsiz	anonymous, nameless	adj
 ısıtmak	to warm up sg	verb
 işitmek	to hear	verb
 iş	job	noun
+iskambil	playing cards	noun
+iskarpela	chisel	noun
 iskarpin	shoes (heeled and ankleless shoes)	noun
 iskelet	skeleton	noun
 iskele	wharf, pier, dock	noun
@@ -4658,6 +4680,7 @@ kalmak	to remain	verb	bana kalırsa: in my opinion
 kalmak	to stay	verb
 kalorifer	radiator, heater	noun
 kalp	heart	noun	kalbimde: in my heart	kalp sektesi: heart attack
+kalpazan	counterfeiter, forger	noun
 kalpli	-hearted	posp
 kalsın	az kalsın: almost	phrase
 kalsit	calcite	noun
@@ -5518,7 +5541,7 @@ kurtarıcı	savior	noun
 kurtarmak	to help	verb
 kurtarmak	to rescue	verb
 kurtarmak	to save	verb
-kurtulmak	to be rescued	verb
+kurtulmak	to be rescued, to be released	verb
 kurtuluş	liberation	noun
 kurt	wolf; worm	noun
 kurucu	founder	noun
@@ -5951,6 +5974,7 @@ mevcut	present	adj
 mevduat	deposit	noun
 mevkii	location	noun
 mevki	position, rank	noun
+mevlit	mawlid (the common name of works written in the mesnevi form, telling the birth and life of the Prophet Muhammad)	noun
 mevsimlik	seasonal	adj
 mevsim	season	noun
 mevzi	position	noun
@@ -6197,6 +6221,7 @@ nane	mint, peppermint	noun
 nanoteknoloji	nanotechnology	noun
 nar	pomegranate	noun
 narin	delicate, fragile, slim	adj
+nargile	hookah, waterpipe	noun
 narsisizm	narcissism	noun
 nasihat	advice	noun
 nasıl	how	adv
@@ -6308,6 +6333,9 @@ nöbetçi	guard, watchman	noun
 nöbet	shift	noun
 nöbet	watch, sentry	noun
 nuh	Noah	noun
+numaralamak	to number, to numerate	verb
+numaralanmak	to be numbered	verb
+numaralandırmak	to number	verb
 numaralı	numbered	adj
 numara	number	noun	numara yapmak: to pretend
 numune	sample	noun
@@ -6867,6 +6895,7 @@ pişmek	to be cooked	verb
 pişmek	to cook	verb
 pist	landing field, track	noun
 pıtırtı	patter	noun
+piyade	infantry	noun
 piyango	raffle, tombola, lottery	noun
 piyano	piano	noun
 piyasa	market	noun
@@ -7504,6 +7533,7 @@ serçe	sparrow	noun
 sergi	exhibition, display	noun
 sergilemek	to exhibit, to display; to show	verb
 sergilemek	to perform	verb
+şerh	cmment, commentary	noun
 şeriat	Islamic law, sharia	noun
 serin	cool, chilly	adj	serin kanlı: cool-headed
 serinkanlı	cool, dispassionate	adj
@@ -7722,7 +7752,7 @@ sipariş	order	noun
 siper	shield, shelter, barricade	noun
 sıradan	common, ordinary	adj
 sıra	desk	noun	sırama yaslandı: s/he leaned on my desk
-sıralamak	to line up; to arrange	verb
+sıralamak	to line up, to sort; to arrange	verb
 sıralanmak	to line up, to align	verb
 sıralarında	around	adv
 sıra	order	noun
@@ -8286,7 +8316,7 @@ tatsızlık	tastelessness, unpleasantness	noun
 tatsız	tasteless, unpleasant	adj
 tat	taste	noun
 tava	frying pan	noun
-tavan	ceiling	noun
+tavan	ceiling	noun	tavan arası: attic
 tava	pan	noun
 tavır	manner, attitude, behaviour	noun
 taviz	compromise	noun
@@ -8766,7 +8796,7 @@ umutsuzluk	hopelessness	noun
 un	flour	noun
 unsur	element	noun
 unutmak	to forget	verb
-unvan	title	noun
+ünvan	title	noun
 uşak	male servant, valet	noun
 usanmak	to get bored	verb
 uskumru	mackerel	noun
@@ -8826,6 +8856,8 @@ uyuşturucu	drug	noun
 uyuşturucu	drugs	noun
 uyutmak	to put to sleep	verb
 uyuyakalmak	to fall asleep	verb
+uyuz	mangy, scabious, itchy	adj
+uyuz	scabies, mange, itch	noun
 uzak	away	adv
 uzaklaşmak	to leave, to move away	verb
 uzaklık	distance	noun
@@ -9501,6 +9533,7 @@ yönelik	directed	posp
 yönelim	inclination, tendency	noun
 yönelmek	to head towards	verb
 yöneltmek	to direct, to orientate	verb
+yönerge	directive, instruction	noun
 yönetici	director	noun
 yöneticilik	administratorship	noun
 yönetici	manager; administrator	noun
@@ -9634,6 +9667,7 @@ zarif	elegant, graceful	adj
 zaten	already	adv
 zaten	anyway, anyhow	adv
 zatıali	His Worship	phrase
+zatıâliniz	Your Worship, Your Serenity	phrase
 zat	person, individual	noun
 zavallı	poor, miserable	adj
 zavallı	poor thing	noun
@@ -9710,6 +9744,8 @@ zorunda	have to	adv
 zorunluluk	obligation	noun
 zorunlu	obligatory; compulsory	adj
 zulüm	cruelty, oppression	noun
+züğürt	broke, poor	adj	züğürtler: poor people
+züğürtlük	poverty	noun
 zühre	Venus	noun
 zührevi	venereal, sex-related	adj
 zümre	group	noun
