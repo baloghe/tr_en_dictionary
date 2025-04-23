@@ -32,7 +32,7 @@ acı	hot, peppery (taste)	adj
 açıkçası	frankly speaking	adv
 açıkçası	frankly	adj
 açıkçası	frankly	conj
-açık	clear	adj
+açık	clear	adj	açık seçik: clearly
 açık	deficit	noun
 açıktan	openly	adv
 açıkgöz	smart, shrewd	adj
@@ -974,6 +974,7 @@ basın	press	noun
 basit	easy	adj
 basit	simple	adj	basit bir şekilde: in a simple way
 başka	else	adv
+başkaldırıcı	rebel (the one who revolts)	noun
 başkaldırma	rebellion, revolt	noun
 başkaldırmak	to rebel	verb
 başkalık	diversity	noun
@@ -2551,6 +2552,7 @@ dördüncü	fourth	adj
 dört	four	noun
 döşeme	floor	noun
 döşemek	to furnish	verb
+döşek	mattress	noun
 döven	beating, beater	noun
 döviz	currency	noun
 dövmek	to beat	verb
@@ -3442,6 +3444,7 @@ gitgide	gradually, more and more	adv
 gitmek	to go	verb
 gitmek	to leave	verb
 giydirmek	to dress s.one	verb
+giyecek	clothing, dressing	noun
 giyim	clothing, dressing	noun	giyim kuşam: clothing
 giyinmek	to dress	verb
 giyinmek	to get dressed	verb
@@ -4561,6 +4564,7 @@ kabarmak	to swell, to become fluffy	verb
 kaba	rough, rude	adj	kaba şaka: rag
 kabartmak	to bloat up, to raise, t puff up	verb
 kaba	unfriendly	adj
+kabataslak	sketchy	adj	kabataslak hesap: rough calculation
 kabile	clan, tribe	noun
 kabiliyetli	talented, capable	adj
 kabiliyetsiz	incapable, talentless	adj
@@ -8706,7 +8710,7 @@ tüm	all	det
 tümce	sentence	noun
 tüm	entire	adj
 tüm	entire	noun
-tümüyle	completely	adv
+tümüyle	completely, entirely	adv
 tüm	whole	adj
 tünel	tunnel	noun
 tünemek	to perch, to sit, to settle	verb
@@ -8786,6 +8790,7 @@ umur	hope	noun	kimin umurunda: who cares!	umurumda değil: I don't care
 umursamak	to care, to mind	verb
 umursamayan	indifferent	adj
 umursamaz	unconcerned	adj	umursamaz bir şekilde: indifferently
+umursamazlık	indifference	noun
 umut	hope	noun	umut etmek: to hope	umutlarını kırmak: to disappoint
 umutsuz	desperate	adj
 umutsuz	hopeless	adj
@@ -9305,7 +9310,7 @@ yas	mourning	noun
 yaş	tear	noun
 yastık	pillow, cushion	noun
 yaş	wet	adj
-yatak	bed	noun
+yatak	bed, mattress	noun
 yatay	horizontal	adj
 yatılı	boarding	adj
 yatırgaç	aileron	noun
@@ -9451,6 +9456,7 @@ yıkıcı	destructive, devastating	adj
 yıkılmak	to be destroyed	verb
 yıkım	demolition; destruction	noun
 yıkım	destruction	noun
+yıkıntı	debris, ruin	noun
 yıkmak	to demolish	verb
 yıkmak	to destroy	verb
 yılan	snake	noun
