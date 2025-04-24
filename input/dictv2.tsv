@@ -192,7 +192,7 @@ akıllı	bright	adj
 akıllı	clever	adj
 akıllı	intelligent	adj
 akıllı	wise, intelligent	adj
-akıl	mind, intellect	noun	aklım başıma gelsin: let me pull myself together
+akıl	mind, intellect	noun	aklım başıma gelsin: let me pull myself together	aklını çelmek: to distract, to persuade, to entice sy
 akıl	reason, wisdom	noun
 akılsızlık	​stupidity, unreason, absurdness	noun
 akılsız	stupid, absurd	adj
@@ -749,6 +749,7 @@ ayıp	shame, disgrace	noun
 ayıp	shameful	adj
 ayıp	shame	noun
 ayırdında	aware of	adj
+ayırdına	ayırdına varmak: to realize	phrase
 ayırım	discrimination; distinction	noun
 ayırmak	to allocate	verb
 ayırmak	to reserve	verb
@@ -1777,6 +1778,7 @@ ceket	jacket	noun
 cellât	executioner	noun
 cellat	executioner	noun
 çello	cello	noun
+çelmek	to swerve	verb	aklını çelmek: to distract, to persuade, to entice
 cemaat	religious community	noun
 çember	circle	noun
 çember	ring	noun
@@ -2380,6 +2382,7 @@ dindar	religious	adj
 dini	religious	adj
 dinlemek	to hear	verb
 dinlemek	to listen	verb
+dinlendirici	relaxing	adj
 dinlenmek	to have a rest	verb
 dinlenmek	to relax	verb
 dinlenmek	to rest	verb
@@ -3307,7 +3310,7 @@ geçiştirmek	to pass over, to fudge	verb
 geçit	gateway, passage	noun
 geç	late	adj	er geç: sooner or later	sözü geçen: mentioned, aforementioned
 geçmek	to exceed	verb
-geçmek	to pass by	verb	gelip geçici: passing	temasa geçmek: to get in touch, to contact	her geçen gün: every passing day	saldırıya geçmek: to go on the offensive
+geçmek	to pass by	verb	gelip geçici: passing	temasa geçmek: to get in touch, to contact	her geçen gün: every passing day	saldırıya geçmek: to go on the offensive	içi geçmek: to nap, to doze off
 geçmiş	past	adj
 geçmiş	past	noun
 gelecek	future, next	noun
@@ -3418,6 +3421,7 @@ gevşek	loose	adj
 gevşek	slack	adj
 gevşeme	relaxation, relief	noun
 gevşemek	to loosen	verb
+gevşetici	relaxing	adj
 gevşetmek	to loosen	verb
 geyik	deer, stag	noun
 gezdirmek	to walk around, to show around	verb	göz gezdirmek: take a look around, take a glance at
@@ -3654,7 +3658,7 @@ gürültülü	loud	adj
 gürültü	noise	noun
 gürültü	sound	noun
 gürültücü	noisy	adj
-güvence	guarantee	noun
+güvence	guarantee, assurance	noun
 güven	confidence	noun	kendine güvenen: to be self-confident
 güvenilir	credible	adj
 güvenilirlik	credibility	noun
@@ -4131,7 +4135,7 @@ içerlemiş	resentful	adj
 içermek	to contain	verb
 içermek	to include	verb
 içgüdü	instinct	noun
-içi	inside	adv
+içi	inside	adv	içi geçmek: to nap, to doze off
 içinde	inside	adv	bunun içinde: herein
 içinden	out of	prep
 içinden	through	prep
@@ -7184,6 +7188,7 @@ saçılmak	to scatter	verb
 saçma	absurd	adj	saçma sapan: foolishly, with nonsense
 saçma	buckshot	noun
 saçmak	to scatter	verb
+saçmak	to radiate	verb
 saçmalamak	to talk nonsense	verb
 saçmalık	nonsense	noun
 saçma	ridiculous	adj
@@ -7430,6 +7435,7 @@ savruk	untidy	adj
 savrulmak	to be thrown away	verb
 savunma	defence	noun
 savunmak	to defend	verb
+savunmasız	vulnerable, undefended	adj	savunmasız yakalandı: caught off guard
 savunucu	defender, champion	noun
 savurganlık	splurge, extravagance, squandering	noun
 savurgan	wasteful	adj
