@@ -347,6 +347,7 @@ amaç	aim	noun
 amaç	goal	noun
 amaçlamak	to aim, to intend	verb
 amaçlamak	to purpose	verb
+amaçlı	purposeful, oriented	adj
 amaç	purpose	noun
 amaç	target	noun
 ama	however	conj
@@ -634,6 +635,7 @@ aslında	essentially	adv
 aslında	in fact	adv
 asli	primary, essential	adj
 aslolan	what matters the most	adv
+aşma	crossover	noun
 aşmak	to cross over	verb
 aşmak	to exceed, to overrun, to surpass	verb
 asmak	to hang (up), to suspend	verb
@@ -746,6 +748,7 @@ ayıp	rude	adj
 ayıp	shame, disgrace	noun
 ayıp	shameful	adj
 ayıp	shame	noun
+ayırdında	aware of	adj
 ayırım	discrimination; distinction	noun
 ayırmak	to allocate	verb
 ayırmak	to reserve	verb
@@ -833,6 +836,7 @@ bacak	leg	noun	bacak bacak üzerine atmak: to cross one's legs
 bacaksız	legless	adj	
 bacanak	brother-in-law	noun
 bacı	sister	noun
+badana	whitewash, limewash	noun
 badem	almond	noun
 badye	bathtub	noun
 bagaj	baggage	noun
@@ -1512,6 +1516,7 @@ bunak	senile	adj
 bunalım	depression, crisis	noun
 bunalmak	to be distressed	verb
 bunalmak	to be overwhelmed, to suffocate	verb
+bunaltıcı	oppressive, suffocating	adj
 bunca	this much	det
 bunlar	these, those 	pron
 burada	here	adv
@@ -1534,7 +1539,7 @@ buse	kiss	noun
 bu	this, those	pron
 but	leg	noun	tavuk budu: chicken leg
 buton	button	noun
-buyruk	command, decree	noun
+buyruk	command, decree	noun	başına buyruk: self-willed, unamenable
 buyrun	Here you are	phrase
 buyrun	here you go	phrase
 buyurmak	to command, to order	verb
@@ -1621,7 +1626,8 @@ cadı	witch	noun
 çağ	time	noun
 cahil	illiterate, uneducated	adj
 cahillik	ignorance, inexperience	noun
-çakıl	pebble, gravel	noun
+çakıl	pebble, gravel	noun	çakılla kaplamak: to gravel
+çakıllı	gravelled, pebbled	adj
 çakı	pocket knife	noun
 çakırkeyif	tipsy	adj
 çakmak	lighter	noun
@@ -1865,6 +1871,7 @@ ciddiyet	seriousness	noun
 ciğer	liver; lungs	noun
 çığlık	scream	noun
 çiğnemek	to chew	verb
+çiğnemek	to trample down, to run over		verb
 çiğ	raw, uncooked	adj
 çığ	avalanche	noun
 cihaz	gadget, device	noun
@@ -1954,6 +1961,8 @@ civarında	at	prep
 civarı	vicinity	noun
 civar	neighborhood, vicinity	noun
 cıvata	bolt	noun
+cıvıldamak	to chirp, to twitter	verb
+cıvıltı	chirp	noun
 çivi	nail	noun
 çizelge	table	noun
 çizge	diagram	noun
@@ -2345,7 +2354,7 @@ dikmek	to sew	verb
 dikmek	to stitch	verb
 dikme	plant, erection	noun
 diksiyon	diction	noun
-dik	steep, erect	adj
+dik	steep, erect, upright	adj	dik tutmak: to hold upright
 dik	straight	adj
 diktatörlük	dictatorship	noun
 dikuçar	helicopter	noun
@@ -2639,6 +2648,7 @@ düşkün	addicted	adj
 düşlemek	to imagine	verb
 düşman	enemy	noun
 düşmanlık	hostility	noun
+düşme	fall, drop	noun	elden düşme: secondhand
 düşmek	to fall	verb
 düşmüş	fallen	adj
 düşük	low; fallen; reduced	adj
@@ -2677,7 +2687,7 @@ düzgün	smooth	adj
 düzgün	straight	adj
 düzine	dozen	noun
 düzlem	plane (geometry)	noun
-düzlük	flatness, straightness	noun
+düzlük	flatness, straightness; plain	noun
 düzmek	to knock off	verb
 düzmek	to straighten	verb
 düz	smooth	adj
@@ -2702,6 +2712,7 @@ edebiyat	literature	noun
 edep	civility	noun
 edepsizlik	rudeness, vulgarity	noun
 edepsiz	nasty, rude, indecent	noun
+eder	price	noun
 edilmek	to be made	verb
 edim	act, deed	noun
 edinmek	to get	verb
@@ -2819,6 +2830,7 @@ emekli	retired	adj
 emektar	old servant	noun
 emektar	veteran	noun
 emek	work, labor	noun
+emici	absorbent, sucking	adj	emici süpürge: vacuum cleaner
 emin	certain	adj
 emin	confident	adj	emin değilim: I am not sure	emin misin? are you sure?	eminim değildir: I'm sure not
 emin	safe, secure	adj
@@ -3404,6 +3416,7 @@ geviş	cud, rumination	noun	chew the cud: think or talk reflectively
 gevrek	crispy	adj
 gevşek	loose	adj
 gevşek	slack	adj
+gevşeme	relaxation, relief	noun
 gevşemek	to loosen	verb
 gevşetmek	to loosen	verb
 geyik	deer, stag	noun
@@ -3412,7 +3425,7 @@ gezegen	planet	noun
 gezgin	traveler	noun
 gezi	excursion	noun
 gezinmek	to wander around	verb
-gezinti	walk	noun
+gezinti	walk, stroll	noun	gezinti yeri: promenade, esplanade
 gezi	trip	noun
 gezmek	to stroll; to go around	verb	kol gezmek: to stalk, to roam around
 gibi	as	adv
@@ -3428,6 +3441,7 @@ gıcırtı	creak, squeak	noun
 gıda	food	noun
 gıda	nourishment	noun
 gidelim	Let's go!	phrase
+giderayak	going away	adj
 gidiş	going, departure	noun
 gık	squeak	noun	gık dememek: not to say a word
 gimnofobi	gymnophobia	noun
@@ -3482,7 +3496,7 @@ gölgelemek	to overshadow, to cloud	verb
 gölgeli	shady	adj
 gölge	shadow, shade	noun	gölge etmek: to stand in one's way
 göl	lake	noun
-gölcük	pond	noun
+gölcük	pond, pool	noun
 gömlek	shirt	noun
 gömmek	to bury, to immerse	verb
 gömülmek	to be buried	verb
@@ -3533,6 +3547,7 @@ götürmek	to bring	verb
 götürmek	to carry	verb
 götürmek	to take to	verb
 götürmek	to take	verb
+götürmez	su götürmez: indisputable, incontestable, unchallengeable	phrase
 gövde	body	noun	ağaç gövdesi: tree trunk
 gövde	fuselage	noun
 gözaltı	custody	noun	gözaltına almak: to detain
@@ -3638,6 +3653,7 @@ gür	strong	adj
 gürültülü	loud	adj
 gürültü	noise	noun
 gürültü	sound	noun
+gürültücü	noisy	adj
 güvence	guarantee	noun
 güven	confidence	noun	kendine güvenen: to be self-confident
 güvenilir	credible	adj
@@ -4010,6 +4026,7 @@ hırsız	thief	noun
 hırslı	ambitious	adj
 his	feeling	noun
 hışıltı	wheeze	noun
+hışırtı	rustle, rustling, crackling	noun
 hisse	part; lot	noun
 hissetmek	to feel	verb
 hissetmek	to perceive	verb
@@ -5040,6 +5057,7 @@ kenar	edge	noun	kenar çekmek: to edge	kenara çekmek: to pull over
 kenarlı	brimmed, edged, sided	adj
 kenar	side	noun
 kendileri	themselves (direct / indirect object)	pron
+kendince	in his ownn way	adv
 kendini	herself	pron
 kendini	yourself	pron
 kendi	self	pron
@@ -5223,6 +5241,7 @@ kıtlık	shortage	noun
 kıt	scarce, unusual, uncommon	adj	aklı kıt bir ınsan: a person with a limited mind
 kıvam	consistency	noun
 kıvam	temper	noun
+kıvanç	pride	noun
 kıvılcım	spark	noun
 kıvırmak	to curl, to sway	verb	kıvır zıvır: unimportant detail
 kıvırmak	to fold	verb
@@ -5239,7 +5258,7 @@ kıyasla	beside	posp
 kıyasla	in comparison with, beside	posp
 kıyaslamak	to compare	verb
 kıyı	edge	noun
-kıyı	shore, coast, bank	noun
+kıyı	shore, coast, bank	noun	renin kıyısı: river bank
 kıyıya	ashore	adv
 kıyma	mincemeat	noun
 kıymak	to mince, to hack	verb
@@ -6034,6 +6053,7 @@ mirasçı	heir	noun
 miras	heritage; inheritance	noun
 mirası	inheritance	noun
 mırıldamak	to murmur, to mumble	verb
+mırıldanma	muttering, grumbling, whimper	noun
 mırıldanmak	to murmur, to hum	verb
 mırıltı	murmur, mumble	noun
 misafir	guest	noun	misafir etmek: to host
@@ -6377,6 +6397,7 @@ okul	school	noun
 okumak	to read	verb
 okumak	to study	verb
 okuma	reading	noun	okumayı bitirince: after having read
+okunamaz	meydan okunamaz: unchallengeable	phrase
 okunmak	to be read	verb
 okur	reader	noun
 okutmak	to teach	verb
@@ -6688,6 +6709,7 @@ ozan	poet	noun
 özel	special	adj
 özen	care	noun
 özendirmek	to encourage	verb
+özenle	carefully, meticulously	adv
 özenli	attentive	adj
 özenmek	to imitate	verb
 özerk	autonomous	adj
@@ -6720,6 +6742,7 @@ ozan	poet	noun
 pabuç	shoe	noun
 pabuç	slipper	noun
 paça	cuff; trotter	noun
+paçaları	trousers	noun
 padişah	sultan	noun
 pahalı	expensive	adj
 paha	price, cost	noun
@@ -7275,7 +7298,8 @@ salıncak	swing	noun
 salı	Tuesday	noun
 salıvermek	to release, to free	verb
 salıverme	release	noun
-salkım	bunch	noun
+salkım	bunch, cluster	noun
+salkımsöğüt	weeping willow	noun
 sallamak	to shake	verb
 sallamak	to wave	verb
 salmak	to release	verb
@@ -7362,7 +7386,7 @@ sarı	yellow, blond, pale	adj
 şarkıcı	singer	noun
 sarkık	drooping, pendant	adj
 şarkı	song	noun
-sarkmak	to hang down, to hang out	verb
+sarkmak	to hang down, to hang out, to overhang, to sag	verb
 sarkoidoz	sarcoidosis	noun
 sarmak	to wrap, to roll	verb
 sarmak	wind up	verb
@@ -7384,6 +7408,7 @@ sarsmak	to shake	verb
 şaşkınlık	surprise, confusion	noun
 şaşmak	to amaze	verb
 satıcı	salesman	noun
+satılık	for sale	adj
 satım	sale	noun
 satın	satın almak: to buy	phrase
 satır	line	noun
@@ -7576,8 +7601,8 @@ sessizlik	silence	noun
 sessiz	quiet	adj
 sessiz	silent	adj
 ses	sound, noise, voice	noun
-set	barrier	noun
-set	wall	noun
+set	wall, barrier	noun
+set	embankment, dam	noun
 sevap	merit	noun
 sevdalı	lover	noun
 sevdalı	lovesick	noun
@@ -7771,6 +7796,7 @@ sırf	sheer	adj
 sırf	solely	adv
 şırfıntı	whore, slut, hussy	noun
 sırık	pole, stick, rod	noun
+şırıltı	ripple, gurgle, plashing	noun
 şirin	pleasant	adj
 şirin	pretty	adj
 şirin	sweet, charming	adj
@@ -8006,7 +8032,7 @@ suçluluk	guilt	noun
 sucuk	sausage	noun
 suikast	assassination	noun
 suikastçı	assassin	noun
-su	juice, water	noun	su kemeri: aqueduct
+su	juice, water	noun	su kemeri: aqueduct	su götürmez: indisputable, incontestable
 sulamak	to water	verb
 sulanmak	to be watered	verb
 sulh	peace	noun
@@ -8068,7 +8094,7 @@ süper	super	adj
 şüphesiz	certainly	adv
 şüphe	suspicion	noun
 süprematizm	Suprematism (also: suprematism)	noun
-süpürge	broom	noun
+süpürge	broom	noun	emici süpürge: vacuum cleaner
 süpürmek	to sweep	verb
 sürahi	jug, pitcher	noun
 süratli	fast, quick	adj
@@ -8260,6 +8286,7 @@ tarımsal	agricultural	adj
 tarla	field	noun
 tartı	bathroom scales	noun
 tartışılmak	to be discussed	verb
+tartışılmaz	unquestionable	adj
 tartışma	argument	noun
 tartışmak	to argue, to quarrel, to dispute	verb
 tartışmak	to discuss	verb
@@ -8403,6 +8430,7 @@ telgraf	telegraph	noun
 telif	copyright	noun
 telkin	inspiration, suggestion, prompt	noun
 telkuyruk	long-tailed duck	noun
+tellendirmek	to puff	verb	sigara tellendirmek: to smoke cigarettes
 telsiz	radio; wireless	noun
 telve	coffee grounds	noun	kahve telvesi: coffee grounds
 tel	wire, string	noun
@@ -8814,6 +8842,7 @@ ustalık	proficiency, mastery	noun
 usta	master; expert; artist	noun
 ustura	razor	noun
 usul	method, procedure	noun
+usulca	gently	adv
 utanç	shame	noun
 utangaç	shy	adj
 utanmak	to be ashamed	verb
@@ -9133,6 +9162,7 @@ yakınında	nearby	prep
 yakın	intimate	adj
 yakınlaşmak	to become closer	verb
 yakınlık	closeness; proximity	noun
+yakınma	complaint, grievance	noun
 yakınmak	to complain	verb
 yakın	nearly	adv
 yakışıklı	handsome	adj
@@ -9140,7 +9170,7 @@ yakışmak	to fit	verb
 yakışmak	to suit	verb
 yakıt	fuel	noun
 yaklaşık	about (circa)	adv
-yaklaşık	approximate, approximately	adj
+yaklaşık	approximate, approximately	adj	yaklaşık hesaplama: approximate calculation
 yaklaşık	approximately	adv
 yaklaşım	approach	noun
 yaklaşmakmak	to approach	verb
