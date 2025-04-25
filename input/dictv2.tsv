@@ -2285,6 +2285,7 @@ derhal	immediately	adv
 deri	leather	noun
 derin	profound	adj
 derin	deep	adj
+derince	deeply	adv
 derinlemesine	deeply, thoroughly	adv
 derinleşmek	to deepen	verb
 derinlik	depth	noun
@@ -2819,6 +2820,7 @@ elit	elite	noun
 ellemek	to touch	verb
 elli	fifty	noun
 elma	apple	noun
+elmacık	elmacık kemiği: cheekbone	noun
 elmas	diamond	noun
 elmastraş	diamond cutter, diamond sharpener	noun
 elverişli	suitable, convenient	adj
@@ -2994,7 +2996,7 @@ etkilemek	to affect; to influence	verb
 etkilenmek	to be influenced	verb
 etkilenmez	impervious	adj
 etkileşim	interaction	noun
-etkileyici	impressive	adj
+etkileyici	impressive, influential	adj
 etkili	effective	adj
 etkin	active; effective	adj
 etkinlik	activity	noun
@@ -4386,6 +4388,7 @@ irice	largish	adj
 ırkçı	racist	adj
 ırkçı	racist	noun
 irkilmek	to be startled	verb
+irkiltici	startling	adv
 ırk	race	noun
 irlanda	Ireland	noun
 ırmak	river	noun
@@ -5419,7 +5422,7 @@ koskoca	huge	adj
 koşma	running	noun
 koşmak	to run	verb	dörtnala koşmak: to gallop
 kostüm	costume, suit	noun
-koşul	condition	noun
+koşul	condition	noun	başka koşullarda: under other circumstances
 koşullamak	to condition	verb
 koşu	race; jogging	noun
 kota	quota, limit	noun
@@ -5508,7 +5511,7 @@ kudret	force, power	noun
 kudüs	Jerusalem	noun
 kukla	puppet	noun
 kukumav	little owl	noun
-kulak	ear	noun	kulağa hoş geliyor: sounds good
+kulak	ear	noun	kulağa hoş geliyor: sounds good	kulak memesi: earlobe
 kulaklık	earphone	noun
 kulaklık	headphone	noun
 kule	tower	noun
@@ -5912,7 +5915,7 @@ mektup	letter	noun
 melek	angel	noun
 melodi	melody	noun
 meltem	breeze	noun
-meme	breast, nipple	noun
+meme	breast, nipple	noun	kulak memesi: earlobe
 memleket	country, homeland	noun
 memleket	hometown	noun
 memnun	glad	adj
@@ -6411,7 +6414,7 @@ olabilir	possible	adj
 olağan	usual, ordinary	adj
 olağanüstü	extraordinary, superb	adj
 olanaklı	possible	adj
-olanak	opportunity; means, resource	noun
+olanak	opportunity, possibility, facility; means, resource	noun
 olanaksız	impossible	adj
 olanca	all of	det
 olasılıkla	probably	adv
@@ -9441,6 +9444,7 @@ yerine	in the place of	posp
 yerleşik	settled, established	adj
 yerleşim	settlement	noun
 yerleşmek	to settle	verb
+yerleşmiş	established, situated	adj	derince yerleşmiş ela gözlerim: my deeply set hazel eyes
 yerleştirmek	to place	verb
 yerli	local, native	adj
 yer	location	noun	bir yerde: anywhere
