@@ -1,11 +1,9 @@
 argument list ['C:\\Endre\\GitHub_repos\\tr_en_dictionary\\app\\run.py', 'input/dictv2.tsv', 'interim_output/TR_EN_prod.json', 'interim_output/TR_EN_prod.html']
-ReadTSV :: 7933 entries added from input/dictv2.tsv
-Errors: 1
-{1434: 'missing word type; unknown word type'}
-Number of exact inflected forms: 41156
-Groups created: 35784 simple and 15665 shared groups + added another 45 by splitting long inflection lists
+ReadTSV :: 8041 entries added from input/dictv2.tsv
+Input read without errors...
+Number of exact inflected forms: 41168
+Groups created: 36142 simple and 15832 shared groups + added another 45 by splitting long inflection lists
 15 simple groups got entirely shared, e.g. anlamak.anlayamaz
-astry shop -> missing word type
-Headwords to write out: 51479
+Headwords to write out: 52004
 15 groups deemed as invalid
 XML successfully created: interim_output/TR_EN_prod.html
