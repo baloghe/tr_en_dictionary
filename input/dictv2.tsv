@@ -256,7 +256,7 @@ albay	colonel	noun
 albinizm	albinism	noun
 albüm	album	noun
 alçakgönüllü	humble	adj
-alçakgönüllü	modest	adj
+alçakgönüllü	modest	
 alçakgönüllülük	humility, meekness	noun
 alçak	low	adj
 alçak	sordid	adj
@@ -601,7 +601,7 @@ asılı	hanging, susppended	adj
 asıl	main	adj	asıl şimdi: right now
 asılmak	to hang	verb
 asil	noble	adj
-asıl	original	adj
+asıl	original	adj	asıl adı: real name
 asilzade	nobleman, aristocrat	noun
 asimptot	asymptote	noun
 aşınmak	to be eroded	verb
@@ -1873,7 +1873,7 @@ ciddiyet	seriousness	noun
 ciğer	liver; lungs	noun
 çığlık	scream	noun
 çiğnemek	to chew	verb
-çiğnemek	to trample down, to run over	verb
+çiğnemek	to trample down, to run over		verb
 çiğ	raw, uncooked	adj
 çığ	avalanche	noun
 cihaz	gadget, device	noun
@@ -3187,6 +3187,7 @@ fırlamak	to pop out, to rush out	verb
 fırlatmak	to launch	verb
 firma	firm, company	noun
 fırsat	opportunity	noun
+fırsatçı	opportunist	noun
 fırtına	hurricane	noun
 fırtına	storm	noun
 fişek	cartridge	noun
@@ -3362,7 +3363,7 @@ geniş	widespread	adj
 genitif	genitive	noun
 geometri	geometry	noun
 geometrik	geometric	adj
-gerçekçi	realist	noun
+gerçekçi	realist, down-to-earth	noun
 gerçek	correct, real, true, genuine	adj
 gerçek	fact, truth	noun	değgin bir gerçek: a remarkable fact
 gerçekleşmek	to materialize, to happen	verb
@@ -3888,11 +3889,12 @@ havuz	pool	noun
 havva	Eve	noun
 havyar	caviar	noun
 havza	basin	noun
-hayal	dream	noun
-hayalet	ghost	noun
-hayal	fantasy	noun
-hayali	imaginary	adj
+hayal	dream, fantasy	noun
 hayal	shadow	noun
+hayalci	daydreamer	noun
+hayalci	fanciful	adj
+hayalet	ghost	noun
+hayali	imaginary	adj
 hayati	vital	adj
 hayat	life	noun	hayatım: my dear	hayatta gelmek: to come alive	hayatta kalmak: to survive
 hayda	come on!	phrase
@@ -6077,6 +6079,7 @@ misyon	mission	noun
 miting	meeting, demonstration	noun
 mit	myth, legend	noun
 miyozin	myosin	noun
+mizaç	temperament	noun
 mizahçı	humorist	noun
 mizah	humor	noun
 mizansen	scene, decor, mise-en-scène	noun
@@ -8206,7 +8209,7 @@ takip	follow-up, pursuit, chase	noun
 takırdamak	to rattle	verb
 takke	cap	noun
 taklit	imitation, simulation	noun
-takma	fake	adj
+takma	fake	adj	takma adı: nickname
 takmak	to attach, to stick	verb
 takmak	to wear	verb
 taksi	cab	noun
@@ -9715,6 +9718,7 @@ zaten	anyway, anyhow	adv
 zatıali	His Worship	phrase
 zatıâliniz	Your Worship, Your Serenity	phrase
 zat	person, individual	noun
+zatürre	pneumonia	noun
 zavallı	poor, miserable	adj
 zavallı	poor thing	noun
 zayıflamak	to lose weight; to get weak	verb
