@@ -124,6 +124,7 @@ ağı	poison	noun
 ağırbaşlı	dignified, solemn, serious	adj
 ağırbaşlılık	dignity, solemnity, gravity	noun
 ağır	heavy, hard, serious, grave	adj
+ağırdan	ağırdan almak: to take it easy	phrase
 ağırlamak	to host, to entertain sb.	verb
 ağırlaşmak	to slow down	verb
 ağırlık	weight	noun
@@ -296,7 +297,7 @@ alık	simpleton, scatterbrained, dimwitted	adj
 alım	buying, purchase	noun
 alımlı	charming, attractive	adj
 alim	scholar	noun
-alın	forehead, front	noun
+alın	forehead, front	noun	alın yazısı: destiny
 alınmak	to be taken	verb
 alıntı	quotation	noun
 alışık	familiar, accustomed to	adj
@@ -1196,7 +1197,7 @@ biatlon	biathlon	noun
 biberlik	pepper shaker	noun
 biber	pepper	noun
 biblo	nick-nack	noun
-bıçak	knife	noun	kelebek bıçağı: balisong, butterfly knife
+bıçak	knife	noun	kelebek bıçağı: balisong, butterfly knife		çatal bıçak: cutlery
 bıçaklamak	to stab	verb
 biçare	helpless, wretched	adj
 biçerdöver	harvester, reaper	noun
@@ -1330,6 +1331,8 @@ biteviye	ceaseless	adj
 bitim	end	noun
 bitirmek	wind up	verb
 bitiş	conclusion	noun
+bitiş	finish, expiry	noun
+bitişmek	to end; to unite	verb	
 bitkin	exhausted	adj
 bitkin	worn-out	adj
 bitki	plant	noun
@@ -1722,7 +1725,7 @@ cari	current	adj
 çarşamba	Wednesday	noun
 çarşı	market place	noun
 casus	spy, infiltrator	noun
-çatal	fork, bifurcation	noun
+çatal	fork, bifurcation	noun	çatal bıçak: cutlery
 çat	bang	noun
 çatık	wrinkly, frowning	adj
 çatılmak	to clash	verb
@@ -2796,7 +2799,7 @@ elbise	clothes	noun
 elbise	dress	noun
 elçi	ambassador	noun
 elçilik	embassy	noun
-eldiven	glove	noun
+eldiven	glove	noun	deri eldiven: leather gloves
 eldivenli	gloved (wearing a glove)	adj
 elektrik	electricity; electric	noun
 elektrikli	electrical	adj
@@ -3335,7 +3338,7 @@ gelişmişlik	development	noun
 geliştirmek	to develop	verb
 geliştirmek	to improve	verb
 geliş	visit	noun
-gelmek	to come	verb	kendine gelmek: to regain consciousness	başına gelmek: to come true, to happen
+gelmek	to come	verb	kendine gelmek: to regain consciousness	başına gelmek: to come true, to happen	elimden geldiğince: as much as I can
 gelişigüzel	random	adj
 gemi	ship, vessel	noun
 gençlik	youth; the young	noun
@@ -4621,7 +4624,7 @@ kaçınmak	to avoid	verb	XY yapmaktan kaçınmak: to avoid doing XY
 kaçınmak	to beware	verb
 kaçırmak	to miss	verb	keçileri kaçırmak: to go mad (over sg)
 kaçış	escape, desertion	noun
-kaçmak	to escape	verb
+kaçmak	to escape	verb	insanlardan kaçmak: to avoid people
 kaçmak	to run away	verb
 kadar	as, so	adv
 kadar	till, by	prep
@@ -4726,6 +4729,7 @@ kampanya	campaign	noun
 kamp	camp	noun
 kampüs	campus	noun
 kamuoyu	public opinion	noun
+kamu	public	adj	kamu görevi: public duty
 kamu	public	noun
 kamusal	public	adj
 kamyonet	van	noun
@@ -4796,6 +4800,7 @@ kaput	bonnet, hood	noun
 kara	black	adj	Karadeniz: Black Sea
 karaciğer	liver	noun
 kara	dark	adj
+karabasan	nightmare	noun
 karabatak	cormorant	noun
 karadeniz	Black Sea	noun
 karakol	police station	noun
@@ -5112,6 +5117,7 @@ kesintisiz	uninterrupted	adj
 keşişleme	southeaster	noun
 kesit	cross section	noun
 keşke	if only	conj
+keşkül	almond-based milk pudding	noun
 keskin	sharp	adj
 kesmek	to cut	verb	işi kestirip atmışlar: they cut the job short
 kesmek	to turn off	verb	Kes şunu! Drop it!
@@ -5627,6 +5633,7 @@ kuvvet	strength, power, force	noun
 kuyruk	cue	noun
 kuyruk	line	noun
 kuyruk	tail	noun
+kuyrukluyıldız	comet	noun
 kuytu	secluded	adj
 kuyu	well	noun
 kuyumcu	jeweller	noun
@@ -5655,6 +5662,7 @@ kültürlü	cultured	adj
 kümbet	cupola	noun
 kümbet	dome	noun
 küme	heap, pile, stack	noun
+küme	group	noun
 kümes	coop	noun
 küp	cube; caldron	noun
 küpe	earring	noun
@@ -5702,6 +5710,7 @@ lambri	(wood) panelling	noun
 lanet	curse	noun
 lânet	curse	noun	lânet olsun! damn it!
 lânet	imprecation	noun
+lanetli	damned	adj
 lapa	mush	noun
 lapa	pulp	noun
 lastikli	ambiguous	adj
@@ -6023,6 +6032,7 @@ mezun	graduate	adj
 mezun	graduate	noun
 mide	stomach; belly	noun
 midye	shell	noun
+mıknatıs	magnet	noun
 mikrobiyoloji	microbiology	noun
 mikrodalga	microwave	noun
 mikrofon	microphone	noun
@@ -6096,7 +6106,7 @@ modernizm	modernism	noun
 modernleşmek	to become modern	verb
 modernlik	modernity	noun
 modern	modern	adj
-mola	break, pause	noun
+mola	break, pause	noun	mola yeri: stop, resting place
 molekül	molecule	noun
 molla	mullah	noun
 monopol	monopoly	noun
@@ -6304,7 +6314,7 @@ neşe	joy	noun
 neşelenmek	to cheer up	verb
 neşeli	merry, cheerful, joyful	adj
 nesil	generation	noun
-nesnel	objective	adj
+nesnel	objective	adj	nesnel değerlendirme: objective evaluation
 nesne	thing; object	noun
 nestûrîlik	Nestorianism	noun
 net	clear, sharp	adj
@@ -6342,6 +6352,7 @@ nispet	relation, ratio	noun
 nispet	defiance	noun
 nispi	relative	adj
 nitekim	likewise; thus, hence, indeed	conj
+niteleme	qualification	noun
 nitelemek	to modify; to characterize	verb
 nitelenmek	to be modified, to be called, to term	verb
 nitelikli	high quality	adj
@@ -6611,6 +6622,7 @@ ozan	poet	noun
 ölçüt	criterion	noun
 öldürmek	to kill	verb
 öldürücü	pernicious	adj
+ölesiye	deadly	adv
 ölmek	to die	verb
 ölü	dead	noun
 ölümcül	deadly	adj
@@ -6708,6 +6720,7 @@ ozan	poet	noun
 öyle	such	adv
 öyle	thus; as such	adv
 öyleyse	then, if so, so	conj
+özdeşleşme	identification	noun
 özdeşleşmek	to identify with	verb
 özelleşmek	to be specialized in	verb
 özellik	feature; speciality	noun
@@ -7158,8 +7171,8 @@ rutin	routine	adj
 rüşvet	bribe, bribery	noun
 rütbe	rank	noun
 rüya	dream	noun
-rüzgar	breeze	noun
-rüzgâr	breeze	noun
+rüzgar	breeze	noun	rüzgar gülü: weather vane
+rüzgâr	breeze	noun	rüzgâr gülü: weather vane
 rüzgarlı	windy	adj
 rüzgârlı	windy	adj
 rüzgar	wind	noun
@@ -8378,6 +8391,7 @@ tayin	appointment	noun	tayin etmek: to appoint
 tayyör	costume	noun
 taze	fresh, new	adj
 tazelemek	to freshen	verb
+tazelenmek	to refresh	verb
 taziye	condolence	noun
 tazminat	compensation	noun
 tebessüm	smile	noun
@@ -8515,7 +8529,7 @@ terörist	terrorist	noun
 terörizm	terrorism	noun
 terör	terror	noun
 ters	adverse, reverse	adj
-tersi	reverse	noun
+tersi	reverse	noun	tam tersine: on the contrary
 terslemek	to retort, to scold	verb
 terslenmek	to be harsh	verb
 terslik	misfortune	noun
@@ -8649,7 +8663,7 @@ toplanmak	to get together	verb
 toplantı	meeting, gathering	noun
 topluca	en masse, all together	noun
 toplu	collective	adj
-topluluk	community	noun
+topluiğne	pin	noun
 topluluk	group, community	noun
 toplum	commmunity	noun
 toplumsal	social	adj
@@ -8966,6 +8980,7 @@ uzunluk	length	noun
 ürkmek	to flinch	verb
 ürkmek	to wince, to flinch	verb
 ürkmüş	scared, frightened	adj
+ürkünç	scary	adj
 ürkütmek	to scare	verb
 ürkütücü	freaky	adj
 ürpermek	to shake	verb
@@ -9458,7 +9473,7 @@ yeryüzü	earth, world	noun
 yeşermek	to leaf out, to become green	verb
 yeşil	green	adj
 yetenek	ability, capability, talent	noun
-yetenekli	talented	adj
+yetenekli	talented, skilled	adj
 yetenek	talent	noun
 yeterince	enough, sufficiently	adv
 yeterince	enough	adv
