@@ -55,6 +55,7 @@ açılmak	to open	verb
 acil	urgent	adj	acil durum: emergency
 acımak	to ache	verb
 acımasız	merciless	adj
+acınacak	deplorable, pitiable	adj
 acınmak	to feel sorry	verb
 acı	pain	noun
 açısından	from the point of view	posp
@@ -977,7 +978,7 @@ başhemşire	head nurse	noun
 başıboş	vagabond	adj
 basılmak	to be printed	verb
 basım	printing, (book) edition	noun
-basınç	pressure	noun
+basınç	pressure	noun	kan basıncı: blood pressure
 basın	press	noun
 basit	easy	adj
 basit	simple	adj	basit bir şekilde: in a simple way
@@ -1192,6 +1193,8 @@ beyinsiz	brainless, stupid	adj
 beylerbeyi	grand seigneur	noun	
 beylik	principality, seigniory	noun
 beyzbol	baseball	noun
+bezdirici	tiresome	adj
+bezdirmek	to harrass	verb
 bezelye	pea	noun
 bezemek	to adorn, to decorate	verb
 bezmek	to get tired	verb
@@ -1215,6 +1218,8 @@ bifobi	biphobia	noun
 biftek	steak	noun
 bıkmak	to get bored by or with	verb
 bıktı	tired	adj	bıktım: I am fed up
+bıktırıcı	tedious	adj
+bıktırmak	to sicken, to make one tired	verb
 bilanço	balance sheets	noun
 bildirge	declaration	noun
 bildirim	notice, declaration	noun
@@ -1936,6 +1941,7 @@ cinayet	murder	noun	cinayet masası: homicide squad (police)
 çin	China	noun
 çin	Chinese	adj
 çingene	gypsy	noun
+çıngırak	rattle (sound), bell	noun
 cin	genie	noun
 çınlamak	to ring	verb
 çinli	Chinese	noun
@@ -2823,6 +2829,7 @@ eleştirmek	to criticize	verb
 eleştirmen	critic	noun
 el	hand	noun	ele almak: to handle	ele alınmak: to be handled	elle tutulur: palpable, tangible	ele geçirmek: to capture	elde etmek: to achieve, to obtain	eli açık: generous
 eliaçık	generous	adj
+elif	alef (first letter of the Arabic alphabet)	noun
 elit	elite	noun
 ellemek	to touch	verb
 elli	fifty	noun
@@ -5266,6 +5273,7 @@ kıvam	consistency	noun
 kıvam	temper	noun
 kıvanç	pride	noun
 kıvılcım	spark	noun
+kıvırcık	curly	adj	kıvırcık saç: curly hair, wool
 kıvırmak	to curl, to sway	verb	kıvır zıvır: unimportant detail
 kıvırmak	to fold	verb
 kıvırzıvır	unimportant detail	noun
@@ -5828,6 +5836,7 @@ makam	position, office	noun
 makarna	noodles	noun
 makarna	pasta	noun
 makas	scissors	noun
+makat	anus	noun
 makbul	appropriate	adj
 makbuz	receipt	noun
 makine	machine	noun	makineli tüfek: machine gun
@@ -6104,6 +6113,7 @@ mizahçı	humorist	noun
 mizah	humor	noun
 mizansen	scene, decor, mise-en-scène	noun
 mızıka	harmonica	noun
+mızırdanmak	to whine, to grumble	verb
 mızmız	grumpy, grouchy	adj
 mızmızlanmak	to whine	verb
 mızrak	spear	noun
@@ -6569,13 +6579,15 @@ ova	plain	noun
 ovmak	to rub, to massage	verb
 oya	lace	noun
 oyalamak	to delay	verb
+oyalanmak	to linger	verb
 oylamak	to vote	verb
-oymak	to carve	verb
+oymak	to carve, to sculp	verb
 oynamak	to play	verb	istediği gibi at oynatmak: to act according to one's own whims
 oynatılmak	to be played (e.g. movie)	verb
 oynatmak	to move	verb
 oysa	although, whereas, however, yet	conj
 oyuk	hollow	adj
+oyulmuş	carved	adj
 oyuncak	toy	noun
 oyunca	toy	noun
 oyuncu	actor	noun
@@ -7577,7 +7589,7 @@ sendika	union	noun
 sendrom	syndrome	noun
 senet	voucher	noun	hisse senedi: stock, share
 sene	year	noun
-şen	joyful	adj
+şen	joyful, cheerful	adj
 senkretizm	syncretism	noun
 şenlik	celebration	noun
 şenlik	festival	noun
@@ -7892,6 +7904,7 @@ sızıntı	leak	noun
 sizi	you (plural direct and indirect object) (informal)	pron
 sızlamak	to ache, to hurt	verb
 sızlamak	to burn	verb
+sızlatmak	to sting	verb
 sizlerle	with you	pron
 sızmak	to infiltrate	verb
 sızmak	to leak	verb
@@ -8234,6 +8247,7 @@ takım	set	noun	suluboya takımı: watercolour set
 takım	team	noun	bir takım: some
 takip	follow-up, pursuit, chase	noun
 takırdamak	to rattle	verb
+takırtı	rattle (sound)	noun
 takke	cap	noun
 taklit	imitation, simulation	noun
 takma	fake	adj	takma adı: nickname
@@ -8243,6 +8257,7 @@ taksi	cab	noun
 taksi	taxi	noun
 taksit	payment, installment	noun
 taktik	tactics	noun
+takunya	clogs, sabot	noun
 takvim	calendar	noun
 takviye	reinforcement	noun
 talan	pillage	noun	talan etmek: to plunder
@@ -8619,6 +8634,8 @@ tiksinti	disgust	noun
 tiksinme	disgust	noun
 tiksinmek	to be disgusted	verb
 tilki	fox	noun
+tılsım	charm, spell	noun
+tılsımlı	magical	adj
 tımar	fief, manor	noun
 tımarhane	madhouse, mental hospital	noun
 timokrasi	timocracy	noun
@@ -8787,6 +8804,8 @@ tüp	cylinder; tube	noun
 türban	turban	noun
 türbe	tomb	noun
 türbin	turbine	noun
+türdeş	homogeneous	adj
+türdeş	fellow creature	noun
 türemek	to derive, to come into existence	verb
 türev	derivative	noun
 türkçe	Turkish	noun
@@ -9702,13 +9721,14 @@ yüz	face	noun	yüzüne: to one's face
 yüz	hundred	noun
 yüzleşmek	to face	verb
 yüzlü	-faced	adj
-yüzmek	to skin	verb
+yüzmek	to skin	verb	derisini yüzmek: to flay
 yüzmek	to swim	verb
 yüz	surface	noun
 yüzsüz	shameless	adj
 yüzsüzlük	boldness, impudence, shamelessness, cheekiness, effrontery	noun
 yüzük	ring	noun	yüzük parmağı: ring finger
 yüzükoyun	face down	adv
+yüzülmüş	skinned	adj
 yüzünden	because of	posp
 yüzünden	due to	posp
 yüzyıl	century	noun
