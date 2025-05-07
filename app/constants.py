@@ -142,7 +142,9 @@ EXCEPTIONS = {
              'alın': ['alnım','alnın','alnı','valnımız','alnınız','alnı'],
              'fikir': ['fikrim','fikrin','fikri','fikrimiz','fikriniz','fikri'],
              'devir': ['devrim','devrin','devri','devrimiz','devriniz','devri'],
-             'hat': ['hattım','hattın','hattı','hattımız','hattınız','hattın']
+             'hat': ['hattım','hattın','hattı','hattımız','hattınız','hattı'],
+             'gönül': ['gönlüm','gönlün','gönlü','gönlümüz','gönlünüz','gönlü'],
+             'bağır': ['bağrım','bağrın','bağrı','bağrımız','bağrınız','bağrı']
         },
         'GENITIVE': {
         },

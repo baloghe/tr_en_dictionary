@@ -258,7 +258,7 @@ albay	colonel	noun
 albinizm	albinism	noun
 albüm	album	noun
 alçakgönüllü	humble	adj
-alçakgönüllü	modest	
+alçakgönüllü	modest	adj
 alçakgönüllülük	humility, meekness	noun
 alçak	low	adj
 alçak	sordid	adj
@@ -298,7 +298,7 @@ alık	simpleton, scatterbrained, dimwitted	adj
 alım	buying, purchase	noun
 alımlı	charming, attractive	adj
 alim	scholar	noun
-alın	forehead, front	noun	alın yazısı: destiny
+alın	forehead, front	noun	alın yazısı: destiny, doom, fate
 alınmak	to be taken	verb
 alıntı	quotation	noun
 alışık	familiar, accustomed to	adj
@@ -854,6 +854,7 @@ bağımlılık	addiction, dependency	noun
 bağımsız	independent	adj
 bağımsızlık	independence	noun
 bağıntı	relation, connection	noun
+bağır	bosom, heart	noun	Anadolu'nun bağrı: the heart of Anatolia
 bağıra	shout	noun	bağıra bağıra: shouting loudly
 bağırmak	to shout	verb
 bağırmak	to yell	verb
@@ -1146,6 +1147,7 @@ benzer	like	adv
 benzerlik	similarity	noun
 benzer	similar	adj
 benzetilmek	to be compared to	verb
+benzetme	comparison	noun
 benzetmek	to compare to	verb
 benzin	gas, petrol	noun
 benzin	petrol	noun
@@ -1731,7 +1733,7 @@ cari	current	adj
 çarpmak	to shock	verb
 çarşaf	sheet	noun
 çarşamba	Wednesday	noun
-çarşı	market place	noun
+çarşı	market place	noun	evdeki hesap çarşıya uymaz (proverb): plans made on any subject do not always turn out as desired
 casus	spy, infiltrator	noun
 çatal	fork, bifurcation	noun	çatal bıçak: cutlery
 çat	bang	noun
@@ -1884,7 +1886,7 @@ ciddiyet	seriousness	noun
 ciğer	liver; lungs	noun
 çığlık	scream	noun
 çiğnemek	to chew	verb
-çiğnemek	to trample down, to run over		verb
+çiğnemek	to trample down, to run over	verb
 çiğ	raw, uncooked	adj
 çığ	avalanche	noun
 cihaz	gadget, device	noun
@@ -2423,6 +2425,7 @@ direksiyon	steering wheel	noun
 direkt	direct	adj
 direktif	directive, order	noun
 direnç	resistance	noun
+dirençli	stubborn, resistant	adj
 direniş	resistance, opposition	noun
 direniş	resistance	noun
 direnmek	to resist	verb
@@ -3529,7 +3532,7 @@ gönüllü	volunteer	adj
 görece	relatively	adv
 göre	for, according to	posp
 göreli	relative	adj
-görev	duty, assignment	noun
+görev	duty, assignment, mission, task	noun
 görevlendirme	employment	noun
 görevlendirmek	to assign	verb
 görevli	in charge, on duty	noun
@@ -3812,7 +3815,7 @@ haram	wrong, unlawful	noun
 hara	stud farm	noun
 harbi	real, honest	adj
 harbiye	military academy	noun
-harcamak	to spend, to consume	verb
+harcamak	to spend, to consume; to waste	verb
 harç	fee, tax	noun
 harçlık	pocket money	noun
 harç	mortar, plaster	noun
@@ -3994,7 +3997,7 @@ herif	guy	noun
 herif	husband	noun
 herkes	everybody	pron
 herkes	everyone	pron
-hesap	account	noun	hesap lütfen! account please!	hesap verirsin: you will be held accountable
+hesap	account	noun	hesap lütfen! account please!	hesap verirsin: you will be held accountable	evdeki hesap çarşıya uymaz (proverb): plans made on any subject do not always turn out as desired
 hesap	calculation	noun
 hesaplamak	to calculate; to estimate	verb
 hevesli	eager	adj
@@ -5261,6 +5264,7 @@ kısmet	fortune, destiny	noun
 kısmet	luck	noun
 kısmi	partial	adj
 kış	winter	noun
+kışla	barracks, quarters	noun
 kışlık	winterly, of winter	adj	kışlık giysiler: winter clothes
 kıta	continent; military detachment	noun
 kitap	book	noun
@@ -8880,6 +8884,7 @@ umursamayan	indifferent	adj
 umursamaz	unconcerned	adj	umursamaz bir şekilde: indifferently
 umursamazlık	indifference	noun
 umut	hope	noun	umut etmek: to hope	umutlarını kırmak: to disappoint
+umutlu	hopeful, sanguine, expectant	adj
 umutsuz	desperate	adj
 umutsuz	hopeless	adj
 umutsuzluk	bleakness (of a situation)	noun
@@ -9441,7 +9446,7 @@ yaymak	to scatter	verb
 yaymak	to spread	verb
 yazarlık	authorship	noun
 yazar	writer, author	noun
-yazgı	fate	noun
+yazgı	fate, destiny	noun
 yazıhane	office, bureau	noun
 yazık	pity, shame	noun	Yazık! What a pity!	ne yazık ki: unfortunately, unluckily
 yazılı	inscribed; written; registered	adj
