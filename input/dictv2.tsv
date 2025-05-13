@@ -629,8 +629,8 @@ asla	ever	adv
 asla	in no case	adv
 asla	never, by no means	adv
 asla	never ever	adv
-aslan	lion	noun
-asla	Out of the question	phrase
+aslan	lion	noun	gönülde yatan aslan (proverb): a dream/goal/wish deep in one's heart
+asla	out of the question	phrase
 aslen	originally, essentially	adv
 aslında	actually	adv
 aslında	essentially	adv
@@ -876,6 +876,7 @@ bağlatmak	to tie up	verb
 bağlayıcı	connector; binding	noun
 bağlayıvermek	to put through (connection)	verb
 bağlılık	loyalty, attachment	noun
+bağlılıkla	​devotedly, faithfully	adv
 bağlı	tied to, bound to	posp
 bağlı	dependent, related, subject to	adj
 bahane	excuse	noun	hep bir bahane buluyorsun! you always find an excuse!
@@ -2362,7 +2363,7 @@ dikdörtgen	rectangle	noun
 diken	thorn	noun
 dikey	vertical	adj
 dikilmek	to stand (up), to be planted	verb
-dikiş	sewing, stitch	noun	bir dikişte içmek: drink in one gulp
+dikiş	sewing, stitch	noun	bir dikişte içmek: drink in one gulp	dikiş tutturamamak (proverb): s.one who cannot achieve success in any job
 dikkat	attention	noun	dikkat dağılması: distraction	dikkati çekmek: to draw attention
 dikkatli	careful	adj
 dikkatsiz	careless	adj
@@ -3130,6 +3131,7 @@ fedai	bouncer, bodyguard	noun
 fedailik	the job of a bouncer/bodyguard	noun
 fedakar	devoted, unselfish	adj
 fedakâr	devoted, unselfish	adj
+fedâkarca	devotedly	adv
 fedakarlık	sacrifice, devotion	noun
 feda	sacrifice, sacrificing	noun
 federal	federal	adj
@@ -3625,6 +3627,7 @@ güçsüz	weak	adj
 gudde	gland	noun
 güdü	drive, motivation, incentive	noun
 güldeste	anthology	noun
+güldürü	comedy	noun
 güldürmek	to make laugh, to amuse	verb
 güle	bye	phrase	güle güle: bye
 güleç	laughing	adj
@@ -3655,6 +3658,7 @@ güncellemek	to update	verb
 gün	day	noun	günlerde: at days	günün birinde: some day	bir gün: one day	gün ağarması: dawn	gün batısı: sunset	gün batımı: sunset	her geçen gün: every passing day
 gündelik	daily	adj
 gündelik	daily	noun
+gündelikçi	casual labourer	noun
 gündem	agenda	noun
 gündöndü	sunflower	noun
 gündüz	day	noun
@@ -5023,6 +5027,7 @@ kayınpeder	father-in-law	noun
 kayınvalide	mother-in-law	noun
 kayıp	loss, missing	noun
 kayıp	lost	adj
+kayırma	favour, protection	noun
 kayısı	apricot	noun
 kayış	strap, belt, band	noun
 kayıtlı	enrolled, registered	adj
@@ -5634,7 +5639,7 @@ kuşku	suspicion, doubt	noun
 kuşkusuz	certainly, undoubtedly	adv
 kusmak	to vomit, to throw up	verb
 kusmuk	vomit	noun
-kusur	defect, fault	noun
+kusur	defect, fault	noun	saygıda kusur etmek: to be disrespectful
 kusur	mistake	noun	kusura bakma: sorry
 kusursuz	excellent	adj
 kusursuz	flawless, perfect	adj
@@ -6141,6 +6146,7 @@ morarmak	to turn purple	verb
 morarmış	black and blue	adj
 mor	purple, violet	adj
 mor	purple	adj
+morg	morgue	noun
 motif	motive	noun
 motivasyon	motivation	noun
 motor	engine	noun
@@ -6789,6 +6795,7 @@ ozan	poet	noun
 özürlü	disabled	adj
 Özür	Sorry!	phrase
 özveri	self-sacrifice	noun
+özveriyle	devotedly	adv
 pabuç	shoe	noun
 pabuç	slipper	noun
 paça	cuff; trotter	noun
@@ -6878,6 +6885,7 @@ pasifizm	pacifism	noun
 pasif	passive	adj
 paskalya	Easter	noun
 paslı	rusty	adj
+paspas	mop	noun
 pas	rust	noun
 pasta	cake	noun
 pasta	tart	noun
@@ -7376,7 +7384,6 @@ samur	weasel	noun
 sanal	imaginary, virtual	adj
 sanat	art	noun	sanat eseri: artwork
 sanatçı	artist, craftsman	noun
-sanatçı	artist	noun
 sanatsal	artistic	adj
 sanayici	industrialist	noun
 sanayi	industry, industrial	noun	silah sanayisi: arms industry

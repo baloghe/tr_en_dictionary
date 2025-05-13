@@ -144,7 +144,8 @@ EXCEPTIONS = {
              'devir': ['devrim','devrin','devri','devrimiz','devriniz','devri'],
              'hat': ['hattım','hattın','hattı','hattımız','hattınız','hattı'],
              'gönül': ['gönlüm','gönlün','gönlü','gönlümüz','gönlünüz','gönlü'],
-             'bağır': ['bağrım','bağrın','bağrı','bağrımız','bağrınız','bağrı']
+             'bağır': ['bağrım','bağrın','bağrı','bağrımız','bağrınız','bağrı'],
+             'izin': ['iznim','iznin','izni','iznimiz','izniniz','izni']
         },
         'GENITIVE': {
         },
