@@ -76,7 +76,6 @@ adamak	to devote	verb
 adamış	devoted, wedded	adj
 adam	man	noun
 adam	person	noun
-adanmış	devoted	adj
 adaptasyon	adaptation	noun
 aday	candidate	noun
 adaylık	candidacy, nomination	noun
@@ -160,7 +159,7 @@ ahır	barn	noun
 ahiret	afterlife	noun
 ahır	stable	noun
 ahize	handset (phone), reciever	noun
-ahkam	judgement	noun	ahkâm kesmek: to pontificate, to dogmatize
+ahkam	stupid	adj
 ahlaki	ethical, moral	adj
 ahlak	morality	noun
 ahlak	morals	noun
@@ -295,7 +294,7 @@ alıcı	client, recipient, addressee	noun	gönül alıcı: conciliatory
 alıklık	stupidity	noun
 alıkonulmak	to be detained, to be kept off (from)	verb
 alıkoymak	to withhold, to detain, to retain, to keep	verb
-alık	simpleton, scatterbrained, dimwitted	adj	alık alık bakmak: stare blankly
+alık	simpleton, scatterbrained, dimwitted	adj
 alım	buying, purchase	noun
 alımlı	charming, attractive	adj
 alim	scholar	noun
@@ -599,12 +598,10 @@ asgari	minimum	adj
 aşık	lover; admirer	noun
 asık	lowering, darkened	adj	asık suratlı: dour, morose, glum, sulky
 aşılamak	to vaccinate	verb
-aşılamaz	insurmountable	adj
 asıl	fundamental	adj
 asılı	hanging, susppended	adj
 asıl	main	adj	asıl şimdi: right now
 asılmak	to hang	verb
-aşılmaz	insurmountable	adj
 asil	noble	adj
 asıl	original	adj	asıl adı: real name
 asilzade	nobleman, aristocrat	noun
@@ -979,7 +976,6 @@ basbayağı	ordinary	adj
 başeser	masterpiece	noun
 başetmek	to cope with	verb
 baş	head	noun	en başta: at first	baş etmek: to cope with	başınız sağolsun: my condolences	işim başımdan aşkın: I'm very busy	başına gelmek: to come true, to happen
-başhekim	surgeon general, head physician	noun
 başhemşire	head nurse	noun
 başıboş	vagabond	adj
 basılmak	to be printed	verb
@@ -1270,7 +1266,6 @@ bilmece	puzzle, enigma	noun
 bilmek	to know	verb	kim bilir? who knows?
 bilmem	I don't know	phrase
 bilmez	ignorant	adj
-bilmişçe	knowingly	adv
 bilmiyorum	I don't know	phrase
 bilokasyon	bilocation	noun
 bilye	marble	noun
@@ -1929,7 +1924,6 @@ cila	varnish, polish, glaze	noun
 çil	freckle	noun
 çılgınlık	madness, frenzy	noun
 çılgın	mad, crazy, wild	adj
-çılgın	lunatic	noun
 çılgınca	frantic, wild	adj
 cılız	weak	adj
 çilingir	locksmith	noun
@@ -2011,7 +2005,6 @@ coğrafya	geography	noun
 çoğunluk	majority	noun
 çok	a lot of	adj
 çok	a lot	noun
-çokbilmişçe	know-it-all	adj	çokbilmişçe davranış: know-it-all attitude
 çokgen	polygon	noun
 çokluk	majority, abundance	noun
 çok	many	adj
@@ -2283,6 +2276,7 @@ deneyimli	experienced	adj
 deneysel	experimental	adj
 denge	balance	noun
 dengelemek	to balance	verb
+dengeleyici	stabilizer	noun
 dengeli	balanced	adj	dengeli beslenmek: to have a balanced diet
 dengesizlik	imbalance	noun
 dengesiz	unbalanced	adj
@@ -2388,10 +2382,11 @@ dik	upright, perpendicuular, vertical	adj
 dilber	beauty	noun
 dilekçe	petition	noun
 dilek	wish	noun	başan dileklerimle: best wishes!
-dilemek	to ask for, to request	verb
 dilenci	beggar	noun
 dilim	slice, piece	noun
 dil	language	noun
+dilemek	to wish, to desire	verb	özür dilemek: to apologize, to make an excuse
+dilemek	to ask for, to request	verb
 dilsiz	dumb, mute, speechless	adj
 dil	tongue	noun
 dimdik	straight up; very steep	adj
@@ -3324,7 +3319,6 @@ geçici	temporary, transitory	adj
 gecikme	delay	noun
 gecikmek	to be late	verb
 geciktirmek	to postpone	verb
-geçilmez	impassable	adj
 geçim	a living, welfare	noun	geçim sıkıntısı: financial hardship
 geçim	getting along	noun
 geçimsiz	difficult, quarrelsome	adj
@@ -3655,7 +3649,6 @@ gülüş	laugh	noun
 gülüş	laughter	noun
 gülüşmek	to amuse oneself	verb
 güm	flump (dull, thudding sound)	noun	helanın kapısı içerden güm güm vurulmaya başladı: the door of the toilet started to be pounded from inside
-gümlemek	to boom	verb
 gümrük	customs, duty	noun
 gümüş	silver	adj
 gümüş	silver	noun
@@ -3873,7 +3866,6 @@ haspa	baggage	noun
 hasret	longing	noun
 hassasiyet	sensitivity	noun
 hassas	sensitive	adj
-hastabakıcı	nurse	noun
 hastalanma	disease	noun
 hastalanmak	to get ill	verb
 hastalık	disease	noun
@@ -3972,7 +3964,6 @@ hediye	resent	noun
 hegemonya	hegemony	noun
 hekim	doctor	noun
 hekim	physician	noun
-hekimlik	medicine	noun
 hela	closet	noun
 helal	halal	noun
 hele	above all, especially, in particular	conj
@@ -4245,7 +4236,6 @@ ikili	couple	noun
 ikincil	secondary	adj
 ikinci	second	adj
 ikindi	mid-afternoon	noun
-ikircikli	ambigous	adj
 iki	two	noun
 ikiz	twin	noun
 iklim	climate	noun
@@ -4650,7 +4640,6 @@ kaçamak	evasive; excuse	noun
 kaçan	fugitive	adj
 kaç	how many	adv	Kaç yaşındasın? How old are you?	bir kaç: a few
 kaçık	crazy	adj
-kaçık	lunatic	noun
 kaçıncı	which	noun
 kaçınmak	to avoid	verb	XY yapmaktan kaçınmak: to avoid doing XY
 kaçınmak	to beware	verb
@@ -5734,7 +5723,7 @@ lahza	instant	noun
 lahza	moment	noun
 laiklik	secularism	noun
 laik	secular	adj
-lakabı	nickname	noun
+lakap	nickname	noun
 lakin	but	conj
 lakin	however, but	conj
 lakin	however	conj
@@ -5762,6 +5751,7 @@ lazer	laser	noun
 lazım	necessary	adj
 lazım	required, necessary	adj
 leğen	bowl	noun
+lehçe	dialect, vernacular	noun
 lehistan	Poland	noun
 leh	polish	adj
 leke	stain, spot	noun
@@ -5944,7 +5934,7 @@ mecburiyet	compulsion	noun
 mecbur	obliged	adj
 meçhul	nameless, unknown	adj	faili meçhul cinayet: unsolved murder case
 meçhul	uncertain	adj
-meclis	assembly	noun
+meclis	assembly, council, parliament	noun
 medeni	civilized, civil	adj
 medeniyet	civilization	noun
 medet	help	noun
@@ -6172,6 +6162,7 @@ muayene	examination	noun
 muazzam	enormous	adj
 muazzam	gigantic	adj
 muazzam	huge	adj
+mucit	inventor	noun
 mucize	miracle	noun
 muhabbet	conversation, chat	noun
 muhaberat	correspondence	noun
@@ -6403,7 +6394,6 @@ nitelikli	high quality	adj
 nitelik	quality, character	noun	nitelikte olmak: to be qualified to, to be capable of
 niyet	intention, purpose	noun
 niyet	intent	noun	hiç niyetim yok: I have no intention
-niyet	purpose	noun
 niye	why	adv
 nizam	order	noun
 nohut	chickpea	noun
@@ -6496,7 +6486,6 @@ olmazsa	unless, except	conj	hiç olmazsa: at least, at any rate
 olsun	let it be	phrase	ne olursa olsun: whatever happens, come what may, in any case
 olta	fishhook	noun
 olumlu	positive, affirmative	adj
-olumlu	positive	adj
 olumsuzluk	negativity	noun
 olumsuz	negative	adj
 olur	okay	noun	olur mu: is it possible
@@ -6618,7 +6607,7 @@ oyunculuk	acting	noun
 oyuncu	player	noun
 oyun	game	noun
 oy	vote	noun
-ozan	poet, bard	noun
+ozan	poet	noun
 öç	revenge, vengeance	noun	öç almak: to take revenge
 öbek	group, heap	noun
 öbür	other	det
@@ -7351,7 +7340,6 @@ saklamak	to conceal	verb
 saklamak	to keep	verb
 saklanmak	to hide (oneself)	verb
 şaklatmak	to snap	verb
-savsaklamak	to neglect	verb
 saklı	hidden	adj
 saklı	secret	adj
 saksafon	saxophone	noun
@@ -7703,7 +7691,7 @@ sevmek	to love, to like	verb
 seyahat	journey, travel, voyage	noun
 seyahat	trip	noun
 şeyh	sheikh	noun
-seyirci	spectator	noun
+seyirci	spectator, audience	noun
 seyir	course	noun
 şey	item	noun
 seyrek	sparse; scattered	adj
@@ -8396,8 +8384,6 @@ taşıt	vehicle	noun
 taşıyıcı	porter, carrier, motorized transport	noun
 taslak	draft, sketch	noun
 taslama	assumption	noun	bilgiçlik taslama: pedantry
-taşlama	burlesque, satire	noun
-taşlama	stoning	noun
 taslamak	to assume	verb
 taslamak	to pretend to	verb
 taşlık	courtyard	noun
@@ -8940,7 +8926,7 @@ uyanık	awake, vigilant, alert	adj
 uyanmak	to wake up	verb
 uyarıcı	warning, stimulus	noun
 uyarınca	in accordance with	posp
-uyarı	warning, notice	noun
+uyarı	warning	noun
 uyarma	excitation, warning	noun
 uyarmak	to warn, to stimulate	verb
 uydurma	fake	adj
@@ -9001,8 +8987,9 @@ uzayzaman	spacetime	noun
 uzlaşmak	to compromise	verb
 uzlaştırma	compromise	noun
 uzman	expert, specialist	noun
+uzman	expert	noun
 uzmanlaşmak	to specialize	verb
-uzmanlık	expertise	noun	uzmanlık alanı: field of expertise, profession
+uzmanlık	expertise	noun
 uzun	long	adj	uzun uzadıya: at length, lengthily
 uzunluk	length	noun
 üçer	three each	adj
@@ -9359,7 +9346,6 @@ yaralanma	injury	noun
 yaralanmak	to get hurt	verb
 yaralanmış	hurt	adj
 yaralı	wounded, injured	adj
-yaralı	casualty	noun
 yaramak	to be useful	verb
 yaramak	to serve	verb	işe yaramak: to be useful
 yaramazlık	mischief	noun	yaramazlık yapmak: to misbehave
@@ -9512,7 +9498,6 @@ yenilgi	defeat	noun
 yenilikçi	innovative	adj
 yenilik	newness, novelty	noun
 yenilmek	to be defeated	verb
-yenilmez	invincible	adj
 yeni	new	adj
 yenmek	to beat	verb
 yen	sleeve	noun
@@ -9811,7 +9796,7 @@ zehirlenme	intoxication (poisoning)	noun
 zehirlenme	poisoning (effect of sth. toxic)	noun
 zehirli	poisonous, toxic	adj
 zehir	poison	noun
-zeka	intelligence, intellect	noun
+zeka	intelligence, intellect	noun	zekâ kat sayısı: IQ
 zekâ	intelligence, intellect	noun
 zekalı	clever	adj
 zeki	bright	adj
