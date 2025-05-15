@@ -4,7 +4,7 @@ regex.DEFAULT_VERSION = regex.VERSION1
 
 import sys
 
-from app.constants import alphaSort, WORDTYPE_MAP
+from app.constants import alphaSort, dictSort, WORDTYPE_MAP
 
 INFILE  = sys.argv[1]
 if len(sys.argv) > 3:
@@ -20,7 +20,7 @@ rp_space = regex.compile(r'.*\s+.*')
 
 def writeTSV(outFileName, inLines):
     with open(outFileName, 'w', encoding="UTF-8") as f:
-        for line in alphaSort(inLines):
+        for line in inLines:
             line2 = ""
             for a in line:
                 if line2:
@@ -75,9 +75,15 @@ def readTSV(inFileName, outOK, outRemove):
         print(f"ReadTSV :: {inFileName} contained {len(ok)} acceptable and {len(rem)} bad records")
     
     # write acceptable rows
-    writeTSV(outOK, alphaSort(ok))
+    sortedOk = dictSort(ok)
+    # part = [item for item in sortedOk if item[0][:4]=='açık']
+    # print("açık ::")
+    # print(part)
+    writeTSV(outOK, sortedOk)
     
     # write acceptable rows
     writeTSV(outRemove, alphaSort(rem))
 
 readTSV(INFILE, OUTOK, OUTREM)
+
+# usage: e.g. py -m cleaner.normdict input/dictv2.tsv input/ok.tsv input/removed.tsv
