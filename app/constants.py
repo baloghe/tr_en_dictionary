@@ -350,6 +350,12 @@ def alphaSort(a):
     # works both
     return sorted(a, key=lambda word: [_alphaLookup(c) for c in ''.join(map(str,word))])
 
+def dictSort(a):
+    # works both
+    decorated = [([_alphaLookup(c) for c in e[0]], [_alphaLookup(c) for c in e[1]], [_alphaLookup(c) for c in e[2]], i, e) for i, e in enumerate(a)]
+    decorated.sort()
+    return [orig for x1, x2, x3, i, orig in decorated]
+
 def getSrc(word, actSrc):
     if word['src']:
         return word['src'] + '.' + actSrc
