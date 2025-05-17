@@ -1169,6 +1169,7 @@ bereket	blessing	noun
 bereket	plenty	noun
 beri	since	adv
 beri	since	posp
+berrak	clear, lucid, brilliant	adj
 beş	five	noun
 besbelli	obvious	adj
 beşer	human being	noun
@@ -1868,6 +1869,7 @@ ceviz	walnut	noun	çetin ceviz: hard nut to crack
 çevresinde	around	adv
 çevresinde	round	prep
 çevrili	surrounded	adj
+çeyiz	dowry	noun
 ceylan	deer	noun
 ceylan	gazelle	noun
 çeyrek	(a) quarter (of)	noun
@@ -2398,6 +2400,7 @@ dilemek	to wish, to desire	verb	özür dilemek: to apologize, to make an excuse
 dilenci	beggar	noun
 dilim	slice, piece	noun
 dilsiz	dumb, mute, speechless	adj
+dimağ	brain	noun
 dimdik	straight up; very steep	adj
 din	religion	noun
 din	religious	adj	kökten dinci: fundamentalist
@@ -3251,6 +3254,7 @@ formasyon	formation, training	noun
 format	format	noun
 formül	formula	noun
 forum	forum	noun
+forvet	striker (football)	noun
 fosil	fossil	noun
 fotoğraf	photo	noun	fotoğraf çekmek: to take a photo
 fotoğraf	photograph	noun
@@ -4719,18 +4723,19 @@ kaldırmak	to remove	verb
 kaldırmak	to take off	verb
 kale	castle	noun
 kale	goalpost	noun
+kaleci	goalkeeper	noun
 kalem	pen, pencil	noun
 kalfa	journeyman	noun
 kalıcı	permanent	adj
 kalıcı	residual	adj
 kalıcılık	permanence	noun
 kalın	fat (thick)	adj
-kalın	thick	adj
 kalınlaşma	thickening	noun
 kalınlaşmak	to thicken	verb
 kalınlık	thickness	noun
 kalıntı	remains, ruins	noun
 kalıntı	residue	noun
+kalıp	pattern	noun
 kalite	quality	noun
 kaliteli	high quality	adj
 kalkan	shield	noun
@@ -8271,10 +8276,9 @@ tahta	wood	noun
 tahterevalli	seesaw	noun
 tahvil	bond	noun
 takarmak	to wear	verb
-takdim	presentation	noun
+takdım	presentation	noun	takdım etmek: to present
 takdir	appreciation	noun
-takdir	opinion	noun	takdirde: in case	aksi takdirde: otherwise
-takdir	regard	noun
+takdir	opinion, regard	noun	takdirde: in case	aksi takdirde: otherwise
 takdirde	in case	conj
 takı	jewelry, ornament	noun
 takılmak	to be stuck, to be hung around	verb
