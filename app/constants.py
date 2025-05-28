@@ -49,7 +49,7 @@ EXCEPTIONS = {
                      ,'sıfat','tabiat','tahribat','talimat','tarikat','tatbikat','tazminat','teminat','teribat','tezat','teşkilat'
                      ,'vaat','vefat','yat','zat','ziraat','çat','üstat','şefkat','şeriat','şubat','maç'
                      ,'kart','özet','şerbet','sırt','tüvist','yanıt','yapıt','zevk','çark','bulut','hap','asfalt','jip','dost'
-                     ,'akıbet','aygıt'],
+                     ,'akıbet','aygıt','kanıt','semt'],
         'ALTERNATE_POSS': ['kek','saç','ip','suç','hap','jip'],
         'ACCUSATIVE': {
              'saat':'saati'
@@ -145,7 +145,8 @@ EXCEPTIONS = {
              'hat': ['hattım','hattın','hattı','hattımız','hattınız','hattı'],
              'gönül': ['gönlüm','gönlün','gönlü','gönlümüz','gönlünüz','gönlü'],
              'bağır': ['bağrım','bağrın','bağrı','bağrımız','bağrınız','bağrı'],
-             'izin': ['iznim','iznin','izni','iznimiz','izniniz','izni']
+             'izin': ['iznim','iznin','izni','iznimiz','izniniz','izni'],
+             'omuz': ['omzum','omzun','omzu','omzumuz','omzunuz','omzu']
         },
         'GENITIVE': {
         },
@@ -198,7 +199,6 @@ EXCEPTIONS = {
             ,'sarfet': 'sarfed'
             ,'terket': 'terked'
             ,'tüket': 'tüked'
-            ,'yönet': 'yöned'
             ,'zikret': 'zikred'
             ,'öğret': 'öğred'
             ,'üret': 'üred'
