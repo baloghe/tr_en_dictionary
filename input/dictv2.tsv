@@ -98,6 +98,7 @@ adına	in the name of	posp
 adına	on behalf of	posp
 adlandırmak	to name	verb
 adlı	called	adj
+adli	forensic	adj	adli tıp: forensic medicine, forensics
 adli	judicial, juridical	adj	adli sicil: criminal record
 adlı	named	adj
 adliye	courthouse	noun
@@ -305,6 +306,7 @@ alınganlık	touchiness, resentment, sensibility	noun
 alınmak	to be taken	verb
 alıntı	quotation	noun
 alışık	familiar, accustomed to	adj
+alışılmak	to get used to	verb
 alışkan	habitual	adj
 alışkanlık	habit	noun
 alışkın	accustomed, used to	adj
@@ -883,6 +885,7 @@ bağlı	dependent, related, subject to	adj
 bağlı	tied to, bound to	posp
 bağlılık	loyalty, attachment	noun
 bağlılıkla	​devotedly, faithfully	adv
+bağrışma	hue and cry	noun
 bahane	excuse	noun	hep bir bahane buluyorsun! you always find an excuse!
 bahar	spring	noun
 baharat	spice	noun
@@ -1518,6 +1521,7 @@ bulamak	to cover with	verb
 bulandırmak	to blur	verb
 bulanık	muddy, not clear	adj
 bulanık	troubled	adj
+bulanıklaşmak	to blur, to cloud over	verb
 bulanmak	to blur	verb
 bulantı	nausea	noun
 bulaşıcı	contagious	adj
@@ -1749,6 +1753,7 @@ cari	current	adj
 casus	spy, infiltrator	noun
 çat	bang	noun
 çatal	fork, bifurcation	noun	çatal bıçak: cutlery
+çatallaşmak	to bifurcate, to fork	verb
 çatı	roof (of a building)	noun
 çatık	wrinkly, frowning	adj
 çatılmak	to clash	verb
@@ -2347,6 +2352,7 @@ devasa	enormous	adj
 deve	camel	noun
 devimsel	kinetic	adj
 devinim	movement, action	noun
+devinimsiz	motionless	adj
 devir	age	noun
 devir	era	noun
 devir	period	noun
@@ -2464,8 +2470,8 @@ disk	disk	noun
 dışkı	excrement	noun
 dışlamak	to exclude	verb
 dışsal	external	adj
-divan	divan, sofa	noun
 divan	council	noun
+divan	divan, sofa	noun
 diyalektik	dialectic	noun
 diyalog	dialogue	noun
 diyar	country, land	noun
@@ -2523,6 +2529,7 @@ dokunaklı	touching, moving	adj
 dokunma	touch	noun
 dokunmak	to touch	verb
 dokunulmazlık	immunity	noun
+dokunuş	touch	noun
 dokuz	nine	noun
 dokuzuncu	ninth	adj
 doküman	document	noun
@@ -2562,6 +2569,7 @@ donanma	navy	noun
 donatmak	to equip; to decorate	verb
 dondurma	ice cream	noun
 donmak	to freeze	verb
+donuk	dull	adj
 doruk	summit, peak	noun
 dosdoğru	straight ahead	adv
 dost	friend	noun	eşdost, eş dost: acquaintance
@@ -2589,7 +2597,9 @@ dönmek	to face	verb
 dönmek	to turn	verb
 dönük	facing, turned to	adj
 dönüş	return, rotation, spin, turning	noun
+dönüşmek	to turn into, to transform	verb
 dönüşüm	transformation	noun
+dönüşümlü	alternating, rotative	adj
 dördüncü	fourth	adj
 dört	four	noun
 döşek	mattress	noun
@@ -2608,6 +2618,7 @@ duba	pontoon	noun
 dudak	lip	noun
 dul	widow, widower	noun
 duman	smoke, fumes	noun
+dupduru	crystal clear	adj
 dur	stop	noun
 dur	Stop it	phrase
 durak	bus stop	noun
@@ -3737,6 +3748,7 @@ hadise	event, incident	noun
 hafıf	light	adj
 hafif	light, easy	adj
 hafıf	lightly	adv
+hafifçe	lightly, slightly	adv
 hafıfçe	slightly, lightly	adv
 hafiflemek	to lighten	verb
 hafifletme	palliation, mitigation, relief	noun
@@ -3932,10 +3944,12 @@ hayat	life	noun	hayatım: my dear	hayatta gelmek: to come alive	hayatta kalmak: 
 hayati	vital	adj
 hayda	come on!	phrase
 haydi	come on!	phrase
+haydut	bandit, thug	noun
 hayır	no	adv
 hayır	no; donation	noun
 hayırdır	what's wrong	phrase
 hayırlı	good; beneficial	adj
+haykırış	cry, outcry	noun
 haykırmak	to shout, to scream	verb
 hayli	a lot	adv
 hayli	quite a lot	adj	bir hayli: pretty much
@@ -4250,6 +4264,7 @@ ikili	couple	noun
 ikinci	second	adj
 ikincil	secondary	adj
 ikindi	mid-afternoon	noun
+ikiyüzlülük	hypocrisy	noun
 ikiz	twin	noun
 iklim	climate	noun
 ikmal	supply	adj	yakıt ikmalini yapmak: to refuel
@@ -4284,6 +4299,7 @@ ileti	message	noun
 iletilmek	to be forwarded	verb
 iletim	transmission; convection	noun
 iletişim	communication	noun
+iletişimsiz	uncommunicative	adj
 iletmek	to convey, to deliver	verb
 iletmek	to forward	verb
 ilgeç	grammatical particle	noun
@@ -4366,6 +4382,7 @@ inceleme	examination	noun
 incelemek	to analyze	verb
 incelik	politeness, slimness	noun
 incelikle	subtly (lightly)	adv
+incelikli	subtle	adj
 incir	fig	noun
 incitmek	to hurt	verb
 incitmek	to insult	verb
@@ -4423,6 +4440,7 @@ irfan	knowledge	noun
 iri	large, coarse	adj
 irice	largish	adj
 iridyum	iridium	noun
+irileşmek	to become larger	verb
 ırk	race	noun
 ırkçı	racist	adj
 ırkçı	racist	noun
@@ -4654,8 +4672,8 @@ kaçamak	evasive; excuse	noun
 kaçan	fugitive	adj
 kaçık	crazy	adj
 kaçıncı	which	noun
-kaçınılmaz	inevitable	adj	kaçınılmaz biçimde: inevitably
 kaçınılmak	to be avoided	verb
+kaçınılmaz	inevitable	adj	kaçınılmaz biçimde: inevitably
 kaçınmak	to avoid	verb	XY yapmaktan kaçınmak: to avoid doing XY
 kaçınmak	to beware	verb
 kaçırmak	to miss	verb	keçileri kaçırmak: to go mad (over sg)
@@ -5207,6 +5225,7 @@ kımıldamak	to move	verb
 kımıldatmak	to move	verb
 kimin	whose	pron	kimin umurunda: who cares!
 kimlik	identity	noun
+kimliksiz	unidentified	adj
 kimse	noone	pron
 kimse	person	noun
 kimsesiz	orphan	adj
@@ -5259,6 +5278,7 @@ kırmak	to hurt	verb
 kırmızı	red	adj
 kirpi	hedgehog	noun
 kirpik	eyelash	noun
+kırpıştırmak	to blink	verb
 kırpmak	to blink, to wink	verb
 kırsal	rural	adj
 kış	winter	noun
@@ -5354,6 +5374,8 @@ kocaman	huge, enormous	adj
 kod	code	noun
 kodes	jailhouse (sl.)	noun
 kodlamak	to encode	verb
+kof	hollow	adj
+koflaşmak	to become hollow	verb
 koğuş	ward	noun
 koherent	coherent	adj
 kohezif	cohesive	adj
@@ -5524,6 +5546,7 @@ körüklemek	to stir up	verb
 köşe	corner	noun
 köşebent	bracket	noun
 köşk	pavilion, mansion	noun
+kösnül	lustful	adj
 kötü	bad	adj	o kadar kötü olamaz: it can't be that bad	daha kötüsü: worse
 kötü	evil	adj
 kötülemek	to discredit	verb
@@ -5611,8 +5634,8 @@ kurdele	ribbon	noun
 kurdeleli	banded, ribbonned	adj
 kurgu	fiction	noun
 kurgulamak	to envisage	verb
-kurma	establishment, foundation	noun
 kurma	building, forming	noun
+kurma	establishment, foundation	noun
 kurmak	to set up, to establish	verb
 kurmay	general staff officer (military)	noun
 kurnaz	cunning	adj
@@ -6416,6 +6439,7 @@ nitelikli	high quality	adj
 niye	why	adv
 niyet	intent	noun	hiç niyetim yok: I have no intention
 niyet	intention, purpose	noun
+niyetlenmek	to intend	verb
 nizam	order	noun
 nohut	chickpea	noun
 nokta	dot	noun
@@ -6678,6 +6702,7 @@ ozan	poet	noun
 ölçü	extent	noun	bir ölçüde: to some degree
 ölçü	measurement, dimension	noun
 ölçülmek	to be measured	verb
+ölçülü	measured, restrained	adj
 ölçüm	measure	noun
 ölçüt	criterion	noun
 öldürmek	to kill	verb
@@ -6916,6 +6941,7 @@ paslı	rusty	adj
 paspas	mop	noun
 pasta	cake	noun
 pasta	tart	noun
+pastane	sweetshop	noun
 pat	pop, thud	noun
 patates	potato	noun
 patavatsız	gauche, tactless, blunt	adj
@@ -7133,6 +7159,7 @@ rahip	pastor	noun
 rahle	lectern, book stand	noun
 rahmet	God’s mercy, God’s compassion	noun	ona rahmet okutmak: have mercy on him/her
 rahmetli	deceased, late	adj
+rahmetli	the deceased	noun
 rahmetlik	deceased	adj
 rakam	digit, numeral	noun
 rakam	figure	noun
@@ -7263,6 +7290,7 @@ sabit	still	adj
 sabitlemek	to fix (fasten)	verb
 sabretmek	to be patient	verb
 sabun	soap	noun	sabun köpüğü: soap bubble
+sabunlu	soapy	adj
 saç	hair	noun
 saçaklı	fringed	adj
 saçılmak	to scatter	verb
@@ -7335,6 +7363,7 @@ sahne	stage	noun
 şahsi	self	pron
 şahsiyet	personality	noun
 sahte	fake	adj
+sahtecilik	forgery, fraud	noun
 sahtekâr	dishonest, fraudulent	adj
 sahtekâr	fraud, impostor	noun
 şair	poet	noun
@@ -7377,6 +7406,7 @@ salak	idiotic	adj
 salata	salad	noun
 saldırgan	aggressive	adj
 saldırgan	assailant	adj
+saldırganlaşmak	to become aggressive	verb
 saldırganlık	aggression	noun
 saldırı	attack	noun
 saldırmak	to attack	verb
@@ -7482,6 +7512,7 @@ sarmalamak	to wrap	verb
 sarmaşık	ivy	noun
 sarnıç	cistern	noun
 sarsak	clumsy	adj
+sarsıcı	jarring, staggering, shaking	adj
 sarsılmak	to shake	verb
 sarsılmış	shocked	adj
 sarsıntı	quake, shake	noun
@@ -7627,6 +7658,7 @@ semt	neighborhood	noun
 şen	joyful, cheerful	adj	şen şakrak bir sesle: in a cheerful/jovial voice
 sen	you (informal)	pron
 senaryo	scenario, screenplay	noun
+sendelemek	to stumble, to stagger	verb
 sendika	union	noun
 sendikal	trade union	adj
 sendrom	syndrome	noun
@@ -7683,6 +7715,7 @@ servet	wealth, fortune	noun
 servi	cypress	noun
 servis	service	noun
 ses	sound, noise, voice	noun
+seslendirmek	to vocalize	verb
 seslenme	call, shouting	noun
 seslenmek	to address	verb
 seslenmek	to call	verb
@@ -7812,6 +7845,7 @@ silgi	eraser, rubber	noun
 şili	Chile	noun
 silik	meek	adj
 silkelemek	to shake	verb
+silkinmek	to shake	verb
 silkmek	to shake out, to shrug	verb	omuz silkmek: to shrug one's shoulders
 silmek	to clean	verb
 silmek	to delete	verb	sil almak: to get a delete
@@ -7872,6 +7906,7 @@ sinsice	furtive	adj
 sinyal	signal	noun
 sipariş	order	noun
 siper	shield, shelter, barricade	noun
+sipsivri	sharp, pointed	adj
 sır	secret, mystery	noun
 sıra	desk	noun	sırama yaslandı: s/he leaned on my desk
 sıra	order	noun
@@ -7982,6 +8017,7 @@ solak	left-hander	noun
 solcu	leftist	noun
 solda	to / on the left	adv
 solenoid	solenoid	noun
+solgun	pale	adj
 solgunluk	pallor	noun	solgunluk veren: pallid
 solmak	to become pale	verb
 solmak	to fade	verb
@@ -7991,7 +8027,7 @@ solunum	breathing	noun
 somun	loaf (bread, wood)	noun
 somun	nut	noun
 somurtmak	to sulk	verb
-somut	concrete	adj
+somut	concrete, tangible	adj
 somutlaşmak	to embody, to become concrete	verb
 somutlaştırmak	to reify	verb
 son	conclusion	noun
@@ -8130,6 +8166,7 @@ suçlanmak	to be accused	verb
 suçlu	guilty	adj
 suçluluk	guilt	noun
 sucuk	sausage	noun
+suçüstü	red-handed, in flagrante	adj
 suikast	assassination	noun
 suikastçı	assassin	noun
 sulamak	to water	verb
@@ -8901,6 +8938,7 @@ uğraşmak	to struggle	verb	bir şeyle uğraşmak: to bother with sg
 uğraştırmak	to preoccupy	verb
 uğratmak	to inflict	verb
 uğruna	for the sake of	posp
+uğuldamak	to hum	verb
 uğultu	hum, roar	noun
 uğur	charm, luck	noun
 uğurlamak	to bid farewell	verb
@@ -9314,6 +9352,7 @@ yalnızca	alone	adv
 yalnızca	just; only	adv
 yalnızlık	loneliness, solitude	noun
 yaltakçı	sycophant	noun
+yalvarırca	pleadingly	adv
 yalvarmak	to beg	verb
 yama	patch, darn	noun	yama yapmak: to patch up
 yamaç	slope	noun
@@ -9373,6 +9412,7 @@ yapışmak	to stick, to cling	verb
 yapışmak	to stick to	verb
 yapıştırmak	to paste	verb
 yapıt	work	noun
+yapmacık	artificial	adj
 yapmak	to build	verb
 yapmak	to do, to make	verb
 yaprak	leaf	noun	yaprak dökümü: fall of the leaves
@@ -9622,6 +9662,7 @@ yıllık	annual, yearly	noun
 yine	again	adv
 yinelemek	to recur	verb
 yinelemek	to repeat	verb
+yinelenmek	to repeat	verb
 yıpranmak	to wear out, to lose drive	verb
 yıpratmak	to wear out	verb
 yirmi	twenty	noun
