@@ -56,6 +56,7 @@ açılmak	to losen up	verb
 açılmak	to open	verb
 acımak	to ache	verb
 acımasız	merciless	adj
+acımasızca	mercilessly	adv
 acınacak	deplorable, pitiable	adj
 acınmak	to feel sorry	verb
 açısından	from the point of view	posp
@@ -418,8 +419,9 @@ anlamak	to grasp	verb
 anlamak	to understand, to realize	verb
 anlamazdan	by not understanding	phrase	anlamazdan gelmek: pretend not to understand
 anlamlandırmak	to make meaningful	verb
-anlamlı	meaningful	adj
-anlamsız	meaningless	adj
+anlamlı	meaningful, significant	adj
+anlamsız	meaningless, pointless, insignificant	adj
+anlamsızlaşmak	to become meaningless	verb
 anlaşılan	apparently	adv
 anlaşılmak	to be understood	verb	anlaşıldı: understood
 anlaşmak	to agree	verb
@@ -744,7 +746,7 @@ aydınlık	bright, luminous	adj
 aydınlık	brightness, illumination	noun
 aydınlık	light	adj
 ayet	verse of the Koran	noun
-aygıt	device	noun
+aygıt	device	noun	çağrı aygıtı: pager, beeper
 aygıt	machine	noun
 ayı	bear	noun
 ayık	sober	adj
@@ -1698,7 +1700,7 @@ camsı	vitreous	adj
 çamurcun	common (Eurasian) teal	noun
 çamurluk	fender, mudguard	noun
 çan	bell, gong	noun
-can	life	noun	can kaybı: loss of life	can atmak: to crave for
+can	life	noun	can kaybı: loss of life	can atmak: to crave for, to aspire for
 can	soul; life	noun
 çanak	bowl, pot	noun
 canavar	monster, beast	noun
@@ -1773,7 +1775,7 @@ cehalet	ignorance	noun
 cehennem	hell	noun
 çehre	face	noun
 çek	cheque	noun
-ceket	jacket	noun
+ceket	jacket	noun	kruvaze ceket: double breasted jacket
 çekiç	hammer	noun
 çekici	attractive, charming	adj
 çekici	tow truck	noun
@@ -2023,6 +2025,7 @@ coğrafya	geography	noun
 çokgen	polygon	noun
 çokluk	majority, abundance	noun
 çoktan	already	adv
+çoktandır	since long	adv
 çokterimli	polynomial	noun
 çorap	stocking, sock	noun	çorap söküğü gibi: (idiom) quickly like taking off a sock
 çorba	soup	noun
@@ -2275,9 +2278,7 @@ demokratik	democratic	adj
 demokratikleşmek	to democratize	verb
 denek	subject	noun
 deneme	test, trial; essay	noun
-denemek	to attempt	verb
-denemek	to test	verb
-denemek	to try	verb
+denemek	to attempt, to try, to test	verb
 denemek	to try on	verb
 denetim	inspection; control	noun
 denetlemek	to check, to inspect	verb
@@ -2310,8 +2311,6 @@ derece	extent	noun	son derece: extremely	ne derece: to what extent
 derece	rate, rank	noun
 dergi	periodical, magazine	noun
 derhal	immediately	adv
-deri	leather	noun
-deri	skin	noun
 deri	skin; leather	noun
 derin	deep	adj
 derin	profound	adj
@@ -2322,7 +2321,6 @@ derinlik	depth	noun
 derleme	compilation, miscellany	noun
 derlemek	to compile, to collect	verb
 derman	remedy	noun
-dernek	association	noun
 dernek	association, society	noun
 ders	lesson; course	noun
 dersane	classroom	noun
@@ -2410,10 +2408,9 @@ dinamizm	dynamism	noun
 dinç	vigorous, robust	adj
 dinci	religious fanatics	noun
 dindar	devout	adj
-dindar	religious	adj
 dindar	religious, pious	adj
 dindirmek	to calm sg, to soothe	verb
-dingin	calm	adj
+dingin	calm, inert	adj
 dini	religious	adj
 dinlemek	to hear	verb
 dinlemek	to listen	verb
@@ -2441,7 +2438,6 @@ direkt	direct	adj
 direktif	directive, order	noun
 direnç	resistance	noun
 dirençli	stubborn, resistant	adj
-direniş	resistance	noun
 direniş	resistance, opposition	noun
 direnmek	to resist	verb
 diretmek	to insist	verb
@@ -2458,6 +2454,7 @@ dışarı	out	adv
 dışarı	out	noun
 dışarı	outside	noun
 dışarıya	out	adv
+dışavurum	expression	noun
 dişçi	dentist	noun
 dişi	female	noun
 dişilik	femininity	noun
@@ -2467,8 +2464,8 @@ disk	disk	noun
 dışkı	excrement	noun
 dışlamak	to exclude	verb
 dışsal	external	adj
-divan	divan, sofa; council	noun
-divan	sofa	noun
+divan	divan, sofa	noun
+divan	council	noun
 diyalektik	dialectic	noun
 diyalog	dialogue	noun
 diyar	country, land	noun
@@ -2673,7 +2670,7 @@ dünya	world	noun
 düpedüz	sheer, absolutely	adv
 dürbün	binoculars, telescope	noun
 dürtü	instinct	noun
-dürtü	urge	noun
+dürtü	urge, impulse	noun
 dürüst	honest	adj	doğru dürüst: properly
 dürüstçe	faithfully	adv
 dürüstçe	to be honest	adv
@@ -2944,7 +2941,6 @@ eriyik	solution, dilution	noun
 erk	force, power	noun
 erkân	officer, superior, leader	noun
 erkek	male	adj
-erkek	man	noun
 erkek	man, male	noun
 erkeklik	masculinity	noun
 erken	early	adj
@@ -3112,7 +3108,7 @@ fare	mouse	noun
 fare	rat	noun
 fark	difference	noun	fark etmek: to notice
 farketmek	to notice, to realize	verb
-farketmez	Never mind	phrase
+farketmez	never mind	phrase
 farkında	aware	adj
 farklı	different	adj
 farklılaşmak	to differentiate, to change	verb
@@ -3256,8 +3252,7 @@ formül	formula	noun
 forum	forum	noun
 forvet	striker (football)	noun
 fosil	fossil	noun
-fotoğraf	photo	noun	fotoğraf çekmek: to take a photo
-fotoğraf	photograph	noun
+fotoğraf	photo, photograph	noun	fotoğraf çekmek: to take a photo
 fotoğrafçı	photographer	noun
 fotoğraflamak	to photo, to photograph	verb
 fotoğraflamak	to take a photograph	verb
@@ -3279,7 +3274,6 @@ gafil	careless	adj	gafil avlamak: to take by surprise
 galaksi	galaxy	noun
 galeri	gallery	noun
 galiba	I guess	phrase
-galiba	probably	adv
 galiba	probably, likely	adv
 galibiyet	victory	noun
 galip	winner	noun
@@ -3388,7 +3382,6 @@ genellikle	generally	adv
 general	general	noun
 genetik	genetic	adj
 genetik	genetics	noun
-geniş	broad	adj
 geniş	large	adj
 geniş	wide, broad	adj
 geniş	widespread	adj
@@ -3416,7 +3409,7 @@ gereç	equipment	noun
 gereğince	in accordance with, as required by, following	adv
 gerek	necessity	noun
 gerek	requirement	noun
-gerekçe	justification, ground	noun
+gerekçe	reason, justification, ground	noun
 gerekli	necessary, needed	adj
 gerekli	required	adj
 gereklilik	necessity, need	noun
@@ -3484,6 +3477,7 @@ gıda	food	noun
 gıda	nourishment	noun
 gidelim	Let's go!	phrase
 giderayak	going away	adj
+giderek	increasingly, gradually	adv
 gidiş	going, departure	noun
 gık	squeak	noun	gık dememek: not to say a word
 gimnofobi	gymnophobia	noun
@@ -3710,6 +3704,7 @@ güvenmek	to believe	verb
 güvenmek	to trust	verb
 güvensizlik	distrust	noun
 güvercin	pigeon	noun
+güverte	deck	noun
 güya	so to say, supposedly	conj
 güz	autumn, fall	noun
 güzel	beautiful	adj	her şey güzeldi: everything was fine
@@ -4135,6 +4130,7 @@ huylanmak	to be angry, to be irritated	verb
 huylu	spirited; bad-tempered	adj
 huysuz	grumpy, irritable	adj
 huzur	tranquility, peace	noun
+huzurevi	nursing home (home for the aged)	noun
 huzurla	peacefully, calmly	adv
 huzurlu	peaceful, calm	adj
 huzursuz	uneasy, restless	adj
@@ -4658,6 +4654,8 @@ kaçamak	evasive; excuse	noun
 kaçan	fugitive	adj
 kaçık	crazy	adj
 kaçıncı	which	noun
+kaçınılmaz	inevitable	adj	kaçınılmaz biçimde: inevitably
+kaçınılmak	to be avoided	verb
 kaçınmak	to avoid	verb	XY yapmaktan kaçınmak: to avoid doing XY
 kaçınmak	to beware	verb
 kaçırmak	to miss	verb	keçileri kaçırmak: to go mad (over sg)
@@ -4990,6 +4988,7 @@ katılmak	to take part	verb
 katiyen	never	adv	katiyen olmaz! no way!
 katkı	contribution	noun
 katlamak	to fold over, to crease; to double	verb
+katlanılmak	to be endured	verb
 katlanma	endurance, bearing, stand	noun
 katlanmak	to tolerate, to endure	verb
 katletmek	to massacre, to slay	verb
@@ -5613,6 +5612,7 @@ kurdeleli	banded, ribbonned	adj
 kurgu	fiction	noun
 kurgulamak	to envisage	verb
 kurma	establishment, foundation	noun
+kurma	building, forming	noun
 kurmak	to set up, to establish	verb
 kurmay	general staff officer (military)	noun
 kurnaz	cunning	adj
@@ -5998,6 +5998,8 @@ meraklı	addicted, enthusiast	adj
 meraklı	curious, interested	adj
 meraklı	nosy	adj
 meram	purpose, purport	noun	meramını anlatmak: to express one's intentions
+merasim	ceremony	noun	kız isteme merasimi: wedding proposal ceremony
+mercek	lens, objective	noun
 merci	official authority	noun
 merdiven	ladder	noun
 merdiven	stairs	noun
@@ -7289,6 +7291,7 @@ safha	phase, stage	noun
 saflık	purity, innocence, naivety	noun
 sağ	alive; right side	noun
 sağa	to the right	adv
+sağaçık	right winger (football)	noun
 sağcı	rightist, right-wing	noun
 sağda	on the right-hand side	adv
 sağda	to / on the right	adv
@@ -7478,6 +7481,7 @@ sarmak	wind up	verb
 sarmalamak	to wrap	verb
 sarmaşık	ivy	noun
 sarnıç	cistern	noun
+sarsak	clumsy	adj
 sarsılmak	to shake	verb
 sarsılmış	shocked	adj
 sarsıntı	quake, shake	noun
@@ -7973,6 +7977,7 @@ sokulmak	to snuggle, to infiltrate	verb
 sol	left	noun	sol tarafa: to the left
 sola	left	adj
 sola	to the left	adv
+solaçık	left winger (football)	noun
 solak	left-hander	noun
 solcu	leftist	noun
 solda	to / on the left	adv
@@ -8151,6 +8156,7 @@ susak	thirsty	adj
 susamak	to be thirsty	verb
 susamak	to get thirsty	verb
 susamış	thirsty	adj
+susamışlık	thirst, thirstiness	noun
 suskun	silent	adj
 suskunluk	silence	noun
 susmak	to remain silent	verb
@@ -8796,7 +8802,7 @@ tutanak	official report, minutes	noun
 tutar	amount, total, volume	noun
 tutarlı	consistent, coherent	adj
 tutarlılık	consistency	noun
-tutku	passion	noun
+tutku	passion, ambition	noun
 tutmak	to catch	verb
 tutmak	to hold	verb	elle tutulur: palpable, tangible	tutmadı: it didn't work
 tutmak	to keep	verb	öğüdü tutmak: keep the advice
@@ -9295,6 +9301,10 @@ yaldız	gilt, veneer	noun
 yaldızlı	gilded	adj
 yalı	waterside villa	noun
 yalın	plain, simple, bare	adj
+yalıtılmak	to be isolated	verb
+yalıtılmış	isolated	adj
+yalıtılmışlık	isolation	noun
+yalıtmak	to isolate	verb
 yalnız	alone	adv
 yalnız	alone; only	adj
 yalnız	but	conj
@@ -9508,6 +9518,7 @@ yel	wind	noun
 yelek	waistcoat	noun
 yelken	sail, canvas	noun
 yelpaze	hand fan	noun
+yeltenmek	to attempt	verb
 yem	bait	noun
 yemek	dish	noun	baş yemek: main course
 yemek	food, meal, eating	noun
