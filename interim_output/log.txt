@@ -1,9 +1,9 @@
 argument list ['C:\\Endre\\GitHub_repos\\tr_en_dictionary\\app\\run.py', 'input/dictv2.tsv', 'interim_output/TR_EN_prod.json', 'interim_output/TR_EN_prod.html']
-ReadTSV :: 8143 entries added from input/dictv2.tsv
+ReadTSV :: 8251 entries added from input/dictv2.tsv
 Input read without errors...
-Number of exact inflected forms: 41178
-Groups created: 36537 simple and 16004 shared groups + added another 45 by splitting long inflection lists
+Number of exact inflected forms: 41154
+Groups created: 37202 simple and 16234 shared groups + added another 45 by splitting long inflection lists
 15 simple groups got entirely shared, e.g. anlamak.anlayamaz
-Headwords to write out: 52571
+Headwords to write out: 53466
 15 groups deemed as invalid
 XML successfully created: interim_output/TR_EN_prod.html
