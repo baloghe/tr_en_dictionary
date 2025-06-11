@@ -413,6 +413,8 @@ aniden	suddenly	adv
 anımsamak	to remember	verb
 anımsamak	to remember, to recall	verb
 anında	immediately	adv
+anırma	braying	noun
+anırmak	to bray, to heehaw (e.g. gonkey, mule)	verb
 anıt	monument	noun
 anjiyoloji	angiology	noun
 anka	phoenix	noun
@@ -570,7 +572,7 @@ artış	enhancement	noun
 artış	increase	noun
 artist	artist	noun
 artmak	to increase	verb
-artmak	to remain	verb
+artmak	to remain	verb	yeter de artar: more than enough
 arz	offer; supply	noun
 arzetmek	to present	verb
 arzu	desire	noun	ne arzu edersiniz? what would you like?
@@ -1492,7 +1494,7 @@ bön	naive, vacant	adj	bön bön: vacantly
 börek	pastry	noun
 börekçi	pastry shop	noun
 böyle	in this way	adv
-böyle	like this	adv
+böyle	like this	adv	öyle ya da böyle: one way or another
 böyle	so, thus, such a	adv
 böyle	such	adj
 böylece	in this way	adv
@@ -3197,6 +3199,7 @@ fetih	conquest	noun
 fevkalade	extraordinary	adj
 fevkalade	fabulous	adj
 fevkalade	great	adj
+fıçı	barrel	noun
 fidan	sapling, plant	noun
 figür	figure	noun
 fiil	act, action	noun
@@ -3944,6 +3947,7 @@ havadis	news	noun
 havalanmak	to be ventilated	verb
 havale	referral	noun
 havalimanı	airport	noun
+havlama	barking	noun
 havlamak	to bark	verb
 havlu	towel	noun
 havşa	countersink	noun
@@ -5328,6 +5332,8 @@ kısmen	partly	adv
 kısmet	fortune, destiny	noun
 kısmet	luck	noun
 kısmi	partial	adj
+kişneme	neigh (horse sound)	noun
+kişnemek	to neigh (horse)	verb
 kıt	scarce, unusual, uncommon	adj	aklı kıt bir ınsan: a person with a limited mind
 kıta	continent; military detachment	noun
 kitap	book	noun
@@ -6807,9 +6813,11 @@ ozan	poet	noun
 öte	beyond	adv	öte yandan: on the other hand	öteden beri: long ago
 öte	further	noun
 ötede	over there	adv
+ötme	crowing	noun
 ötmek	to coo	verb
 ötmek	to sing	verb
 ötürü	because of	posp
+ötüş	crowing	noun
 övgü	praise	noun
 övmek	to praise	verb
 övülmek	to be praised	verb
@@ -6818,7 +6826,7 @@ ozan	poet	noun
 övünmek	to brag	verb
 öykü	story	noun
 öykülemek	to narrate	verb
-öyle	like that	adv	öyle de oldu: so it did
+öyle	like that	adv	öyle de oldu: so it did	öyle ya da böyle: one way or another
 öyle	so	adv
 öyle	such	adj
 öyle	such	adv
@@ -9641,7 +9649,7 @@ yeşil	green	adj
 yetenek	ability, capability, talent	noun
 yetenek	talent	noun
 yetenekli	talented, skilled	adj
-yeterince	enough	adv
+yeter	enough	adj	yeter de artar: more than enough
 yeterince	enough, sufficiently	adv
 yeterli	sufficient	adj
 yeterlilik	adequacy	noun
