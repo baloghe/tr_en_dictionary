@@ -904,7 +904,7 @@ bahri	great crested grebe	noun
 bahsedilen	said	adj
 bahsetmek	to mention	verb
 bahşiş	tip	noun
-baht	luck	noun
+baht	luck	noun	kötü baht: bad luck
 bahtiyar	happy	adj
 bakan	minister	noun
 bakanlık	ministry	noun
@@ -1542,6 +1542,7 @@ bulundurmak	to keep, to maintain	verb
 bulunmak	to exist, to be present, to be situated	verb	bulunduğum yer: where I am
 bulunmak	to lie	verb
 bulunmak	to stand	verb
+bulunmak	to have	verb	katır bulunan bir adam: a man with a mule
 buluş	invention, discovery	noun
 buluşma	meeting, date, appointment	noun	buluşma yeri: meeting place
 buluşmak	to meet, to date	verb
@@ -1566,7 +1567,7 @@ burmak	to twist, to twirl	verb
 burs	scholarship, grant	noun
 burulma	torsion, twisting	noun
 burulmak	to be twisted, to be twirled	verb
-burun	nose	noun	burun kıvırmak: to turn up one's nose	burnundan solumak: to huff and puff
+burun	nose	noun	burun kıvırmak: to turn up one's nose	burnundan solumak: to huff and puff	burnunun dikine: headfirst
 buruş	wrinkled	noun
 buruşmak	to wrinkle, to crease, to crush	verb
 buruşturmak	to wrinkle, to crease, to crush	verb
@@ -1915,6 +1916,7 @@ ciğer	liver; lungs	noun
 çiğnemek	to trample down, to run over	verb
 cihaz	gadget, device	noun
 cihet	direction	noun
+çıkagelmek	to come up, to show up	verb
 çıkar	benefit	noun
 çıkarcı	profiteer, self-seeker	noun
 çıkarcı	sordid, expedient, calculating	adj
@@ -2580,6 +2582,7 @@ donatmak	to equip; to decorate	verb
 dondurma	ice cream	noun
 donmak	to freeze	verb
 donuk	dull	adj
+doru	bay (colour), chestnut	noun
 doruk	summit, peak	noun
 dosdoğru	straight ahead	adv
 dost	friend	noun	eşdost, eş dost: acquaintance
@@ -3246,6 +3249,7 @@ fırsat	opportunity	noun
 fırsatçı	opportunist	noun
 fırtına	hurricane	noun
 fırtına	storm	noun
+fırtınalı	stormy, turbulent	adj
 fiş	plug; tag	noun
 fiş	receipt, sales slip	noun
 fişek	cartridge	noun
@@ -3971,7 +3975,7 @@ hayır	no	adv
 hayır	no; donation	noun
 hayırdır	what's wrong	phrase
 hayırlı	good; beneficial	adj
-haykırış	cry, outcry	noun
+haykırış	cry, outcry	noun	haykırış koparmak: to shout out loud
 haykırmak	to shout, to scream	verb
 hayli	a lot	adv
 hayli	quite a lot	adj	bir hayli: pretty much
@@ -4152,7 +4156,7 @@ hukuk	law	noun
 hukukçu	lawyer	noun
 hukuki	legal	adj
 hukuksal	legal	adj
-hurma	date	noun
+hurma	date (fruit)	noun
 husus	matter, case	noun
 husus	subject	noun
 hususi	private	adj
@@ -4242,6 +4246,7 @@ idrak	perception, intelligence	noun
 idrar	urine	noun
 ifade	expression, testimony	noun
 iflas	bankruptcy, failure	noun
+ifrit	demon	noun
 iftar	breaking of a fast (during Ramadan)	noun
 iftira	slander	noun
 iğ	spindle	noun
@@ -4383,7 +4388,7 @@ imza	signature	noun
 imzalamak	to sign	verb
 in	cave	noun
 in	lair	noun
-inanç	belief	noun
+inanç	belief, religion	noun
 inanç	faith	noun
 inandırıcı	persuasive, convincing	noun
 inandırmak	to convince	verb
@@ -5023,6 +5028,7 @@ katılım	participation, attendance	noun
 katılımcı	participant	noun
 katılmak	to agree	verb
 katılmak	to take part	verb
+katır	mule	noun
 katiyen	never	adv	katiyen olmaz! no way!
 katkı	contribution	noun
 katlamak	to fold over, to crease; to double	verb
@@ -5126,7 +5132,7 @@ keçi	goat	noun	keçileri kaçırmak: to go mad (over sg)
 keder	grief, sorrow	noun
 kederli	mournful, sorrowful	adj
 kedi	cat	noun
-kefen	shroud	noun
+kefen	shroud, grave clothes	noun
 kefil	guarantor	noun
 kefir	kefir	noun
 kek	cake	noun
@@ -5537,7 +5543,7 @@ koymak	to put	verb	ortaya koymak: to put forth	karşı koymak: to resist, to wit
 koymak	to set down	verb
 koyu	dark	adj
 koyulaşmak	to darken	verb
-koyulmak	to be put	verb
+koyulmak	to be put	verb	yola koyulmak: to set out, to take one's way
 koyun	bosom	noun
 koyun	sheep	noun
 koz	leverage	noun
@@ -5975,7 +5981,7 @@ masraf	expense	noun
 masum	innocent	adj
 masura	bobbin	noun	masura ipliği: bobbin thread
 matbaa	printing house	noun
-matem	mourning	noun
+matem	mourning, lament	noun
 matematik	mathematics	noun
 matematikçi	mathematician	noun
 matematiksel	mathematical	adj
@@ -6689,6 +6695,7 @@ ozan	poet	noun
 ödenek	allocation	noun
 ödev	duty; assignment, homework	noun
 ödül	prize, reward	noun
+ödüllendirme	reward	noun
 ödüllendirmek	to reward	verb
 ödün	concession	noun
 ödünç	loan	noun
@@ -7594,7 +7601,7 @@ sayesinde	thanks to	posp
 şayet	if by chance	conj
 sayfa	page	noun
 sayfiye	country	noun	sayfiye evi: cottage, summer resort
-saygı	respect	noun
+saygı	respect	noun	saygı duymak: to have respect for, to esteem
 saygılı	respectful	adj
 saygın	prestigious, respected	adj
 saygınlık	prestige	noun
@@ -8155,7 +8162,7 @@ söyleniş	pronunciation	noun
 söylenmek	to complain, to grumble	verb
 söylenti	rumor	noun
 söyleşi	conversation, interview	noun
-söz	promise	noun	sözüm ona denirse: so to speak
+söz	promise	noun	sözüm ona denirse: so to speak	söz konusu: in question, subject	söz konusu olan bahçeye girmiş: entered the garden in question
 söz	remark, statement	noun	sözü geçen: mentioned, aforementioned
 sözcü	spokesperson	noun
 sözcük	word	noun
@@ -8335,6 +8342,8 @@ tabu	taboo	noun
 tabur	battalion	noun
 tabure	stool	noun
 tabut	coffin	noun
+taç	crown, tiara	noun
+tacir	trader, merchant	noun
 taciz	abuse	noun	taciz etmek: to abuse
 taciz	harassment	noun
 tad	taste	noun	tadını çıkarmak: to enjoy	tadı tuzu kalmamak: to be tasteless
@@ -8543,6 +8552,7 @@ tayyör	costume	noun
 taze	fresh, new	adj
 tazelemek	to freshen	verb
 tazelenmek	to refresh	verb
+tazı	greyhound	noun
 taziye	condolence	noun
 tazminat	compensation	noun
 tebessüm	smile	noun
@@ -9200,7 +9210,7 @@ uzunluk	length	noun
 üzüm	grape	noun
 üzüntü	sorrow, sadness	noun
 üzüntülü	sad, worried	adj
-vaat	promise	noun
+vaat	promise, commitment	noun	vaat etmek: to promise
 vade	term, date	noun
 vadeli	dated	adj
 vadeli	temporary	adj
@@ -9217,6 +9227,7 @@ vakit	time	noun	yatma vakti: bedtime
 vakitli	on time	adv	vakitli olmak: to be on time
 vakitsiz	ill-timed	adj
 vaktinde	on time	adv
+vaktiyle	erstwhile, formerly, long ago	adv
 vali	governor, prefect	noun
 valide	mother	noun
 valilik	governorship	noun
@@ -9246,6 +9257,7 @@ vasıf	quality, attribute	noun
 vasıta	means; vehicle	noun
 vasıtasıyla	by means of	adv
 vasiyet	bequest, will	noun
+vasiyetname	will, testament	noun
 vatan	fatherland, homeland	noun
 vatandaş	citizen	noun	AB vatandaş: EU citizen
 vatandaşlık	citizenship	noun
@@ -9258,7 +9270,7 @@ vaziyet	condition, state	noun
 vaziyet	situation	noun
 vazo	vase	noun
 ve	and	conj
-veda	farewell, goodbye	noun
+veda	farewell, goodbye	noun	veda etmek: to say goodbye
 vedalaşmak	to say goodbye, farewell	verb
 vefa	fidelity, loyalty	noun
 vefalı	loyal, faithful	adj
@@ -9592,7 +9604,7 @@ yazın	literature	noun
 yazlık	summer house	noun
 yazlık	summerly, of summer	adj
 yazmak	to write	verb
-yedek	replacement	noun
+yedek	replacement, backup	noun
 yedek	spare	noun
 yedi	seven	noun
 yedinci	seventh	adj
