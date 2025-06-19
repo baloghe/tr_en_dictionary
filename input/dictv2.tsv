@@ -56,6 +56,7 @@ açılış	opening	noun
 açılmak	to losen up	verb
 açılmak	to open	verb
 acımak	to ache	verb
+acımak	to feel sorry for	verb	ona acıdım: I felt sorry for him/her
 acımasız	merciless	adj
 acımasızca	mercilessly	adv
 acınacak	deplorable, pitiable	adj
@@ -241,6 +242,7 @@ aktif	active; effective	adj
 aktivite	activity	noun
 aktör	actor	noun
 akuzatif	accusative	noun
+al	scarlet, red	adj	al yanaklı: rosy cheeked
 alabalık	trout (a number of species of freshwater fish belonging to the Salmoninae subfamily)	noun
 alabora	alabora olmak: to capsize	phrase
 alaca	multicolored	adj
@@ -378,7 +380,7 @@ amnezi	amnesia	noun
 amper	ampere	noun
 ampul	lightbulb	noun
 an	moment	noun	bir anda: in a moment
-ana	main	adj	ana akım: mainstream	vay anasını! holy shit!
+ana	main	adj	ana akım: mainstream	vay anasını! holy shit!	hay anasına ya! oh my god!
 ana	mother	noun	ana baba: parents
 ana	mum	noun
 anababa	parent	noun	anababalar: parents
@@ -1137,8 +1139,7 @@ bellek	memory	noun
 bellemek	to memorize	verb
 belli	certain, obvious	adj
 belli	clear	adj	belli etmek: to make clear, to reveal	belli belirsiz: vaguely
-bembeyaz	snow-white	adj
-bembeyaz	white	adj
+bembeyaz	white, snow-white	adj
 ben	I	pron
 ben	I am	phrase
 ben	mole, freckle	noun
@@ -1523,6 +1524,7 @@ buhar	steam	noun
 buharlaşmak	to evaporate	verb
 buhran	crisis, breakdown	noun
 buji	spark plug	noun
+bukle	curl, lock	noun
 bulamak	to cover with	verb
 bulandırmak	to blur	verb
 bulanık	muddy, not clear	adj
@@ -1742,6 +1744,7 @@ cansızlık	stagnation, inertness	noun
 çaresizlik	hopelessness, despair	noun
 çaresizlik	impotence (helplessness)	noun
 cari	current	adj
+cariye	concubine	noun
 çark	wheel	noun
 çarkıfelek	wheel of fortune	noun
 çarpıcı	striking	adj
@@ -2777,7 +2780,7 @@ edepsizlik	rudeness, vulgarity	noun
 eder	price	noun
 edilmek	to be made	verb
 edim	act, deed	noun
-edinmek	to get	verb
+edinmek	to get, to acquire	verb
 edinmek	to receive	verb
 efendi	gentleman	noun
 efendim	Pardon?	phrase
@@ -5657,7 +5660,7 @@ kurallı	regular	adj
 kuram	theory	noun
 kuramsal	theoretical	adj
 kurbağa	frog	noun
-kurban	sacrifice; victim	noun
+kurban	sacrifice; victim	noun	kurban bayramı: Eid al-Adha (Festival of Sacrifice, remembering the prophet Ibrahim's willingness to sacrifice his son when God ordered him to)
 kurcalamak	to tamper; to fiddle	verb
 kurdele	ribbon	noun
 kurdeleli	banded, ribbonned	adj
@@ -6217,12 +6220,12 @@ molla	mullah	noun
 monopol	monopoly	noun
 monosakkarit	Monosaccharide	noun
 montaj	montage	noun
-mor	purple	adj
 mor	purple, violet	adj
 moral	mood; morale	noun
 morarmak	to turn purple	verb
 morarmış	black and blue	adj
 morg	morgue	noun
+mosmor	purple, violet	adj
 motif	motive	noun
 motivasyon	motivation	noun
 motor	engine	noun
@@ -7692,6 +7695,7 @@ sembol	symbol	noun
 sembolik	symbolic	adj
 semele	Semele	noun
 seminer	seminar	noun
+semiz	fat	adj
 sempati	sympathy	noun
 sempozyum	symposium	noun
 şemsiye	umbrella	noun
@@ -7849,6 +7853,9 @@ sığmak	to fit into	verb
 sigorta	insurance	noun
 sıhhat	health	noun
 sıhhiyeci	paramedic	noun
+sihir	magic, spell, sorcery	noun
+sihirbaz	wizard, magician, sorcerer	noun
+sihirbazlık	witchcraft, wizardry	noun
 sihirli	magical, bewitched	adj
 şiir	poem, poetry	noun
 şık	chic	adj
@@ -8701,7 +8708,7 @@ terslenmek	to be harsh	verb
 tersleşmek	to be contrary, to snap at	verb
 terslik	misfortune	noun
 tersyüz	inside out	noun
-tertemiz	spotless	adj
+tertemiz	spotless, very clean	adj
 tertibat	equipment	noun
 tertip	arrangement, organization, composition	noun
 tertipli	tidy, organized, orderly	adj
@@ -8731,7 +8738,7 @@ tespit	conclusion	noun
 tespit	detection	noun	iyi tespit: well spotted	tespit etmek: to determine
 test	test	noun
 testere	saw	noun
-testi	jug	noun
+testi	jug, jar	noun
 teşvik	encouragement; motivation	noun	mali teşvikler: financial incentives
 tetik	alert	adj
 tetik	trigger	noun
@@ -9552,7 +9559,8 @@ yaşıt	peer	noun
 yaslamak	to lean (sg), to flatten	verb
 yaşlanmak	to grow old	verb
 yaslanmak	to lean (oneself), to rest against	verb
-yaşlı	old	adj
+yaşlı	old	adj	yaşlı bir adam: an old man
+yaşlı	watery	adj	gözüm yaşlı: I am in tears
 yaşlılık	old age	noun
 yastık	pillow, cushion	noun
 yat	yacht	noun
@@ -9612,6 +9620,7 @@ yedek	replacement, backup	noun
 yedek	spare	noun
 yedi	seven	noun
 yedinci	seventh	adj
+yedirmek	to feed	verb
 yeğen	nephew, niece	noun
 yeğlemek	to prefer	verb
 yel	wind	noun
@@ -9949,6 +9958,7 @@ zelzele	earthquake	noun
 zemberek	spring	noun
 zemin	floor	noun
 zemin	ground	noun	zemin kat: ground floor
+zenci	black (a person of black race)	adj	zenci köle: black slave
 zengin	rich, wealthy	adj
 zenginleşmek	to become wealthy	verb
 zenginlik	richness, wealth	noun
