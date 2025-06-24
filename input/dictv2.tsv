@@ -741,7 +741,7 @@ ayaklanmak	to rebel, to riot	verb
 ayaklanmak	to wake up (fig.)	verb
 ayaktopu	football	noun
 ayar	setting, adjustment	noun
-ayarlamak	to adjust; to arrange	verb
+ayarlamak	to adjust	verb
 ayarlamak	to arrange	verb
 ayçiçeği	sunflower	noun
 aydın	bright	adj
@@ -841,6 +841,7 @@ azkalsın	almost, nearly	adj
 azman	monstrous, overgrown	adj
 azmetmek	to decide	verb
 azot	nitrogen	noun
+azrail	the reaper, the angel of death	noun
 baba	dad	noun
 baba	father	noun	ana baba: parents
 babaanne	grandmother (father’s mother)	noun
@@ -3388,6 +3389,7 @@ geleneksellik	conventionalism	noun
 gelgelelim	but, however	conj
 gelin	bride, daughter-in-law	noun
 gelin	daughter-in-law	noun
+gelinlik	wedding dress	noun
 gelir	income	noun
 gelir	revenue	noun
 geliş	arrival	noun
@@ -3983,7 +3985,7 @@ haykırış	cry, outcry	noun	haykırış koparmak: to shout out loud
 haykırmak	to shout, to scream	verb
 hayli	a lot	adv
 hayli	quite a lot	adj	bir hayli: pretty much
-hayran	admirer, fan	noun
+hayran	admirer, fan	noun	hayran bırakmak: to fascinate
 hayranlık	admiration	noun
 hayret	amazement, surprise	noun
 hayret	surprise	noun	hayret etmek: to marvel
@@ -6364,6 +6366,7 @@ nakil	transfer, transport	noun
 nakit	cash	noun
 nakletmek	to tell	verb
 nakletmek	to transport, to convey	verb
+nakliyeci	transporter, hauler	noun
 nal	horseshoe	noun	at nalı: horseshoe
 nalbant	blacksmith	noun
 nam	name; reputation	noun
@@ -6694,7 +6697,7 @@ ozan	poet	noun
 öbek	group, heap	noun
 öbür	other	det
 öç	revenge, vengeance	noun	öç almak: to take revenge
-ödeme	payment	noun	peşin ödeme: advance payement
+ödeme	payment	noun	peşin ödeme: advance/upfront payement
 ödemek	to pay	verb
 ödenek	allocation	noun
 ödev	duty; assignment, homework	noun
@@ -6816,7 +6819,7 @@ ozan	poet	noun
 örtbas	cover up	phrase	örtbas etmek: to sweep under the carpet
 örtmek	to close, to shut	verb
 örtmek	to cover sg., to hide	verb
-örtü	cover, cloth	noun
+örtü	cover, (table)cloth	noun
 örtülmek	to be covered	verb	perde örtülmüştü: the curtain was drawn
 örtülü	covered	adj
 örtünmek	to cover himself	verb
@@ -7042,7 +7045,7 @@ pervane	propeller	noun
 pervasız	reckless	adj
 pervaz	cornice (ornamental moulding round the wall of a room just below the ceiling)	noun
 pes	bass, low	adj
-peş	groin, behind	noun	peşine düşmek: to pursue, to chase	adamın peşine: after the man	peşin ödeme: advance payement
+peş	groin, behind	noun	peşine düşmek: to pursue, to chase	adamın peşine: after the man	peşin ödeme: advance/upfront payement
 peşin	in advance	adv
 petrol	petrol, oil	noun
 peygamber	prophet	noun
@@ -9254,7 +9257,6 @@ varış	arrival	noun
 varis	heir, successor	noun
 varlık	existence	noun
 varlıklı	rich, wealthy	adj
-varlıklı	wealthy	adj
 varmak	to arrive at	verb
 varmak	to reach	verb	ayrım varmak: to make a distinction	bir sonuca varmak: come to a conclusion
 varolmak	to exist	verb
@@ -9398,7 +9400,7 @@ yalaka	sycophant	adj
 yalamak	to lick, to brush	verb
 yalan	lie	noun	yalan söylemek: to lie
 yalancı	liar	noun
-yalancı	liar; fake, false	adj
+yalancı	fake, false	adj
 yalanlamak	to deny	verb
 yalaz	flame	noun
 yaldız	gilt, veneer	noun
