@@ -745,6 +745,8 @@ ayaktopu	football	noun
 ayar	setting, adjustment	noun
 ayarlamak	to adjust	verb
 ayarlamak	to arrange	verb
+ayartma	temptation	noun
+ayartmak	to seduce, to entice	verb
 ayçiçeği	sunflower	noun
 aydın	bright	adj
 aydın	intellectual	noun
@@ -1012,8 +1014,8 @@ başkan	president	noun
 başkanlık	presidency	noun
 başkası	somebody else	noun
 başkent	capital	noun
-baskı	edition	noun
-baskı	press; pressure; print	noun
+baskı	edition, print	noun
+baskı	press; pressure; oppression	noun
 baskıcı	oppressive	adj
 baskın	raid; dominant	noun
 başkomiser	superintendent	noun
@@ -2726,6 +2728,7 @@ dürüstçe	to be honest	adv
 dürüstlük	honesty, integrity, fairness	noun
 düş	dream	noun
 düşen	falling	adj
+düşgücü	imagination	noun
 düşkün	addicted	adj
 düşlemek	to imagine	verb
 düşman	enemy	noun
@@ -2903,6 +2906,7 @@ elmacık	elmacık kemiği: cheekbone	noun
 elmas	diamond	noun
 elmastraş	diamond cutter, diamond sharpener	noun
 elverişli	suitable, convenient	adj
+elyazma	manuscript	noun
 emanet	deposit	noun
 emanet	security, safekeeping	noun
 emanet	trust	noun
@@ -3212,6 +3216,7 @@ fener	torch	noun
 feodal	feudal	adj
 ferah	spacious	adj
 ferahlamak	to be relieved	verb
+ferç	vulva	noun
 ferdi	individual	adj
 feriştah	expert (slang)	noun
 ferman	firman, imperial order	noun
@@ -3458,6 +3463,7 @@ gerçekten	to be honest	adv
 gerçekten	truly	adv
 gerçi	though	adv
 gerçi	yet, however	conj
+gerdanlık	necklace	noun
 gereç	equipment	noun
 gereğince	in accordance with, as required by, following	adv
 gerek	necessity	noun
@@ -3763,7 +3769,7 @@ güvenmek	to trust	verb
 güvensizlik	distrust	noun
 güvercin	pigeon	noun
 güverte	deck	noun
-güya	so to say, supposedly	conj
+güya	as if, so to say, supposedly	conj
 güz	autumn, fall	noun
 güzel	beautiful	adj	her şey güzeldi: everything was fine
 güzel	fine	adv
@@ -3809,7 +3815,7 @@ haftalarca	for weeks	adv
 haftalık	weekly	noun
 hagiografi	hagiography	noun
 hain	traitor	noun
-hainlik	betrayal	noun
+hainlik	betrayal, treachery	noun
 hak	justice	noun
 hak	right	noun	hak etmek: to deserve
 hakaret	insult	noun
@@ -4225,6 +4231,7 @@ ibadet	worship	noun
 ibare	phrase, expression	noun
 ibaret	composed of	posp
 ibik	crest	noun
+iblis	demon	noun
 ibranice	Hebrew	noun
 ibre	needle	noun
 ibret	lesson	noun
@@ -4482,6 +4489,7 @@ ip	rope	noun	ipe dizmek: to string on	(hiç) ipe sapa gelmemek: makes no sense (
 ip	string	noun	ipin ucunu kaçırmak: to lose one's mind
 ipek	silk	noun
 ipekli	silken	adj
+ipeksi	silken	adj
 ipince	very thin	adj
 iplik	thread, yarn	noun
 iptal	cancellation	noun
@@ -4834,6 +4842,8 @@ kaltak	bitch	noun
 kalvinizm	Calvinism	noun
 kama	dagger	noun
 kamaşmak	to be dazzled	verb
+kamaştırıcı	göz kamaştırıcı: dazzling, gorgeous	adj
+kamaştırmak	göz kamaştırmak: to dazzle	verb
 kamboçya	Cambodia	noun
 kamera	camera	noun
 kameralizm	cameralism	noun
@@ -5032,7 +5042,7 @@ kasım	November	noun
 kaşımak	to scratch	verb
 kaşınma	itching	noun
 kaşınmak	to itch	verb
-kasıntı	itching, swaggering	adj
+kaşıntı	itching, swaggering	adj
 kasıntı	swaggerer, s.one with confident and arrogant manner	noun
 kasıt	intention	noun
 kasıtlı	on purpose	adv
@@ -5139,6 +5149,7 @@ kaymak	to slip	verb	kızak kaymak: to slide, toboggan
 kaymakam	county governor	noun
 kaynak	source	noun
 kaynaklanmak	to originate from	verb
+kaynama	boiling, simmer	noun
 kaynamak	to boil	verb
 kaynana	mother-in-law	noun
 kaynaşmak	to mingle, to unite	verb
@@ -5299,7 +5310,7 @@ kın	(sword) scabbard, sheath	noun
 kin	grudge, hatred	noun
 kin	hate	noun
 kına	henna	noun
-kınama	condemnation	noun
+kınama	condemnation, reproach	noun
 kınamak	to condemn	verb
 kinestetik	kinesthetic	adj
 kinetik	kinetic	adj
@@ -5407,6 +5418,7 @@ kıyasla	in comparison with, beside	posp
 kıyaslamak	to compare	verb
 kıyı	edge	noun
 kıyı	shore, coast, bank	noun	renin kıyısı: river bank
+kıyım	slaughter, slaughterhouse	noun	iri kıyım bir kişi: a large man
 kıyıya	ashore	adv
 kıyma	mincemeat	noun
 kıymak	to mince, to hack	verb
@@ -6120,6 +6132,7 @@ mesafe	distance	noun
 mesai	shift	noun	fazla mesai: overtime
 mesai	work	noun	mesai saati: working/business hours
 mesaj	message	noun	mesaj atmak: to text
+meşale	torch	noun
 meşe	oak	noun
 mesel	proverb, saying	noun
 mesela	for example	adv
@@ -6245,7 +6258,7 @@ mızırdanmak	to whine, to grumble	verb
 mızmız	grumpy, grouchy	adj
 mızmızlanmak	to whine	verb
 mizofobi	mysophobia	noun
-mızrak	spear	noun
+mızrak	spear, javelin	noun
 mobil	mobile	adj
 mobilya	furniture	noun
 moda	fashion	noun
@@ -6347,7 +6360,7 @@ mühendis	engineer	noun
 mühendislik	engineering	noun
 mühim	important	adj
 mühletli	temporary	adj
-mühür	seal	noun
+mühür	seal	noun	mühür yüzük: signet ring
 müjde	gospel, good news	noun
 müjde	miracle	noun
 müjdeci	herald	noun
@@ -6483,6 +6496,7 @@ neyse	whatever	adv
 nezaket	politeness, courtesy, civility	noun
 nezaketsiz	rude, impolite	adj
 nezaret	supervision; prison	noun
+nezdinde	in the presence of	phrase
 nezle	cold	noun
 nice	so many	det
 nicelik	quantity	noun
@@ -7062,7 +7076,7 @@ peluş	plush	adj
 pembe	pink, rosy	adj
 pembelik	rosiness	noun
 penaltı	penalty (football)	noun
-pençe	claw, paw	noun
+pençe	claw, paw	noun	özlemin pençesine düşmüş: caught in the grip of longing
 pencere	window	noun
 penguen	penguin	noun
 pensilvanya	Pennsylvania	noun
@@ -8609,7 +8623,7 @@ tavuk	hen, chicken	noun
 tavukçu	poulterer, poultryman	noun
 tavukçuluk	poultry farming	noun
 tay	colt	noun
-tayin	appointment	noun	tayin etmek: to appoint
+tayin	appointment	noun	tayin etmek: to appoint	tayin edici: decisive
 tayyör	costume	noun
 taze	fresh, new	adj
 tazelemek	to freshen	verb
@@ -8674,6 +8688,7 @@ telaş	trepidation (worry)	noun
 telaş	worry	noun	hiç telaş göstermeden: without any fuss
 telaşlanmak	to be worried, to be alarmed	verb
 telaşlı	fussing	adj
+telef	telef etmek: to perish	noun
 telefon	phone	noun	telefon etmek: to call on the phone	telefon numarası: phone number
 telefon	telephone	noun
 televizyon	television	noun	televizyon izlemek: to watch TV
@@ -8743,6 +8758,7 @@ tereyağı	butter	noun
 tereyağlı	buttery	adj
 terfi	promotion, raising	noun
 terim	term	noun
+terk	abandonment	noun	terk etmek: to abandon
 terketmek	to abandon	verb
 terlemek	to sweat	verb
 terli	sweaty	adj
